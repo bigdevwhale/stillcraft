@@ -24,3 +24,5 @@ Static site, no build step; GitHub Pages serves the `main` branch root.
 4. App page: add an entry to `APPS` in `tools/build_app_pages.py` (every text is an English/Russian pair), then run `python tools/build_app_pages.py`. Don't edit the generated pages by hand.
 5. Add the Russian strings for the landing and catalog to `I18N.ru` in `assets/site.js`.
 6. Update the app counts, the footer links on both pages and the closing download buttons.
+
+After changing `assets/site.css` or `assets/site.js`, run `python tools/build_app_pages.py` too: it stamps every page with `?v=<hash>` so visitors don't get a stale cached copy.

@@ -3,9 +3,12 @@
 Run from the repo root:  python tools/build_app_pages.py
 Each text is an (English, Russian) pair; English goes into the HTML, Russian into window.PAGE_RU.
 """
+import glob
+import hashlib
 import html
 import json
 import os
+import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 A = "../../assets/"
@@ -644,6 +647,24 @@ TEMPLATE = """<!doctype html>
 </html>
 """
 
+def stamp_assets():
+    """Append ?v=<content hash> to site.css and site.js in every page so browsers drop stale copies."""
+    versions = {}
+    for name in ("site.css", "site.js"):
+        with open(os.path.join(ROOT, "assets", name), "rb") as f:
+            versions[name] = hashlib.sha1(f.read()).hexdigest()[:8]
+    pages = [os.path.join(ROOT, "index.html")] + glob.glob(os.path.join(ROOT, "apps", "**", "index.html"), recursive=True)
+    for page in pages:
+        with open(page, encoding="utf-8") as f:
+            s = f.read()
+        for name, v in versions.items():
+            s = re.sub(r'(assets/%s)(\?v=[0-9a-f]+)?"' % re.escape(name), r'\g<1>?v=%s"' % v, s)
+        with open(page, "w", encoding="utf-8", newline="\n") as f:
+            f.write(s)
+    print("stamped", len(pages), "pages", versions)
+
+
 if __name__ == "__main__":
     for app in APPS:
         build(app)
+    stamp_assets()

@@ -351,3 +351,5 @@ pre.code .c { opacity: 0.55; }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
+.ap-band h1 { font-size: clamp(2.5rem, 5vw, 4.25rem); }
+@media (min-width: 901px) { .ap-band:has(.ap-visual.wide) { grid-template-columns: 0.9fr 1.1fr; } }
