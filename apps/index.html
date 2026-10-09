@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stillcraft Apps</title>
+<meta name="description" content="Anyway, SwissZen and FocusShield: free, offline, open-source apps for a quieter mind.">
+<link rel="icon" href="../assets/stillcraft.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Stillcraft home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="14" r="7" fill="var(--lamp)"/><rect x="3" y="20.5" width="26" height="1.6" rx=".8" fill="currentColor"/><rect x="9" y="24.5" width="14" height="1.6" rx=".8" fill="currentColor" opacity=".45"/></svg>
+      Stillcraft
+    </a>
+    <div class="nav-links">
+      <a href="./" aria-current="page" data-i18n="nav.apps">Apps</a>
+      <a href="../#moments" data-i18n="nav.moments">Pick a moment</a>
+      <a href="../#principles" data-i18n="nav.principles">Principles</a>
+      <a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-en" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" id="lang-ru" data-lang="ru" aria-pressed="false">RU</button>
+    </div>
+  </div>
+</nav>
+
+<header class="apps-hero">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="ap.eyebrow">Stillcraft apps</span>
+    <h1 data-i18n="ap.title">Three apps. <em>One quiet craft.</em></h1>
+    <p class="lede" data-i18n="ap.lede">Each one is a small tool for one moment: breathe, let a worry go, remember what matters, hold your focus. No accounts, no ads, no internet unless it's needed.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://github.com/bigdevwhale" target="_blank" rel="noopener" data-i18n="ap.follow">Follow on GitHub</a>
+      <a class="btn btn-ghost" href="../" data-i18n="ap.home">Back to home</a>
+    </div>
+    <p class="meta" data-i18n="ap.meta">3 apps · Free · Open source · English &amp; Русский</p>
+    <div class="quick">
+      <a href="#anyway"><img src="../assets/anyway-icon.png" alt="" width="32" height="32">Anyway</a>
+      <a href="#swisszen"><img src="../assets/swisszen-logo.svg" alt="" width="32" height="32">SwissZen</a>
+      <a href="#focusshield"><img src="../assets/focusshield-icon.svg" alt="" width="32" height="32">FocusShield</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section" style="padding-top:clamp(2rem, 5vw, 3rem)">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="ap.lineup">The lineup</span>
+        <h2 data-i18n="ap.lineupTitle">Pick the tool for the moment.</h2>
+      </div>
+
+      <div class="lineup">
+        <a class="card" id="anyway" href="https://github.com/bigdevwhale/anyway" target="_blank" rel="noopener">
+          <div class="card-visual cv-aw">
+            <img src="../assets/en-now.png" data-src-ru="../assets/ru-now.png" alt="Anyway: 2,423 Saturdays left" width="540" height="1200" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-id">
+              <img src="../assets/anyway-icon.png" alt="" width="44" height="44">
+              <h3>Anyway</h3>
+              <span class="ver">v0.2.1</span>
+            </div>
+            <p class="card-tagline" data-i18n="ap.aw">How many Saturdays you have left, and what you'll do with them.</p>
+            <div class="badges">
+              <span class="badge early" data-i18n="ap.early">Early release</span>
+              <span class="badge ok" data-i18n="ap.apk">APK ready</span>
+            </div>
+            <div class="badges">
+              <span class="badge plat">Android 8.0+</span>
+              <span class="badge plat">EN · RU</span>
+            </div>
+            <span class="card-more"><span data-i18n="ap.explore">Explore</span> Anyway</span>
+          </div>
+        </a>
+
+        <a class="card" id="swisszen" href="https://github.com/bigdevwhale/SwissZen" target="_blank" rel="noopener">
+          <div class="card-visual cv-sz cover">
+            <img src="../assets/swisszen-overview.png" data-src-ru="../assets/swisszen-overview.ru.png" alt="SwissZen: Home and Breathe screens" width="2356" height="995" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-id">
+              <img src="../assets/swisszen-logo.svg" alt="" width="44" height="44">
+              <h3>SwissZen</h3>
+              <span class="ver">v1.0.0</span>
+            </div>
+            <p class="card-tagline" data-i18n="ap.sz">The mindfulness multi-tool: breathing, Wim Hof, a bell, practices and a journal.</p>
+            <div class="badges">
+              <span class="badge ok" data-i18n="ap.stable">Stable</span>
+              <span class="badge ok" data-i18n="ap.apk">APK ready</span>
+            </div>
+            <div class="badges">
+              <span class="badge plat">Android 8.0+</span>
+              <span class="badge plat">EN · RU</span>
+            </div>
+            <span class="card-more"><span data-i18n="ap.explore">Explore</span> SwissZen</span>
+          </div>
+        </a>
+
+        <a class="card" id="focusshield" href="https://github.com/bigdevwhale/focus-shield" target="_blank" rel="noopener">
+          <div class="card-visual cv-fs">
+            <img src="../assets/fs-break.gif" alt="FocusShield break window with a 4-7-8 breathing circle" width="380" height="473" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-id">
+              <img src="../assets/focusshield-icon.svg" alt="" width="44" height="44">
+              <h3>FocusShield</h3>
+              <span class="ver">v1.2.1</span>
+            </div>
+            <p class="card-tagline" data-i18n="ap.fs">A strict focus timer that actually blocks distractions.</p>
+            <div class="badges">
+              <span class="badge ok" data-i18n="ap.stable">Stable</span>
+              <span class="badge ok" data-i18n="ap.exe">Installer ready</span>
+            </div>
+            <div class="badges">
+              <span class="badge plat">Windows 10 / 11</span>
+              <span class="badge plat">EN · RU</span>
+            </div>
+            <span class="card-more"><span data-i18n="ap.explore">Explore</span> FocusShield</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="next" style="margin-top:1.25rem">
+        <div class="next-copy">
+          <span class="eyebrow" data-i18n="next.eyebrow">In the workshop</span>
+          <h3 data-i18n="ap.nextTitle">More tools on the way.</h3>
+          <p data-i18n="ap.nextDesc">Have an idea for a calm tool, or want to test early builds? Open an issue.</p>
+        </div>
+        <a class="btn btn-ghost" href="https://github.com/bigdevwhale/stillcraft/issues/new" target="_blank" rel="noopener" data-i18n="ap.suggest">Suggest an app</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="ap.prEyebrow">Principles</span>
+        <h2 data-i18n="ap.prTitle">Made slowly, on purpose.</h2>
+      </div>
+      <div class="principles six">
+        <div class="principle"><h3 data-i18n="ap.p1">No accounts</h3><p data-i18n="ap.p1d">No sign-up, no login, no email. Open it and use it.</p></div>
+        <div class="principle"><h3 data-i18n="ap.p2">Your data stays yours</h3><p data-i18n="ap.p2d">Journal, worries, focus photos and stats live only on your device. There is no analytics.</p></div>
+        <div class="principle"><h3 data-i18n="ap.p3">Open source</h3><p data-i18n="ap.p3d">Every app is on GitHub. Read the code, build it yourself, send a fix.</p></div>
+        <div class="principle"><h3 data-i18n="ap.p4">Built for the platform</h3><p data-i18n="ap.p4d">Kotlin and Jetpack Compose on Android, a tray app on Windows. No web views pretending to be apps.</p></div>
+        <div class="principle"><h3 data-i18n="ap.p5">Two languages</h3><p data-i18n="ap.p5d">Every screen, practice and prompt is in English and Russian.</p></div>
+        <div class="principle"><h3 data-i18n="ap.p6">Nothing to buy</h3><p data-i18n="ap.p6d">No ads, no subscriptions, no paid tiers. Download the file from GitHub and that's it.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="wrap">
+      <h2 data-i18n="ap.clTitle">Let's make the next one together.</h2>
+      <p data-i18n="ap.clDesc">Tell us which moment of your day needs more quiet. It might become the next app.</p>
+      <a class="btn btn-primary" href="https://github.com/bigdevwhale/stillcraft/issues/new" target="_blank" rel="noopener" data-i18n="ap.suggest">Suggest an app</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-brand">
+      <a class="brand" href="../">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="14" r="7" fill="var(--lamp)"/><rect x="3" y="20.5" width="26" height="1.6" rx=".8" fill="currentColor"/><rect x="9" y="24.5" width="14" height="1.6" rx=".8" fill="currentColor" opacity=".45"/></svg>
+        Stillcraft
+      </a>
+      <p data-i18n="ft.tag">Small tools for a quieter mind.</p>
+    </div>
+    <div>
+      <h4 data-i18n="ft.apps">Apps</h4>
+      <ul>
+        <li><a href="https://github.com/bigdevwhale/anyway" target="_blank" rel="noopener">Anyway</a></li>
+        <li><a href="https://github.com/bigdevwhale/SwissZen" target="_blank" rel="noopener">SwissZen</a></li>
+        <li><a href="https://github.com/bigdevwhale/focus-shield" target="_blank" rel="noopener">FocusShield</a></li>
+        <li><a href="./" data-i18n="ft.all">All apps</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="ft.source">Source</h4>
+      <ul>
+        <li><a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://github.com/bigdevwhale/anyway/releases" target="_blank" rel="noopener" data-i18n="ft.awrel">Anyway releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/SwissZen/releases" target="_blank" rel="noopener" data-i18n="ft.szrel">SwissZen releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/focus-shield/releases" target="_blank" rel="noopener" data-i18n="ft.fsrel">FocusShield releases</a></li>
+      </ul>
+    </div>
+    <div class="fine">
+      <span data-i18n="ft.made">© 2026 Stillcraft. Made slowly.</span>
+      <span data-i18n="ft.med">Breathing exercises are not medical treatment. Practice sitting or lying down, never in water or while driving.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/site.js"></script>
+</body>
+</html>

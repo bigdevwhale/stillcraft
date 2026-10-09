@@ -8,10 +8,17 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 
 Live: https://bigdevwhale.github.io/stillcraft/
 
-A single static `index.html` (English and Russian, switchable) with images in `assets/`. No build step; GitHub Pages serves the `main` branch root.
+Static site, no build step; GitHub Pages serves the `main` branch root.
+
+- `index.html`: the landing page
+- `apps/index.html`: the app catalog (`/apps/`)
+- `assets/site.css`, `assets/site.js`: shared styles, language switch (EN/RU) and the breathing orb
+- `assets/`: screenshots and icons
 
 ## Adding an app
 
 1. Put its images in `assets/`.
-2. Copy one `<article class="app ...">` block in `index.html`, give it its own palette class, and add the strings to the `I18N.ru` dictionary.
-3. Update the shelf count, the footer links and the closing download buttons.
+2. Landing: copy one `<article class="app ...">` block in `index.html` and give it its own palette class.
+3. Catalog: copy one `<a class="card">` in `apps/index.html` (version, status and platform badges).
+4. Add the Russian strings to the `I18N.ru` dictionary in `assets/site.js`.
+5. Update the app counts, the footer links on both pages and the closing download buttons.
