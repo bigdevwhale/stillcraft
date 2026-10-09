@@ -88,6 +88,7 @@
     ru: ["Сколько суббот осталось", "Квадрат 4‑4‑4‑4", "Фильтр тревог", "Раунды Вима Хофа", "Блокировка YouTube", "Колокольчик осознанности", "Дыхание 4‑7‑8", "Пока не поздно", "Сканирование тела", "Строка в день", "Росток-помидоро", "Заземление 5‑4‑3‑2‑1", "Ты всё ещё жив", "Медитация доброты"]
   };
 
+  if (window.PAGE_RU) Object.keys(window.PAGE_RU).forEach(function (k) { I18N.ru[k] = window.PAGE_RU[k]; });
   var nodes = document.querySelectorAll("[data-i18n]");
   var EN = {};
   nodes.forEach(function (n) { EN[n.dataset.i18n] = n.innerHTML; });
