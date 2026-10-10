@@ -15,6 +15,7 @@
   --aw-bg: #0E0D0C; --aw-card: #1C1B19; --aw-ink: #F2EEE8; --aw-muted: #9A948B; --aw-accent: #FF7A3D;
   --fs-bg: #101B2C; --fs-card: #18263A; --fs-ink: #E6EEF6; --fs-muted: #8DA0B5; --fs-blue: #3DB7F4; --fs-green: #2FD07A;
   --sz-bg: #F7F4EE; --sz-ink: #1A2A24; --sz-muted: #5E6C66; --sz-pine: #1E4D3B; --sz-ice: #DFECF2; --sz-red: #E30613;
+  --ti-bg: #F7F2EB; --ti-ink: #231F1C; --ti-muted: #6B625B; --ti-coral: #D9623F; --ti-soft: #F8E3DA; --ti-moss: #5B8A68; --ti-amber: #D08F22;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -166,6 +167,13 @@ section { scroll-margin-top: 4rem; }
 .fs-shots .fs-break { justify-self: center; max-width: 17rem; }
 @media (max-width: 700px) { .fs-shots { grid-template-columns: 1fr; } }
 
+.app--ties { --fl: #E6DDD1; --fm: var(--ti-muted); background: radial-gradient(110% 80% at 100% 0%, var(--ti-soft) 0%, transparent 55%), var(--ti-bg); color: var(--ti-ink); }
+.app--ties .app-tag { color: var(--ti-moss); }
+.app--ties .app-lede em { font-style: normal; color: var(--ti-coral); }
+.app--ties .btn-primary { background: var(--ti-coral); color: #fff; }
+.app--ties .btn-ghost { color: var(--ti-ink); border-color: #DCD1C3; }
+.ti-shot { border-radius: 20px; background: #ECE5DB; }
+
 .next { border: 1px dashed var(--line); border-radius: 28px; padding: clamp(1.5rem, 4vw, 2.5rem); display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; justify-content: space-between; }
 .next-copy { display: grid; gap: 0.4rem; min-width: 0; max-width: 40rem; }
 .next h3 { font-size: var(--step-2); }
@@ -180,7 +188,9 @@ section { scroll-margin-top: 4rem; }
 .moment footer { display: flex; justify-content: space-between; gap: 1rem; font: 400 0.75rem/1 var(--f-mono); color: var(--muted); padding-top: 0.8rem; border-top: 1px solid var(--line); margin-top: 0.4rem; }
 .pill { display: inline-flex; align-items: center; gap: 0.4em; }
 .pill::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
-.pill.aw { --dot: var(--aw-accent); } .pill.fs { --dot: var(--fs-blue); } .pill.sz { --dot: var(--sz-red); }
+.pill.aw { --dot: var(--aw-accent); } .pill.fs { --dot: var(--fs-blue); } .pill.sz { --dot: var(--sz-red); } .pill.ti { --dot: var(--ti-coral); }
+/* A lone card in the last row spans it instead of leaving empty cells */
+.moments:not(.feature-grid) > .moment:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
 
 /* Principles */
 .principles { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1.5rem, 4vw, 3rem); }
@@ -209,6 +219,8 @@ footer.site a:hover { text-decoration: underline; }
   .breath { order: -1; }
   .orb-stage { width: min(100%, 17rem); }
   .moments { grid-template-columns: 1fr 1fr; }
+  .moments:not(.feature-grid) > .moment:last-child:nth-child(3n+1) { grid-column: auto; }
+  .moments:not(.feature-grid) > .moment:last-child:nth-child(2n+1) { grid-column: 1 / -1; }
   .principles { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
@@ -247,6 +259,8 @@ footer.site a:hover { text-decoration: underline; }
 .cv-aw { background: var(--aw-bg); }
 .cv-sz { background: var(--sz-bg); }
 .cv-fs { background: radial-gradient(120% 90% at 0% 100%, #12363A 0%, transparent 60%), var(--fs-bg); }
+.cv-ti { background: radial-gradient(110% 80% at 100% 0%, var(--ti-soft) 0%, transparent 60%), var(--ti-bg); }
+.cv-ti img { box-shadow: 0 20px 50px rgb(35 31 28 / 0.18); }
 .card-body { display: grid; gap: 0.9rem; padding: 1.4rem; align-content: start; grid-template-rows: auto auto auto auto 1fr; }
 .card-id { display: flex; align-items: center; gap: 0.75rem; }
 .card-id img { width: 44px; height: 44px; border-radius: 11px; }
@@ -275,6 +289,7 @@ footer.site a:hover { text-decoration: underline; }
 .app--anyway h1 em { color: var(--aw-accent); }
 .app--swisszen h1 em { color: var(--sz-pine); }
 .app--focus h1 em { color: var(--fs-green); }
+.app--ties h1 em { color: var(--ti-coral); }
 .ap-copy { display: grid; gap: 1.4rem; min-width: 0; }
 .ap-copy .app-desc { font-size: var(--step-1); line-height: 1.5; color: var(--fm); max-width: 40ch; }
 .ap-plat { font: 400 0.8rem/1.6 var(--f-mono); color: var(--fm); }
@@ -283,6 +298,7 @@ footer.site a:hover { text-decoration: underline; }
 .ap-visual.wide img { max-height: none; width: 100%; border-radius: 14px; }
 .app--anyway .ap-visual img { border: 1px solid #2B2925; }
 .app--swisszen .ap-visual img { box-shadow: 0 24px 60px rgb(30 77 59 / 0.18); }
+.app--ties .ap-visual img { box-shadow: 0 24px 60px rgb(217 98 63 / 0.18); }
 
 .feature-grid { grid-template-columns: repeat(3, 1fr); }
 .feature-grid .moment { grid-template-rows: auto 1fr; }
@@ -295,6 +311,7 @@ footer.site a:hover { text-decoration: underline; }
 .gallery figcaption b { color: var(--ink); font-weight: 600; display: block; }
 .g-anyway { --shot-bg: var(--aw-bg); }
 .g-swisszen { --shot-bg: var(--sz-bg); --shot-ratio: 420 / 883; }
+.g-ties { --shot-bg: var(--ti-bg); --shot-ratio: 420 / 891; }
 .g-focus { --shot-min: 17rem; --shot-ratio: 4 / 3; --shot-fit: contain; --shot-bg: var(--fs-bg); }
 .g-focus .shot-box { padding: 1rem; }
 .g-focus .shot-box img { object-position: center; }
@@ -337,17 +354,17 @@ pre.code .c { opacity: 0.55; }
 /* Grid tracks never grow past the screen; gallery columns fit their item counts */
 .ap-band > *, .get > * { min-width: 0; }
 .g-anyway { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-.g-swisszen { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-anyway, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .g-swisszen { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }

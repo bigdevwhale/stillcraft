@@ -276,6 +276,83 @@ APPS = [
               "Нет. В коде нет сетевых запросов. Снимки удаляются по истечении срока хранения, по умолчанию через 14 дней.")),
         ],
     },
+    {
+        "slug": "ties",
+        "name": "Ties",
+        "panel": "app--ties",
+        "gallery": "g-ties",
+        "icon": "ties-logo.svg",
+        "visual": "ti-home.png", "visual_ru": "ti-home.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/ties",
+        "download": "https://github.com/bigdevwhale/ties/releases/latest/download/Ties.apk",
+        "version": "v1.0.0",
+        "tagline": ("Don't drift apart from the people who matter.", "Не теряй тех, кто тебе дорог."),
+        "badge": ("Keeping in touch · New", "Связь с близкими · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("Don't drift apart from <em>the people who matter.</em>", "Не теряй тех, <em>кто тебе дорог.</em>"),
+        "desc": ("Friendships rarely end in a fight. They fade quietly: university, a new job, a move, and suddenly a year passes without a call. Ties keeps the people who matter in sight.",
+                 "Дружба редко заканчивается ссорой. Она тихо угасает: учёба, новая работа, переезд, и вдруг проходит год без звонка. Ties держит дорогих людей на виду."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("Your people", "Твои люди"),
+             ("Add someone by hand or from contacts: family, friends, childhood friends, work and study. Pick a rhythm, from every week to every six months.",
+              "Добавь человека вручную или из контактов: семья, друзья, друзья детства, работа и учёба. Выбери ритм: от раза в неделю до раза в полгода.")),
+            (("A ring that cools down", "Кольцо, которое остывает"),
+             ("Each avatar's ring empties as a contact comes due: green, then amber, then coral. The list is sorted into Time to reach out, Coming up and All good.",
+              "Кольцо вокруг аватара пустеет, когда подходит время связаться: зелёное, потом янтарное, потом коралловое. Список делится на «Пора связаться», «Скоро» и «Всё хорошо».")),
+            (("One tap to reach out", "Связаться в одно касание"),
+             ("Call, or write via SMS, Telegram or WhatsApp. After a call from the app, Ties asks “Did you reach them?”, so logging takes one tap.",
+              "Позвони или напиши в SMS, Telegram или WhatsApp. После звонка из приложения Ties спросит «Удалось поговорить?», и отметить разговор можно одним касанием.")),
+            (("What to talk about", "О чём поговорить"),
+             ("The first message is the hardest. Every card has a gentle opener, plus notes worth remembering for next time.",
+              "Труднее всего первое сообщение. На каждой карточке есть мягкая подсказка для начала разговора и заметки о том, что важно помнить.")),
+            (("Birthdays", "Дни рождения"),
+             ("Upcoming birthdays sit on top of the list, and a notification comes on the day.",
+              "Ближайшие дни рождения видны вверху списка, а в сам день приходит уведомление.")),
+            (("One calm reminder a day", "Одно спокойное напоминание в день"),
+             ("Only when someone is due or has a birthday, at the time you choose. People who stay overdue come back every 3 days, not daily.",
+              "Только если кому-то пора позвонить или у кого-то день рождения, в выбранное тобой время. О тех, кто ждёт дольше, Ties напомнит раз в 3 дня, а не каждый день.")),
+        ],
+        "shots": [
+            ("ti-home.png", "ti-home.ru.png", ("Home", "Главная"), ("Who's waiting, who's coming up, who's fine.", "Кто ждёт, кто скоро, у кого всё хорошо.")),
+            ("ti-person.png", "ti-person.ru.png", ("A person", "Человек"), ("Call, write, an opener and what to remember.", "Позвонить, написать, подсказка и что важно помнить.")),
+            ("ti-log.png", "ti-log.ru.png", ("We talked", "Связались"), ("How, when and a note.", "Как, когда и заметка.")),
+            ("ti-edit.png", "ti-edit.ru.png", ("Add someone", "Добавить"), ("Who they are and how often you'd like to talk.", "Кто это и как часто хочешь общаться.")),
+            ("ti-settings.png", "ti-settings.ru.png", ("Settings", "Настройки"), ("One reminder a day, at your time.", "Одно напоминание в день, в твоё время.")),
+        ],
+        "extra": None,
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Ties.apk", "Ties.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer", "Android 8.0 (API 26) или новее")),
+            (("Permissions", "Разрешения"), ("Notifications and start after reboot. No internet.", "Уведомления и запуск после перезагрузки. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Add three people you'd hate to lose touch with.", "Добавь троих, с кем не хочешь терять связь."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Ties and set battery usage to No restrictions, or reminders may not arrive. Settings → Reminders not arriving? opens the right screen.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Ties автозапуск и сними ограничения батареи, иначе напоминания могут не приходить. «Настройки → Напоминания не приходят?» откроет нужный экран."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/ties.git\ncd ties\n./gradlew testDebugUnitTest   <c># unit tests</c>\n./gradlew assembleDebug       <c># debug APK</c>\n./gradlew installDebug        <c># to a connected phone</c>",
+        "faq": [
+            (("Does it read my contacts or call log?", "Оно читает мои контакты или журнал звонков?"),
+             ("No. Picking a contact grants access to that one entry only, not your whole address book. Ties never reads the call log. You can also add people by hand.",
+              "Нет. Когда ты выбираешь контакт, Ties получает доступ только к этой записи, а не ко всей адресной книге. Журнал звонков оно не читает. Людей можно добавить и вручную.")),
+            (("Will it nag me?", "Оно не будет надоедать?"),
+             ("One reminder a day at most, at the time you choose, and only when someone is due or has a birthday. If someone stays overdue, they come back every 3 days, not daily.",
+              "Не больше одного напоминания в день, в выбранное тобой время, и только если кому-то пора позвонить или у кого-то день рождения. Если человек ждёт дольше, напоминание повторится через 3 дня, а не каждый день.")),
+            (("Is anything sent anywhere?", "Что-то отправляется в сеть?"),
+             ("No. No accounts, no servers, no analytics, and the app has no internet permission. Your people, notes and history live in a local database on the phone. Calls and messages open in your phone, SMS, Telegram or WhatsApp app.",
+              "Нет. Ни аккаунтов, ни серверов, ни аналитики, и у приложения нет доступа к интернету. Люди, заметки и история хранятся в локальной базе на телефоне. Звонки и сообщения открываются в телефоне, SMS, Telegram или WhatsApp.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -324,8 +401,9 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs"}[app["slug"]]
-    shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None)}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti"}[app["slug"]]
+    shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
+            "ties": ("ti-home.png", "ti-home.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -622,6 +700,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="../anyway/">Anyway</a></li>
         <li><a href="../swisszen/">SwissZen</a></li>
         <li><a href="../focusshield/">FocusShield</a></li>
+        <li><a href="../ties/">Ties</a></li>
         <li><a href="../" data-i18n="ft.all">All apps</a></li>
       </ul>
     </div>
@@ -632,6 +711,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="https://github.com/bigdevwhale/anyway/releases" target="_blank" rel="noopener" data-i18n="ft.awrel">Anyway releases</a></li>
         <li><a href="https://github.com/bigdevwhale/SwissZen/releases" target="_blank" rel="noopener" data-i18n="ft.szrel">SwissZen releases</a></li>
         <li><a href="https://github.com/bigdevwhale/focus-shield/releases" target="_blank" rel="noopener" data-i18n="ft.fsrel">FocusShield releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/ties/releases" target="_blank" rel="noopener" data-i18n="ft.tirel">Ties releases</a></li>
       </ul>
     </div>
     <div class="fine">
