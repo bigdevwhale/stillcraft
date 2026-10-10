@@ -5,6 +5,8 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Anyway](https://github.com/bigdevwhale/anyway): memento mori for Android
 - [SwissZen](https://github.com/bigdevwhale/SwissZen): the mindfulness multi-tool for Android
 - [FocusShield](https://github.com/bigdevwhale/focus-shield): a strict focus timer for Windows
+- [Ties](https://github.com/bigdevwhale/ties): a gentle nudge to keep in touch, for Android
+- [Unhook](https://github.com/bigdevwhale/unhook): quit a habit, one day at a time, for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
 

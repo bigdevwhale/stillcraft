@@ -353,6 +353,121 @@ APPS = [
               "Нет. Ни аккаунтов, ни серверов, ни аналитики, и у приложения нет доступа к интернету. Люди, заметки и история хранятся в локальной базе на телефоне. Звонки и сообщения открываются в телефоне, SMS, Telegram или WhatsApp.")),
         ],
     },
+    {
+        "slug": "unhook",
+        "name": "Unhook",
+        "panel": "app--unhook",
+        "gallery": "g-unhook",
+        "icon": "unhook-logo.svg",
+        "visual": "un-home.png", "visual_ru": "un-home.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/unhook",
+        "download": "https://github.com/bigdevwhale/unhook/releases/latest/download/Unhook.apk",
+        "version": "v1.0.0",
+        "tagline": ("Quit a habit, one day at a time.", "Бросай привычку день за днём."),
+        "badge": ("Quitting a habit · New", "Отказ от привычки · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("Quitting isn't one big decision. <em>It's a small one, made again every day.</em>",
+                  "Бросить — это не одно большое решение. <em>Это маленькое, которое принимаешь каждый день.</em>"),
+        "desc": ("Unhook counts every clean minute and turns it into money saved and time won back, celebrates each milestone and helps you ride out a craving. A slip doesn't erase your progress. Everything paid quit trackers lock behind premium is free here, with no ads and no account.",
+                 "Unhook считает каждую минуту без срыва и превращает её в сэкономленные деньги и возвращённое время, отмечает каждую веху и помогает переждать тягу. Срыв не стирает прогресс. Всё, что платные трекеры прячут за премиумом, здесь бесплатно, без рекламы и без аккаунта."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("A live counter", "Живой счётчик"),
+             ("Days, hours, minutes and seconds since the last time, with a ring that fills toward the next goal. Track as many habits as you like.",
+              "Дни, часы, минуты и секунды с последнего раза и кольцо, которое заполняется к следующей цели. Привычек можно вести сколько угодно.")),
+            (("Goals that climb on their own", "Цели растут сами"),
+             ("1 day → 3 days → 1 week → 2 weeks → 1 month → 3 → 6 months → 1 → 2 → 5 years. Nothing to pick: the next rung is always the goal.",
+              "1 день → 3 дня → 1 неделя → 2 недели → 1 месяц → 3 → 6 месяцев → 1 → 2 → 5 лет. Выбирать ничего не нужно: цель — всегда следующая ступень.")),
+            (("SOS for cravings", "SOS при тяге"),
+             ("I have a craving opens paced breathing (in 4 · hold 4 · out 6) next to your own reasons. When the wave passes, one tap logs the win.",
+              "Кнопка «Меня тянет» открывает дыхание в ритме (вдох 4 · задержка 4 · выдох 6) рядом с твоими причинами. Когда волна пройдёт, победа записывается одним касанием.")),
+            (("Savings and rewards", "Копилка и награды"),
+             ("Money not spent, time won back and times avoided, with a projection for a month, a year and five years. Add things you want and buy them from the savings.",
+              "Сэкономленные деньги, возвращённое время и сколько раз удалось удержаться, плюс прогноз на месяц, год и пять лет. Добавь то, что хочется купить, и купи из копилки.")),
+            (("Motivation", "Мотивация"),
+             ("Your reasons to quit, a recovery timeline for smoking, alcohol, sugar or a general one that ticks off as time passes, and a quote of the day.",
+              "Твои причины бросить, шкала восстановления для курения, алкоголя, сахара или общая, которая отмечается со временем, и цитата дня.")),
+            (("Statistics", "Статистика"),
+             ("Best, average, shortest and longest streaks, resets, cravings beaten and a chart of every streak.",
+              "Лучшая, средняя, самая короткая и самая длинная серии, число сбросов, побеждённая тяга и график всех серий.")),
+            (("Ten trophies", "Десять трофеев"),
+             ("Shields from bronze to emerald, each with the date it was earned or the date it will be.",
+              "Щиты от бронзы до изумруда, у каждого дата получения или дата, когда он будет получен.")),
+            (("Calendar and diary", "Календарь и дневник"),
+             ("Clean days in green, slips in red. Notes with a mood, cravings beaten and slips with their trigger, in one timeline. A slip logged by mistake can be undone.",
+              "Чистые дни зелёные, срывы красные. Заметки с настроением, побеждённая тяга и срывы с причиной — в одной ленте. Срыв, отмеченный по ошибке, можно отменить.")),
+            (("Milestones and a widget", "Вехи и виджет"),
+             ("A short notification when you reach a new trophy, and a home-screen widget with clean days for up to three habits.",
+              "Короткое уведомление о новом трофее и виджет на рабочем столе с чистыми днями для трёх привычек.")),
+            (("Any habit", "Любая привычка"),
+             ("16 ready-made habits, from smoking and alcohol to social media and nail biting, or your own with an icon you choose.",
+              "16 готовых привычек, от курения и алкоголя до соцсетей и привычки грызть ногти, или своя с выбранной иконкой.")),
+            (("Backup that stays yours", "Резервная копия у тебя"),
+             ("Export everything to a JSON file and restore it on a new phone. No account, no cloud.",
+              "Сохрани всё в JSON-файл и восстанови на новом телефоне. Без аккаунта и облака.")),
+            (("Light and dark", "Светлая и тёмная"),
+             ("Follows the system theme or set by hand, in English or Russian.",
+              "Тема как в системе или на выбор, на английском или русском.")),
+        ],
+        "shots": [
+            ("un-home.png", "un-home.ru.png", ("Home", "Главная"), ("Every habit, counting live.", "Все привычки, счётчик идёт.")),
+            ("un-overview.png", "un-overview.ru.png", ("A habit", "Привычка"), ("The ring, the next goal and the calendar.", "Кольцо, следующая цель и календарь.")),
+            ("un-sos.png", "un-sos.ru.png", ("Ride the wave", "Переждать волну"), ("Breathe with the circle until it passes.", "Дыши вместе с кругом, пока тяга не пройдёт.")),
+            ("un-savings.png", "un-savings.ru.png", ("Savings", "Копилка"), ("Money kept and what it could buy.", "Сэкономленное и на что его потратить.")),
+            ("un-trophies.png", "un-trophies.ru.png", ("Trophies", "Трофеи"), ("Ten shields, bronze to emerald.", "Десять щитов, от бронзы до изумруда.")),
+            ("un-motivation.png", "un-motivation.ru.png", ("Motivation", "Мотивация"), ("Your reasons and what you win back.", "Твои причины и что ты возвращаешь себе.")),
+        ],
+        "extra": {
+            "title": ("The goal ladder", "Лестница целей"),
+            "head": [("Rung", "Ступень"), ("Goal", "Цель"), ("Trophy", "Трофей")],
+            "rows": [
+                [("1", "1"), ("1 day", "1 день"), ("Bronze", "Бронза")],
+                [("2", "2"), ("3 days", "3 дня"), ("Bronze", "Бронза")],
+                [("3", "3"), ("1 week", "1 неделя"), ("Bronze", "Бронза")],
+                [("4", "4"), ("2 weeks", "2 недели"), ("Silver", "Серебро")],
+                [("5", "5"), ("1 month", "1 месяц"), ("Silver", "Серебро")],
+                [("6", "6"), ("3 months", "3 месяца"), ("Gold", "Золото")],
+                [("7", "7"), ("6 months", "6 месяцев"), ("Gold", "Золото")],
+                [("8", "8"), ("1 year", "1 год"), ("Emerald", "Изумруд")],
+                [("9", "9"), ("2 years", "2 года"), ("Emerald", "Изумруд")],
+                [("10", "10"), ("5 years", "5 лет"), ("Emerald", "Изумруд")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Unhook.apk", "Unhook.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer", "Android 8.0 (API 26) или новее")),
+            (("Permissions", "Разрешения"), ("Notifications and start after reboot. No internet.", "Уведомления и запуск после перезагрузки. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Pick the habit, set the date of the last time and what it used to cost you.", "Выбери привычку, укажи, когда был последний раз и сколько она тебе стоила."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Unhook and set battery usage to No restrictions, or trophy notifications may arrive late. Settings → Notifications arrive late? opens the right screen.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Unhook автозапуск и сними ограничения батареи, иначе уведомления о трофеях могут опаздывать. «Настройки → Уведомления опаздывают?» откроет нужный экран."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/unhook.git\ncd unhook\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug          <c># to a connected phone</c>\n./gradlew installDebug -Pdemo   <c># demo build with made-up habits</c>",
+        "faq": [
+            (("What happens if I slip?", "Что будет, если я сорвусь?"),
+             ("The counter starts again, but your best streak, trophies and history stay. A slip logged by mistake can be undone from the diary.",
+              "Счётчик начнётся заново, но лучшая серия, трофеи и история останутся. Срыв, отмеченный по ошибке, можно отменить в дневнике.")),
+            (("Is there a premium version?", "Есть ли премиум-версия?"),
+             ("No. Every feature is unlocked for everyone, with no ads, no trial and no subscription.",
+              "Нет. Все функции открыты для всех, без рекламы, пробного периода и подписки.")),
+            (("Is anything sent anywhere?", "Что-то отправляется в сеть?"),
+             ("No. No accounts, no servers, no analytics, and the app has no internet permission. Habits, diary and history live in a local database on the phone. Settings → Backup saves them to a file you keep.",
+              "Нет. Ни аккаунтов, ни серверов, ни аналитики, и у приложения нет доступа к интернету. Привычки, дневник и история хранятся в локальной базе на телефоне. «Настройки → Резервная копия» сохранит их в файл, который останется у тебя.")),
+            (("Is the recovery timeline medical advice?", "Шкала восстановления — это медицинский совет?"),
+             ("No. It's general information to keep you going, not a substitute for a doctor.",
+              "Нет. Это общая информация для поддержки, а не замена врачу.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -401,9 +516,9 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
-            "ties": ("ti-home.png", "ti-home.ru.png")}[app["slug"]]
+            "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -701,6 +816,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="../swisszen/">SwissZen</a></li>
         <li><a href="../focusshield/">FocusShield</a></li>
         <li><a href="../ties/">Ties</a></li>
+        <li><a href="../unhook/">Unhook</a></li>
         <li><a href="../" data-i18n="ft.all">All apps</a></li>
       </ul>
     </div>
@@ -712,6 +828,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="https://github.com/bigdevwhale/SwissZen/releases" target="_blank" rel="noopener" data-i18n="ft.szrel">SwissZen releases</a></li>
         <li><a href="https://github.com/bigdevwhale/focus-shield/releases" target="_blank" rel="noopener" data-i18n="ft.fsrel">FocusShield releases</a></li>
         <li><a href="https://github.com/bigdevwhale/ties/releases" target="_blank" rel="noopener" data-i18n="ft.tirel">Ties releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/unhook/releases" target="_blank" rel="noopener" data-i18n="ft.unrel">Unhook releases</a></li>
       </ul>
     </div>
     <div class="fine">
