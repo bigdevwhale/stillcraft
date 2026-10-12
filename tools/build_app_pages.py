@@ -468,6 +468,117 @@ APPS = [
               "Нет. Это общая информация для поддержки, а не замена врачу.")),
         ],
     },
+    {
+        "slug": "dayquest",
+        "name": "Dayquest",
+        "panel": "app--dayquest",
+        "gallery": "g-dayquest",
+        "icon": "dayquest-logo.svg",
+        "visual": "dq-tasks.png", "visual_ru": "dq-tasks.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/dayquest",
+        "download": "https://github.com/bigdevwhale/dayquest/releases/latest/download/Dayquest.apk",
+        "version": "v1.0.0",
+        "tagline": ("Turn your days into a quest.", "Превратите дни в приключение."),
+        "badge": ("Habit RPG · New", "RPG для привычек · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("Habits stick when something small depends on them. <em>Turn your days into a quest.</em>",
+                  "Привычки держатся, когда от них зависит что-то маленькое. <em>Превратите дни в приключение.</em>"),
+        "desc": ("Your habits, dailies and to-dos power a pixel hero. Finish things and it levels up, finds pets, furnishes a home and beats bosses; skip your dailies and it gets hurt. Like Habitica, with richer pixel art, kinder mornings and content built to last for years. Free, no ads, no account.",
+                 "Привычки, ежедневные задачи и дела двигают пиксельного героя. Делаешь — он растёт в уровнях, находит питомцев, обставляет дом и побеждает боссов; пропускаешь — ему больно. Как Habitica, но с более красивым пиксель-артом, мягким утром и контентом на годы. Бесплатно, без рекламы и аккаунта."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("Habits, dailies, to-dos", "Привычки, ежедневные, дела"),
+             ("+ / − habits, dailies on chosen weekdays or every N days, to-dos with due dates and checklists that open right in the list. Neglected tasks turn red and pay more.",
+              "Привычки с кнопками + / −, ежедневные по дням недели или раз в N дней, дела со сроками и чек-листами прямо в списке. Запущенные задачи краснеют и приносят больше.")),
+            (("A living pixel scene", "Живая пиксельная сцена"),
+             ("Hero, pet and boss under a dithered sky that follows the real clock: dawn, sunset, stars and fireflies. Six places to unlock.",
+              "Герой, питомец и босс под небом, которое идёт по реальным часам: рассвет, закат, звёзды и светлячки. Шесть мест.")),
+            (("Boss fights", "Бои с боссами"),
+             ("Finished tasks hit the boss, sometimes critically; missed dailies let it hit back. Numbers, sparks and coins fly across the scene.",
+              "Сделанные задачи бьют босса, иногда критом; пропуски дают ему ударить в ответ. По сцене летят цифры, искры и монеты.")),
+            (("88 pets", "88 питомцев"),
+             ("8 species × 11 hatching potions. Pick an egg and a potion in one card, see who hatches, feed them their favourite food.",
+              "8 видов × 11 инкубационных зелий. Яйцо и зелье выбираются в одной карточке, сразу видно, кто вылупится. Любимая еда растит быстрее.")),
+            (("Gear you can see", "Снаряжение на герое"),
+             ("Every sword, robe, hat and shield changes your stats and your sprite. The shop lets you try it on before buying.",
+              "Каждый меч, мантия, шляпа и щит меняют и характеристики, и спрайт. В лавке можно примерить до покупки.")),
+            (("Real seasons", "Настоящие сезоны"),
+             ("Blossom, summer, falling leaves and snow in every scene, with a seasonal potion, hat and boss. A switch for the southern hemisphere.",
+              "Цветение, лето, листопад и снег во всех сценах, а с ними сезонное зелье, шляпа и босс. Есть переключатель для южного полушария.")),
+            (("The endless forge", "Бесконечная кузница"),
+             ("From level 20, a new tier of gear every 5 levels: rare, epic, legendary. It never runs out.",
+              "С 20 уровня каждые 5 уровней — новый ранг снаряжения: редкое, эпическое, легендарное. Не кончается.")),
+            (("Bosses that come back", "Боссы возвращаются"),
+             ("Beaten bosses return as Elite, Ancient and Mythic, recoloured and tougher. A new boss of the week arrives every Monday.",
+              "Побеждённые боссы приходят элитными, древними и мифическими — в новых цветах и сильнее. Каждый понедельник новый босс недели.")),
+            (("A home to furnish", "Свой дом"),
+             ("27 pieces of furniture, wallpapers and floors. The fireplace glows at night and the window shows the real sky.",
+              "27 предметов мебели, обои и полы. Ночью светится камин, в окне настоящее небо.")),
+            (("Achievements that need time", "Достижения за время"),
+             ("47 of them, from a 7-day streak to five years together, plus a yearly chronicle of what you got done.",
+              "47 штук — от серии в 7 дней до пяти лет вместе, плюс летопись сделанного по годам.")),
+            (("Kind mornings, exact undo", "Мягкое утро и точная отмена"),
+             ("Tick off yesterday's dailies before the day closes, move the day start for late nights, rest at the inn when ill, and undo any tap.",
+              "Отметь вчерашние задачи до закрытия дня, сдвинь начало дня, если ложишься поздно, отдохни в таверне, когда болеешь, и отмени любое нажатие.")),
+            (("Your hero moves with you", "Герой переезжает с тобой"),
+             ("No account: send yourself a file or a one-line code and import it on the new phone.",
+              "Без аккаунта: отправь себе файл или однострочный код и импортируй на новом телефоне.")),
+        ],
+        "shots": [
+            ("dq-tasks.png", "dq-tasks.ru.png", ("Tasks", "Задачи"), ("The board under a living scene.", "Доска задач под живой сценой.")),
+            ("dq-quests.png", "dq-quests.ru.png", ("Quests", "Квесты"), ("An elite rematch and the boss of the week.", "Элитный реванш и босс недели.")),
+            ("dq-stable.png", "dq-stable.ru.png", ("Stable", "Питомцы"), ("Egg plus potion: see who hatches.", "Яйцо и зелье: сразу видно, кто вылупится.")),
+            ("dq-shop.png", "dq-shop.ru.png", ("Shop", "Лавка"), ("Seasonal hats and gear you try on.", "Сезонные шляпы и примерка снаряжения.")),
+            ("dq-home.png", "dq-home.ru.png", ("Home", "Дом"), ("A room to furnish with your gold.", "Комната, которую обставляешь на золото.")),
+            ("dq-hero.png", "dq-hero.ru.png", ("Achievements", "Достижения"), ("Medals that take real time.", "Медали, которым нужно реальное время.")),
+        ],
+        "extra": {
+            "title": ("Built for years", "Рассчитано на годы"),
+            "head": [("What", "Что"), ("How often", "Как часто"), ("What it brings", "Что даёт")],
+            "rows": [
+                [("Boss of the week", "Босс недели"), ("Every Monday", "Каждый понедельник"), ("Rare potions and eggs", "Редкие зелья и яйца")],
+                [("Seasonal boss", "Сезонный босс"), ("Once a season", "Раз в сезон"), ("The season's potion", "Зелье сезона")],
+                [("Seasonal hat", "Сезонная шляпа"), ("Sold only in its season", "Только в свой сезон"), ("Four to collect", "Четыре в коллекции")],
+                [("Forge tier", "Ранг кузницы"), ("Every 5 levels from 20", "Каждые 5 уровней с 20"), ("Rare → epic → legendary gear", "Редкое → эпическое → легендарное")],
+                [("Boss rematch", "Реванш с боссом"), ("After every win", "После каждой победы"), ("Elite, Ancient, Mythic", "Элитный, древний, мифический")],
+                [("Achievements", "Достижения"), ("Up to 5 years", "До 5 лет"), ("47 medals and gold", "47 медалей и золото")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Dayquest.apk", "Dayquest.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer", "Android 8.0 (API 26) или новее")),
+            (("Permissions", "Разрешения"), ("Notifications and start after reboot. No internet.", "Уведомления и запуск после перезагрузки. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Create your hero and pick a few starter tasks. Or choose I already have a hero to bring progress from another phone.", "Создай героя и выбери несколько стартовых задач. Или выбери «У меня уже есть герой», чтобы перенести прогресс с другого телефона."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Dayquest and set battery usage to No restrictions, or reminders may arrive late. Settings → Reminders don't arrive? opens the right screen.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Dayquest автозапуск и сними ограничения батареи, иначе напоминания могут опаздывать. «Настройки → Не приходят напоминания?» откроет нужный экран."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/dayquest.git\ncd dayquest\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug          <c># to a connected phone</c>\n./gradlew installDebug -Pdemo   <c># demo build with a mid-game hero</c>",
+        "faq": [
+            (("Is it really free?", "Это правда бесплатно?"),
+             ("Yes. Every feature is unlocked, with no ads, no gems to buy and no subscription.",
+              "Да. Всё открыто, без рекламы, покупных кристаллов и подписки.")),
+            (("How do I move my hero to a new phone?", "Как перенести героя на новый телефон?"),
+             ("Settings → Move your progress: send a file or copy a one-line code, then on the new phone choose I already have a hero and import it.",
+              "«Настройки → Перенос прогресса»: отправь файл или скопируй однострочный код, а на новом телефоне выбери «У меня уже есть герой» и импортируй.")),
+            (("Won't I run out of things to unlock?", "Не кончится ли контент?"),
+             ("No. Seasons follow the calendar, the forge adds a tier every 5 levels, bosses return in stronger ranks and a new boss arrives every week.",
+              "Нет. Сезоны идут по календарю, кузница добавляет ранг каждые 5 уровней, боссы возвращаются сильнее, а каждую неделю приходит новый.")),
+            (("Is anything sent anywhere?", "Что-то отправляется в сеть?"),
+             ("No. No accounts, no servers, no analytics, and the app has no internet permission. Everything lives in a local database on the phone.",
+              "Нет. Ни аккаунтов, ни серверов, ни аналитики, и у приложения нет доступа к интернету. Всё хранится в локальной базе на телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -516,9 +627,9 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
-            "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png")}[app["slug"]]
+            "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -817,6 +928,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="../focusshield/">FocusShield</a></li>
         <li><a href="../ties/">Ties</a></li>
         <li><a href="../unhook/">Unhook</a></li>
+        <li><a href="../dayquest/">Dayquest</a></li>
         <li><a href="../" data-i18n="ft.all">All apps</a></li>
       </ul>
     </div>
@@ -829,6 +941,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="https://github.com/bigdevwhale/focus-shield/releases" target="_blank" rel="noopener" data-i18n="ft.fsrel">FocusShield releases</a></li>
         <li><a href="https://github.com/bigdevwhale/ties/releases" target="_blank" rel="noopener" data-i18n="ft.tirel">Ties releases</a></li>
         <li><a href="https://github.com/bigdevwhale/unhook/releases" target="_blank" rel="noopener" data-i18n="ft.unrel">Unhook releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/dayquest/releases" target="_blank" rel="noopener" data-i18n="ft.dqrel">Dayquest releases</a></li>
       </ul>
     </div>
     <div class="fine">
