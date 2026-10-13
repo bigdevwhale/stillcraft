@@ -582,6 +582,119 @@ APPS = [
               "Нет. Ни аккаунтов, ни серверов, ни аналитики, и у приложения нет доступа к интернету. Всё хранится в локальной базе на телефоне.")),
         ],
     },
+    {
+        "slug": "serene",
+        "name": "Serene",
+        "panel": "app--serene",
+        "gallery": "g-serene",
+        "icon": "serene-logo.svg",
+        "visual": "se-today.png", "visual_ru": "se-today.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/serene",
+        "download": "https://github.com/bigdevwhale/serene/releases/latest/download/Serene.apk",
+        "version": "v1.0.0",
+        "tagline": ("A quiet place for your mind.", "Тихое место для ума."),
+        "badge": ("Meditation · New", "Медитация · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("Calm is a skill that grows from a few minutes a day. <em>A quiet place for your mind.</em>",
+                  "Спокойствие — это навык, который растёт от нескольких минут в день. <em>Тихое место для ума.</em>"),
+        "desc": ("Serene brings guided meditations, guided visualizations and affirmations into one calm app, for inner calm and harmony. Every session is read by a gentle voice recorded ahead of time and built into the app, so it all works offline. Free, with no ads, no premium and no account.",
+                 "Serene собирает медитации, визуализации и аффирмации в одном спокойном приложении — для внутреннего покоя и гармонии. Каждую практику читает мягкий голос, записанный заранее и встроенный в приложение, поэтому всё работает без интернета. Бесплатно, без рекламы, премиума и аккаунта."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("Ten guided meditations", "Десять медитаций с голосом"),
+             ("Calm in 3 minutes, breath awareness, body scan, loving-kindness, letting go, inner harmony, gratitude, morning intention, self-compassion and a sleep wind-down.",
+              "Спокойствие за 3 минуты, наблюдение за дыханием, сканирование тела, любящая доброта, отпустить мысли, внутренняя гармония, благодарность, утреннее намерение, сострадание к себе и расслабление перед сном.")),
+            (("Ten guided visualizations", "Десять визуализаций"),
+             ("A safe place, a forest walk, the ocean shore, a mountain lake, healing light, meeting your future self, releasing worries, an inner garden, a goal achieved and a starry sky.",
+              "Безопасное место, прогулка по лесу, берег океана, горное озеро, исцеляющий свет, встреча с собой из будущего, отпустить тревоги, внутренний сад, цель достигнута и звёздное небо.")),
+            (("A calm voice, offline", "Спокойный голос без интернета"),
+             ("Every session is read by a natural neural voice, recorded ahead of time and shipped inside the app. You can switch to your phone's own voice in Settings.",
+              "Каждую практику читает естественный нейросетевой голос, записанный заранее и встроенный в приложение. В настройках можно переключиться на голос телефона.")),
+            (("240 affirmations", "240 аффирмаций"),
+             ("Twelve themes, from calm, self-love and confidence to sleep, courage and good morning. An affirmation of the day, favourites, your own lines and a daily mix read aloud with room to repeat.",
+              "Двенадцать тем — от спокойствия, любви к себе и уверенности до сна, смелости и доброго утра. Аффирмация дня, избранное, свои фразы и микс дня вслух с паузой, чтобы повторить.")),
+            (("A vision board", "Доска визуализаций"),
+             ("Add what you want to bring into your life: a photo, how it looks and feels, and a line to say to yourself. Visualize my board turns it into your own guided session.",
+              "Добавь то, что хочешь привести в свою жизнь: фото, как это выглядит и ощущается, и фразу для себя. «Визуализировать доску» превратит всё это в твою личную практику.")),
+            (("Your own voice", "Твой собственный голос"),
+             ("For your own affirmations and visions, record yourself in the app or upload an audio file. Or let the phone read your words.",
+              "Для своих аффирмаций и визуализаций можно записать себя прямо в приложении или загрузить аудиофайл. Или пусть твои слова прочтёт телефон.")),
+            (("Breathing", "Дыхание"),
+             ("Calming 4-6, box, 4-7-8, coherent, the physiological sigh and equal breathing, with a glowing orb, soft tones and a light vibration.",
+              "Успокаивающее 4-6, квадратное, 4-7-8, резонансное, физиологический вздох и ровное дыхание — со светящейся сферой, мягкими тонами и лёгкой вибрацией.")),
+            (("Silent meditation", "Медитация в тишине"),
+             ("A timer from 3 to 60 minutes with any background sound and a bell at the interval you choose.",
+              "Таймер от 3 до 60 минут с любым фоном и колоколом через заданные интервалы.")),
+            (("17 soundscapes", "17 фоновых звуков"),
+             ("Real recordings of rain, thunderstorm, ocean, stream, wind, forest birds, a fireplace, a café, a train and more, reshuffled endlessly so they never audibly loop. Plus soft generative music, a warm tone and deep noise. The sound dips while the voice speaks.",
+              "Настоящие записи дождя, грозы, океана, ручья, ветра, леса с птицами, камина, кафе, поезда и других — бесконечно перемешанные, чтобы не звучать по кругу. Плюс генеративная мягкая музыка, тёплый тон и глубокий шум. Пока говорит голос, фон становится тише.")),
+            (("Journal and balance", "Дневник и баланс"),
+             ("Mood check-ins, three good things, notes, a two-week mood chart, a practice calendar, your streak and minutes. The wheel of balance rates body, mind, relationships, work, rest and joy.",
+              "Отметки настроения, три хороших вещи, заметки, график настроения за две недели, календарь практик, серия и минуты. Колесо баланса оценивает тело, ум, отношения, дело, отдых и радость.")),
+            (("Gentle reminders and a widget", "Мягкие напоминания и виджет"),
+             ("A morning affirmation and an evening wind-down at the time you pick, and a home-screen widget with the affirmation of the day.",
+              "Утренняя аффирмация и вечернее приглашение расслабиться в выбранное время, а также виджет с аффирмацией дня на рабочем столе.")),
+            (("Yours, in two languages", "Твоё, на двух языках"),
+             ("Back up to a JSON file (photos stay on the phone), light and dark themes, and English and Russian written natively, not machine-translated.",
+              "Резервная копия в JSON-файл (фото остаются на телефоне), светлая и тёмная темы, английский и русский, написанные вручную, без машинного перевода.")),
+        ],
+        "shots": [
+            ("se-today.png", "se-today.ru.png", ("Today", "Сегодня"), ("The affirmation of the day and your practice.", "Аффирмация дня и твоя практика.")),
+            ("se-practice.png", "se-practice.ru.png", ("Practice", "Практики"), ("Meditate, visualize, breathe.", "Медитации, визуализации, дыхание.")),
+            ("se-player.png", "se-player.ru.png", ("A guided session", "Практика с голосом"), ("A calm voice over a slow, living scene.", "Спокойный голос и медленная живая сцена.")),
+            ("se-breathe.png", "se-breathe.ru.png", ("Breathe", "Дыхание"), ("A glowing orb to breathe with.", "Светящаяся сфера, с которой дышишь.")),
+            ("se-affirm.png", "se-affirm.ru.png", ("Affirmations", "Аффирмации"), ("Twelve themes and your daily mix.", "Двенадцать тем и микс дня.")),
+            ("se-journal.png", "se-journal.ru.png", ("Journal", "Дневник"), ("Mood, gratitude and your practice.", "Настроение, благодарность и практика.")),
+            ("se-visions.png", "se-visions.ru.png", ("Vision board", "Доска визуализаций"), ("What you want, ready to visualize.", "То, чего хочешь, готово к визуализации.")),
+        ],
+        "extra": {
+            "title": ("Six ways to breathe", "Шесть способов дышать"),
+            "head": [("Pattern", "Техника"), ("Rhythm", "Ритм"), ("Good for", "Когда помогает")],
+            "rows": [
+                [("Calming", "Успокаивающее"), ("4 · 6", "4 · 6"), ("Winding down", "Чтобы расслабиться")],
+                [("Box", "Квадратное"), ("4 · 4 · 4 · 4", "4 · 4 · 4 · 4"), ("A racing mind", "Когда мысли скачут")],
+                [("4-7-8", "4-7-8"), ("4 · 7 · 8", "4 · 7 · 8"), ("Falling asleep", "Чтобы уснуть")],
+                [("Coherent", "Резонансное"), ("5.5 · 5.5", "5,5 · 5,5"), ("Balance", "Для равновесия")],
+                [("Physiological sigh", "Физиологический вздох"), ("2.5 · 1 · 6", "2,5 · 1 · 6"), ("The fastest release", "Быстрее всего снимает напряжение")],
+                [("Equal", "Ровное"), ("4 · 4", "4 · 4"), ("Centring", "Чтобы собраться")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Serene.apk", "Serene.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer", "Android 8.0 (API 26) или новее")),
+            (("Permissions", "Разрешения"), ("Notifications, start after reboot and vibration. The microphone only when you record your own voice. No internet.",
+                                            "Уведомления, запуск после перезагрузки и вибрация. Микрофон — только когда записываешь свой голос. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Pick the themes that matter to you, then start with Calm in 3 minutes.", "Выбери близкие тебе темы и начни со «Спокойствия за 3 минуты»."),
+        ],
+        "note": ("The voice needs nothing on your phone: the narration is built into the app. On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Serene so reminders arrive on time.",
+                 "Для голоса на телефоне ничего ставить не нужно: озвучка встроена в приложение. На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Serene автозапуск, чтобы напоминания приходили вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/serene.git\ncd serene\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug          <c># app.serene.dev</c>\n./gradlew installDebug -Pdemo   <c># demo build with made-up visions</c>",
+        "faq": [
+            (("Is there a premium version?", "Есть ли премиум-версия?"),
+             ("No. Every meditation, visualization, sound and affirmation is unlocked for everyone, with no ads, no trial and no subscription.",
+              "Нет. Все медитации, визуализации, звуки и аффирмации открыты для всех, без рекламы, пробного периода и подписки.")),
+            (("Is anything sent anywhere?", "Что-то отправляется в сеть?"),
+             ("No. No accounts, no servers, no analytics, and the app has no internet permission. Your journal, favourites and visions live in a local database on the phone. Settings → Backup saves everything except photos to a file you keep.",
+              "Нет. Ни аккаунтов, ни серверов, ни аналитики, и у приложения нет доступа к интернету. Дневник, избранное и визуализации хранятся в локальной базе на телефоне. «Настройки → Резервная копия» сохранит всё, кроме фото, в файл, который останется у тебя.")),
+            (("Is it medical or psychological treatment?", "Это лечение или психотерапия?"),
+             ("No. Serene is for relaxation and well-being. It doesn't replace a doctor or a therapist.",
+              "Нет. Serene — для расслабления и хорошего самочувствия. Приложение не заменяет врача или психотерапевта.")),
+            (("Whose voices and sounds are these?", "Чьи это голоса и звуки?"),
+             ("The narration was made with open neural voices: Silero for Russian (CC BY-NC-SA 4.0) and Kokoro-82M for English (Apache 2.0). The nature recordings come from the Blanket project, under CC0, CC BY, CC BY-SA or public domain. Full credits are in the README.",
+              "Озвучка сделана открытыми нейросетевыми голосами: Silero для русского (CC BY-NC-SA 4.0) и Kokoro-82M для английского (Apache 2.0). Записи природы взяты из проекта Blanket, под лицензиями CC0, CC BY, CC BY-SA или в общественном достоянии. Полный список авторов — в README.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -630,9 +743,10 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
-            "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png")}[app["slug"]]
+            "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
+            "serene": ("se-today.png", "se-today.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -941,6 +1055,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="../ties/">Ties</a></li>
         <li><a href="../unhook/">Unhook</a></li>
         <li><a href="../dayquest/">Dayquest</a></li>
+        <li><a href="../serene/">Serene</a></li>
         <li><a href="../" data-i18n="ft.all">All apps</a></li>
       </ul>
     </div>
@@ -954,6 +1069,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="https://github.com/bigdevwhale/ties/releases" target="_blank" rel="noopener" data-i18n="ft.tirel">Ties releases</a></li>
         <li><a href="https://github.com/bigdevwhale/unhook/releases" target="_blank" rel="noopener" data-i18n="ft.unrel">Unhook releases</a></li>
         <li><a href="https://github.com/bigdevwhale/dayquest/releases" target="_blank" rel="noopener" data-i18n="ft.dqrel">Dayquest releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/serene/releases" target="_blank" rel="noopener" data-i18n="ft.serel">Serene releases</a></li>
       </ul>
     </div>
     <div class="fine">

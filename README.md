@@ -8,6 +8,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Ties](https://github.com/bigdevwhale/ties): a gentle nudge to keep in touch, for Android
 - [Unhook](https://github.com/bigdevwhale/unhook): quit a habit, one day at a time, for Android
 - [Dayquest](https://github.com/bigdevwhale/dayquest): turn your days into a quest, a pixel-art habit RPG for Android
+- [Serene](https://github.com/bigdevwhale/serene): meditation, guided visualization and affirmations for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
 
