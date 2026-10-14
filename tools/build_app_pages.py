@@ -695,6 +695,122 @@ APPS = [
               "Озвучка сделана открытыми нейросетевыми голосами: Silero для русского (CC BY-NC-SA 4.0) и Kokoro-82M для английского (Apache 2.0). Записи природы взяты из проекта Blanket, под лицензиями CC0, CC BY, CC BY-SA или в общественном достоянии. Полный список авторов — в README.")),
         ],
     },
+    {
+        "slug": "ember",
+        "name": "Ember",
+        "panel": "app--ember",
+        "gallery": "g-ember",
+        "icon": "ember-logo.svg",
+        "visual": "em-fast.png", "visual_ru": "em-fast.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/ember",
+        "download": "https://github.com/bigdevwhale/ember/releases/latest/download/Ember.apk",
+        "version": "v1.0.0",
+        "tagline": ("Intermittent fasting, made warm and simple.", "Интервальное голодание — тепло и просто."),
+        "badge": ("Fasting · New", "Голодание · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("Fasting is simple. Doing it day after day is the hard part. <em>Intermittent fasting, made warm and simple.</em>",
+                  "Голодать просто. Сложно делать это день за днём. <em>Интервальное голодание — тепло и просто.</em>"),
+        "desc": ("Ember is a fasting timer that explains what your body is doing as the hours pass, cheers you on when the goal is reached and is there when hunger knocks. Streaks, levels, badges and weekly challenges keep the fire going. Most fasting apps lock their best parts behind a subscription. Here everything is free, with no ads and no account, and nothing leaves your phone.",
+                 "Ember — таймер голодания, который объясняет, что происходит в теле с каждым часом, радуется вместе с тобой, когда цель достигнута, и помогает, когда подступает голод. Серии, уровни, награды и испытания недели поддерживают огонь. Большинство приложений для голодания прячут лучшее за подпиской. Здесь всё бесплатно, без рекламы и аккаунта, и ничего не покидает телефон."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("A timer that explains", "Таймер, который объясняет"),
+             ("The ring is split into eight coloured stages, from digestion and the fuel switch to fat burning, ketosis, autophagy, the growth-hormone rise and deep renewal. You see the stage you're in, the time to the next one and a short note for every hour.",
+              "Кольцо разделено на восемь цветных этапов — от переваривания и смены топлива до жиросжигания, кетоза, аутофагии, подъёма гормона роста и глубокого обновления. Видно текущий этап, время до следующего и короткую заметку на каждый час.")),
+            (("Plans for every level", "Планы для любого уровня"),
+             ("12:12, 14:10, 16:8, 18:6, 20:4, one meal a day, 24, 36, 48 and 72 hours, or a length of your own. Set when the daily fast begins and Ember shows your eating window.",
+              "12:12, 14:10, 16:8, 18:6, 20:4, еда раз в день, 24, 36, 48 и 72 часа или своя длительность. Укажи, когда начинается голодание, и Ember покажет окно питания.")),
+            (("Streaks and levels", "Серии и уровни"),
+             ("Every day you reach your goal keeps the fire going. Levels grow with the hours you fast, from Spark to Sun.",
+              "Каждый день с достигнутой целью поддерживает огонь. Уровни растут вместе с часами голодания — от Искры до Солнца.")),
+            (("33 badges and weekly challenges", "33 награды и испытания недели"),
+             ("Badges for long fasts, streaks, total hours, weight, water, check-ins and hunger waves ridden out. A new challenge arrives every Monday: five good days, an early dinner, a longer fast.",
+              "Награды за долгие голодания, серии, общее время, вес, воду, отметки самочувствия и пережитые волны голода. Каждый понедельник — новое испытание: пять хороших дней, ранний ужин, голодание подольше.")),
+            (("Hunger SOS", "Голод SOS"),
+             ("Hunger comes in waves and passes in 15–20 minutes. A 15-minute timer with a breathing circle helps you ride it out, with ten quick things that help right now.",
+              "Голод приходит волнами и проходит за 15–20 минут. Пятнадцатиминутный таймер с дыхательным кругом помогает переждать волну, а рядом десять быстрых способов себе помочь.")),
+            (("Progress and a calendar", "Прогресс и календарь"),
+             ("Hours fasted per week or month, a calendar of reached goals, stats and the full history. Edit any fast, add one you forgot or discard one started by mistake.",
+              "Часы голодания за неделю или месяц, календарь достигнутых целей, статистика и вся история. Любое голодание можно поправить, добавить забытое или удалить начатое по ошибке.")),
+            (("Weight, water and check-ins", "Вес, вода и самочувствие"),
+             ("A weight chart with a goal and BMI, in kilograms or pounds, a daily water counter, and quick check-ins for hunger, energy and mood.",
+              "График веса с целью и ИМТ в килограммах или фунтах, счётчик воды на день и быстрые отметки голода, энергии и настроения.")),
+            (("18 short articles", "18 коротких статей"),
+             ("Short, honest reading: what breaks a fast, electrolytes, how to break a fast well, exercise, sleep, fasting for women, longer fasts and safety. Plus the eight stages explained.",
+              "Коротко и честно: что прерывает голодание, электролиты, как правильно выходить из голодания, спорт, сон, голодание для женщин, долгие голодания и безопасность. И подробно о каждом из восьми этапов.")),
+            (("Notifications and a widget", "Уведомления и виджет"),
+             ("A quiet live timer in the notification shade, alerts for the goal and each new stage, a nudge at your scheduled start with a Start now button, and a home-screen widget.",
+              "Тихий живой таймер в шторке, сообщения о цели и каждом новом этапе, напоминание по расписанию с кнопкой «Начать сейчас» и виджет на главный экран.")),
+            (("Nothing leaves your phone", "Всё остаётся на телефоне"),
+             ("No account, no servers, no analytics, no ads and no internet permission. Fasts, weight, water and check-ins live on the phone, and a JSON backup stays with you.",
+              "Ни аккаунта, ни серверов, ни аналитики, ни рекламы, ни доступа к интернету. Голодания, вес, вода и самочувствие хранятся на телефоне, а резервная копия в JSON остаётся у тебя.")),
+            (("Safety first", "Сначала безопасность"),
+             ("Fasting isn't for everyone. Ember shares general information and is not medical advice. Talk to a doctor first if you're pregnant, under 18, have diabetes, an eating disorder or a chronic condition.",
+              "Голодание подходит не всем. Ember делится общей информацией и не заменяет врача. Сначала посоветуйся с врачом при беременности, если тебе меньше 18, есть диабет, расстройство пищевого поведения или хроническое заболевание.")),
+            (("Yours, in two languages", "Твоё, на двух языках"),
+             ("Light and dark themes, and English and Russian written natively, not machine-translated. The Russian texts are gender-neutral.",
+              "Светлая и тёмная темы, английский и русский, написанные вручную, без машинного перевода. Русские тексты гендерно-нейтральны.")),
+        ],
+        "shots": [
+            ("em-fast.png", "em-fast.ru.png", ("Fast", "Голодание"), ("The ring of stages and where you are now.", "Кольцо этапов и то, где ты сейчас.")),
+            ("em-today.png", "em-today.ru.png", ("Today", "Сегодня"), ("Hunger SOS, water and the weekly challenge.", "Голод SOS, вода и испытание недели.")),
+            ("em-stages.png", "em-stages.ru.png", ("Stages", "Этапы"), ("What your body is doing, hour by hour.", "Что происходит в теле, час за часом.")),
+            ("em-hunger.png", "em-hunger.ru.png", ("Hunger SOS", "Голод SOS"), ("Breathe and ride the wave.", "Дыши и пережди волну.")),
+            ("em-progress.png", "em-progress.ru.png", ("Progress", "Прогресс"), ("Hours fasted, week by week.", "Часы голодания, неделя за неделей.")),
+            ("em-calendar.png", "em-calendar.ru.png", ("Calendar", "Календарь"), ("Reached goals and your weight.", "Достигнутые цели и вес.")),
+            ("em-learn.png", "em-learn.ru.png", ("Learn", "Знания"), ("Short, honest articles.", "Короткие честные статьи.")),
+            ("em-badges.png", "em-badges.ru.png", ("Badges", "Награды"), ("Your level and 33 badges.", "Твой уровень и 33 награды.")),
+        ],
+        "extra": {
+            "title": ("Eight stages of a fast", "Восемь этапов голодания"),
+            "head": [("From", "С"), ("Stage", "Этап"), ("What happens", "Что происходит")],
+            "rows": [
+                [("0 h", "0 ч"), ("Digesting food", "Идёт переваривание"), ("Your body is busy with your last meal", "Тело переваривает еду и запасает энергию")],
+                [("4 h", "4 ч"), ("Settling down", "Сахар выравнивается"), ("Blood sugar and insulin drift back to baseline", "Сахар и инсулин возвращаются к исходному уровню")],
+                [("8 h", "8 ч"), ("Shifting gears", "Смена топлива"), ("Glycogen runs lower and your body turns toward fat", "Гликоген убывает, тело переходит на жир")],
+                [("12 h", "12 ч"), ("Fat burning", "Метаболическое переключение"), ("Fat becomes a main fuel", "Сжигание жира растёт, появляются кетоны")],
+                [("16 h", "16 ч"), ("Into ketosis", "Лёгкий кетоз"), ("Ketones climb, and many people feel clear and steady", "Кетонов больше, голова часто яснее")],
+                [("24 h", "24 ч"), ("Cellular cleanup", "Клеточная уборка"), ("Autophagy is thought to increase", "Аутофагия, вероятно, усиливается")],
+                [("48 h", "48 ч"), ("Growth hormone", "Гормон роста"), ("Growth hormone rises and insulin stays very low", "Гормон роста выше, инсулин очень низкий")],
+                [("72 h", "72 ч"), ("Deep renewal", "Глубокое обновление"), ("Early research hints at deeper renewal. Go carefully", "Глубокая перестройка — только при крепком здоровье")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Ember.apk", "Ember.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer", "Android 8.0 (API 26) или новее")),
+            (("Permissions", "Разрешения"), ("Notifications, start after reboot and vibration, for the timer and reminders. No internet.",
+                                            "Уведомления, запуск после перезагрузки и вибрация — для таймера и напоминаний. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Pick a plan that fits, 14:10 or 16:8 is a good start, and light the first fast.", "Выбери подходящий план — 14:10 или 16:8 для начала — и зажги первое голодание."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Ember and remove battery limits so the timer notification and reminders arrive on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Ember автозапуск и сними ограничения батареи, чтобы таймер в шторке и напоминания приходили вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/ember.git\ncd ember\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug -Pdemo   <c># app.ember.demo with a made-up history</c>",
+        "faq": [
+            (("Is there a premium version?", "Есть ли премиум-версия?"),
+             ("No. Every plan, stage, article, badge and challenge is unlocked for everyone, with no ads, no trial and no subscription.",
+              "Нет. Все планы, этапы, статьи, награды и испытания открыты для всех, без рекламы, пробного периода и подписки.")),
+            (("Is anything sent anywhere?", "Что-то отправляется в сеть?"),
+             ("No. No accounts, no servers, no analytics, and the app has no internet permission. Fasts, weight, water and check-ins live in a local database on the phone. Settings → Backup exports everything to a JSON file you keep.",
+              "Нет. Ни аккаунтов, ни серверов, ни аналитики, и у приложения нет доступа к интернету. Голодания, вес, вода и самочувствие хранятся в локальной базе на телефоне. «Настройки → Резервная копия» выгрузит всё в JSON-файл, который останется у тебя.")),
+            (("Is fasting safe for me?", "Мне можно голодать?"),
+             ("Fasting isn't for everyone. Talk to a doctor first if you're pregnant or breastfeeding, under 18, have had an eating disorder, have diabetes or take medication that lowers blood sugar, or live with a chronic condition. Stop a fast whenever you feel faint or unwell. Ember shares general information and is not medical advice.",
+              "Голодание подходит не всем. Сначала посоветуйся с врачом, если ты ждёшь ребёнка или кормишь грудью, тебе меньше 18 лет, было расстройство пищевого поведения, есть диабет или ты принимаешь препараты, снижающие сахар, или есть хроническое заболевание. Прекращай голодание при слабости или плохом самочувствии. Ember делится общей информацией и не заменяет врача.")),
+            (("What if I forget to start or stop the timer?", "А если забыть запустить или остановить таймер?"),
+             ("Fix the start or end time of any fast, add a past fast you forgot to log, or discard one started by mistake. Streaks and badges are counted from the history, so they follow your edits.",
+              "Время начала и конца любого голодания можно поправить, прошлое голодание — добавить задним числом, а начатое по ошибке — удалить. Серии и награды считаются по истории, поэтому учтут правки.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -743,10 +859,10 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
-            "serene": ("se-today.png", "se-today.ru.png")}[app["slug"]]
+            "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -1056,6 +1172,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="../unhook/">Unhook</a></li>
         <li><a href="../dayquest/">Dayquest</a></li>
         <li><a href="../serene/">Serene</a></li>
+        <li><a href="../ember/">Ember</a></li>
         <li><a href="../" data-i18n="ft.all">All apps</a></li>
       </ul>
     </div>
@@ -1070,6 +1187,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="https://github.com/bigdevwhale/unhook/releases" target="_blank" rel="noopener" data-i18n="ft.unrel">Unhook releases</a></li>
         <li><a href="https://github.com/bigdevwhale/dayquest/releases" target="_blank" rel="noopener" data-i18n="ft.dqrel">Dayquest releases</a></li>
         <li><a href="https://github.com/bigdevwhale/serene/releases" target="_blank" rel="noopener" data-i18n="ft.serel">Serene releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/ember/releases" target="_blank" rel="noopener" data-i18n="ft.emrel">Ember releases</a></li>
       </ul>
     </div>
     <div class="fine">
