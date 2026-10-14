@@ -20,6 +20,7 @@
   --un-bg: #F3F5F2; --un-ink: #15201B; --un-muted: #5A6A62; --un-green: #138A64; --un-mint: #3ACB95; --un-soft: #DDF1E8; --un-sky: #2F7CC0; --un-gold: #C98A12;
   --se-bg: #F5F3EF; --se-ink: #221E35; --se-muted: #6A6580; --se-violet: #6B5BD2; --se-deep: #5B4FC4; --se-soft: #ECE8FB; --se-peach: #E39A7B; --se-clay: #B0613F;
   --em-bg: #F7F3EE; --em-ink: #231A14; --em-muted: #75685C; --em-orange: #E5602A; --em-soft: #FCE7DC; --em-gold: #C98A0E;
+  --fw-bg: #EFE3C8; --fw-ink: #2B1D10; --fw-muted: #6E5A42; --fw-green: #1E6B50; --fw-soft: #F7EDD6; --fw-gold: #AE7A1C; --fw-gilt: #C9A24E;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -34,14 +35,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C;
   color-scheme: dark;
 }
 
@@ -207,6 +208,12 @@ section { scroll-margin-top: 4rem; }
 .app--ember .btn-primary { background: var(--em-orange); color: #fff; }
 .app--ember .btn-ghost { color: var(--em-ink); border-color: #E3D6CA; }
 .em-shot { border-radius: 20px; background: #F4ECE4; }
+.app--fogwalk { --fl: #E2D2AE; --fm: var(--fw-muted); background: radial-gradient(110% 80% at 100% 0%, var(--fw-soft) 0%, transparent 55%), var(--fw-bg); color: var(--fw-ink); }
+.app--fogwalk .app-tag { color: var(--fw-gold); }
+.app--fogwalk .app-lede em { font-style: normal; color: var(--fw-green); }
+.app--fogwalk .btn-primary { background: var(--fw-green); color: #FBF4E2; }
+.app--fogwalk .btn-ghost { color: var(--fw-ink); border-color: var(--fw-gilt); }
+.fw-shot { border-radius: 20px; background: #F4EAD2; }
 
 .next { border: 1px dashed var(--line); border-radius: 28px; padding: clamp(1.5rem, 4vw, 2.5rem); display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; justify-content: space-between; }
 .next-copy { display: grid; gap: 0.4rem; min-width: 0; max-width: 40rem; }
@@ -222,7 +229,7 @@ section { scroll-margin-top: 4rem; }
 .moment footer { display: flex; justify-content: space-between; gap: 1rem; font: 400 0.75rem/1 var(--f-mono); color: var(--muted); padding-top: 0.8rem; border-top: 1px solid var(--line); margin-top: 0.4rem; }
 .pill { display: inline-flex; align-items: center; gap: 0.4em; }
 .pill::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
-.pill.aw { --dot: var(--aw-accent); } .pill.fs { --dot: var(--fs-blue); } .pill.sz { --dot: var(--sz-red); } .pill.ti { --dot: var(--ti-coral); } .pill.un { --dot: var(--un-dot, var(--un-green)); } .pill.dq { --dot: var(--dq-dot, var(--dq-violet)); } .pill.se { --dot: var(--se-dot, var(--se-violet)); } .pill.em { --dot: var(--em-dot, var(--em-orange)); }
+.pill.aw { --dot: var(--aw-accent); } .pill.fs { --dot: var(--fs-blue); } .pill.sz { --dot: var(--sz-red); } .pill.ti { --dot: var(--ti-coral); } .pill.un { --dot: var(--un-dot, var(--un-green)); } .pill.dq { --dot: var(--dq-dot, var(--dq-violet)); } .pill.se { --dot: var(--se-dot, var(--se-violet)); } .pill.em { --dot: var(--em-dot, var(--em-orange)); } .pill.fw { --dot: var(--fw-dot, var(--fw-green)); }
 /* A lone card in the last row spans it instead of leaving empty cells */
 .moments:not(.feature-grid) > .moment:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
 /* Two cards in the last row: the last one takes the empty cell */
@@ -306,6 +313,8 @@ footer.site a:hover { text-decoration: underline; }
 .cv-se img { box-shadow: 0 20px 50px rgb(91 79 196 / 0.2); }
 .cv-em { background: radial-gradient(110% 80% at 100% 0%, var(--em-soft) 0%, transparent 60%), var(--em-bg); }
 .cv-em img { box-shadow: 0 20px 50px rgb(229 96 42 / 0.2); }
+.cv-fw { background: radial-gradient(110% 80% at 100% 0%, var(--fw-soft) 0%, transparent 60%), var(--fw-bg); }
+.cv-fw img { box-shadow: 0 20px 50px rgb(110 74 30 / 0.25); }
 .card-body { display: grid; gap: 0.9rem; padding: 1.4rem; align-content: start; grid-template-rows: auto auto auto auto 1fr; }
 .card-id { display: flex; align-items: center; gap: 0.75rem; }
 .card-id img { width: 44px; height: 44px; border-radius: 11px; }
@@ -352,6 +361,9 @@ footer.site a:hover { text-decoration: underline; }
 .app--dayquest .ap-visual img { box-shadow: 0 24px 60px rgb(107 78 230 / 0.22); }
 .app--serene .ap-visual img { box-shadow: 0 24px 60px rgb(91 79 196 / 0.22); }
 .app--ember .ap-visual img { box-shadow: 0 24px 60px rgb(229 96 42 / 0.22); }
+.app--fogwalk h1 em { color: var(--fw-green); }
+.app--fogwalk .ap-visual img { box-shadow: 0 24px 60px rgb(110 74 30 / 0.28); }
+.g-fogwalk { --shot-bg: var(--fw-bg); --shot-ratio: 540 / 1145; }
 
 .feature-grid { grid-template-columns: repeat(3, 1fr); }
 .feature-grid .moment { grid-template-rows: auto 1fr; }
@@ -413,16 +425,16 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-serene, .g-ember { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-serene, .g-ember, .g-fogwalk { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }

@@ -10,6 +10,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Dayquest](https://github.com/bigdevwhale/dayquest): turn your days into a quest, a pixel-art habit RPG for Android
 - [Serene](https://github.com/bigdevwhale/serene): meditation, guided visualization and affirmations for Android
 - [Ember](https://github.com/bigdevwhale/ember): intermittent fasting, made warm and simple, for Android
+- [Fogwalk](https://github.com/bigdevwhale/fogwalk): your city hidden in mist, revealed as you walk, a fantasy exploration game for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
 
