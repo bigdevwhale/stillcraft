@@ -21,6 +21,7 @@
   --se-bg: #F5F3EF; --se-ink: #221E35; --se-muted: #6A6580; --se-violet: #6B5BD2; --se-deep: #5B4FC4; --se-soft: #ECE8FB; --se-peach: #E39A7B; --se-clay: #B0613F;
   --em-bg: #F7F3EE; --em-ink: #231A14; --em-muted: #75685C; --em-orange: #E5602A; --em-soft: #FCE7DC; --em-gold: #C98A0E;
   --fw-bg: #EFE3C8; --fw-ink: #2B1D10; --fw-muted: #6E5A42; --fw-green: #1E6B50; --fw-soft: #F7EDD6; --fw-gold: #AE7A1C; --fw-gilt: #C9A24E;
+  --dm-bg: #F5EFE4; --dm-ink: #1E2433; --dm-muted: #6B6458; --dm-red: #B3342F; --dm-soft: #F1E4CC; --dm-blue: #2F5C93; --dm-line: #E2D0AE;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -35,14 +36,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F;
   color-scheme: dark;
 }
 
@@ -214,6 +215,12 @@ section { scroll-margin-top: 4rem; }
 .app--fogwalk .btn-primary { background: var(--fw-green); color: #FBF4E2; }
 .app--fogwalk .btn-ghost { color: var(--fw-ink); border-color: var(--fw-gilt); }
 .fw-shot { border-radius: 20px; background: #F4EAD2; }
+.app--dearme { --fl: var(--dm-line); --fm: var(--dm-muted); background: radial-gradient(110% 80% at 100% 0%, var(--dm-soft) 0%, transparent 55%), var(--dm-bg); color: var(--dm-ink); }
+.app--dearme .app-tag { color: var(--dm-red); }
+.app--dearme .app-lede em { font-style: normal; color: var(--dm-blue); }
+.app--dearme .btn-primary { background: var(--dm-red); color: #FBF6EC; }
+.app--dearme .btn-ghost { color: var(--dm-ink); border-color: var(--dm-line); }
+.dm-shot { border-radius: 20px; background: #F1E8D8; }
 
 .next { border: 1px dashed var(--line); border-radius: 28px; padding: clamp(1.5rem, 4vw, 2.5rem); display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; justify-content: space-between; }
 .next-copy { display: grid; gap: 0.4rem; min-width: 0; max-width: 40rem; }
@@ -229,7 +236,7 @@ section { scroll-margin-top: 4rem; }
 .moment footer { display: flex; justify-content: space-between; gap: 1rem; font: 400 0.75rem/1 var(--f-mono); color: var(--muted); padding-top: 0.8rem; border-top: 1px solid var(--line); margin-top: 0.4rem; }
 .pill { display: inline-flex; align-items: center; gap: 0.4em; }
 .pill::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
-.pill.aw { --dot: var(--aw-accent); } .pill.fs { --dot: var(--fs-blue); } .pill.sz { --dot: var(--sz-red); } .pill.ti { --dot: var(--ti-coral); } .pill.un { --dot: var(--un-dot, var(--un-green)); } .pill.dq { --dot: var(--dq-dot, var(--dq-violet)); } .pill.se { --dot: var(--se-dot, var(--se-violet)); } .pill.em { --dot: var(--em-dot, var(--em-orange)); } .pill.fw { --dot: var(--fw-dot, var(--fw-green)); }
+.pill.aw { --dot: var(--aw-accent); } .pill.fs { --dot: var(--fs-blue); } .pill.sz { --dot: var(--sz-red); } .pill.ti { --dot: var(--ti-coral); } .pill.un { --dot: var(--un-dot, var(--un-green)); } .pill.dq { --dot: var(--dq-dot, var(--dq-violet)); } .pill.se { --dot: var(--se-dot, var(--se-violet)); } .pill.em { --dot: var(--em-dot, var(--em-orange)); } .pill.fw { --dot: var(--fw-dot, var(--fw-green)); } .pill.dm { --dot: var(--dm-dot, var(--dm-red)); }
 /* A lone card in the last row spans it instead of leaving empty cells */
 .moments:not(.feature-grid) > .moment:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
 /* Two cards in the last row: the last one takes the empty cell */
@@ -315,6 +322,8 @@ footer.site a:hover { text-decoration: underline; }
 .cv-em img { box-shadow: 0 20px 50px rgb(229 96 42 / 0.2); }
 .cv-fw { background: radial-gradient(110% 80% at 100% 0%, var(--fw-soft) 0%, transparent 60%), var(--fw-bg); }
 .cv-fw img { box-shadow: 0 20px 50px rgb(110 74 30 / 0.25); }
+.cv-dm { background: radial-gradient(110% 80% at 100% 0%, var(--dm-soft) 0%, transparent 60%), var(--dm-bg); }
+.cv-dm img { box-shadow: 0 20px 50px rgb(30 36 51 / 0.2); }
 .card-body { display: grid; gap: 0.9rem; padding: 1.4rem; align-content: start; grid-template-rows: auto auto auto auto 1fr; }
 .card-id { display: flex; align-items: center; gap: 0.75rem; }
 .card-id img { width: 44px; height: 44px; border-radius: 11px; }
@@ -364,6 +373,9 @@ footer.site a:hover { text-decoration: underline; }
 .app--fogwalk h1 em { color: var(--fw-green); }
 .app--fogwalk .ap-visual img { box-shadow: 0 24px 60px rgb(110 74 30 / 0.28); }
 .g-fogwalk { --shot-bg: var(--fw-bg); --shot-ratio: 540 / 1145; }
+.app--dearme h1 em { color: var(--dm-blue); }
+.app--dearme .ap-visual img { box-shadow: 0 24px 60px rgb(30 36 51 / 0.22); }
+.g-dearme { --shot-bg: var(--dm-bg); --shot-ratio: 540 / 1200; }
 
 .feature-grid { grid-template-columns: repeat(3, 1fr); }
 .feature-grid .moment { grid-template-rows: auto 1fr; }
@@ -422,19 +434,19 @@ pre.code .c { opacity: 0.55; }
 
 /* Grid tracks never grow past the screen; gallery columns fit their item counts */
 .ap-band > *, .get > * { min-width: 0; }
-.g-anyway, .g-unhook, .g-dayquest { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.g-anyway, .g-unhook, .g-dayquest, .g-dearme { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }

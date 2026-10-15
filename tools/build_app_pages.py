@@ -922,6 +922,116 @@ APPS = [
               "GPS работает, только пока открыта карта или идёт начатое вами странствие. Остановите его, когда вернётесь домой, и приложение затихнет.")),
         ],
     },
+    {
+        "slug": "dearme",
+        "name": "DearMe",
+        "panel": "app--dearme",
+        "gallery": "g-dearme",
+        "icon": "dearme-logo.svg",
+        "visual": "dm-letters.png", "visual_ru": "dm-letters.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/dearme",
+        "download": "https://github.com/bigdevwhale/dearme/releases/latest/download/DearMe.apk",
+        "version": "v1.0.0",
+        "tagline": ("Letters to your future self. Sealed until the day comes.", "Письма себе в будущее. Запечатаны до нужного дня."),
+        "badge": ("Letters to your future self · New", "Письма себе в будущее · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("We remember what happened, but not how it felt. <em>Letters to your future self, sealed until the day comes.</em>",
+                  "Мы помним, что происходило, но не помним, каково это было. <em>Письма себе в будущее, запечатанные до нужного дня.</em>"),
+        "desc": ("DearMe keeps what fades in envelopes: what we were afraid of, what the street looked like, how our voice sounded on an ordinary Tuesday. Write a letter, add a photo or a minute of your voice, pick a day and seal it. Until then it can't be opened, not even by you. And at a random moment each day it calls: two minutes, what's happening right now? Free, with no ads and no account, and nothing leaves the phone.",
+                 "DearMe хранит в конвертах то, что забывается: чего мы боялись, как выглядела улица, как звучал наш голос в самый обычный вторник. Напиши письмо, добавь снимок или минуту голоса, выбери день и запечатай. До этого дня письмо не открыть, даже тебе. А в случайный момент каждого дня приложение зовёт: две минуты — что происходит прямо сейчас? Бесплатно, без рекламы и аккаунта, ничего не покидает телефон."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · Works offline · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Работает офлайн · English и Русский"),
+        "features": [
+            (("Letters", "Письма"),
+             ("Text, several photos and a voice note of up to a minute. A letter opens in a week, a month, 1, 5, 10 or 30 years, or on any date you pick.",
+              "Текст, несколько снимков и голос до минуты. Письмо откроется через неделю, месяц, 1, 5, 10 или 30 лет — или в любую выбранную дату.")),
+            (("Photos, any way you like", "Снимки как угодно"),
+             ("The back camera, a selfie, both at once BeReal-style (back first, a selfie a second later), or pictures from the gallery.",
+              "Задняя камера, селфи, обе сразу, как в BeReal (сначала задняя, через секунду селфи), или снимки из галереи.")),
+            (("Random moments", "Случайные моменты"),
+             ("Every day at a surprise time inside your window, DearMe calls. You have two minutes for a dual shot and one line. Late answers get a stamp.",
+              "Каждый день в неожиданное время внутри твоего окна DearMe зовёт. У тебя две минуты на двойной снимок и одну строку. На опоздавших ответах остаётся штамп.")),
+            (("Rituals", "Ритуалы"),
+             ("Your own rules for when to be called: a random or exact time, on chosen weekdays, once a month or once a year, with what goes in and how long it stays sealed.",
+              "Свои правила, когда звать: случайное или точное время, выбранные дни недели, раз в месяц или раз в год, что внутри и на сколько запечатывать.")),
+            (("Step by step", "Постепенно"),
+             ("Moments open after a week while the habit is new, after a month during the first year, after a year from then on, so there is something to open from the second week.",
+              "Пока привычка новая, моменты открываются через неделю, в первый год — через месяц, дальше — через год. Открывать есть что уже со второй недели.")),
+            (("Breaking the seal", "Печать"),
+             ("A sealed letter shows only its date, a countdown and what's inside: 📷 2 · 🎙 0:42 · 340 words. When the day comes, you break the wax and the flap lifts.",
+              "У запечатанного письма видны только дата, обратный отсчёт и что внутри: 📷 2 · 🎙 0:42 · 340 слов. Когда день приходит, ты ломаешь сургуч, и клапан конверта поднимается.")),
+            (("Then &amp; now", "Тогда и сейчас"),
+             ("After opening, stand where you stood and take the same shot today. The two go side by side.",
+              "После открытия встань там же, где тогда, и сделай такой же снимок. Они встанут рядом.")),
+            (("Write back", "Ответ себе"),
+             ("Reply to your past self, and the answer is sealed for the next stretch: a correspondence with yourself across years.",
+              "Ответь себе из прошлого, и ответ запечатается на следующий срок — переписка с собой длиной в годы.")),
+            (("Share cards", "Открытки"),
+             ("Story-sized pictures: “I sealed a letter to myself, it opens on 14 October 2056”, an opened letter with its photo, then &amp; now.",
+              "Картинки для сторис: «Я запечатал(а) письмо себе, оно откроется 14 октября 2056 г.», открытое письмо со снимком, «тогда и сейчас».")),
+            (("40 questions", "40 вопросов"),
+             ("What are you most afraid of right now? Who do you miss? What will you laugh at when you read this? For when the page is blank.",
+              "Чего ты сейчас боишься больше всего? По кому ты скучаешь? Над чем ты посмеёшься, когда это прочитаешь? Для пустой страницы.")),
+            (("Clock check", "Проверка часов"),
+             ("Moving the phone's date forward doesn't open anything: DearMe compares the clock with time since boot and, when online, with the network.",
+              "Перевести дату вперёд не поможет: DearMe сверяет часы со временем с момента загрузки, а при интернете — с сетевым временем.")),
+            (("Everything stays on the phone", "Всё остаётся на телефоне"),
+             ("No account, no servers, no analytics, no ads. Every letter, photo and voice note fits in one scrambled .dearme backup file to carry to the next phone.",
+              "Ни аккаунта, ни серверов, ни аналитики, ни рекламы. Все письма, снимки и записи помещаются в один зашифрованный файл бэкапа .dearme для переезда на новый телефон.")),
+        ],
+        "shots": [
+            ("dm-letters.png", "dm-letters.ru.png", ("Letters", "Письма"), ("On their way, with the next countdown.", "В пути, с отсчётом до следующего.")),
+            ("dm-sealed.png", "dm-sealed.ru.png", ("Sealed", "Запечатано"), ("Only the date and a countdown.", "Только дата и обратный отсчёт.")),
+            ("dm-ceremony.png", "dm-ceremony.ru.png", ("The seal", "Печать"), ("The day has come.", "Нужный день настал.")),
+            ("dm-opened.png", "dm-opened.ru.png", ("Opened", "Открыто"), ("A letter with a dual shot.", "Письмо с двойным снимком.")),
+            ("dm-write.png", "dm-write.ru.png", ("Write", "Письмо"), ("A new letter with a question.", "Новое письмо с вопросом.")),
+            ("dm-rituals.png", "dm-rituals.ru.png", ("Rituals", "Ритуалы"), ("When DearMe should call you.", "Когда DearMe будет звать.")),
+        ],
+        "extra": {
+            "title": ("Rituals to start from", "Готовые ритуалы"),
+            "head": [("Ritual", "Ритуал"), ("When it calls", "Когда зовёт"), ("What goes in", "Что внутри"), ("Opens", "Откроется")],
+            "rows": [
+                [("Random moment", "Случайный момент"), ("Every day at a surprise time between 10:00 and 22:00", "Каждый день в неожиданное время с 10:00 до 22:00"), ("Both cameras and one line, in two minutes", "Обе камеры и одна строка за две минуты"), ("Step by step: a week, a month, then a year", "Постепенно: через неделю, месяц, потом год")],
+                [("Sunday letter", "Воскресное письмо"), ("Sundays at 21:00", "По воскресеньям в 21:00"), ("A selfie and a letter, with a question", "Селфи и письмо с вопросом"), ("In a year", "Через год")],
+                [("First of the month", "Первое число"), ("The 1st of every month at 9:00", "1-го числа каждого месяца в 9:00"), ("What you expect from the month", "Чего ты ждёшь от месяца"), ("When the month ends", "Когда месяц закончится")],
+                [("Birthday letter", "Письмо на день рождения"), ("Once a year", "Раз в год"), ("A selfie, your voice and a letter", "Селфи, голос и письмо"), ("In ten years", "Через десять лет")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("DearMe.apk", "DearMe.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Camera and microphone for letters, notifications and exact alarms for rituals, and internet only for a quiet network clock check.",
+                                            "Камера и микрофон для писем, уведомления и точные будильники для ритуалов и интернет только для тихой сверки с сетевыми часами.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Write your first letter, pick a day and seal it.", "Напиши первое письмо, выбери день и запечатай его."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for DearMe and remove battery limits, or random moments may not ring.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши DearMe автозапуск и сними ограничения батареи, иначе случайные моменты могут не приходить."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/dearme.git\ncd dearme\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK; a ritual's Try it now calls right away</c>\n./gradlew installDebug -Pdemo   <c># app.dearme.demo with a year of made-up letters</c>",
+        "faq": [
+            (("Is there a premium version?", "Есть ли премиум-версия?"),
+             ("No. Every letter, ritual, question and card is there for everyone, with no ads, no trial and no subscription.",
+              "Нет. Все письма, ритуалы, вопросы и открытки доступны всем, без рекламы, пробного периода и подписки.")),
+            (("Can I peek before the day?", "Можно подсмотреть раньше срока?"),
+             ("Not easily. Moving the date forward doesn't work, and a backup is scrambled inside. There is no server, though, so the seal is a strong habit rather than a vault: a diary lock for the person you're going to be.",
+              "Непросто. Перевод даты не сработает, а бэкап внутри зашифрован. Но сервера нет, поэтому печать — это крепкая привычка, а не сейф: замочек на дневнике для того, кем ты станешь.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Letters live only on your phone. Save a backup in Settings → Backup now and then, keep the .dearme file somewhere safe and restore it on the new phone. For a letter meant for 2056, this matters.",
+              "Письма хранятся только на телефоне. Время от времени сохраняй бэкап в «Настройки → Бэкап», держи файл .dearme в надёжном месте и восстанови его на новом телефоне. Для письма в 2056 год это важно.")),
+            (("Does anything leave my phone?", "Что-то уходит с телефона?"),
+             ("No. Letters, photos and voice notes stay in the app's private storage. The only network request is a quiet look at the network clock before a seal is broken.",
+              "Нет. Письма, снимки и записи лежат в закрытом хранилище приложения. Единственный сетевой запрос — тихая сверка с сетевыми часами перед тем, как сломать печать.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -970,11 +1080,11 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
-            "fogwalk": ("fw-map.png", "fw-map.ru.png")}[app["slug"]]
+            "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -1285,6 +1395,8 @@ TEMPLATE = """<!doctype html>
         <li><a href="../dayquest/">Dayquest</a></li>
         <li><a href="../serene/">Serene</a></li>
         <li><a href="../ember/">Ember</a></li>
+        <li><a href="../fogwalk/">Fogwalk</a></li>
+        <li><a href="../dearme/">DearMe</a></li>
         <li><a href="../" data-i18n="ft.all">All apps</a></li>
       </ul>
     </div>
@@ -1300,6 +1412,8 @@ TEMPLATE = """<!doctype html>
         <li><a href="https://github.com/bigdevwhale/dayquest/releases" target="_blank" rel="noopener" data-i18n="ft.dqrel">Dayquest releases</a></li>
         <li><a href="https://github.com/bigdevwhale/serene/releases" target="_blank" rel="noopener" data-i18n="ft.serel">Serene releases</a></li>
         <li><a href="https://github.com/bigdevwhale/ember/releases" target="_blank" rel="noopener" data-i18n="ft.emrel">Ember releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/fogwalk/releases" target="_blank" rel="noopener" data-i18n="ft.fwrel">Fogwalk releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/dearme/releases" target="_blank" rel="noopener" data-i18n="ft.dmrel">DearMe releases</a></li>
       </ul>
     </div>
     <div class="fine">
