@@ -1542,7 +1542,7 @@ APPS = [
         "visual": "hs-tower.png", "visual_ru": "hs-tower.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/hearthspell",
         "download": "https://github.com/bigdevwhale/hearthspell/releases/latest/download/Hearthspell.apk",
-        "version": "v1.0.0",
+        "version": "v1.1.0",
         "tagline": ("Chores as spells in a wizard's tower: keep the floors bright, wake the helpers.", "Домашние дела как заклинания в башне волшебника: держи этажи в чистоте и буди помощников."),
         "badge": ("Cozy pixel chores · New", "Уютные дела в пикселях · Новинка"),
         "status": ("ok", "New", "Новинка"),
@@ -1599,7 +1599,7 @@ APPS = [
             ],
         },
         "facts": [
-            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("Version", "Версия"), ("v1.1.0", "v1.1.0")),
             (("File", "Файл"), ("Hearthspell.apk", "Hearthspell.apk")),
             (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
             (("Permissions", "Разрешения"), ("Notifications for one quiet reminder a day, only when imps have moved in or a letter has arrived. No internet.",
