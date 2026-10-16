@@ -13,6 +13,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Fogwalk](https://github.com/bigdevwhale/fogwalk): your city hidden in mist, revealed as you walk, a fantasy exploration game for Android
 - [DearMe](https://github.com/bigdevwhale/dearme): letters to your future self, sealed until the day comes, for Android
 - [Glow](https://github.com/bigdevwhale/glow): praise for every win, a jar of stones to shake and five voices to cheer you on, for Android
+- [Waypoint](https://github.com/bigdevwhale/waypoint): goals under a night sky, with 17 methods from Mandala 64 and OKR to WOOP and the 12-week year, for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
 

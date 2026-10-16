@@ -1145,6 +1145,104 @@ APPS = [
               "«Настройки → Резервная копия» сохраняет победы, добрые слова со скриншотами и вечера в один JSON-файл. Восстанови его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "waypoint",
+        "name": "Waypoint",
+        "panel": "app--waypoint",
+        "gallery": "g-waypoint",
+        "icon": "waypoint-logo.svg",
+        "visual": "wp-mandala.png", "visual_ru": "wp-mandala.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/waypoint",
+        "download": "https://github.com/bigdevwhale/waypoint/releases/latest/download/Waypoint.apk",
+        "version": "v1.0.0",
+        "tagline": ("Goals under a night sky: 17 methods in one app.", "Цели под ночным небом: 17 методов в одном приложении."),
+        "badge": ("Goals under a night sky · New", "Цели под ночным небом · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("17 proven ways to reach a goal. <em>Every step lights a star.</em>",
+                  "17 проверенных способов дойти до цели. <em>Каждый шаг зажигает звезду.</em>"),
+        "desc": ("Goals differ, and so do the ways to reach them. Waypoint gathers the methods that work into one free app: Ohtani's Mandala 64, OKR, the 12-week year, WOOP and thirteen more, each with a short guide. Every goal is drawn as a constellation, every finished step lights a star, and Today brings the steps from all your goals into one course. No ads, no account, and nothing leaves the phone.",
+                 "Цели бывают разные, и пути к ним тоже. Waypoint собирает работающие методы в одно бесплатное приложение: Мандалу 64 Сёхэя Отани, OKR, 12-недельный год, WOOP и ещё тринадцать, у каждого есть короткое объяснение. Каждая цель рисуется созвездием, каждый сделанный шаг зажигает звезду, а экран «Сегодня» собирает шаги всех целей в один курс. Без рекламы и аккаунта, ничего не покидает телефон."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · Works offline · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Работает офлайн · English и Русский"),
+        "features": [
+            (("Mandala 64", "Мандала 64"),
+             ("Ohtani's chart: a goal in the centre, eight pillars around it and eight actions for each, 64 in all, on one star map. Light a star when an action has become part of you. Share the chart as a poster.",
+              "Таблица Отани: цель в центре, вокруг восемь опор и по восемь действий на каждую, всего 64, на одной звёздной карте. Зажигай звезду, когда действие стало частью тебя. Карту можно отправить постером.")),
+            (("Eight ways to drive a goal", "Восемь способов вести цель"),
+             ("OKR with key results and check-ins, the 12-week year scored every week, 4DX with a scoreboard, 1% a day, a 30-day pact, a reverse plan from the finish line, or simple milestones.",
+              "OKR с ключевыми результатами и отметками, 12-недельный год с оценкой каждую неделю, 4DX с табло, 1% в день, пакт на 30 дней, обратный план от финиша или простые вехи.")),
+            (("Lenses for any goal", "Линзы для любой цели"),
+             ("SMART for clear wording, WOOP for if-then plans, GROW for a coaching session with yourself, five whys for the real reason, and a pre-mortem to find out how it could fail.",
+              "SMART для ясной формулировки, WOOP для планов «если–то», GROW — коуч-сессия с собой, пять «почему» для настоящей причины и пре-мортем, чтобы понять, как цель может провалиться.")),
+            (("When you don't know what you want", "Когда не знаешь, чего хочешь"),
+             ("Rate eight areas on the wheel of life, sketch three Odyssey lives, keep five of twenty-five, or put a price on your dreams. A five-question quiz suggests a method.",
+              "Оцени восемь сфер на колесе баланса, набросай три жизни «Одиссеи», оставь пять из двадцати пяти или назначь мечтам цену. Квиз из пяти вопросов подскажет метод.")),
+            (("One course for today", "Один курс на сегодня"),
+             ("Steps from every goal on one screen, with streaks and reminders. On bad days, a backup course of your if-then plans.",
+              "Шаги всех целей на одном экране, с сериями и напоминаниями. В трудный день — запасной курс из твоих планов «если–то».")),
+            (("Focus and review", "Фокус и итоги"),
+             ("A focus limit keeps you from spreading thin, and extra goals wait in a queue. A short weekly review, a home-screen widget, and a wall of reached goals.",
+              "Лимит фокуса не даёт распыляться, лишние цели ждут в очереди. Короткие итоги недели, виджет на главном экране и стена достигнутых целей.")),
+        ],
+        "shots": [
+            ("wp-today.png", "wp-today.ru.png", ("Today", "Сегодня"), ("Steps from every goal, lit as you go.", "Шаги всех целей, зажигаются по ходу дня.")),
+            ("wp-goals.png", "wp-goals.ru.png", ("Goals", "Цели"), ("Each goal is its own constellation.", "У каждой цели своё созвездие.")),
+            ("wp-goal.png", "wp-goal.ru.png", ("A goal", "Цель"), ("Progress, the why and the method.", "Прогресс, «зачем» и метод.")),
+            ("wp-mandala.png", "wp-mandala.ru.png", ("Mandala 64", "Мандала 64"), ("Eight pillars, 64 stars.", "Восемь опор, 64 звезды.")),
+            ("wp-okr.png", "wp-okr.ru.png", ("OKR", "OKR"), ("Key results and a weekly check-in.", "Ключевые результаты и отметка раз в неделю.")),
+            ("wp-weeks12.png", "wp-weeks12.ru.png", ("12-week year", "12-недельный год"), ("Every week scored, 85% is excellent.", "Оценка каждой недели, 85% — отлично.")),
+            ("wp-compass.png", "wp-compass.ru.png", ("Compass", "Компас"), ("17 methods, grouped by the road.", "17 методов по этапам пути.")),
+            ("wp-wheel.png", "wp-wheel.ru.png", ("Wheel of life", "Колесо баланса"), ("Where a goal would help most.", "Где цель поможет больше всего.")),
+            ("wp-journal.png", "wp-journal.ru.png", ("Journal", "Журнал"), ("Reviews and reached goals.", "Итоги недель и достигнутые цели.")),
+        ],
+        "extra": {
+            "title": ("Which method for which goal", "Какой метод для какой цели"),
+            "head": [("Method", "Метод"), ("Good for", "Подходит для"), ("You get", "Что получаешь")],
+            "rows": [
+                [("Mandala 64", "Мандала 64"), ("A big dream with many sides", "Большая мечта с разными сторонами"), ("The whole road on one page", "Весь путь на одной странице")],
+                [("OKR", "OKR"), ("A result you can measure, in a quarter", "Измеримый результат за квартал"), ("3–5 numbers that prove it", "3–5 цифр, которые это подтвердят")],
+                [("12-week year", "12-недельный год"), ("Putting things off", "Когда всё откладывается"), ("A deadline that is always close", "Дедлайн, который всегда рядом")],
+                [("4DX", "4DX"), ("One key goal among daily noise", "Одна главная цель среди текучки"), ("Actions you control and a scoreboard", "Действия в твоих руках и табло")],
+                [("1% a day", "1% в день"), ("Anything you can count", "Всё, что можно посчитать"), ("Compounding: double in 70 days", "Сложный процент: вдвое за 70 дней")],
+                [("30-day pact", "Пакт на 30 дней"), ("Trying something new", "Попробовать что-то новое"), ("An experiment, not a test", "Эксперимент, а не экзамен")],
+                [("Reverse plan", "Обратный план"), ("A project with a date", "Проект с датой"), ("Dated steps from the finish back to today", "Шаги с датами от финиша до сегодня")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Waypoint.apk", "Waypoint.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Notifications for the morning course, the evening check, the weekly review and step reminders. No internet.",
+                                            "Уведомления для утреннего курса, вечерней проверки, итогов недели и напоминаний о шагах. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Pick a method, or take the quiz, and set your first goal.", "Выбери метод или пройди квиз и поставь первую цель."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Waypoint and remove battery limits so reminders arrive on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Waypoint автозапуск и сними ограничения батареи, чтобы напоминания приходили вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/waypoint.git\ncd waypoint\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug -Pdemo   <c># app.waypoint.demo with made-up goals</c>",
+        "faq": [
+            (("Is there a premium version?", "Есть ли премиум-версия?"),
+             ("No. All 17 methods and every feature are there for everyone, with no ads, no trial and no subscription.",
+              "Нет. Все 17 методов и все функции доступны всем, без рекламы, пробного периода и подписки.")),
+            (("Which method should I pick?", "Какой метод выбрать?"),
+             ("Take the five-question quiz in the Compass tab. Every method also explains itself where you choose it, and you can add lenses to any goal later.",
+              "Пройди квиз из пяти вопросов во вкладке «Компас». Каждый метод объясняет себя прямо там, где его выбираешь, а линзы можно добавить к любой цели позже.")),
+            (("Why a limit on goals?", "Зачем лимит целей?"),
+             ("With too many goals at once, none of them moves. You choose the limit, or turn it off; extra goals wait in a queue.",
+              "Когда целей слишком много, не движется ни одна. Лимит выбираешь ты, его можно выключить, а лишние цели ждут в очереди.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Settings → Backup saves every goal, step, review and note into one JSON file. Restore it on the new phone.",
+              "«Настройки → Резервная копия» сохраняет все цели, шаги, итоги и заметки в один JSON-файл. Восстанови его на новом телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -1193,12 +1291,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -1512,6 +1610,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="../fogwalk/">Fogwalk</a></li>
         <li><a href="../dearme/">DearMe</a></li>
         <li><a href="../glow/">Glow</a></li>
+        <li><a href="../waypoint/">Waypoint</a></li>
         <li><a href="../" data-i18n="ft.all">All apps</a></li>
       </ul>
     </div>
@@ -1530,6 +1629,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="https://github.com/bigdevwhale/fogwalk/releases" target="_blank" rel="noopener" data-i18n="ft.fwrel">Fogwalk releases</a></li>
         <li><a href="https://github.com/bigdevwhale/dearme/releases" target="_blank" rel="noopener" data-i18n="ft.dmrel">DearMe releases</a></li>
         <li><a href="https://github.com/bigdevwhale/glow/releases" target="_blank" rel="noopener" data-i18n="ft.glrel">Glow releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/waypoint/releases" target="_blank" rel="noopener" data-i18n="ft.wprel">Waypoint releases</a></li>
       </ul>
     </div>
     <div class="fine">
