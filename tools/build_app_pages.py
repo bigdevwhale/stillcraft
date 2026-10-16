@@ -1032,6 +1032,119 @@ APPS = [
               "Нет. Письма, снимки и записи лежат в закрытом хранилище приложения. Единственный сетевой запрос — тихая сверка с сетевыми часами перед тем, как сломать печать.")),
         ],
     },
+    {
+        "slug": "glow",
+        "name": "Glow",
+        "panel": "app--glow",
+        "gallery": "g-glow",
+        "icon": "glow-logo.svg",
+        "visual": "gl-praise.png", "visual_ru": "gl-praise.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/glow",
+        "download": "https://github.com/bigdevwhale/glow/releases/latest/download/Glow.apk",
+        "version": "v1.0.0",
+        "tagline": ("Every win deserves a little praise.", "Каждая победа заслуживает похвалы."),
+        "badge": ("Praise for every win · New", "Похвала за каждую победу · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("The inner critic never misses a mistake. <em>Glow never misses a win.</em>",
+                  "Внутренний критик не пропускает ни одной ошибки. <em>Glow не пропускает ни одной победы.</em>"),
+        "desc": ("Write down what you did, from washing the dishes to landing the job, say how big it felt, and get praised for it. Every win drops into a glass jar as a stone that rolls when you tilt the phone. Five voices to cheer you on, an SOS for hard moments, a translator for your inner critic and a place to keep the kind things people said. Free, with no ads and no account, and nothing leaves the phone.",
+                 "Запиши, что у тебя получилось, от помытой посуды до новой работы, скажи, насколько это большое дело, и получи похвалу. Каждая победа падает в стеклянную банку камешком, который катается, когда наклоняешь телефон. Пять голосов поддержки, SOS для трудных минут, переводчик для внутреннего критика и место для добрых слов, которые тебе говорили. Бесплатно, без рекламы и аккаунта, ничего не покидает телефон."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · Works offline · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Работает офлайн · English и Русский"),
+        "features": [
+            (("Praise for every win", "Похвала за каждую победу"),
+             ("Tiny, solid or huge: the praise, the confetti and the vibration grow with the win. Quick ideas help on days when getting out of bed is the win.",
+              "Крошечная, хорошая или огромная: похвала, конфетти и вибрация растут вместе с победой. Готовые идеи выручат в дни, когда победа — встать с кровати.")),
+            (("A jar of wins", "Банка побед"),
+             ("Each win drops in as a stone coloured by its area. Tilt or shake the phone and the stones roll; tap one to remember the win. One jar per month.",
+              "Каждая победа падает камешком цвета своей сферы. Наклони или встряхни телефон, и камешки покатятся; нажми на камешек, чтобы вспомнить победу. Своя банка на каждый месяц.")),
+            (("Five voices", "Пять голосов"),
+             ("A warm friend, a granny, a sports commentator, a wise mentor or a butler. Each praises, comforts and says goodnight in its own way.",
+              "Тёплый друг, бабушка, спортивный комментатор, мудрый наставник или дворецкий. Каждый хвалит, утешает и желает спокойной ночи по-своему.")),
+            (("Praise of the day", "Похвала дня"),
+             ("A new one every morning, in a notification and a home-screen widget. Keep it, ask for another, share it.",
+              "Каждое утро новая — в уведомлении и в виджете на главном экране. Сохрани её, попроси другую, поделись.")),
+            (("I feel bad", "Мне плохо"),
+             ("A dark, quiet room with drifting sparkles, the kindest words one by one, a soft heartbeat and a breathing circle.",
+              "Тёмная тихая комната с плывущими искрами, самые добрые слова одно за другим, мягкий стук сердца и круг для дыхания.")),
+            (("Self-criticism translator", "Переводчик с самокритичного"),
+             ("Write the harsh thought. Glow names the thinking trap and offers a kinder way to say the same thing. Fully offline.",
+              "Напиши жёсткую мысль. Glow назовёт ловушку мышления и предложит сказать то же самое добрее. Полностью офлайн.")),
+            (("Kind words", "Добрые слова"),
+             ("Keep compliments from real people, with a screenshot if you like, and read them in shuffle mode on hard days.",
+              "Храни комплименты от настоящих людей, со скриншотом, если хочешь, и перечитывай их вперемешку в трудные дни.")),
+            (("Evening of pride", "Вечер гордости"),
+             ("Before sleep, three things you're proud of today. They collect in a pride diary.",
+              "Перед сном — три вещи, которыми ты гордишься сегодня. Они собираются в дневник гордости.")),
+            (("A streak that never burns", "Серия, которая не сгорает"),
+             ("Days in a row with wins. Miss one and the jar simply waits; the best run stays.",
+              "Дни подряд с победами. Пропустишь день — банка просто подождёт, а рекорд останется.")),
+            (("Weekly report", "Отчёт за неделю"),
+             ("Every Sunday, the report on how great you are: wins per day, your strongest area, your best day and the huge wins, shareable as a picture.",
+              "По воскресеньям — отчёт о твоей крутости: победы по дням, самая сильная сторона, лучший день и огромные победы. Можно поделиться картинкой.")),
+            (("Orders and certificates", "Ордена и грамоты"),
+             ("16 orders with three degrees each, from the Order of Small Things to the Order of Quiet Courage, and a certificate of honour for every one.",
+              "16 орденов по три степени, от Ордена Маленьких Дел до Ордена Тихой Отваги, и почётная грамота за каждый.")),
+            (("Speaks to you properly", "Обращается правильно"),
+             ("In Russian, Glow asks whether to address you in the masculine or the feminine, so it's «ты сделал» or «ты сделала», never «сделал(а)».",
+              "По-русски Glow спрашивает, обращаться к тебе в мужском или женском роде, и пишет «ты сделал» или «ты сделала», а не «сделал(а)».")),
+        ],
+        "shots": [
+            ("gl-today.png", "gl-today.ru.png", ("Today", "Сегодня"), ("The praise of the day.", "Похвала дня.")),
+            ("gl-praise.png", "gl-praise.ru.png", ("A huge win", "Огромная победа"), ("Confetti as big as the win.", "Конфетти размером с победу.")),
+            ("gl-jar.png", "gl-jar.ru.png", ("The jar", "Банка"), ("A month of wins, ready to shake.", "Месяц побед, можно встряхнуть.")),
+            ("gl-kind.png", "gl-kind.ru.png", ("Kind words", "Добрые слова"), ("Proof for the days you forget.", "Доказательства на дни, когда забываешь.")),
+            ("gl-sos.png", "gl-sos.ru.png", ("I feel bad", "Мне плохо"), ("A quiet room for hard moments.", "Тихая комната для трудных минут.")),
+            ("gl-me.png", "gl-me.ru.png", ("Me", "Я"), ("The streak, stats and orders.", "Серия, статистика и ордена.")),
+            ("gl-report.png", "gl-report.ru.png", ("Weekly report", "Отчёт за неделю"), ("How great the week was.", "Какой крутой была неделя.")),
+            ("gl-certificate.png", "gl-certificate.ru.png", ("Certificate", "Грамота"), ("For every degree of every order.", "За каждую степень каждого ордена.")),
+        ],
+        "extra": {
+            "title": ("Who praises you", "Кто тебя хвалит"),
+            "head": [("Voice", "Голос"), ("Style", "Стиль"), ("For a huge win", "За огромную победу")],
+            "rows": [
+                [("🤗 Warm friend", "🤗 Тёплый друг"), ("Gentle, honest, always on your side", "Мягко, честно и всегда на твоей стороне"), ("Stop for a second and let this sink in. You did that.", "Остановись на секунду и прочувствуй. Это сделала ты.")],
+                [("👵 Granny", "👵 Бабушка"), ("Fusses over you, feeds you, adores you", "Причитает, кормит и обожает"), ("This calls for the good china!", "Доставай парадный сервиз!")],
+                [("🎙️ Sports commentator", "🎙️ Спортивный комментатор"), ("Every move you make is live on air", "Каждый твой шаг — в прямом эфире"), ("THE STADIUM IS SHAKING!", "СТАДИОН ДРОЖИТ!")],
+                [("🦉 Wise mentor", "🦉 Мудрый наставник"), ("Calm words, long view, quiet pride", "Спокойные слова, долгий взгляд, тихая гордость"), ("Today the river reached the sea.", "Сегодня река достигла моря.")],
+                [("🎩 Butler", "🎩 Дворецкий"), ("Impeccably polite, deeply impressed", "Безупречно вежлив, глубоко впечатлён"), ("I have dropped a tray. That has not happened since 1987.", "Я уронил поднос. Такого не случалось с 1987 года.")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Glow.apk", "Glow.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Notifications for the morning praise and evening reminder, and vibration. No internet.",
+                                            "Уведомления для утренней похвалы и вечернего напоминания и вибрация. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Pick a voice and tell it about your first win.", "Выбери голос и расскажи ему о первой победе."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Glow and remove battery limits so the morning praise arrives on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Glow автозапуск и сними ограничения батареи, чтобы утренняя похвала приходила вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/glow.git\ncd glow\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug -Pdemo   <c># app.glow.demo with seven weeks of made-up wins</c>",
+        "faq": [
+            (("Is there a premium version?", "Есть ли премиум-версия?"),
+             ("No. Every voice, order and feature is there for everyone, with no ads, no trial and no subscription.",
+              "Нет. Все голоса, ордена и функции доступны всем, без рекламы, пробного периода и подписки.")),
+            (("Is it therapy?", "Это терапия?"),
+             ("No. Glow is a kind companion. If things have felt heavy for a long time, please talk to someone you trust or a professional.",
+              "Нет. Glow — добрый спутник. Если тяжело уже долго, пожалуйста, поговори с близким человеком или специалистом.")),
+            (("Does the translator use AI?", "Переводчик работает на ИИ?"),
+             ("No. It matches word stems against ten common thinking traps and picks a kinder phrasing. Nothing you write leaves the phone.",
+              "Нет. Он ищет основы слов для десяти частых ловушек мышления и подбирает более добрую формулировку. Ничего из написанного не покидает телефон.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Settings → Backup saves wins, kind words with their screenshots and evenings into one JSON file. Restore it on the new phone.",
+              "«Настройки → Резервная копия» сохраняет победы, добрые слова со скриншотами и вечера в один JSON-файл. Восстанови его на новом телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -1080,11 +1193,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
-            "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png")}[app["slug"]]
+            "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
+            "glow": ("gl-praise.png", "gl-praise.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -1397,6 +1511,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="../ember/">Ember</a></li>
         <li><a href="../fogwalk/">Fogwalk</a></li>
         <li><a href="../dearme/">DearMe</a></li>
+        <li><a href="../glow/">Glow</a></li>
         <li><a href="../" data-i18n="ft.all">All apps</a></li>
       </ul>
     </div>
@@ -1414,6 +1529,7 @@ TEMPLATE = """<!doctype html>
         <li><a href="https://github.com/bigdevwhale/ember/releases" target="_blank" rel="noopener" data-i18n="ft.emrel">Ember releases</a></li>
         <li><a href="https://github.com/bigdevwhale/fogwalk/releases" target="_blank" rel="noopener" data-i18n="ft.fwrel">Fogwalk releases</a></li>
         <li><a href="https://github.com/bigdevwhale/dearme/releases" target="_blank" rel="noopener" data-i18n="ft.dmrel">DearMe releases</a></li>
+        <li><a href="https://github.com/bigdevwhale/glow/releases" target="_blank" rel="noopener" data-i18n="ft.glrel">Glow releases</a></li>
       </ul>
     </div>
     <div class="fine">
