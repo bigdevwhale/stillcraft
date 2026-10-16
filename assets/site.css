@@ -24,6 +24,7 @@
   --dm-bg: #F5EFE4; --dm-ink: #1E2433; --dm-muted: #6B6458; --dm-red: #B3342F; --dm-soft: #F1E4CC; --dm-blue: #2F5C93; --dm-line: #E2D0AE;
   --gl-bg: #FBF5F3; --gl-ink: #2A1C22; --gl-muted: #7A6870; --gl-pink: #DB3F7A; --gl-soft: #FCE4EC; --gl-gold: #D08A10; --gl-line: #F0D9DF;
   --wp-bg: #0B1130; --wp-top: #1B2766; --wp-ink: #E7E9F6; --wp-muted: #9097C2; --wp-gold: #E8CD82; --wp-line: #283271; --wp-cyan: #7FD3E8;
+  --ob-bg: #14100E; --ob-top: #3A2216; --ob-ink: #F1E6D4; --ob-muted: #BCA88F; --ob-gold: #DDB45E; --ob-terra: #D9774A; --ob-line: #3B2E25;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -38,14 +39,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A;
   color-scheme: dark;
 }
 
@@ -460,19 +461,33 @@ pre.code .c { opacity: 0.55; }
 .ap-band > *, .get > * { min-width: 0; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-.g-focus, .g-waypoint { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g-focus, .g-waypoint, .g-obol { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
 .ap-band h1 { font-size: clamp(2.5rem, 5vw, 4.25rem); }
 @media (min-width: 901px) { .ap-band:has(.ap-visual.wide) { grid-template-columns: 0.9fr 1.1fr; } }
+
+/* Obol: black-figure pottery, terracotta and gold on black */
+.app--obol { --fl: var(--ob-line); --fm: var(--ob-muted); background: radial-gradient(120% 90% at 0% 0%, var(--ob-top) 0%, transparent 60%), var(--ob-bg); color: var(--ob-ink); }
+.app--obol .app-tag { color: var(--ob-gold); }
+.app--obol .app-lede em { font-style: normal; color: var(--ob-terra); }
+.app--obol .btn-primary { background: var(--ob-terra); color: var(--ob-bg); }
+.app--obol .btn-ghost { color: var(--ob-ink); border-color: var(--ob-line); }
+.ob-shot { border-radius: 20px; background: var(--ob-bg); }
+.pill.ob { --dot: var(--ob-dot, #B4502A); }
+.cv-ob { background: radial-gradient(120% 90% at 0% 0%, var(--ob-top) 0%, transparent 60%), var(--ob-bg); }
+.cv-ob img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--obol h1 em { color: var(--ob-terra); }
+.app--obol .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--ob-line); }
+.g-obol { --shot-bg: var(--ob-bg); --shot-ratio: 540 / 1145; }

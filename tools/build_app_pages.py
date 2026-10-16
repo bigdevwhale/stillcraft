@@ -1243,6 +1243,103 @@ APPS = [
               "«Настройки → Резервная копия» сохраняет все цели, шаги, итоги и заметки в один JSON-файл. Восстанови его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "obol",
+        "name": "Obol",
+        "panel": "app--obol",
+        "gallery": "g-obol",
+        "icon": "obol-logo.svg",
+        "visual": "ob-gate.png", "visual_ru": "ob-gate.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/obol",
+        "download": "https://github.com/bigdevwhale/obol/releases/latest/download/Obol.apk",
+        "version": "v1.0.0",
+        "tagline": ("Earn obols with useful apps, pay Charon for the feed.", "Зарабатывай оболы полезными приложениями, плати Харону за ленту."),
+        "badge": ("Pay Charon for the feed · New", "Плати Харону за ленту · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("Every crossing of Lethe costs an obol. <em>Earn them first.</em>",
+                  "Каждая переправа через Лету стоит обол. <em>Сначала заработай.</em>"),
+        "desc": ("In the myth, Lethe is the river of forgetting, and Charon ferries souls across it for an obol. An endless feed is the same river. Obol pays you in obols for books, languages, lessons and meditations, and puts Charon at the gate of Reels, Shorts and TikTok. Night costs triple, every crossing costs more than the last, and turning back is always free. No ads, no account, no internet access.",
+                 "В мифе Лета — река забвения, а Харон перевозит через неё души за обол. Бесконечная лента — та же река. Обол платит тебе оболами за книги, языки, уроки и медитации и ставит Харона у ворот Reels, Shorts и TikTok. Ночью втрое дороже, каждая переправа дороже прошлой, а повернуть назад можно всегда бесплатно. Без рекламы, аккаунта и доступа в интернет."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · Works offline · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Работает офлайн · English и Русский"),
+        "features": [
+            (("Charon's gate", "Ворота Харона"),
+             ("Open Reels and the gate appears over it: why do you want to cross, a few breaths, then 5, 15 or 30 minutes, the meter, or a free pass from Hermes' staff. The reel underneath is paused.",
+              "Открываешь Reels — поверх появляются ворота: зачем тебе на тот берег, несколько вдохов, затем 5, 15 или 30 минут, счётчик или бесплатный проход с посохом Гермеса. Ролик под воротами встаёт на паузу.")),
+            (("Only the feed costs", "Платна только лента"),
+             ("Reels and Shorts are paid; messages and the rest of the app stay free. Sites count in the browser too, down to a part like youtube.com/shorts.",
+              "Платны Reels и Shorts, а переписка и остальное приложение бесплатны. Сайты тоже считаются в браузере, вплоть до части вроде youtube.com/shorts.")),
+            (("A pantheon of your own", "Свой пантеон"),
+             ("Calliope pays for reading, Hermes for languages, Athena for learning, Hestia for stillness, Nike for sport. Dedicate your own patron to guitar or code, with a symbol, a rate, a daily cap, apps and sites.",
+              "Каллиопа платит за чтение, Гермес — за языки, Афина — за учёбу, Гестия — за тишину, Ника — за спорт. Посвяти своего покровителя гитаре или коду: символ, курс, дневной лимит, приложения и сайты.")),
+            (("The time left in the island", "Остаток времени в острове"),
+             ("On the far shore the countdown lives in a notification: in the Super Island on Xiaomi, as a Live Update on Android 16. After five minutes the mist of Lethe creeps in from the edges.",
+              "На том берегу обратный отсчёт живёт в уведомлении: в Super Island на Xiaomi, чипом Live Update на Android 16. Через пять минут с краёв экрана наползает туман Леты.")),
+            (("Tariffs, debt and the oracle", "Тарифы, долг и оракул"),
+             ("Nyx's hour triples the fare, every crossing of the day costs half again, Hades lends at interest, and the oracle names a patron who pays double for two hours.",
+              "Час Никты утраивает плату, каждая переправа за день дороже в полтора раза, Аид даёт в долг под проценты, а оракул называет покровителя, который два часа платит вдвойне.")),
+            (("Temple, rites and the Styx", "Храм, обряды и Стикс"),
+             ("Save obols for a real reward or let the treasury grow each Monday. Earn by rites with the phone face down. Swear by the Styx, and Obol can't be uninstalled until the oath ends.",
+              "Копи оболы на настоящую награду или дай сокровищнице расти каждый понедельник. Зарабатывай обрядами с телефоном экраном вниз. Поклянись Стиксом — и Обол нельзя будет удалить, пока клятва в силе.")),
+        ],
+        "shots": [
+            ("ob-shore.png", "ob-shore.ru.png", ("The shore", "Берег"), ("The purse, the oracle and today's potsherd.", "Кошель, оракул и черепок дня.")),
+            ("ob-gate.png", "ob-gate.ru.png", ("The gate", "Ворота"), ("Charon asks why before you cross.", "Харон спрашивает, зачем тебе на тот берег.")),
+            ("ob-fare.png", "ob-fare.ru.png", ("The fare", "Плата"), ("Minutes, the meter or Hermes' staff.", "Минуты, счётчик или посох Гермеса.")),
+            ("ob-pantheon.png", "ob-pantheon.ru.png", ("Pantheon", "Пантеон"), ("Pedestals grow with the hours.", "Пьедесталы растут с часами служения.")),
+            ("ob-patron.png", "ob-patron.ru.png", ("Your own patron", "Свой покровитель"), ("Name, symbol, rate, cap, apps, sites.", "Имя, символ, курс, лимит, приложения, сайты.")),
+            ("ob-lethe.png", "ob-lethe.ru.png", ("Lethe", "Лета"), ("Streams that cost obols.", "Потоки, которые стоят оболов.")),
+            ("ob-ledger.png", "ob-ledger.ru.png", ("Ledger", "Книга"), ("Four weeks and what was remembered.", "Четыре недели и что запомнилось.")),
+            ("ob-temple.png", "ob-temple.ru.png", ("Temple", "Храм"), ("The treasury and vows.", "Сокровищница и обеты.")),
+            ("ob-rite.png", "ob-rite.ru.png", ("A rite", "Обряд"), ("Time away from the phone.", "Время без телефона.")),
+        ],
+        "extra": {
+            "title": ("What things cost on the far shore", "Сколько стоит тот берег"),
+            "head": [("Rule", "Правило"), ("When", "Когда"), ("Effect", "Что даёт")],
+            "rows": [
+                [("Base fare", "Базовая плата"), ("Any time", "В любое время"), ("2 obols a minute for Instagram, 3 for TikTok, your choice for the rest", "2 обола в минуту за Instagram, 3 за TikTok, для остальных — на твой выбор")],
+                [("Nyx's hour", "Час Никты"), ("23:00–06:00", "23:00–06:00"), ("×3", "×3")],
+                [("Early morning", "Раннее утро"), ("Until 09:00", "До 09:00"), ("×2", "×2")],
+                [("Rising fare", "Растущая плата"), ("Each crossing after the first today", "Каждая переправа после первой за день"), ("×1.5, ×2, up to ×3", "×1,5, ×2, до ×3")],
+                [("Debt to Hades", "Долг Аиду"), ("When the purse is empty", "Когда кошель пуст"), ("Up to 30 obols, 20 % on the borrowed part", "До 30 оболов, 20 % на занятую часть")],
+                [("Hermes' staff", "Посох Гермеса"), ("3 times a week", "3 раза в неделю"), ("5 free minutes for real business", "5 бесплатных минут для настоящих дел")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Obol.apk", "Obol.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Accessibility, to see the app and site in front and draw the gate; notifications for the countdown and the oracle; device administrator only during an oath. No internet.",
+                                            "Специальные возможности, чтобы видеть открытое приложение и сайт и ставить ворота; уведомления для отсчёта и оракула; администратор устройства только на время клятвы. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone and install it.", "Скачай APK на телефон и установи."),
+            ("Open Obol, then switch it on in Settings → Accessibility.", "Открой Обол и включи его в «Настройки → Специальные возможности»."),
+            ("Check your patrons and streams, then open a book instead of Reels.", "Проверь покровителей и потоки — и открой книгу вместо Reels."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Obol and remove battery limits, or the system will put Charon to sleep.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Оболу автозапуск и сними ограничения батареи, иначе система усыпит Харона."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/obol.git\ncd obol\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug -Pdemo   <c># app.obol.demo with four weeks of made-up history</c>",
+        "faq": [
+            (("Why isn't it on Google Play?", "Почему его нет в Google Play?"),
+             ("Charon needs the accessibility service to see Reels inside Instagram and the address in a browser, and Google Play restricts that use. So Obol ships as an APK, like the other Stillcraft apps.",
+              "Харону нужна служба специальных возможностей, чтобы видеть Reels внутри Instagram и адрес в браузере, а Google Play ограничивает такое использование. Поэтому Обол распространяется APK-файлом, как и другие приложения Stillcraft.")),
+            (("Does it read my messages?", "Он читает мои сообщения?"),
+             ("No. Charon looks at which app is in front, the browser's address bar and the names of screen elements that mark Reels or Shorts. Nothing is stored except the ledger lines, and the app has no internet access at all.",
+              "Нет. Харон смотрит, какое приложение открыто, адресную строку браузера и названия элементов экрана, по которым видно Reels или Shorts. Хранятся только строки книги, а доступа в интернет у приложения нет вовсе.")),
+            (("Can I cheat by leaving Duolingo open?", "Можно схитрить, оставив Duolingo открытым?"),
+             ("Not for long. A patron counts only while you touch, scroll or type, and past its daily cap the rate halves.",
+              "Ненадолго. Покровитель считает, только пока ты касаешься экрана, листаешь или печатаешь, а после дневного лимита курс падает вдвое.")),
+            (("What if I really need Instagram right now?", "А если Instagram нужен прямо сейчас?"),
+             ("Turn on \"only the endless feed\": messages stay free. For a link from a friend there are three free 5-minute passes a week.",
+              "Включи «только бесконечная лента» — переписка останется бесплатной. Для ссылки от друга есть три бесплатных прохода по 5 минут в неделю.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -1291,12 +1388,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
