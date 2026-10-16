@@ -17,6 +17,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Obol](https://github.com/bigdevwhale/obol): earn obols with useful apps and pay Charon for Reels, Shorts and TikTok, for Android
 - [Prism](https://github.com/bigdevwhale/prism): one light, many colours: choose who you are in every sphere of life, with 71 good roles, 18 shadows and short practices, for Android
 - [Temper](https://github.com/bigdevwhale/temper): cold water, contrast showers and the sauna, tempered like steel: a voice guide, a sauna clock and your own Damascus blade, for Android
+- [Hearthspell](https://github.com/bigdevwhale/hearthspell): chores as spells in a wizard's tower, in cozy pixel art: imps instead of punishments, helpers that wake up, letters from the master, for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
 

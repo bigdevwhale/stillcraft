@@ -1533,6 +1533,103 @@ APPS = [
               "«Настройки → Резервная копия» сохраняет все сессии, клейма и испытания в один JSON-файл. Восстановите его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "hearthspell",
+        "name": "Hearthspell",
+        "panel": "app--hearthspell",
+        "gallery": "g-hearthspell",
+        "icon": "hearthspell-logo.svg",
+        "visual": "hs-tower.png", "visual_ru": "hs-tower.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/hearthspell",
+        "download": "https://github.com/bigdevwhale/hearthspell/releases/latest/download/Hearthspell.apk",
+        "version": "v1.0.0",
+        "tagline": ("Chores as spells in a wizard's tower: keep the floors bright, wake the helpers.", "Домашние дела как заклинания в башне волшебника: держи этажи в чистоте и буди помощников."),
+        "badge": ("Cozy pixel chores · New", "Уютные дела в пикселях · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("The master has gone travelling. <em>The tower is yours.</em>",
+                  "Мастер ушёл странствовать. <em>Башня теперь твоя.</em>"),
+        "desc": ("The old master left his tower to you, his apprentice. The tower is your home: every floor is a room, every chore is a spell with its own rhythm. Cast it and the floor shines; forget it and harmless imps move in. Master a spell and its helper wakes up, a broom or a teapot that paces the floor. Mana buys decor, the master writes once a week, and the shopping list becomes a quest for reagents. Cozy pixel art, no streaks to lose, no ads, no account, no internet access.",
+                 "Старый мастер оставил башню тебе, своему ученику. Башня — это твой дом: каждый этаж — комната, каждое дело — заклинание со своим ритмом. Произнеси его, и этаж засияет; забудешь — заведутся безобидные пакостники. Освой заклинание, и проснётся его помощник: метла или чайник, который гуляет по этажу. За ману покупается убранство, мастер пишет раз в неделю, а список покупок превращается в поход за реагентами. Уютный пиксель-арт, никаких сгорающих серий, без рекламы, аккаунта и доступа в интернет."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · Works offline · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Работает офлайн · English и Русский"),
+        "features": [
+            (("Floors are rooms", "Этажи — комнаты"),
+             ("Eleven kinds of room, each a detailed pixel scene: the kitchen is the Alchemy Lab, the bedroom an Observatory under a domed window, the bathroom the Spring Baths, the hallway the Gate Hall, the balcony a Greenhouse. Rename, reorder and add floors.",
+              "Одиннадцать видов комнат, каждая — подробная пиксельная сцена: кухня — Алхимическая, спальня — Обсерватория под круглым окном, ванная — Купальня, прихожая — Врата, балкон — Оранжерея. Этажи можно переименовать, переставить и добавить.")),
+            (("Spells with their own rhythm", "Заклинания со своим ритмом"),
+             ("45 ready-made chores with sensible intervals, from the dishes every day to the oven once a moon, each with a small incantation, or your own. Freshness fades slowly instead of a checklist that resets every morning.",
+              "45 готовых дел с разумными сроками, от посуды каждый день до духовки раз в луну, у каждого своё маленькое заклятье, или свои. Свежесть гаснет постепенно, а не список, который каждое утро обнуляется.")),
+            (("Imps, not punishment", "Пакостники вместо наказаний"),
+             ("An overdue spell brings a cheeky imp to its floor. It chews socks and giggles, nothing burns down, and one cast sweeps it out. A dusty floor just waits for you.",
+              "Просроченное заклинание приводит на этаж нахального пакостника. Он жуёт носки и хихикает, ничего не сгорает, а одно заклинание выметает его. Пыльный этаж просто ждёт тебя.")),
+            (("Helpers wake up", "Помощники просыпаются"),
+             ("17 helpers, from the Broom and the Sponge to the Teapot and the Satchel. Cast a spell five times and its helper wakes and starts pacing its floor, then grows through four levels.",
+              "17 помощников, от Метлы и Губки до Чайника и Котомки. Произнеси заклинание пять раз, и его помощник проснётся и начнёт гулять по своему этажу, а потом вырастет через четыре уровня.")),
+            (("Mana, decor and the master's requests", "Мана, убранство и просьбы мастера"),
+             ("Every cast earns mana for 20 pieces of decor, from a cat to a fireplace. Each week the master asks for the three spells that waited longest, worth double until Sunday, and twelve letters tell the story of his travels.",
+              "Каждое заклинание приносит ману на 20 предметов убранства, от кота до камина. Каждую неделю мастер просит о трёх заклинаниях, которые ждут дольше всех, — до воскресенья они стоят вдвое, а двенадцать писем рассказывают историю его странствий.")),
+            (("A market of reagents", "Рынок реагентов"),
+             ("The shopping list sorted into shop sections with tower names, the section guessed from the name. It learns how often you buy things, suggests what's running low, and market mode is a big one-hand checklist.",
+              "Список покупок по отделам с башенными названиями, отдел угадывается по слову. Приложение запоминает, как часто ты что покупаешь, подсказывает, что заканчивается, а режим похода — большой список для одной руки.")),
+        ],
+        "shots": [
+            ("hs-tower.png", "hs-tower.ru.png", ("The tower", "Башня"), ("The master's requests and the roof.", "Просьбы мастера и крыша.")),
+            ("hs-floors.png", "hs-floors.ru.png", ("Floors", "Этажи"), ("Helpers at work, imps moving in.", "Помощники за делом, пакостники заводятся.")),
+            ("hs-floor.png", "hs-floor.ru.png", ("A floor", "Этаж"), ("Its spells and their freshness.", "Его заклинания и их свежесть.")),
+            ("hs-grimoire.png", "hs-grimoire.ru.png", ("Grimoire", "Гримуар"), ("Your circle and the helpers.", "Твой круг и помощники.")),
+            ("hs-spell.png", "hs-spell.ru.png", ("A spell's page", "Страница заклинания"), ("Incantation, rank and twelve weeks.", "Заклятье, ранг и двенадцать недель.")),
+            ("hs-decor.png", "hs-decor.ru.png", ("Decor shop", "Лавка убранства"), ("Mana for the tower.", "Мана на убранство башни.")),
+            ("hs-market.png", "hs-market.ru.png", ("Market", "Рынок"), ("Reagents by shop section.", "Реагенты по отделам.")),
+            ("hs-letter.png", "hs-letter.ru.png", ("A letter", "Письмо"), ("From the master, with this week's requests.", "От мастера, с просьбами недели.")),
+        ],
+        "extra": {
+            "title": ("Rooms of the tower", "Комнаты башни"),
+            "head": [("Your room", "Твоя комната"), ("Tower floor", "Этаж башни"), ("A few of its spells", "Несколько заклинаний")],
+            "rows": [
+                [("Kitchen", "Кухня"), ("Alchemy Lab", "Алхимическая"), ("Dishes, counters, the fridge, the oven", "Посуда, стол и плита, холодильник, духовка")],
+                [("Living room", "Гостиная"), ("Library", "Библиотека"), ("Put things back, dust, vacuum, windows", "Разложить вещи, пыль, пылесос, окна")],
+                [("Bedroom", "Спальня"), ("Observatory", "Обсерватория"), ("Make the bed, change the linen, the wardrobe", "Заправить кровать, сменить бельё, разобрать шкаф")],
+                [("Bathroom", "Ванная"), ("Spring Baths", "Купальня"), ("Sink and mirror, the bath, towels", "Раковина и зеркало, ванна, полотенца")],
+                [("Hallway", "Прихожая"), ("Gate Hall", "Врата"), ("Shoes, sweeping, coats and bags", "Обувь, подмести, куртки и сумки")],
+                [("Balcony &amp; plants", "Балкон и цветы"), ("Greenhouse", "Оранжерея"), ("Water the plants, sweep, repot", "Полить, подмести, пересадить")],
+                [("Whole home", "Весь дом"), ("Tower Heart", "Сердце башни"), ("Vacuum everywhere, the bins, the market", "Пылесос везде, мусорки, магазин")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Hearthspell.apk", "Hearthspell.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Notifications for one quiet reminder a day, only when imps have moved in or a letter has arrived. No internet.",
+                                            "Уведомления для одного тихого напоминания в день, только если завелись пакостники или пришло письмо. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Read the master's note, pick your rooms and their chores, and cast your first spell.", "Прочитай записку мастера, выбери комнаты и их дела и произнеси первое заклинание."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Hearthspell and remove battery limits so the daily reminder arrives on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разреши Hearthspell автозапуск и сними ограничения батареи, чтобы ежедневное напоминание приходило вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. Python 3 with Pillow to redraw the pixel art.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Python 3 с Pillow, чтобы перерисовать пиксель-арт."),
+        "build": "git clone https://github.com/bigdevwhale/hearthspell.git\ncd hearthspell\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug -Pdemo   <c># app.hearthspell.demo with a lived-in tower</c>\npython tools/art/export.py .    <c># redraw every sprite and scene</c>",
+        "faq": [
+            (("What if I skip a few days?", "А если я пропущу несколько дней?"),
+             ("Nothing breaks. There are no streaks to lose. Spells fade, imps move in, and the next cast sweeps them out. The master never scolds.",
+              "Ничего не сломается. Серий, которые можно потерять, нет. Заклинания тускнеют, заводятся пакостники, а следующее заклинание их выметает. Мастер никогда не ругается.")),
+            (("Can I add my own chores?", "Можно добавить свои дела?"),
+             ("Yes. Any name, any interval from a day to a year, three levels of effort and the helper it wakes. You can pause a spell while you're away.",
+              "Да. Любое название, любой срок от дня до года, три уровня сложности и помощник, которого оно будит. Заклинание можно поставить на паузу, пока тебя нет.")),
+            (("Is it for a family?", "Подходит для семьи?"),
+             ("This version is one tower on one phone. A shared tower for the whole household is planned.",
+              "Эта версия — одна башня на одном телефоне. Общая башня для всей семьи в планах.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Settings → Backup saves the whole tower, every cast and the shopping list into one JSON file. Restore it on the new phone.",
+              "«Настройки → Резервная копия» сохраняет всю башню, все заклинания и список покупок в один JSON-файл. Восстанови его на новом телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -1581,12 +1678,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">

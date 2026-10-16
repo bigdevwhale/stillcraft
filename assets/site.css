@@ -27,6 +27,7 @@
   --ob-bg: #14100E; --ob-top: #3A2216; --ob-ink: #F1E6D4; --ob-muted: #BCA88F; --ob-gold: #DDB45E; --ob-terra: #D9774A; --ob-line: #3B2E25;
   --pr-bg: #0D0E13; --pr-top: #1A1A2B; --pr-ink: #EFEDF4; --pr-muted: #9C9AB0; --pr-pearl: #F3EFE4; --pr-violet: #9C7EFF; --pr-line: #2A2B39;
   --tp-bg: #110F0E; --tp-top: #3A1E12; --tp-ink: #F3EAE2; --tp-muted: #B3A69B; --tp-ember: #FF7A3D; --tp-ice: #72C4F2; --tp-gold: #E8BA5E; --tp-line: #33291F;
+  --hs-bg: #14112B; --hs-top: #2E2660; --hs-ink: #FCEFD2; --hs-muted: #BCAEDB; --hs-amber: #FFB938; --hs-violet: #B062E0; --hs-line: #3A3170;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -41,14 +42,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938;
   color-scheme: dark;
 }
 
@@ -464,16 +465,17 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g-hearthspell { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -521,3 +523,17 @@ pre.code .c { opacity: 0.55; }
 .app--temper h1 em { color: var(--tp-ember); }
 .app--temper .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--tp-line); }
 .g-temper { --shot-bg: var(--tp-bg); --shot-ratio: 540 / 1145; }
+
+/* Hearthspell: a wizard's tower at night, candle amber and imp violet, in pixels */
+.app--hearthspell { --fl: var(--hs-line); --fm: var(--hs-muted); background: radial-gradient(110% 90% at 0% 0%, var(--hs-top) 0%, transparent 60%), radial-gradient(90% 80% at 100% 100%, rgb(255 185 56 / 0.07) 0%, transparent 60%), var(--hs-bg); color: var(--hs-ink); }
+.app--hearthspell .app-tag { color: var(--hs-amber); }
+.app--hearthspell .app-lede em { font-style: normal; color: var(--hs-amber); }
+.app--hearthspell .btn-primary { background: var(--hs-amber); color: var(--hs-bg); }
+.app--hearthspell .btn-ghost { color: var(--hs-ink); border-color: var(--hs-line); }
+.hs-shot { border-radius: 20px; background: var(--hs-bg); image-rendering: auto; }
+.pill.hs { --dot: var(--hs-dot, #E09A1F); }
+.cv-hs { background: radial-gradient(120% 90% at 0% 0%, var(--hs-top) 0%, transparent 60%), var(--hs-bg); }
+.cv-hs img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--hearthspell h1 em { color: var(--hs-amber); }
+.app--hearthspell .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--hs-line); }
+.g-hearthspell { --shot-bg: var(--hs-bg); --shot-ratio: 540 / 1145; }
