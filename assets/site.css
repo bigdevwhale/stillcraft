@@ -25,6 +25,7 @@
   --gl-bg: #FBF5F3; --gl-ink: #2A1C22; --gl-muted: #7A6870; --gl-pink: #DB3F7A; --gl-soft: #FCE4EC; --gl-gold: #D08A10; --gl-line: #F0D9DF;
   --wp-bg: #0B1130; --wp-top: #1B2766; --wp-ink: #E7E9F6; --wp-muted: #9097C2; --wp-gold: #E8CD82; --wp-line: #283271; --wp-cyan: #7FD3E8;
   --ob-bg: #14100E; --ob-top: #3A2216; --ob-ink: #F1E6D4; --ob-muted: #BCA88F; --ob-gold: #DDB45E; --ob-terra: #D9774A; --ob-line: #3B2E25;
+  --pr-bg: #0D0E13; --pr-top: #1A1A2B; --pr-ink: #EFEDF4; --pr-muted: #9C9AB0; --pr-pearl: #F3EFE4; --pr-violet: #9C7EFF; --pr-line: #2A2B39;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -39,14 +40,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF;
   color-scheme: dark;
 }
 
@@ -461,17 +462,17 @@ pre.code .c { opacity: 0.55; }
 .ap-band > *, .get > * { min-width: 0; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-.g-focus, .g-waypoint, .g-obol { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g-focus, .g-waypoint, .g-obol, .g-prism { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -491,3 +492,17 @@ pre.code .c { opacity: 0.55; }
 .app--obol h1 em { color: var(--ob-terra); }
 .app--obol .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--ob-line); }
 .g-obol { --shot-bg: var(--ob-bg); --shot-ratio: 540 / 1145; }
+
+/* Prism: white light on graphite, split into a spectrum */
+.app--prism { --fl: var(--pr-line); --fm: var(--pr-muted); background: radial-gradient(120% 90% at 0% 0%, var(--pr-top) 0%, transparent 60%), linear-gradient(100deg, transparent 55%, rgb(255 111 111 / 0.05) 62%, rgb(255 199 84 / 0.05) 68%, rgb(110 219 156 / 0.05) 74%, rgb(93 192 242 / 0.05) 80%, rgb(156 126 255 / 0.06) 86%, transparent 94%), var(--pr-bg); color: var(--pr-ink); }
+.app--prism .app-tag { color: var(--pr-pearl); }
+.app--prism .app-lede em { font-style: normal; background: linear-gradient(90deg, #FF8A7A, #FFC754, #6EDB9C, #5DC0F2, #9C7EFF); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.app--prism .btn-primary { background: var(--pr-pearl); color: var(--pr-bg); }
+.app--prism .btn-ghost { color: var(--pr-ink); border-color: var(--pr-line); }
+.pr-shot { border-radius: 20px; background: var(--pr-bg); }
+.pill.pr { --dot: var(--pr-dot, #6A4FD4); }
+.cv-pr { background: radial-gradient(120% 90% at 0% 0%, var(--pr-top) 0%, transparent 60%), var(--pr-bg); }
+.cv-pr img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--prism h1 em { background: linear-gradient(90deg, #FF8A7A, #FFC754, #6EDB9C, #5DC0F2, #9C7EFF); -webkit-background-clip: text; background-clip: text; color: transparent; font-style: normal; }
+.app--prism .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--pr-line); }
+.g-prism { --shot-bg: var(--pr-bg); --shot-ratio: 540 / 1145; }
