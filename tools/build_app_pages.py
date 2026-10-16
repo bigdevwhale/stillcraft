@@ -1438,6 +1438,101 @@ APPS = [
               "«Настройки → Резервная копия» сохраняет все роли, сцены, письма и советы в один JSON-файл. Восстанови его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "temper",
+        "name": "Temper",
+        "panel": "app--temper",
+        "gallery": "g-temper",
+        "icon": "temper-logo.svg",
+        "visual": "tp-out.png", "visual_ru": "tp-out.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/temper",
+        "download": "https://github.com/bigdevwhale/temper/releases/latest/download/Temper.apk",
+        "version": "v1.0.0",
+        "tagline": ("Cold water, contrast showers and the sauna, tempered like steel.", "Холодная вода, контрастный душ и сауна — закалка, как у стали."),
+        "badge": ("Fire and water, like steel · New", "Огонь и вода, как у стали · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("A smith tempers steel with fire and water. <em>Temper yourself.</em>",
+                  "Кузнец закаляет сталь огнём и водой. <em>Закалите себя.</em>"),
+        "desc": ("A smith tempers steel with fire and water: heat it, quench it, again and again, until it holds an edge. You can temper yourself the same way. Temper is a timer, a guide and a ledger for cold showers, ice baths, open water, contrast showers and the sauna. Every session folds a new Damascus layer into your own blade: it glows after practice and gathers frost when you stop. No ads, no account, no internet access.",
+                 "Кузнец закаляет сталь огнём и водой: нагреть, остудить, и снова, пока она не начнёт держать кромку. Себя можно закалять так же. Temper — таймер, гид и журнал для холодного душа, ледяной ванны, открытой воды, контрастного душа и сауны. Каждая сессия добавляет новый слой дамаска в ваш собственный клинок: после практики он светится, а если бросить, покрывается инеем. Без рекламы, аккаунта и доступа в интернет."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · Works offline · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Работает офлайн · English и Русский"),
+        "features": [
+            (("A guide through the cold", "Гид по холоду"),
+             ("A shower, a bath, open water or an ice hole. A minute of calm breathing on land, a target time, then a voice through the shock, the settling and the calm. A cautious limit set by the water temperature, and afterwards you warm up on your own.",
+              "Душ, ванна, открытая вода или прорубь. Минута спокойного дыхания на суше, цель по времени, потом голос проводит через шок, привыкание и покой. Осторожный предел по температуре воды, а после — согреться самостоятельно.")),
+            (("Contrast by voice", "Контраст голосом"),
+             ("Leave the phone outside the shower: a voice and tones call \"hot\" and \"cold\". Five programs from Gentle start to Steel, or your own, and the last round always ends on cold.",
+              "Оставьте телефон за шторкой: голос и сигналы подскажут «горячо» и «холодно». Пять программ от «Мягкого старта» до «Стали» или своя, и последний круг всегда заканчивается холодом.")),
+            (("Sauna with the phone outside", "Сауна, а телефон снаружи"),
+             ("The phone can't come in, so it doesn't have to. Before you go in it tells you the clock time to come out and rings every minute after. Tap \"I'm out\" and it leads the plunge and the rest. Finnish sauna, banya, hammam or infrared, and Søberg's \"end on cold\".",
+              "Телефону в парную нельзя — и не нужно. Перед заходом он скажет, во сколько по часам выходить, и после будет звонить каждую минуту. Нажмите «Я снаружи» — и он поведёт через купель и отдых. Финская сауна, баня, хаммам или инфракрасная, и правило Сёберг «закончить холодом».")),
+            (("Your blade", "Ваш клинок"),
+             ("Each session folds a Damascus layer: cold ones dark, hot ones bright. The hamon deepens with your chain, the spine takes on eight temper colours from raw iron to steel grey as you level up, and you can share the blade as a picture.",
+              "Каждая сессия — новый слой дамаска: холодные тёмные, горячие светлые. Хамон становится глубже вместе с цепью, обух проходит восемь цветов побежалости от сырого железа до стального серого, а клинком можно поделиться картинкой.")),
+            (("Weekly goal and the fear line", "Недельная цель и линия страха"),
+             ("11 minutes of cold and 57 of heat a week after Søberg's 2021 study, a gentler goal, or your own, and a chain of practice days that one rest day doesn't break. Before each session: \"how much do you not want to?\" from 1 to 5. Watch it fall over the weeks, with energy and mood after.",
+              "11 минут холода и 57 минут жара в неделю по исследованию Сёберг 2021 года, цель помягче или своя, и цепь дней практики, которую не рвёт один день отдыха. Перед каждой сессией — «насколько не хочется?» от 1 до 5. За недели эта линия падает, а после сессии видно энергию и настроение.")),
+            (("Marks, trials and learning", "Клейма, испытания и знания"),
+             ("24 maker's marks and five trials: First Ice takes you from 15 seconds to 3 minutes over 30 sessions, then Dawn, Contrast fortnight, Eight saunas and Wild water. 12 articles, from the first 30 seconds to the banya, and safety first.",
+              "24 клейма мастера и пять испытаний: «Первый лёд» ведёт от 15 секунд до 3 минут за 30 сессий, а ещё «Рассвет», «Две недели контраста», «Восемь саун» и «Живая вода». 12 статей — от первых 30 секунд до бани, и в первую очередь о безопасности.")),
+        ],
+        "shots": [
+            ("tp-forge.png", "tp-forge.ru.png", ("The forge", "Кузница"), ("The blade, the week and today's trial.", "Клинок, неделя и испытание дня.")),
+            ("tp-sauna.png", "tp-sauna.ru.png", ("Sauna", "Сауна"), ("Five programs or your own.", "Пять программ или своя.")),
+            ("tp-out.png", "tp-out.ru.png", ("In the sauna", "В парной"), ("The time to come out, by the clock.", "Во сколько выходить, по часам.")),
+            ("tp-water.png", "tp-water.ru.png", ("In the water", "В воде"), ("A voice through the first minute.", "Голос в первую минуту.")),
+            ("tp-finish.png", "tp-finish.ru.png", ("A new layer", "Новый слой"), ("Energy and mood after.", "Энергия и настроение после.")),
+            ("tp-blade.png", "tp-blade.ru.png", ("Your blade", "Ваш клинок"), ("Temper colours and numbers.", "Цвета побежалости и цифры.")),
+            ("tp-marks.png", "tp-marks.ru.png", ("Fear line", "Линия страха"), ("How hard it is to begin, falling.", "Как падает «не хочется».")),
+            ("tp-learn.png", "tp-learn.ru.png", ("Learn", "Знания"), ("12 articles, safety first.", "12 статей, сначала безопасность.")),
+        ],
+        "extra": {
+            "title": ("Five sauna programs", "Пять программ сауны"),
+            "head": [("Program", "Программа"), ("Heat", "Жар"), ("Cool", "Охлаждение"), ("Rest", "Отдых")],
+            "rows": [
+                [("First visits", "Первые походы"), ("2 × 8 min", "2 × 8 мин"), ("1:00", "1:00"), ("10 min", "10 мин")],
+                [("Finnish classic", "Финская классика"), ("3 × 12 min", "3 × 12 мин"), ("2:00", "2:00"), ("10 min", "10 мин")],
+                [("Russian banya", "Русская баня"), ("3 × 10 min", "3 × 10 мин"), ("1:00", "1:00"), ("12 min", "12 мин")],
+                [("Søberg", "По Сёберг"), ("3 × 15 min", "3 × 15 мин"), ("2:00", "2:00"), ("5 min; the last round ends on cold", "5 мин; последний заход заканчивается холодом")],
+                [("Hammam", "Хаммам"), ("3 × 15 min", "3 × 15 мин"), ("2:00", "2:00"), ("10 min", "10 мин")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Temper.apk", "Temper.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed. The voice uses your phone's text-to-speech.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны. Голос — синтез речи вашего телефона.")),
+            (("Permissions", "Разрешения"), ("Notifications for the daily reminder and a running session, which keeps the timer and the voice going with the screen off. No internet.",
+                                            "Уведомления для ежедневного напоминания и идущей сессии, чтобы таймер и голос работали с выключенным экраном. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачайте APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Откройте файл и разрешите установку из этого источника, когда Android спросит."),
+            ("Read the safety article, pick a weekly goal, and end your next shower with 15 seconds of cold.", "Прочитайте статью о безопасности, выберите недельную цель и закончите следующий душ 15 секундами холода."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei, Samsung and some other phones, allow Autostart for Temper and remove battery limits so a session keeps running and the sauna clock rings with the screen off.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei, Samsung и некоторых других телефонах разрешите Temper автозапуск и снимите ограничения батареи, чтобы сессия шла и сауна звонила с выключенным экраном."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK."),
+        "build": "git clone https://github.com/bigdevwhale/temper.git\ncd temper\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># debug APK</c>\n./gradlew installDebug -Pdemo   <c># app.temper.demo with ten weeks of made-up sessions</c>",
+        "faq": [
+            (("Is it safe?", "Это безопасно?"),
+             ("Cold water and heat are real strain on the heart. If you have heart disease, high or low blood pressure, an arrhythmia, Raynaud's or epilepsy, are pregnant or unwell, ask a doctor first. Never go into open water alone, never hold your breath in water, and get out at once if you feel chest pain, dizziness or numbness. The app's limits are cautious guides, not a promise.",
+              "Холод и жар — настоящая нагрузка на сердце. Если у вас болезни сердца, высокое или низкое давление, аритмия, синдром Рейно или эпилепсия, если вы беременны или нездоровы, сначала посоветуйтесь с врачом. Никогда не заходите в открытую воду в одиночку, не задерживайте дыхание в воде и сразу выходите, если появилась боль в груди, головокружение или онемение. Пределы в приложении — осторожные ориентиры, а не гарантия.")),
+            (("Why does the phone stay outside?", "Почему телефон остаётся снаружи?"),
+             ("Phones don't like water or a sauna's heat, and you shouldn't be looking at a screen in either. Temper speaks and rings instead, and in the sauna it tells you the clock time to come out before you go in.",
+              "Телефону вредны вода и жар парной, да и смотреть в экран там незачем. Temper говорит и звонит, а перед заходом в сауну называет время, когда выходить, по часам.")),
+            (("Why 11 and 57 minutes?", "Почему 11 и 57 минут?"),
+             ("They come from Susanna Søberg's 2021 study of winter swimmers who also used the sauna: about 11 minutes of cold and 57 of heat a week, spread over several sessions. You can pick a gentler goal or set your own.",
+              "Это из исследования Сюзанны Сёберг 2021 года о зимних пловцах, которые ходили и в сауну: около 11 минут холода и 57 минут жара в неделю, за несколько сессий. Можно выбрать цель помягче или задать свою.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Settings → Backup saves every session, mark and trial into one JSON file. Restore it on the new phone.",
+              "«Настройки → Резервная копия» сохраняет все сессии, клейма и испытания в один JSON-файл. Восстановите его на новом телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -1486,12 +1581,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">

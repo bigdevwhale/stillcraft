@@ -16,6 +16,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Waypoint](https://github.com/bigdevwhale/waypoint): goals under a night sky, with 17 methods from Mandala 64 and OKR to WOOP and the 12-week year, for Android
 - [Obol](https://github.com/bigdevwhale/obol): earn obols with useful apps and pay Charon for Reels, Shorts and TikTok, for Android
 - [Prism](https://github.com/bigdevwhale/prism): one light, many colours: choose who you are in every sphere of life, with 71 good roles, 18 shadows and short practices, for Android
+- [Temper](https://github.com/bigdevwhale/temper): cold water, contrast showers and the sauna, tempered like steel: a voice guide, a sauna clock and your own Damascus blade, for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
 

@@ -26,6 +26,7 @@
   --wp-bg: #0B1130; --wp-top: #1B2766; --wp-ink: #E7E9F6; --wp-muted: #9097C2; --wp-gold: #E8CD82; --wp-line: #283271; --wp-cyan: #7FD3E8;
   --ob-bg: #14100E; --ob-top: #3A2216; --ob-ink: #F1E6D4; --ob-muted: #BCA88F; --ob-gold: #DDB45E; --ob-terra: #D9774A; --ob-line: #3B2E25;
   --pr-bg: #0D0E13; --pr-top: #1A1A2B; --pr-ink: #EFEDF4; --pr-muted: #9C9AB0; --pr-pearl: #F3EFE4; --pr-violet: #9C7EFF; --pr-line: #2A2B39;
+  --tp-bg: #110F0E; --tp-top: #3A1E12; --tp-ink: #F3EAE2; --tp-muted: #B3A69B; --tp-ember: #FF7A3D; --tp-ice: #72C4F2; --tp-gold: #E8BA5E; --tp-line: #33291F;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -40,14 +41,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D;
   color-scheme: dark;
 }
 
@@ -462,17 +463,17 @@ pre.code .c { opacity: 0.55; }
 .ap-band > *, .get > * { min-width: 0; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-.g-focus, .g-waypoint, .g-obol, .g-prism { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -506,3 +507,17 @@ pre.code .c { opacity: 0.55; }
 .app--prism h1 em { background: linear-gradient(90deg, #FF8A7A, #FFC754, #6EDB9C, #5DC0F2, #9C7EFF); -webkit-background-clip: text; background-clip: text; color: transparent; font-style: normal; }
 .app--prism .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--pr-line); }
 .g-prism { --shot-bg: var(--pr-bg); --shot-ratio: 540 / 1145; }
+
+/* Temper: a dark forge, ember orange, ice blue and gold */
+.app--temper { --fl: var(--tp-line); --fm: var(--tp-muted); background: radial-gradient(110% 90% at 0% 0%, var(--tp-top) 0%, transparent 60%), radial-gradient(90% 80% at 100% 100%, rgb(114 196 242 / 0.08) 0%, transparent 60%), var(--tp-bg); color: var(--tp-ink); }
+.app--temper .app-tag { color: var(--tp-gold); }
+.app--temper .app-lede em { font-style: normal; color: var(--tp-ember); }
+.app--temper .btn-primary { background: var(--tp-ember); color: var(--tp-bg); }
+.app--temper .btn-ghost { color: var(--tp-ink); border-color: var(--tp-line); }
+.tp-shot { border-radius: 20px; background: var(--tp-bg); }
+.pill.tp { --dot: var(--tp-dot, #D9602A); }
+.cv-tp { background: radial-gradient(120% 90% at 0% 0%, var(--tp-top) 0%, transparent 60%), var(--tp-bg); }
+.cv-tp img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--temper h1 em { color: var(--tp-ember); }
+.app--temper .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--tp-line); }
+.g-temper { --shot-bg: var(--tp-bg); --shot-ratio: 540 / 1145; }
