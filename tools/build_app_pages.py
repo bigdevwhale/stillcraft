@@ -1728,6 +1728,99 @@ APPS = [
               "«Настройки → Резервная копия» сохраняет книги, чтения и фамильяров в один JSON-файл. Восстанови его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "hoard",
+        "name": "Hoard",
+        "panel": "app--hoard",
+        "gallery": "g-hoard",
+        "icon": "hoard-logo.png",
+        "visual": "ho-cave.png", "visual_ru": "ho-cave.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/hoard",
+        "download": "https://github.com/bigdevwhale/hoard/releases/latest/download/Hoard.apk",
+        "version": "v1.0.0",
+        "tagline": ("Photos and clips struck into pixel-art treasure in a dragon's cave.", "Фото и клипы, отчеканенные в пиксельные сокровища в пещере дракона."),
+        "badge": ("Moments as pixel treasure · New", "Моменты как пиксельные сокровища · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("You are a dragon. <em>Your hoard is made of moments.</em>",
+                  "Ты — дракон. <em>Твоя сокровищница — из моментов.</em>"),
+        "desc": ("A camera for the moments worth keeping. Every photo is struck into pixel-art treasure, painted by the app from the photo itself: an everyday moment becomes a coin, something special a gem, a milestone a relic, a clip a mirror that plays in the glass. Three moments a day, and the forge cools overnight: you see your treasures in the morning. A dragon sleeps on the pile and grows with it. Free, no ads, no account.",
+                 "Камера для моментов, которые стоит сохранить. Каждое фото чеканится в пиксельное сокровище, которое приложение рисует из самого снимка: обычный момент — монета, особенный — самоцвет, веха — реликвия, клип — зеркало, в стекле которого он играет. Три момента в день, и горн остывает за ночь: сокровища ты увидишь утром. На куче спит дракон и растёт вместе с ней. Бесплатно, без рекламы и аккаунта."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · Online only for the weather rune · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · В сети только ради руны погоды · English и Русский"),
+        "features": [
+            (("Four kinds of treasure", "Четыре вида сокровищ"),
+             ("A coin with the photo struck in relief, its back carrying the hall's sign, the runes of the day and the year. A gem with the moment caught in the facets, which catches the light as you tilt the phone. A relic: a crown, sword, key or lantern with the moment in a medallion. A mirror whose clip plays in the glass.",
+              "Монета с фото, выбитым рельефом, а на обороте знак зала, руны дня и год. Самоцвет с моментом в гранях, который ловит свет, когда наклоняешь телефон. Реликвия: корона, меч, ключ или фонарь с моментом в медальоне. Зеркало, в стекле которого играет клип.")),
+            (("The forge", "Горн"),
+             ("Tap for a photo, hold for a clip, or take one from the gallery with its own date. Choose what it becomes, its metal or stone, its hall, a name and a legend. Up to three a day, so you choose. The forge cools at seven in the morning, with one quiet notice.",
+              "Тап — фото, удержание — клип, или снимок из галереи со своей датой. Выбираешь, чем он станет, металл или камень, зал, имя и легенду. Не больше трёх в день, так что выбираешь. Горн остывает в семь утра, тогда же одно тихое уведомление.")),
+            (("The dragon and its cave", "Дракон и пещера"),
+             ("Name the dragon and pick its colour. It sleeps on the pile and grows from a hatchling to an elder wyrm. Tap it and it rolls an old treasure out to you, an anniversary first. Mushrooms, stalactites, crystals, banners, a pool, bats and a crack to the sky appear as the hoard grows.",
+              "Дай дракону имя и выбери цвет. Он спит на куче и растёт от дракончика до древнего змея. Тапни — и он выкатит тебе старое сокровище, в первую очередь из этого дня год назад. Грибы, сталактиты, кристаллы, знамёна, озеро, летучие мыши и окно в небо появляются по мере роста сокровищницы.")),
+            (("Halls and photos", "Залы и фото"),
+             ("Eight halls, from Travels and Kin to Feasts and Wonders. Look at the treasures or the photos themselves, newest or oldest first. What the camera catches is saved to your gallery too.",
+              "Восемь залов, от Странствий и Близких до Пиров и Диковин. Смотри на сокровища или на сами фото, сначала новые или старые. Всё, что поймала камера, сохраняется и в галерею.")),
+            (("Runes, gnomes and chests", "Руны, гномы и сундуки"),
+             ("Place, weather and time of day are struck into each treasure. Every three days the gnomes ask for something, \"something silver\", \"a door you'd like to open\", and pay in mithril, dragonglass, star-metal and rare stones. Seal a treasure in a chest until a date.",
+              "Место, погода и время суток выбиваются на каждом сокровище. Раз в три дня гномы просят что-нибудь — «что-то серебряное», «дверь, которую хочется открыть» — и платят мифрилом, драконьим стеклом, звёздным металлом и редкими камнями. Сокровище можно запечатать в сундук до даты.")),
+            (("The chronicle", "Летопись"),
+             ("Your year by the dragon's calendar, Snowfast to Longnight, how close the dragon is to growing and what is still to appear in the cave. The whole year exports as a PDF book. Backup is one zip with every photo and clip.",
+              "Твой год по драконьему календарю, от Снегостава до Студеня: скоро ли подрастёт дракон и что ещё появится в пещере. Весь год выгружается книгой в PDF. Резервная копия — один zip со всеми фото и клипами.")),
+        ],
+        "shots": [
+            ("ho-cave.png", "ho-cave.ru.png", ("The cave", "Пещера"), ("The dragon asleep on the pile.", "Дракон спит на куче.")),
+            ("ho-coin.png", "ho-coin.ru.png", ("A coin", "Монета"), ("The photo struck in copper.", "Фото, отчеканенное в меди.")),
+            ("ho-gem.png", "ho-gem.ru.png", ("A gem", "Самоцвет"), ("A ruby heart with the moment inside.", "Рубиновое сердце с моментом внутри.")),
+            ("ho-mirror.png", "ho-mirror.ru.png", ("A mirror", "Зеркало"), ("The clip plays in the glass.", "Клип играет в стекле.")),
+            ("ho-halls.png", "ho-halls.ru.png", ("The halls", "Залы"), ("Every treasure, by hall.", "Все сокровища по залам.")),
+            ("ho-photos.png", "ho-photos.ru.png", ("Photos", "Фото"), ("The moments themselves, newest first.", "Сами моменты, сначала новые.")),
+            ("ho-chronicle.png", "ho-chronicle.ru.png", ("Chronicle", "Летопись"), ("The year and the cave.", "Год и пещера.")),
+        ],
+        "extra": {
+            "title": ("The four treasures", "Четыре сокровища"),
+            "head": [("Treasure", "Сокровище"), ("For", "Для чего"), ("How it's made", "Как сделано")],
+            "rows": [
+                [("Coin", "Монета"), ("An everyday moment", "Обычный момент"), ("The photo struck in relief in gold, silver, copper or rarer metals; the hall, the runes and the year on the back", "Фото выбито рельефом в золоте, серебре, меди или редких металлах; на обороте зал, руны и год")],
+                [("Gem", "Самоцвет"), ("Something special", "Что-то особенное"), ("The photo caught inside a cut stone, clear in the table and broken in the facets; the light moves as you tilt the phone", "Фото внутри огранённого камня: чётко в площадке, осколками в гранях; свет ползёт, когда наклоняешь телефон")],
+                [("Relic", "Реликвия"), ("A milestone", "Веха"), ("A crown, chalice, sword, amulet, horn, key, ring or lantern with the moment in a medallion", "Корона, кубок, меч, амулет, рог, ключ, перстень или фонарь с моментом в медальоне")],
+                [("Mirror", "Зеркало"), ("A clip", "Клип"), ("An oval wall mirror; the clip plays inside the glass", "Овальное зеркало, клип играет прямо в стекле")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Hoard.apk", "Hoard.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Camera and microphone for photos and clips. Rough location and the internet only for the place and weather runes, if you want them. Notifications for the morning forge.",
+                                            "Камера и микрофон для фото и клипов. Примерное местоположение и интернет только для рун места и погоды, если они нужны. Уведомления для утреннего горна.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Name your dragon, then tap the flame and catch your first moment.", "Назови дракона, нажми на пламя и поймай первый момент."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei, Samsung and some other phones, allow Autostart for Hoard and remove battery limits so the morning notice arrives on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei, Samsung и некоторых других телефонах разреши Hoard автозапуск и сними ограничения батареи, чтобы утреннее уведомление приходило вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. The pixel art is drawn in Kotlin, nothing else to install.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Пиксель-арт рисуется на Kotlin, больше ничего ставить не нужно."),
+        "build": "git clone https://github.com/bigdevwhale/hoard.git\ncd hoard\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># app.hoard.dev, installs next to a release</c>\n./gradlew assembleDebug -Pdemo  <c># app.hoard.demo with an autumn in Prague</c>\n./gradlew testDebugUnitTest -Prender  <c># the art and the screens, as PNGs</c>",
+        "faq": [
+            (("Why only three a day, and why wait until morning?", "Почему только три в день и зачем ждать утра?"),
+             ("Because a hoard is about choosing. Three is the default and can be changed, from one to no limit. The overnight forge keeps you in the moment instead of looking at your phone; turn it off in the lair if you can't wait.",
+              "Потому что сокровищница — это про выбор. Три по умолчанию, можно поменять: от одного до без лимита. Ночной горн помогает быть в моменте, а не в телефоне; если ждать невмоготу, выключи его в логове.")),
+            (("Where are my photos kept?", "Где хранятся мои фото?"),
+             ("In the app's own storage, and a full-size copy of what the camera catches goes to your gallery (Pictures/Hoard, Movies/Hoard), which you can switch off. Nothing is uploaded anywhere.",
+              "В памяти приложения, а полноразмерная копия того, что поймала камера, попадает в галерею (Pictures/Hoard, Movies/Hoard) — это можно выключить. Никуда ничего не загружается.")),
+            (("Does it need the internet?", "Нужен ли интернет?"),
+             ("Only for the weather rune, asked from Open-Meteo, and only if runes are on. No account, no ads, no analytics.",
+              "Только для руны погоды, которую спрашиваем у Open-Meteo, и только если руны включены. Без аккаунта, рекламы и аналитики.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Lair → Backup saves the whole hoard, with every photo and clip, into one zip. Restore it on the new phone.",
+              "«Логово → Резервная копия» сохраняет всю сокровищницу со всеми фото и клипами в один zip. Восстанови его на новом телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -1776,12 +1869,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">

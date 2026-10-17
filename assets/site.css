@@ -28,6 +28,7 @@
   --pr-bg: #0D0E13; --pr-top: #1A1A2B; --pr-ink: #EFEDF4; --pr-muted: #9C9AB0; --pr-pearl: #F3EFE4; --pr-violet: #9C7EFF; --pr-line: #2A2B39;
   --tp-bg: #110F0E; --tp-top: #3A1E12; --tp-ink: #F3EAE2; --tp-muted: #B3A69B; --tp-ember: #FF7A3D; --tp-ice: #72C4F2; --tp-gold: #E8BA5E; --tp-line: #33291F;
   --hs-bg: #14112B; --hs-top: #2E2660; --hs-ink: #FCEFD2; --hs-muted: #BCAEDB; --hs-amber: #FFB938; --hs-violet: #B062E0; --hs-line: #3A3170;
+  --ho-bg: #130F18; --ho-top: #3A2414; --ho-ink: #F3E8D6; --ho-muted: #B9AAB4; --ho-gold: #EDBB55; --ho-ember: #FF8B4E; --ho-rune: #7FE3F0; --ho-line: #33293C;
   --fa-bg: #15121C; --fa-top: #2F2650; --fa-ink: #F1E9DC; --fa-muted: #B4A8B8; --fa-violet: #AE93FF; --fa-gold: #E9C26A; --fa-mana: #72C2FF; --fa-line: #332C40;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
@@ -43,14 +44,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55;
   color-scheme: dark;
 }
 
@@ -466,17 +467,17 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -552,3 +553,17 @@ pre.code .c { opacity: 0.55; }
 .app--familiar h1 em { color: var(--fa-gold); }
 .app--familiar .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--fa-line); }
 .g-familiar { --shot-bg: var(--fa-bg); --shot-ratio: 540 / 1145; }
+
+/* Hoard: a dragon's cave by torchlight, gold on dark rock with the forge glowing from below */
+.app--hoard { --fl: var(--ho-line); --fm: var(--ho-muted); background: radial-gradient(110% 90% at 0% 0%, var(--ho-top) 0%, transparent 60%), radial-gradient(90% 80% at 100% 100%, rgb(237 187 85 / 0.08) 0%, transparent 60%), var(--ho-bg); color: var(--ho-ink); }
+.app--hoard .app-tag { color: var(--ho-gold); }
+.app--hoard .app-lede em { font-style: normal; color: var(--ho-gold); }
+.app--hoard .btn-primary { background: var(--ho-gold); color: var(--ho-bg); }
+.app--hoard .btn-ghost { color: var(--ho-ink); border-color: var(--ho-line); }
+.ho-shot { border-radius: 20px; background: var(--ho-bg); image-rendering: auto; }
+.pill.ho { --dot: var(--ho-dot, #C99A2E); }
+.cv-ho { background: radial-gradient(120% 90% at 0% 0%, var(--ho-top) 0%, transparent 60%), var(--ho-bg); }
+.cv-ho img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--hoard h1 em { color: var(--ho-gold); }
+.app--hoard .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--ho-line); }
+.g-hoard { --shot-bg: var(--ho-bg); --shot-ratio: 540 / 1145; }

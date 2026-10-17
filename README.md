@@ -18,6 +18,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Prism](https://github.com/bigdevwhale/prism): one light, many colours: choose who you are in every sphere of life, with 71 good roles, 18 shadows and short practices, for Android
 - [Temper](https://github.com/bigdevwhale/temper): cold water, contrast showers and the sauna, tempered like steel: a voice guide, a sauna clock and your own Damascus blade, for Android
 - [Hearthspell](https://github.com/bigdevwhale/hearthspell): chores as spells in a wizard's tower, in cozy pixel art: imps instead of punishments, helpers that wake up, letters from the master, for Android
+- [Hoard](https://github.com/bigdevwhale/hoard): you are a dragon and your hoard is made of moments: photos and clips struck into pixel-art coins, gems, relics and mirrors, a forge that cools overnight, for Android
 - [Familiar](https://github.com/bigdevwhale/familiar): a reading pet in pixel art: every page you read is mana, and your familiar eats it, grows through five stages and changes with what you read, for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
