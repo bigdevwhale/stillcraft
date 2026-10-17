@@ -28,6 +28,7 @@
   --pr-bg: #0D0E13; --pr-top: #1A1A2B; --pr-ink: #EFEDF4; --pr-muted: #9C9AB0; --pr-pearl: #F3EFE4; --pr-violet: #9C7EFF; --pr-line: #2A2B39;
   --tp-bg: #110F0E; --tp-top: #3A1E12; --tp-ink: #F3EAE2; --tp-muted: #B3A69B; --tp-ember: #FF7A3D; --tp-ice: #72C4F2; --tp-gold: #E8BA5E; --tp-line: #33291F;
   --hs-bg: #14112B; --hs-top: #2E2660; --hs-ink: #FCEFD2; --hs-muted: #BCAEDB; --hs-amber: #FFB938; --hs-violet: #B062E0; --hs-line: #3A3170;
+  --fa-bg: #15121C; --fa-top: #2F2650; --fa-ink: #F1E9DC; --fa-muted: #B4A8B8; --fa-violet: #AE93FF; --fa-gold: #E9C26A; --fa-mana: #72C2FF; --fa-line: #332C40;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
@@ -42,14 +43,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF;
   color-scheme: dark;
 }
 
@@ -465,17 +466,17 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -537,3 +538,17 @@ pre.code .c { opacity: 0.55; }
 .app--hearthspell h1 em { color: var(--hs-amber); }
 .app--hearthspell .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--hs-line); }
 .g-hearthspell { --shot-bg: var(--hs-bg); --shot-ratio: 540 / 1145; }
+
+/* Familiar: a candlelit reading den at night, violet and gold with a touch of mana blue, in pixels */
+.app--familiar { --fl: var(--fa-line); --fm: var(--fa-muted); background: radial-gradient(110% 90% at 0% 0%, var(--fa-top) 0%, transparent 60%), radial-gradient(90% 80% at 100% 100%, rgb(233 194 106 / 0.07) 0%, transparent 60%), var(--fa-bg); color: var(--fa-ink); }
+.app--familiar .app-tag { color: var(--fa-violet); }
+.app--familiar .app-lede em { font-style: normal; color: var(--fa-gold); }
+.app--familiar .btn-primary { background: var(--fa-violet); color: var(--fa-bg); }
+.app--familiar .btn-ghost { color: var(--fa-ink); border-color: var(--fa-line); }
+.fa-shot { border-radius: 20px; background: var(--fa-bg); image-rendering: auto; }
+.pill.fa { --dot: var(--fa-dot, #8A6FE0); }
+.cv-fa { background: radial-gradient(120% 90% at 0% 0%, var(--fa-top) 0%, transparent 60%), var(--fa-bg); }
+.cv-fa img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--familiar h1 em { color: var(--fa-gold); }
+.app--familiar .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--fa-line); }
+.g-familiar { --shot-bg: var(--fa-bg); --shot-ratio: 540 / 1145; }
