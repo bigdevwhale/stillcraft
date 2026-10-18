@@ -2463,7 +2463,7 @@ APPS = [
         "visual": "st-vessel.png", "visual_ru": "st-vessel.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/stele",
         "download": "https://github.com/bigdevwhale/stele/releases/latest/download/Stele.apk",
-        "version": "v1.1.2",
+        "version": "v1.2.0",
         "tagline": ("A museum for what you want to remember: dig it up, clean it, put it on show.", "Музей для того, что хочешь помнить: откопай, расчисти, выставь в витрину."),
         "badge": ("Learning and memory · New", "Учёба и память · Новинка"),
         "status": ("ok", "New", "Новинка"),
@@ -2521,7 +2521,7 @@ APPS = [
             ],
         },
         "facts": [
-            (("Version", "Версия"), ("v1.1.2", "v1.1.2")),
+            (("Version", "Версия"), ("v1.2.0", "v1.2.0")),
             (("File", "Файл"), ("Stele.apk", "Stele.apk")),
             (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
             (("Permissions", "Разрешения"), ("Notifications for the evening bell. Voice, pronunciation and pictures go through the phone's own recogniser, speech and camera. No internet.",
