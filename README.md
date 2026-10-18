@@ -19,6 +19,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Temper](https://github.com/bigdevwhale/temper): cold water, contrast showers and the sauna, tempered like steel: a voice guide, a sauna clock and your own Damascus blade, for Android
 - [Hearthspell](https://github.com/bigdevwhale/hearthspell): chores as spells in a wizard's tower, in cozy pixel art: imps instead of punishments, helpers that wake up, letters from the master, for Android
 - [Hoard](https://github.com/bigdevwhale/hoard): you are a dragon and your hoard is made of moments: photos and clips struck into pixel-art coins, gems, relics and mirrors, a forge that cools overnight, for Android
+- [Notch](https://github.com/bigdevwhale/notch): a door frame for each child with a notch for every week of their life that has a photo or a clip: your phone's own camera, smart weekly reminders, tree rings, the same spot with a ghost over the camera, their words in their own voice, for Android
 - [Silverbox](https://github.com/bigdevwhale/silverbox): a film camera for the family: shoot with your phone's own camera onto a roll of 24, wait a day for the lab, open an envelope of prints with grain, light leaks and the orange date; 8 mm home movies, for Android
 - [Familiar](https://github.com/bigdevwhale/familiar): a reading pet in pixel art: every page you read is mana, and your familiar eats it, grows through five stages and changes with what you read, for Android
 
