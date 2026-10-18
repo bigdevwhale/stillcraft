@@ -1821,6 +1821,103 @@ APPS = [
               "«Логово → Резервная копия» сохраняет всю сокровищницу со всеми фото и клипами в один zip. Восстанови его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "silverbox",
+        "name": "Silverbox",
+        "panel": "app--silverbox",
+        "gallery": "g-silverbox",
+        "icon": "silverbox-logo.png",
+        "visual": "sb-camera.png", "visual_ru": "sb-camera.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/silverbox",
+        "download": "https://github.com/bigdevwhale/silverbox/releases/latest/download/Silverbox.apk",
+        "version": "v1.0.0",
+        "tagline": ("A film camera for the family: shoot now, see the prints tomorrow.", "Плёночный фотоаппарат для семьи: снимай сейчас, отпечатки смотри завтра."),
+        "badge": ("Family photos on film · New", "Семейные фото на плёнку · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 8.0+",
+        "title": ("Shoot now. <em>See tomorrow.</em>",
+                  "Снимай сейчас — <em>смотри завтра.</em>"),
+        "desc": ("A film camera for the family. You shoot with your phone's own camera, in any mode it has, and the pictures go on a roll of 24 or 36 frames. You won't see a single one until the roll goes to the lab; a day later an envelope of prints is waiting, with each film's colour, grain, light leaks and the orange date of an old point-and-shoot. Videos go on an 8 mm cassette and come back as a silent home movie. Free, no ads, no account, no internet.",
+                 "Плёночный фотоаппарат для семьи. Вы снимаете обычной камерой телефона, в любом её режиме, а снимки попадают на плёнку из 24 или 36 кадров. Ни одного не увидишь, пока плёнку не сдашь в фотоателье; через сутки ждёт конверт с отпечатками — с цветом и зерном выбранной плёнки, засветками и оранжевой датой старой мыльницы. Видео попадают на кассету 8 мм и возвращаются немым домашним кино. Бесплатно, без рекламы, аккаунта и интернета."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 8.0+ · Free · Works offline · English &amp; Русский",
+                 "Android 8.0+ · Бесплатно · Работает офлайн · English и Русский"),
+        "features": [
+            (("Your phone's camera", "Камера вашего телефона"),
+             ("Silverbox opens the camera you already have, with portrait, night, zoom and video. When you come back, whatever it took goes on the film and the frame counter clicks on. If you like, the pictures move to the gallery's bin, so nobody peeks.",
+              "Silverbox открывает камеру, которая у вас уже есть, с портретом, ночным режимом, зумом и видео. Когда возвращаетесь, всё снятое попадает на плёнку и счётчик кадров щёлкает. По желанию снимки уходят в корзину галереи, чтобы никто не подглядывал.")),
+            (("Five films", "Пять плёнок"),
+             ("Sunny 200, warm and golden; Every 400, soft with gentle greens; Night 800, coarse grain and a red glow round the lights; Silver 400 in black and white; Slide 100, rich with deep blue skies. Each roll can be named for what it's for: \"Summer at Gran's\".",
+              "Sunny 200 — тёплая, золотистая; Every 400 — мягкая, с нежной зеленью; Night 800 — крупное зерно и красный ореол вокруг огней; Silver 400 — чёрно-белая; Slide 100 — сочная, с густо-синим небом. Каждую плёнку можно подписать: «Лето у бабушки».")),
+            (("The lab and the envelope", "Фотоателье и конверт"),
+             ("Hand the roll over the counter and get a receipt with an order number. Ordinary development takes a day, express an hour, once a week. Then one quiet notice, a kraft envelope, and the prints one by one as a stack.",
+              "Сдаёте плёнку и получаете квитанцию с номером заказа. Обычная проявка — сутки, срочная — час, раз в неделю. Потом одно тихое уведомление, крафтовый конверт и отпечатки стопкой, по одному.")),
+            (("Film that behaves like film", "Плёнка ведёт себя как плёнка"),
+             ("The first frame is fogged from loading, the last frame of a full roll is cut where the film ran out, light sometimes leaks in from the edge. Film left in the camera past two months fades and turns magenta.",
+              "Первый кадр засвечен при зарядке, последний кадр полной плёнки обрезан там, где она кончилась, иногда с края заходит засветка. Плёнка, пролежавшая в камере больше двух месяцев, выцветает и розовеет.")),
+            (("Album, shoebox and shelf", "Альбом, коробка и полка"),
+             ("The best prints go in the album, two to a page in black photo corners. Every print lands loose in the shoebox. Turn a print over to write on its back by hand. Developed rolls stand on the shelf with their contact sheets and negatives.",
+              "Лучшие отпечатки — в альбом, по два на страницу, в чёрных уголках. Все остальные лежат в коробке из-под обуви. Отпечаток можно перевернуть и подписать от руки. Проявленные плёнки стоят на полке с контактными листами и негативами.")),
+            (("8 mm home movies", "Домашнее кино 8 мм"),
+             ("Videos go on a cassette of 50 clips. The lab cuts three seconds from each and prints a silent film: 4:3, 18 frames a second, an intertitle, dust and flicker. Watch it in the dark with a quiet projector.",
+              "Видео попадают на кассету из 50 роликов. Ателье берёт из каждого три секунды и печатает немой фильм: 4:3, 18 кадров в секунду, титр, пыль и мерцание. Смотрите его в темноте под тихий проектор.")),
+        ],
+        "shots": [
+            ("sb-camera.png", "sb-camera.ru.png", ("The counter", "Прилавок"), ("An envelope waiting, the roll in the camera.", "Готовый конверт и плёнка в камере.")),
+            ("sb-envelope.png", "sb-envelope.ru.png", ("The envelope", "Конверт"), ("Order №0417 is back from the lab.", "Заказ №0417 вернулся из ателье.")),
+            ("sb-stack.png", "sb-stack.ru.png", ("The prints", "Отпечатки"), ("One by one, as a stack.", "По одному, стопкой.")),
+            ("sb-back.png", "sb-back.ru.png", ("The back", "Оборот"), ("Written by hand.", "Подписано от руки.")),
+            ("sb-album.png", "sb-album.ru.png", ("The album", "Альбом"), ("Two to a page, in photo corners.", "По два на страницу, в уголках.")),
+            ("sb-shoebox.png", "sb-shoebox.ru.png", ("The shoebox", "Коробка"), ("Every print, by month.", "Все отпечатки, по месяцам.")),
+            ("sb-shelf.png", "sb-shelf.ru.png", ("The shelf", "Полка"), ("Every roll in its box.", "Каждая плёнка в своей коробке.")),
+            ("sb-roll.png", "sb-roll.ru.png", ("Contact sheet", "Контактный лист"), ("The roll strip by strip.", "Плёнка полоска за полоской.")),
+            ("sb-film.png", "sb-film.ru.png", ("Home movie", "Домашнее кино"), ("8 mm in the dark.", "8 мм в темноте.")),
+        ],
+        "extra": {
+            "title": ("The films", "Плёнки"),
+            "head": [("Film", "Плёнка"), ("Character", "Характер"), ("Good for", "Для чего")],
+            "rows": [
+                [("Sunny 200", "Sunny 200"), ("Warm and golden", "Тёплая, золотистая"), ("Summer, sun, faces that glow", "Лето, солнце, светящиеся лица")],
+                [("Every 400", "Every 400"), ("Natural and soft, gentle greens", "Естественная, мягкая, нежная зелень"), ("Home and the everyday", "Дом и будни")],
+                [("Night 800", "Night 800"), ("Coarse grain, a red glow round lights", "Крупное зерно, красный ореол у огней"), ("Evenings, garlands, candles", "Вечера, гирлянды, свечи")],
+                [("Silver 400", "Silver 400"), ("Black and white, deep blacks", "Чёрно-белая, глубокий чёрный"), ("Portraits, grandparents", "Портреты, бабушки и дедушки")],
+                [("Slide 100", "Slide 100"), ("Rich and punchy", "Сочная, контрастная"), ("Travel, the sea, nature", "Путешествия, море, природа")],
+                [("Home 8 / Silver 8", "Home 8 / Silver 8"), ("8 mm cassettes", "Кассеты 8 мм"), ("Home movie in colour or black and white", "Домашнее кино в цвете или ч/б")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Silverbox.apk", "Silverbox.apk")),
+            (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer and a camera app. No Google services needed.", "Android 8.0 (API 26) или новее и приложение камеры. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Photos and videos, to load what your camera takes onto the film (only the camera's folder, only after you press Shoot). Notifications for the envelope. No internet at all.",
+                                            "Фото и видео, чтобы заряжать снятое камерой на плёнку (только папка камеры и только после нажатия «Снимать»). Уведомления о конверте. Интернет не нужен вовсе.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Allow access to all photos and videos, load your first roll and tap Shoot.", "Разреши доступ ко всем фото и видео, заряди первую плёнку и нажми «Снимать»."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei, Samsung and some other phones, allow Autostart for Silverbox and remove battery limits so the envelope notice arrives on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei, Samsung и некоторых других телефонах разреши Silverbox автозапуск и сними ограничения батареи, чтобы уведомление о конверте приходило вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. The darkroom is plain Kotlin, nothing else to install.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Фотолаборатория написана на чистом Kotlin, больше ничего ставить не нужно."),
+        "build": "git clone https://github.com/bigdevwhale/silverbox.git\ncd silverbox\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># app.silverbox.dev; the lab takes a minute</c>\n./gradlew assembleDebug -Pdemo  <c># app.silverbox.demo with a family year on film</c>\n./gradlew testDebugUnitTest -Prender  <c># sample prints and the screens, as PNGs</c>",
+        "faq": [
+            (("Why can't I see the photos straight away?", "Почему нельзя посмотреть снимки сразу?"),
+             ("Because waiting is the point. You live the moment instead of checking the screen, choose your frames with care, and a day later there's an envelope to open together.",
+              "Потому что в ожидании весь смысл. Ты проживаешь момент, а не смотришь в экран, выбираешь кадры бережнее, а через сутки вас ждёт конверт, который можно открыть вместе.")),
+            (("Are the originals kept?", "Сохраняются ли оригиналы?"),
+             ("Yes. The camera's originals stay in the app next to the prints and go into the backup. Hiding them from the gallery is optional and only moves them to the gallery's bin.",
+              "Да. Оригиналы камеры хранятся в приложении рядом с отпечатками и попадают в резервную копию. Прятать их из галереи необязательно — это лишь перенос в корзину галереи.")),
+            (("Does it need the internet?", "Нужен ли интернет?"),
+             ("No. Prints and films are made on the phone. No account, no ads, no analytics.",
+              "Нет. Отпечатки и фильмы делаются на телефоне. Без аккаунта, рекламы и аналитики.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Settings → Backup saves every roll, print, original and film into one zip. Restore it on the new phone.",
+              "«Настройки → Резервная копия» сохраняет все плёнки, отпечатки, оригиналы и фильмы в один zip. Восстанови его на новом телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -1869,12 +1966,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
