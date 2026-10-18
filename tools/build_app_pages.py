@@ -1639,7 +1639,7 @@ APPS = [
         "visual": "fa-den.png", "visual_ru": "fa-den.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/familiar",
         "download": "https://github.com/bigdevwhale/familiar/releases/latest/download/Familiar.apk",
-        "version": "v1.1.0",
+        "version": "v1.1.1",
         "tagline": ("A pixel-art familiar that feeds on the pages you read.", "Пиксельный фамильяр, который питается прочитанными страницами."),
         "badge": ("A reading pet in pixel art · New", "Питомец для чтения в пиксель-арте · Новинка"),
         "status": ("ok", "New", "Новинка"),
@@ -1697,7 +1697,7 @@ APPS = [
             ],
         },
         "facts": [
-            (("Version", "Версия"), ("v1.1.0", "v1.1.0")),
+            (("Version", "Версия"), ("v1.1.1", "v1.1.1")),
             (("File", "Файл"), ("Familiar.apk", "Familiar.apk")),
             (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer. No Google services needed.", "Android 8.0 (API 26) или новее. Сервисы Google не нужны.")),
             (("Permissions", "Разрешения"), ("Internet only to search a book and download its cover. Notifications for the evening reminder. Your reading stays on the phone.",
