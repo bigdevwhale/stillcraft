@@ -25,6 +25,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Scriptor](https://github.com/bigdevwhale/scriptor): a scriptorium for what you learn: after a book, a lecture or a video, write a page in your own words; its ink fades along your forgetting curve and you restore it from memory, with candles staked before looking, a novice to explain it to, illumination earned page by page, and crafts that open as you go up to a monastery of memory, for Android
 - [Silverbox](https://github.com/bigdevwhale/silverbox): a film camera for the family: shoot with your phone's own camera onto a roll of 24, wait a day for the lab, open an envelope of prints with grain, light leaks and the orange date; 8 mm home movies, for Android
 - [Familiar](https://github.com/bigdevwhale/familiar): a reading pet in pixel art: every page you read is mana, and your familiar eats it, grows through five stages and changes with what you read, for Android
+- [Marbles](https://github.com/bigdevwhale/marbles): about 940 Saturdays until your child turns eighteen, as marbles in a jar: each week's marble coloured by time spent together, an honest mirror of the evening's phone minutes beside the children's, ideas by how much battery you have left, bedtime questions, the month's letter and a printable almanac, for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
 
