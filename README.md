@@ -26,6 +26,7 @@ Small tools for a quieter mind. Landing page for a family of calm, offline, open
 - [Silverbox](https://github.com/bigdevwhale/silverbox): a film camera for the family: shoot with your phone's own camera onto a roll of 24, wait a day for the lab, open an envelope of prints with grain, light leaks and the orange date; 8 mm home movies, for Android
 - [Familiar](https://github.com/bigdevwhale/familiar): a reading pet in pixel art: every page you read is mana, and your familiar eats it, grows through five stages and changes with what you read, for Android
 - [Marbles](https://github.com/bigdevwhale/marbles): about 940 Saturdays until your child turns eighteen, as marbles in a jar: each week's marble coloured by time spent together, an honest mirror of the evening's phone minutes beside the children's, ideas by how much battery you have left, bedtime questions, the month's letter and a printable almanac, for Android
+- [Stele](https://github.com/bigdevwhale/stele): a museum for what you want to remember: words, terms, dates or quotations are finds you clean from dust along your forgetting curve, from a dusty shard to the showcase, staking chisel strikes before you look; vessels mended in gold, a daily test pit, a monthly sealed door, forgeries, text sifting and Anki import, for Android
 
 Live: https://bigdevwhale.github.io/stillcraft/
 
