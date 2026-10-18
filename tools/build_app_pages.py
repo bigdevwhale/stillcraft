@@ -2552,6 +2552,103 @@ APPS = [
               "«Настройки → Резервная копия» сохраняет весь музей вместе с картинками в один JSON-файл. Восстанови его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "podium",
+        "name": "Podium",
+        "panel": "app--podium",
+        "gallery": "g-podium",
+        "icon": "podium-logo.png",
+        "visual": "pd-stadium.png", "visual_ru": "pd-stadium.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/podium",
+        "download": "https://github.com/bigdevwhale/podium/releases/latest/download/Podium.apk",
+        "version": "v1.0.0",
+        "tagline": ("Race your own ghost at everyday tasks: splits, medals and the Games.", "Гонки с собственным призраком в повседневных делах: отсечки, медали и Игры."),
+        "badge": ("Everyday tasks · New", "Повседневные дела · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Race the one who <em>did it yesterday.</em>",
+                  "Гонка с тем, кто <em>делал это вчера.</em>"),
+        "desc": ("Every task you do again and again becomes a discipline: the morning out of the door, the kitchen after dinner, the inbox, a plank. Start the clock, and in the next lane runs a ghost: you, last time or at your best. Splits, medals, a medal table every four weeks, and a coach who reads the whole protocol. You only ever race yourself, and a rushed heat is disqualified. Free, no ads, no account, no internet permission.",
+                 "Каждое дело, которое повторяется, становится дисциплиной: утро до выхода из дома, кухня после ужина, почта, планка. Запусти секундомер, и по соседней дорожке побежит призрак: ты в прошлый раз или на рекорде. Отсечки, медали, медальный зачёт каждые четыре недели и тренер, который читает весь протокол. Соревнуешься ты только с собой, а заезд наспех дисквалифицируется. Бесплатно, без рекламы, без аккаунта, без доступа в интернет."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("Disciplines", "Дисциплины"),
+             ("Name something you do again and again and pick one of 33 pictograms after Otl Aicher's for Munich 1972, a part of life and how it's won: sprint (faster wins), endurance (longer wins) or pace (closest to a set time wins, for what shouldn't be rushed).",
+              "Назови то, что делаешь снова и снова, и выбери одну из 33 пиктограмм по мотивам Отля Айхера для Мюнхена-1972, сферу жизни и способ победы: спринт (побеждает быстрый), выносливость (побеждает долгий) или темп (побеждает тот, кто ближе к заданному времени, — для того, что нельзя делать бегом).")),
+            (("The ghost in the next lane", "Призрак на соседней дорожке"),
+             ("On your marks, get set, go. On the oval the ghost runs the inside lane at its own pace: your record, last time, your median (the standard) or you a month ago. The scoreboard says whether you're ahead and when the ghost finishes.",
+              "На старт, внимание, марш. На овале по внутренней дорожке в своём темпе бежит призрак: твой рекорд, прошлый раз, твоя медиана (норматив) или ты месяц назад. Табло показывает, впереди ли ты и когда призрак финиширует.")),
+            (("Splits and the perfect heat", "Отсечки и идеальный заезд"),
+             ("Cut a long task into sections. Each split shows a live delta against the ghost's, a star for a section never run faster, and the perfect heat: every section at its best, put together. A pit stop stops the clock and notes what pulled you away.",
+              "Разбей длинное дело на отрезки. На каждой отсечке видна разница с призраком, звезда за отрезок, пройденный быстрее, чем когда-либо, и идеальный заезд: все отрезки в лучшем виде, вместе. Пит-стоп останавливает секундомер и запоминает, что отвлекло.")),
+            (("Medals and records", "Медали и рекорды"),
+             ("The first three heats are qualifying. After that, a heat in your top three gets gold, silver or bronze, and the best ever is the record. Clean or fine counts; a rushed heat stays in the results but wins nothing. Within a second and a half of the record, the judges take a photo finish.",
+              "Первые три заезда — квалификация. Дальше заезд, попавший в твою тройку лучших, получает золото, серебро или бронзу, а лучший за всё время — рекорд. «Чисто» и «нормально» засчитываются; заезд наспех остаётся в протоколе, но ничего не выигрывает. Если до рекорда меньше полутора секунд, судьи делают фотофиниш.")),
+            (("The Games", "Игры"),
+             ("Every four weeks (or 1, 2, 8, as you like): a medal table kept by parts of life instead of nations, Games records and a closing ceremony the morning after. The flame counts the days in a row with at least one heat.",
+              "Каждые четыре недели (или 1, 2, 8 — как удобно): медальный зачёт по сферам жизни вместо стран, рекорды Игр и церемония закрытия на следующее утро. Огонь считает дни подряд хотя бы с одним заездом.")),
+            (("Your entry and the coach", "Заявка и тренер"),
+             ("Before the start, enter how long you think it will take. The coach reads the whole protocol: how far off your entries are by part of life, what tiredness and interruptions cost you, progress since your first heats, and plateaus, with what to try next.",
+              "Перед стартом подай заявку: сколько, по-твоему, это займёт. Тренер читает протокол целиком: насколько ошибаются заявки по сферам жизни, во сколько обходятся усталость и отвлечения, прогресс с первых заездов и плато — с подсказкой, что попробовать дальше.")),
+        ],
+        "shots": [
+            ("pd-stadium.png", "pd-stadium.ru.png", ("The stadium", "Стадион"), ("Disciplines, records and the flame.", "Дисциплины, рекорды и огонь.")),
+            ("pd-start.png", "pd-start.ru.png", ("To the start", "На старт"), ("Pick who runs in the next lane.", "Выбери, кто бежит рядом.")),
+            ("pd-heat.png", "pd-heat.ru.png", ("A heat", "Заезд"), ("The ghost on the oval, a split.", "Призрак на овале, отсечка.")),
+            ("pd-result.png", "pd-result.ru.png", ("The result", "Результат"), ("Gold, and a new record.", "Золото и новый рекорд.")),
+            ("pd-event.png", "pd-event.ru.png", ("A discipline", "Дисциплина"), ("The podium and the learning curve.", "Пьедестал и кривая обучения.")),
+            ("pd-event-more.png", "pd-event-more.ru.png", ("Every heat", "Все заезды"), ("Medals, records, conditions.", "Медали, рекорды, условия.")),
+            ("pd-results.png", "pd-results.ru.png", ("Results", "Протокол"), ("Every heat, day by day.", "Все заезды, день за днём.")),
+            ("pd-medals.png", "pd-medals.ru.png", ("Medals", "Медали"), ("A medal table by part of life.", "Медальный зачёт по сферам жизни.")),
+            ("pd-coach.png", "pd-coach.ru.png", ("The coach", "Тренер"), ("Your entries and your progress.", "Заявки и прогресс.")),
+            ("pd-coach-more.png", "pd-coach-more.ru.png", ("Plateaus", "Плато"), ("Conditions and where pit stops went.", "Условия и куда ушли пит-стопы.")),
+        ],
+        "extra": {
+            "title": ("Who runs in the next lane", "Кто бежит рядом"),
+            "head": [("Ghost", "Призрак"), ("What it shows", "Что он показывает")],
+            "rows": [
+                [("Record holder", "Рекордсмен"), ("You at your best ever: can you beat it today?", "Ты в лучший раз за всё время: побьёшь ли сегодня?")],
+                [("Last time", "Прошлый раз"), ("The previous heat, to stay honest from one day to the next", "Предыдущий заезд, чтобы держать планку день ото дня")],
+                [("The standard", "Норматив"), ("Your median: the ordinary you, not the lucky one", "Твоя медиана: ты обычный, а не в удачный день")],
+                [("A month ago", "Месяц назад"), ("To see how far you've come", "Чтобы увидеть, сколько пройдено")],
+                [("Pacemaker", "Пейсмейкер"), ("For pace disciplines: the set time, run evenly", "Для дисциплин на темп: заданное время, ровным шагом")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Podium.apk", "Podium.apk")),
+            (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Notifications for the live clock and the closing ceremony. No internet.",
+                                            "Уведомления для живого секундомера и церемонии закрытия. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Add a discipline you do every day, start the clock and run your first heat.", "Заведи дисциплину, которую делаешь каждый день, запусти секундомер и пробеги первый заезд."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei, Samsung and some other phones, allow Autostart for Podium and remove battery limits so the live clock stays in the notification shade and the closing ceremony arrives on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei, Samsung и некоторых других телефонах разреши Podium автозапуск и сними ограничения батареи, чтобы живой секундомер оставался в шторке, а церемония закрытия приходила вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. The pictograms, the track and the medals are drawn on a Compose canvas, nothing else to install.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Пиктограммы, дорожка и медали рисуются на Compose canvas, больше ничего ставить не нужно."),
+        "build": "git clone https://github.com/bigdevwhale/podium.git\ncd podium\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># app.podium.dev, installs next to a release</c>\n./gradlew assembleDebug -Pdemo  <c># app.podium.demo, a made-up season</c>\n./gradlew testDebugUnitTest -Prender --tests '*RenderArt*'  <c># the pictograms</c>",
+        "faq": [
+            (("Isn't this just making me rush?", "Это же просто заставляет торопиться?"),
+             ("No. When you finish you say how it went: clean, fine or rushed. A rushed heat is disqualified: it stays in the results but wins no medal and sets no record. For what shouldn't be fast at all, choose pace: the winner is the heat closest to the time you set.",
+              "Нет. На финише отмечаешь, как всё прошло: чисто, нормально или наспех. Заезд наспех дисквалифицируется: он остаётся в протоколе, но не получает медали и не ставит рекорд. Для того, что вообще не стоит делать быстро, выбери темп: побеждает заезд, ближе всего к заданному времени.")),
+            (("Do I have to hold the phone while I race?", "Нужно держать телефон в руках во время заезда?"),
+             ("No. A live clock sits in the notification with the ghost and buttons for a split, a pit stop and the finish, so the phone can stay in a pocket. There's a quick-settings tile and launcher shortcuts for the disciplines you race most. Timed it with something else? Write the heat in by hand.",
+              "Нет. Живой секундомер висит в уведомлении с призраком и кнопками отсечки, пит-стопа и финиша, так что телефон может лежать в кармане. Есть плитка в быстрых настройках и ярлыки на иконке для самых частых дисциплин. Засекал чем-то другим? Запиши заезд вручную.")),
+            (("Is it connected to the Olympics?", "Это связано с Олимпиадой?"),
+             ("No. The look is Munich, summer 1972, and the pictograms are drawn after Otl Aicher's, but Podium has nothing to do with the IOC or any Olympic organisation.",
+              "Нет. Оформление — Мюнхен, лето 1972 года, пиктограммы нарисованы по мотивам Отля Айхера, но Podium не имеет отношения к МОК и олимпийским организациям.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Settings → Backup saves every discipline and heat to one JSON file. Restore it on the new phone.",
+              "«Настройки → Резервная копия» сохраняет все дисциплины и заезды в один JSON-файл. Восстанови его на новом телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -2600,12 +2697,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">

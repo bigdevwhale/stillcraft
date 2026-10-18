@@ -32,6 +32,7 @@
   --sb-bg: #F2EADB; --sb-top: #FBF6EC; --sb-ink: #2A231D; --sb-muted: #6E6255; --sb-teal: #1E5B5C; --sb-mustard: #D9A132; --sb-stamp: #FF8F2A; --sb-line: #DDD0B8;
   --nt-bg: #F5EFE4; --nt-top: #FBF8F1; --nt-ink: #33302F; --nt-muted: #6F675F; --nt-red: #D2553A; --nt-wood: #D6B284; --nt-dark: #9C7347; --nt-pencil: #45444C; --nt-line: #E3D5BF;
   --ma-bg: #1B1512; --ma-top: #2E2219; --ma-surface: #241C17; --ma-ink: #F3E7D7; --ma-muted: #B9A794; --ma-amber: #E9A23B; --ma-lamp: #FFCF87; --ma-phone: #7194C2; --ma-line: #3B2F27;
+  --pd-bg: #F5F4EF; --pd-top: #FFFFFF; --pd-ink: #17242E; --pd-muted: #56646E; --pd-blue: #1C88CC; --pd-green: #3C9D50; --pd-orange: #EA8424; --pd-gold: #D4A11E; --pd-line: #DCE2E6;
   --st-bg: #EDE3D1; --st-top: #F8F2E7; --st-ink: #2B2119; --st-muted: #6E5C49; --st-clay: #B5552F; --st-bronze: #3F7A70; --st-gold: #CBA43F; --st-line: #D5C3A4;
   --sc-bg: #EFE4CC; --sc-top: #F7EFDC; --sc-ink: #2A1F17; --sc-muted: #6D5B45; --sc-cinnabar: #B0372A; --sc-lapis: #2B4785; --sc-gold: #CDA33E; --sc-line: #D8C59F;
   --vi-bg: #EFE3CA; --vi-top: #F8F0DF; --vi-ink: #2B1D14; --vi-muted: #6B5644; --vi-rubric: #A8322A; --vi-gold: #B8892B; --vi-lapis: #2F4C86; --vi-night: #130D0A; --vi-line: #D5C29C;
@@ -51,14 +52,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0;
   color-scheme: dark;
 }
 
@@ -475,17 +476,17 @@ pre.code .c { opacity: 0.55; }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.g-silverbox, .g-notch, .g-marbles { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.g-silverbox, .g-notch, .g-marbles, .g-podium { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -677,3 +678,18 @@ pre.code .c { opacity: 0.55; }
 .app--stele h1 em { color: var(--st-clay); }
 .app--stele .ap-visual img { box-shadow: 0 24px 60px rgb(60 35 15 / 0.30); border: 1px solid var(--st-line); }
 .g-stele { --shot-bg: var(--st-bg); --shot-ratio: 540 / 1200; }
+
+/* Podium: Munich 1972, white paper, a light-blue sky, green grass, orange and gold for the medals */
+.app--podium { --fl: var(--pd-line); --fm: var(--pd-muted); background: radial-gradient(110% 90% at 0% 0%, var(--pd-top) 0%, transparent 60%), radial-gradient(90% 80% at 100% 100%, rgb(60 157 80 / 0.12) 0%, transparent 60%), radial-gradient(60% 50% at 100% 0%, rgb(28 136 204 / 0.14) 0%, transparent 60%), var(--pd-bg); color: var(--pd-ink); }
+.app--podium .app-tag { color: var(--pd-blue); }
+.app--podium .app-lede em { font-style: normal; color: var(--pd-blue); }
+.app--podium .btn-primary { background: var(--pd-blue); color: #FFFFFF; }
+.app--podium .btn-ghost { color: var(--pd-ink); border-color: var(--pd-line); }
+.app--podium .app-desc, .app--podium .feats span, .app--podium small { color: var(--pd-muted); }
+.pd-shot { border-radius: 20px; background: var(--pd-bg); image-rendering: auto; }
+.pill.pd { --dot: var(--pd-dot, #1C88CC); }
+.cv-pd { background: radial-gradient(120% 90% at 0% 0%, var(--pd-top) 0%, transparent 60%), radial-gradient(90% 70% at 100% 100%, rgb(28 136 204 / 0.16) 0%, transparent 60%), var(--pd-bg); }
+.cv-pd img { box-shadow: 0 20px 50px rgb(23 36 46 / 0.22); }
+.app--podium h1 em { color: var(--pd-blue); }
+.app--podium .ap-visual img { box-shadow: 0 24px 60px rgb(23 36 46 / 0.22); border: 1px solid var(--pd-line); }
+.g-podium { --shot-bg: var(--pd-bg); --shot-ratio: 540 / 1200; }
