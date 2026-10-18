@@ -31,6 +31,7 @@
   --ho-bg: #130F18; --ho-top: #3A2414; --ho-ink: #F3E8D6; --ho-muted: #B9AAB4; --ho-gold: #EDBB55; --ho-ember: #FF8B4E; --ho-rune: #7FE3F0; --ho-line: #33293C;
   --sb-bg: #F2EADB; --sb-top: #FBF6EC; --sb-ink: #2A231D; --sb-muted: #6E6255; --sb-teal: #1E5B5C; --sb-mustard: #D9A132; --sb-stamp: #FF8F2A; --sb-line: #DDD0B8;
   --nt-bg: #F5EFE4; --nt-top: #FBF8F1; --nt-ink: #33302F; --nt-muted: #6F675F; --nt-red: #D2553A; --nt-wood: #D6B284; --nt-dark: #9C7347; --nt-pencil: #45444C; --nt-line: #E3D5BF;
+  --ca-bg: #1E1733; --ca-top: #2C2350; --ca-ink: #F6EEDD; --ca-muted: #BDB2CF; --ca-marigold: #F7A21B; --ca-fuchsia: #E8418E; --ca-turquoise: #26C6B3; --ca-lime: #B9D83C; --ca-violet: #9B6BEA; --ca-line: #3A2F63;
   --fa-bg: #15121C; --fa-top: #2F2650; --fa-ink: #F1E9DC; --fa-muted: #B4A8B8; --fa-violet: #AE93FF; --fa-gold: #E9C26A; --fa-mana: #72C2FF; --fa-line: #332C40;
 
   --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
@@ -46,14 +47,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B;
   color-scheme: dark;
 }
 
@@ -469,18 +470,18 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -598,3 +599,17 @@ pre.code .c { opacity: 0.55; }
 .app--notch h1 em { color: var(--nt-red); }
 .app--notch .ap-visual img { box-shadow: 0 24px 60px rgb(90 60 30 / 0.22); border: 1px solid var(--nt-line); }
 .g-notch { --shot-bg: var(--nt-bg); --shot-ratio: 540 / 1145; }
+
+/* Calavera: a Day of the Dead night, marigold petals, fuchsia papel picado, turquoise and lime, a bone-white calaca */
+.app--calavera { --fl: var(--ca-line); --fm: var(--ca-muted); background: radial-gradient(110% 90% at 0% 0%, var(--ca-top) 0%, transparent 60%), radial-gradient(90% 80% at 100% 100%, rgb(232 65 142 / 0.14) 0%, transparent 60%), radial-gradient(60% 50% at 100% 0%, rgb(247 162 27 / 0.10) 0%, transparent 60%), var(--ca-bg); color: var(--ca-ink); }
+.app--calavera .app-tag { color: var(--ca-marigold); }
+.app--calavera .app-lede em { font-style: normal; color: var(--ca-marigold); }
+.app--calavera .btn-primary { background: var(--ca-marigold); color: var(--ca-bg); }
+.app--calavera .btn-ghost { color: var(--ca-ink); border-color: var(--ca-line); }
+.ca-shot { border-radius: 20px; background: var(--ca-bg); image-rendering: auto; }
+.pill.ca { --dot: var(--ca-dot, #E8418E); }
+.cv-ca { background: radial-gradient(120% 90% at 0% 0%, var(--ca-top) 0%, transparent 60%), radial-gradient(90% 70% at 100% 100%, rgb(232 65 142 / 0.18) 0%, transparent 60%), var(--ca-bg); }
+.cv-ca img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--calavera h1 em { color: var(--ca-marigold); }
+.app--calavera .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--ca-line); }
+.g-calavera { --shot-bg: var(--ca-bg); --shot-ratio: 540 / 1145; }
