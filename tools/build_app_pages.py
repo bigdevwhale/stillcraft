@@ -2746,6 +2746,101 @@ APPS = [
               "«Настройки → Сохранить копию» записывает все корабли, заходы и грузы в один JSON-файл. Восстанови его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "lantern",
+        "name": "Lantern",
+        "panel": "app--lantern",
+        "gallery": "g-lantern",
+        "icon": "lantern-logo.png",
+        "visual": "ln-glass.png", "visual_ru": "ln-glass.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/lantern",
+        "download": "https://github.com/bigdevwhale/lantern/releases/latest/download/Lantern.apk",
+        "version": "v1.0.0",
+        "tagline": ("A magic lantern deals the glass; parent and child make up the bedtime tale.", "Волшебный фонарь раздаёт стёкла, а сказку на ночь родитель и ребёнок придумывают вместе."),
+        "badge": ("Bedtime tales · New", "Сказки на ночь · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Light the lantern. <em>Make up the tale together.</em>",
+                  "Зажгите фонарь. <em>Сказку придумаете вместе.</em>"),
+        "desc": ("A magic lantern for bedtime. Light it, and slides of painted glass come out one by one: a hero with a job, a place, a magic thing that can do something, a trouble, a helper. Nobody knows who it'll be tonight. Then the phone goes face down and the tale is told by voice, not read off a screen: turn the phone over for a twist, a candle says when to finish, and the lantern goes out to the sound of rain. Free, no ads, no account, no internet permission.",
+                 "Волшебный фонарь для вечера. Зажгите его — и по одному выпадут расписные стёкла: герой с профессией, место, волшебная вещь, которая что-то умеет, беда, помощник. Никто не знает, кто будет сегодня. Потом телефон ложится экраном вниз, и сказку рассказывают голосом, а не читают с экрана: переверните телефон — будет поворот, свеча подскажет, когда заканчивать, а фонарь погаснет под шум дождя. Бесплатно, без рекламы, без аккаунта и без доступа в интернет."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("Hundreds of slides", "Сотни стёкол"),
+             ("42 heroes in 28 jobs (Lamplighter Mouse, Captain Fox), 34 places, 48 magic things with 40 powers, 38 troubles, helpers, quirks, twists and quiet endings. Shadow-puppet cut-outs after Lotte Reiniger, drawn in code.",
+              "42 героя в 28 профессиях («Мышка-фонарщица», «Лиса-капитан»), 34 места, 48 волшебных вещей с 40 силами, 38 бед, помощники, странности, повороты и тихие финалы. Силуэты в духе теневых фильмов Лотты Райнигер, нарисованные кодом.")),
+            (("Face down", "Экраном вниз"),
+             ("Lay the phone face down and the screen goes black: the tale is told, not watched. Turn it over and the lantern deals a twist: it started snowing buttons, a door appeared in a tree.",
+              "Положите телефон экраном вниз — экран станет чёрным: сказку рассказывают, а не смотрят. Переверните — фонарь выдаст поворот: пошёл снег из пуговиц, в дереве появилась дверь.")),
+            (("The grown-up's card", "Подсказка для взрослого"),
+             ("Stuck? Hold the card for the next step of a folk tale after Propp (a warning, the rule broken, the helper's test, the gift) and a question to ask the child. Hidden until held, so nobody reads ahead.",
+              "Застряли? Удерживайте карточку: следующий шаг волшебной сказки по Проппу (запрет, нарушение, испытание помощника, дар) и вопрос для ребёнка. Скрыта, пока не удерживаешь, чтобы никто не подглядывал.")),
+            (("Candle, turns, the quiet ending", "Свеча, очередь, тихий финал"),
+             ("A candle burns down to the ending. Tell it round the table and a soft bell passes the tale on. Then an ending slide, a name for the tale, and rain, the sea, crickets, a fire or wind, made on the phone, while the lantern dims.",
+              "Свеча догорает к финалу. Если рассказывать по очереди, тихий колокольчик передаёт сказку дальше. Потом стекло финала, название сказки — и дождь, море, сверчки, костёр или ветер, созданные прямо в телефоне, пока фонарь гаснет.")),
+            (("A world that grows", "Мир, который растёт"),
+             ("Old friends from earlier tales come back, places light up on a night map, and every evening with a tale brings a parcel with one rare slide. The child can paint their own glass with a finger.",
+              "Старые знакомые из прошлых сказок возвращаются, места зажигаются на ночной карте, а за каждый вечер со сказкой приходит посылка с одним редким стеклом. Ребёнок может нарисовать своё стекло пальцем.")),
+            (("The shelf and the morning", "Полка и утро"),
+             ("Every tale kept with its glass, a few lines and, if you like, the recording; sequels with the same hero; a little book to print. In the morning, three questions to tell it back. And a code for a parent far away: both phones deal the same glass.",
+              "Каждая сказка хранится со стёклами, парой строк и, если хотите, записью; продолжения с тем же героем; маленькая книжка для печати. Утром — три вопроса, чтобы пересказать. И код для того, кто далеко: на двух телефонах выпадут одинаковые стёкла.")),
+        ],
+        "shots": [
+            ("ln-lantern.png", "ln-lantern.ru.png", ("The lantern", "Фонарь"), ("Last night's tale and tonight's hand.", "Вчерашняя сказка и сегодняшние стёкла.")),
+            ("ln-glass.png", "ln-glass.ru.png", ("Tonight's glass", "Сегодняшние стёкла"), ("Each slide can be swapped once.", "Каждое стекло можно поменять один раз.")),
+            ("ln-before.png", "ln-before.ru.png", ("Before the first word", "Перед первым словом"), ("The candle, turns, the microphone.", "Свеча, очередь, микрофон.")),
+            ("ln-twist.png", "ln-twist.ru.png", ("And then…", "И тут…"), ("A twist when the phone is turned over.", "Поворот, когда телефон перевернули.")),
+            ("ln-ending.png", "ln-ending.ru.png", ("The quiet ending", "Тихий финал"), ("A name, then lights out.", "Название, и гасим свет.")),
+            ("ln-tale.png", "ln-tale.ru.png", ("A tale", "Сказка"), ("Its glass, twists and ending.", "Стёкла, повороты и финал.")),
+            ("ln-shelf.png", "ln-shelf.ru.png", ("The shelf", "Полка"), ("Every evening's tale.", "Сказка каждого вечера.")),
+            ("ln-world.png", "ln-world.ru.png", ("The world", "Мир"), ("Places found and old friends.", "Найденные места и старые знакомые.")),
+            ("ln-box.png", "ln-box.ru.png", ("The box", "Коробка"), ("Parcels of rare glass, painted slides.", "Посылки с редкими стёклами, свои рисунки.")),
+        ],
+        "extra": {
+            "title": ("What comes out of the lantern", "Что выпадает из фонаря"),
+            "head": [("Glass", "Стекло"), ("For example", "Например")],
+            "rows": [
+                [("Hero", "Герой"), ("Postie Hedgehog, Queen Frog, Sleepyhead Dragon", "Ёжик-почтальон, Лягушка-королева, Дракон-соня")],
+                [("Place", "Место"), ("The Night Train, the House in a Teapot, Under the Bed", "Ночной поезд, Домик в чайнике, Под кроватью")],
+                [("Magic thing", "Волшебная вещь"), ("A ball of yarn that always shows the way home", "Клубочек, который всегда показывает дорогу домой")],
+                [("Trouble", "Беда"), ("The moon has gone from the sky (or, not scary at all: the socks are missing)", "С неба пропала луна (или совсем не страшно: пропали все носки)")],
+                [("Twist", "Поворот"), ("The villain turned out to be just lonely", "Оказалось, злодею просто одиноко")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Lantern.apk", "Lantern.apk")),
+            (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Microphone only if you choose to record a tale. No internet.",
+                                            "Микрофон — только если вы сами решили записать сказку. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("At bedtime, light the lantern and lay the phone face down.", "Перед сном зажгите фонарь и положите телефон экраном вниз."),
+        ],
+        "note": None,
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. Every cut-out is drawn on a Compose canvas and the night sounds are synthesised, nothing else to install.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Все силуэты рисуются на Compose canvas, а ночные звуки синтезируются, больше ничего ставить не нужно."),
+        "build": "git clone https://github.com/bigdevwhale/lantern.git\ncd lantern\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># app.lantern.dev, installs next to a release</c>\n./gradlew assembleDebug -Pdemo  <c># app.lantern.demo, three weeks of made-up tales</c>\n./gradlew testDebugUnitTest -Prender --tests '*RenderArt*'  <c># every cut-out on sheets</c>",
+        "faq": [
+            (("Why face down?", "Почему экраном вниз?"),
+             ("Because the point is the tale, not the screen: a glowing phone before sleep is the last thing a child needs. The lantern only deals the glass; the voice is yours.",
+              "Потому что главное — сказка, а не экран: светящийся телефон перед сном ребёнку ни к чему. Фонарь только раздаёт стёкла, а голос — ваш.")),
+            (("What if I'm no good at making things up?", "А если я не умею сочинять?"),
+             ("Hold the grown-up's card: it walks through the steps folk tales have always followed, and gives you a question for the child, who will usually take over.",
+              "Удерживайте карточку для взрослого: она проведёт по шагам, по которым всегда строились волшебные сказки, и подскажет вопрос для ребёнка — а он обычно сам подхватывает.")),
+            (("Can it be less scary?", "А можно не страшно?"),
+             ("Yes. Troubles come in three levels, from lost socks to a grumpy giant, and little ones get no trouble at all.",
+              "Да. У бед три уровня — от пропавших носков до сердитого великана, а у малышей бед нет совсем.")),
+            (("Where do the recordings go?", "Где хранятся записи?"),
+             ("Only on the phone, next to the tale. The backup file keeps tales and drawings; recordings stay where they are.",
+              "Только на телефоне, рядом со сказкой. В файл копии попадают сказки и рисунки, а записи остаются на месте.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -2794,12 +2889,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
