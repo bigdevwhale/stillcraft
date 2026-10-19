@@ -51,6 +51,8 @@ PLAIN = {
                 "Придумывать с ребёнком сказки на ночь из случайных героев, мест и бед."),
     "nighttrain": ("A date night for couples: hundreds of questions to see each other from a new side.",
                    "Свидание для пары: сотни вопросов, чтобы увидеть друг друга с новой стороны."),
+    "tessera": ("The same questions to a child, yourself or a grandparent, year after year, on film or in words.",
+                "Одни и те же вопросы ребёнку, себе или бабушке год за годом — на видео или словами."),
     "marbles": ("For parents: spend more evenings with your kids, and see what the phone takes.",
                 "Для родителей: больше вечеров с детьми — и честно видно, сколько забирает телефон."),
     "ties": ("Reminds you to call and write to the people who matter, before you drift apart.",
@@ -88,7 +90,7 @@ CATS = [
      ["scriptor", "stele", "familiar"]),
     ("family", ("Family and friends", "Семья и близкие"),
      ("Time with your children and each other, bedtime stories, family photos, keeping in touch.", "Время с детьми и друг с другом, сказки на ночь, семейные фото, связь с близкими."),
-     ["lantern", "marbles", "nighttrain", "ties", "notch", "silverbox"]),
+     ["lantern", "marbles", "tessera", "nighttrain", "ties", "notch", "silverbox"]),
     ("self", ("You and your life", "Вы и ваша жизнь"),
      ("Your time, your wins, who you want to be, letters to the future, moments worth keeping.", "Ваше время, ваши победы, каким вы хотите быть, письма в будущее и моменты, которые стоит сохранить."),
      ["anyway", "calavera", "dearme", "glow", "prism", "hoard"]),
@@ -96,10 +98,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 29 free apps", "Stillcraft · 29 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 30 free apps", "Stillcraft · 30 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 28 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 28 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 29 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 29 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -110,7 +112,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("29 apps, <em>grouped by what they help with.</em>", "29 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("30 apps, <em>grouped by what they help with.</em>", "30 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -140,6 +142,7 @@ WORDS = {
     "lantern": "kids children bedtime story fairy tale sleep дети ребёнок сказка сон на ночь",
     "marbles": "kids children parents screen time дети родители",
     "nighttrain": "couple date questions relationship partner love conversation пара свидание вопросы отношения партнёр любовь разговор",
+    "tessera": "interview questions child children kids grandparents family video diary memories growing up birthday интервью вопросы ребёнок дети бабушка семья видео дневник память взросление день рождения",
     "ties": "friends family call contacts друзья семья звонить",
     "notch": "kids children growth photo дети рост фото",
     "silverbox": "photo film camera family фото плёнка камера семья",

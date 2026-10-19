@@ -2940,6 +2940,101 @@ APPS = [
               "Только на телефоне. Без аккаунта, облака и аналитики. Резервная копия — один файл, который вы храните сами.")),
         ],
     },
+    {
+        "slug": "tessera",
+        "name": "Tessera",
+        "panel": "app--tessera",
+        "gallery": "g-tessera",
+        "icon": "tessera-logo.png",
+        "visual": "ts-panel.png", "visual_ru": "ts-panel.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/tessera",
+        "download": "https://github.com/bigdevwhale/tessera/releases/latest/download/Tessera.apk",
+        "version": "v1.0.0",
+        "tagline": ("The same questions to your child, yourself or a grandparent, year after year, laid as a mosaic.", "Одни и те же вопросы ребёнку, себе или бабушке, год за годом — и ответы складываются в мозаику."),
+        "badge": ("Family interviews · New", "Семейные интервью · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Ask the same questions. <em>Watch the years answer.</em>",
+                  "Задавайте те же вопросы. <em>Отвечать будут годы.</em>"),
+        "desc": ("Some families keep a birthday interview: the same questions every year, written in a notebook. Tessera does it on the phone, as often as you like: a small question every evening, a longer one each week or month, the big interview on the birthday. Answer on film, by voice or in a few words. Every answer is laid as a stone of coloured glass in that person's year, and the chorus of years plays one answer from each year back to back: a face and a voice growing up. Free, no ads, no account, no internet permission.",
+                 "В некоторых семьях есть традиция: в день рождения задавать одни и те же вопросы и записывать ответы в тетрадку. Смальта делает это на телефоне и так часто, как хочется: маленький вопрос каждый вечер, побольше — раз в неделю или месяц, большое интервью — в день рождения. Отвечать можно на видео, голосом или парой слов. Каждый ответ ложится цветной смальтой в год этого человека, а хор лет проигрывает по ответу за каждый год подряд — и видно, как взрослеют лицо и голос. Бесплатно, без рекламы, без аккаунта и без доступа в интернет."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("Each question keeps its rhythm", "У каждого вопроса свой ритм"),
+             ("Every day, every week, every month or every year on the birthday. A long daily list takes turns, a few a day, so it never becomes a chore. Questions that are due wait for the evening, with one quiet reminder.",
+              "Каждый день, каждую неделю, каждый месяц или каждый год в день рождения. Длинный список ежедневных вопросов идёт по очереди, по несколько в день, чтобы не стать обязанностью. Вопросы ждут вечера, и приходит одно тихое напоминание.")),
+            (("A camera made for interviews", "Камера для интервью"),
+             ("The question stays on screen while you speak, high up near the lens. Last time's frame lies faintly over the picture so you sit the same way and the years line up. A 3-2-1 countdown, and a gold ring for the time left: 15 seconds for a day, five minutes for a birthday.",
+              "Вопрос остаётся на экране, пока вы говорите, — наверху, у объектива. Поверх изображения полупрозрачно лежит кадр прошлого раза: так легко сесть так же, и годы выстраиваются ровно. Отсчёт 3-2-1 и золотое кольцо оставшегося времени: 15 секунд для дня, пять минут для дня рождения.")),
+            (("A year ago…", "Год назад…"),
+             ("Right after an answer, the answer to the same question from a year ago comes back, on film, in a voice or in words.",
+              "Сразу после ответа возвращается прошлогодний ответ на тот же вопрос — на видео, голосом или словами.")),
+            (("The year as a mosaic", "Год как мозаика"),
+             ("Each person's year is a panel of two-week rows, one hand-cut stone per day. A filmed answer shows its frame through the question's glass; a day with several answers splits into smaller stones; gilded ones turn to gold leaf.",
+              "Год каждого человека — панно из рядов по две недели, одна колотая смальта на день. Видеоответ виден сквозь стекло своего вопроса, день с несколькими ответами раскалывается на мелкие смальты, а позолоченные становятся сусальным золотом.")),
+            (("The chorus of years", "Хор лет"),
+             ("One answer from each year to the same question, back to back: a dinosaur, a police officer, a vet, an artist and a cosmonaut. Answers that held for three years are marked \"unchanged since\", and a year of daily answers is boiled down to its words.",
+              "По одному ответу за каждый год на один вопрос, подряд: динозавром, полицейской, ветеринаром, художницей и космонавтом. Ответы, которые держатся три года, отмечаются «неизменно с…», а год ежедневных ответов сжимается до своих слов.")),
+            (("For every age", "Для любого возраста"),
+             ("54 questions in English and Russian for little ones (everything filmed), children, teenagers, grown-ups and elders: the house they grew up in, how they fell in love, a song from their youth. Or write your own.",
+              "54 вопроса на русском и английском для малышей (всё на видео), детей, подростков, взрослых и старших: дом, где прошло детство, история любви, песня из молодости. Или пишите свои.")),
+        ],
+        "shots": [
+            ("ts-home.png", "ts-home.ru.png", ("The family", "Семья"), ("This day in earlier years, and who has a question waiting.", "Этот день в прошлые годы и кого ждёт вопрос.")),
+            ("ts-panel.png", "ts-panel.ru.png", ("A year's panel", "Панно года"), ("One stone per day; films show their frame.", "Смальта на день; видео видно кадром.")),
+            ("ts-ask.png", "ts-ask.ru.png", ("The question", "Вопрос"), ("On film, by voice or in words.", "На видео, голосом или словами.")),
+            ("ts-through.png", "ts-through.ru.png", ("Through the years", "Сквозь годы"), ("A dinosaur, a police officer, a vet…", "Динозавром, полицейской, ветеринаром…")),
+            ("ts-chorus.png", "ts-chorus.ru.png", ("The chorus of years", "Хор лет"), ("One answer a year, back to back.", "По ответу за год, подряд.")),
+            ("ts-daily.png", "ts-daily.ru.png", ("A daily question", "Ежедневный вопрос"), ("The words of the year.", "Слова года.")),
+            ("ts-day.png", "ts-day.ru.png", ("A day", "День"), ("Every stone laid that day.", "Все смальты этого дня.")),
+            ("ts-answer.png", "ts-answer.ru.png", ("An answer", "Ответ"), ("Gild it, or see it through the years.", "Позолотить или посмотреть сквозь годы.")),
+            ("ts-questions.png", "ts-questions.ru.png", ("The questions", "Вопросы"), ("How often, and how they're answered.", "Как часто и как отвечать.")),
+            ("ts-welcome.png", "ts-welcome.ru.png", ("Welcome", "Начало"), ("Three things to know.", "Три вещи, которые стоит знать.")),
+        ],
+        "extra": {
+            "title": ("Who it asks", "Кого спрашивать"),
+            "head": [("For", "Для кого"), ("A few of the questions", "Несколько вопросов")],
+            "rows": [
+                [("Little ones, 3–6", "Малыши, 3–6"), ("What made you laugh today? What is it like to be a grown-up? What is your favourite animal?", "Что тебя сегодня рассмешило? Каково это — быть взрослым? Какое твоё любимое животное?")],
+                [("Children", "Дети"), ("Who is your best friend? What do you want to be when you grow up? What scares you most?", "Кто твой лучший друг? Кем ты хочешь стать, когда вырастешь? Что пугает тебя больше всего?")],
+                [("Teenagers", "Подростки"), ("What has changed in you this month? What do you believe in firmly?", "Что в тебе изменилось за этот месяц? Во что ты твёрдо веришь?")],
+                [("Grown-ups", "Взрослые"), ("How old do you feel? What has this year taught you? Say something to yourself in ten years.", "На сколько лет ты себя чувствуешь? Чему тебя научил этот год? Скажи что-нибудь себе через десять лет.")],
+                [("Elders", "Старшие"), ("What do you remember of the house you grew up in? Sing a song from your youth. Tell a family recipe.", "Что ты помнишь о доме, где прошло детство? Спой песню из своей молодости. Расскажи семейный рецепт.")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Tessera.apk", "Tessera.apk")),
+            (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Camera and microphone, only while recording an answer. Notifications for the evening reminder. No internet.", "Камера и микрофон — только во время записи ответа. Уведомления для вечернего напоминания. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Add the first person and answer today's question together.", "Добавь первого человека и ответьте на сегодняшний вопрос вместе."),
+        ],
+        "note": None,
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. The mosaic is drawn on a Compose canvas; recording uses CameraX.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Мозаика рисуется на Compose canvas, запись — через CameraX."),
+        "build": "git clone https://github.com/bigdevwhale/tessera.git\ncd tessera\n./gradlew testDebugUnitTest             <c># the schedule, the panel, the chorus</c>\n./gradlew assembleDebug                 <c># app.tessera.dev, installs next to a release</c>\n./gradlew assembleDebug -Pdemo          <c># app.tessera.demo, a family with years of answers</c>\n./gradlew testDebugUnitTest -Prender --tests '*RenderArtScreens*'  <c># every screen to app/build/art</c>",
+        "faq": [
+            (("Isn't asking every day too much?", "Каждый день — не слишком?"),
+             ("Each question has its own rhythm, and daily ones take turns: two a day by default, or one. \"Not today\" skips without guilt, and an empty day is simply bare plaster in the mosaic. No streaks.",
+              "У каждого вопроса свой ритм, а ежедневные идут по очереди: по умолчанию два в день, можно один. «Не сегодня» пропускает без упрёков, а пустой день — просто голая штукатурка в мозаике. Никаких серий.")),
+            (("How much space do the films take?", "Сколько места занимают видео?"),
+             ("Films are recorded at 720p and kept short: up to 15 seconds for a daily question, five minutes for the birthday interview. A year of daily clips is a few hundred megabytes.",
+              "Видео пишется в 720p и коротко: до 15 секунд для ежедневного вопроса, до пяти минут для интервью в день рождения. Год ежедневных роликов — несколько сотен мегабайт.")),
+            (("Where do the answers go?", "Где хранятся ответы?"),
+             ("Only on the phone, in the app's own folder. No account, no cloud, no analytics. Settings → Backup packs everything, films included, into one ZIP you keep yourself.",
+              "Только на телефоне, в папке приложения. Без аккаунта, облака и аналитики. Настройки → Резервная копия упаковывает всё, вместе с видео, в один ZIP, который вы храните сами.")),
+            (("Why a mosaic?", "Почему мозаика?"),
+             ("Because a single day is one small stone and means little on its own. Laid side by side for years, the stones become a picture you can only see from a distance.",
+              "Потому что один день — маленькая смальта, и сама по себе она мало что значит. Положенные рядом годами, смальты становятся картиной, которую видно только издали.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -2988,12 +3083,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "nighttrain": "tr"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "nighttrain": "tr", "tessera": "ts"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
