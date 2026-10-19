@@ -19,6 +19,8 @@ PLAIN = {
                "Медитации, визуализации и аффирмации с озвучкой, без интернета."),
     "keeper": ("For anxious and intrusive thoughts: notice them, let them pass, check what came true.",
                "Для тревожных и навязчивых мыслей: заметить, отпустить, проверить, что сбылось."),
+    "kite": ("Come back to the present during the day: a few soft tugs ask where your mind has wandered.",
+             "Возвращаться в настоящее посреди дня: несколько тихих рывков спрашивают, куда унесло мысли."),
     "focusshield": ("A focus timer for Windows that blocks distracting sites and apps until the session ends.",
                     "Таймер фокуса для Windows: блокирует отвлекающие сайты и приложения до конца сессии."),
     "obol": ("Less scrolling: time in Reels, Shorts and TikTok has to be earned with useful apps.",
@@ -78,7 +80,7 @@ PLAIN = {
 CATS = [
     ("calm", ("Calm and worry", "Спокойствие и тревога"),
      ("Breathing, meditation, and a way through thoughts that won't let go.", "Дыхание, медитации и способ справиться с мыслями, которые не отпускают."),
-     ["swisszen", "serene", "keeper"]),
+     ["swisszen", "serene", "keeper", "kite"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, and help giving something up.", "Меньше лент и отвлечений и помощь, чтобы от чего-то отказаться."),
      ["focusshield", "obol", "unhook", "vigil"]),
@@ -98,10 +100,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 30 free apps", "Stillcraft · 30 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 31 free apps", "Stillcraft · 31 бесплатное приложение"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 29 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 29 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 30 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 30 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -112,7 +114,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("30 apps, <em>grouped by what they help with.</em>", "30 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("31 apps, <em>grouped by what they help with.</em>", "31 приложение, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -125,6 +127,7 @@ WORDS = {
     "swisszen": "breath meditation mindfulness wim hof дыхание медитация осознанность",
     "serene": "meditation sleep relax affirmation медитация сон расслабление аффирмации",
     "keeper": "anxiety worry ocd intrusive тревога беспокойство окр навязчивые мысли",
+    "kite": "mindfulness present moment here now wandering mind grounding senses reminder notification осознанность настоящее здесь и сейчас блуждающие мысли заземление чувства напоминание",
     "focusshield": "focus pomodoro windows block work фокус помодоро работа блокировка",
     "obol": "social media scrolling tiktok screen time соцсети лента экранное время",
     "unhook": "quit smoking alcohol addiction бросить курить алкоголь зависимость",

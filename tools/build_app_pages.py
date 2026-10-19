@@ -3035,6 +3035,99 @@ APPS = [
               "Потому что один день — маленькая смальта, и сама по себе она мало что значит. Положенные рядом годами, смальты становятся картиной, которую видно только издали.")),
         ],
     },
+    {
+        "slug": "kite",
+        "name": "Kite",
+        "panel": "app--kite",
+        "gallery": "g-kite",
+        "icon": "kite-logo.png",
+        "visual": "kt-reel.png", "visual_ru": "kt-reel.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/kite",
+        "download": "https://github.com/bigdevwhale/kite/releases/latest/download/Kite.apk",
+        "version": "v1.0.0",
+        "tagline": ("Your mind is a kite on a string. A few soft tugs a day bring it back to here.", "Мысли — воздушный змей на нити. Несколько тихих рывков в день возвращают их сюда."),
+        "badge": ("Back to the present · New", "Возвращение в настоящее · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Your mind is a kite. <em>Reel it back in.</em>",
+                  "Мысли — воздушный змей. <em>Смотай нить.</em>"),
+        "desc": ("All day the mind drifts off like a kite on a long string: into yesterday's conversation, next week's meeting, the list of things to do. Kite tugs the string a few times a day, at moments you can't guess: a soft buzz, no sound, and one question, \"Where are you?\" Here is one tap, right from the notification. Drifted, and you say where, then reel in for about fifteen seconds: one thing you see, one sound, one feeling in your body. In the evening the day's sky shows every tug as a small kite. Free, no ads, no account, no internet permission.",
+                 "Весь день мысли улетают, как воздушный змей на длинной нити: во вчерашний разговор, во встречу на следующей неделе, в список дел. Нить несколько раз в день дёргает за змея — в моменты, которые не угадать: тихая вибрация без звука и один вопрос: «Где ты?» «Здесь» — один тап прямо в уведомлении. Если унесло — отметьте куда и секунд пятнадцать сматывайте нить: одна вещь, которую видно, один звук, одно ощущение в теле. Вечером небо дня показывает каждый рывок маленьким змеем. Бесплатно, без рекламы, без аккаунта и без доступа в интернет."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("A tug you can't guess", "Рывок, который не угадать"),
+             ("3, 5, 7 or 9 times a day, spread evenly over the hours you pick and never in a bunch, yet never when you'd expect it. A soft buzz with no sound, and a notification: \"Where are you?\"",
+              "3, 5, 7 или 9 раз в день, ровно по выбранным часам и никогда подряд, но всегда неожиданно. Тихая вибрация без звука и уведомление: «Где ты?»")),
+            (("Here, in one tap", "«Здесь» — одним тапом"),
+             ("If you're here, answer right from the notification and carry on. If not, say where the mind was: in the past (replaying what happened), in the future (plans, worries, what-ifs) or in cares (tasks, lists, who to message). There's no right answer; the point is to notice.",
+              "Если вы здесь, ответьте прямо из уведомления и продолжайте. Если нет — отметьте, где были мысли: в прошлом (прокручиваю, что было), в будущем (планы, тревоги, «а вдруг») или в заботах (дела, списки, кому написать). Правильного ответа нет, весь смысл в том, чтобы заметить.")),
+            (("Reel in, in fifteen seconds", "Смотать нить за пятнадцать секунд"),
+             ("Hold the wooden spool three times while you find one thing you see, one sound and one feeling in your body: something blue near you, the quietest sound around you, your feet on the floor. Each turn lowers the kite; the third lays it in the grass.",
+              "Трижды подержите деревянную катушку, пока находите одну вещь, которую видно, один звук и одно ощущение в теле: что-то синее рядом, самый тихий звук вокруг, ступни на полу. Каждый оборот опускает змея ниже, третий кладёт его в траву.")),
+            (("I drifted off", "Меня унесло"),
+             ("Caught yourself without a tug? A big button in the app and a widget on the home screen let you reel in right away.",
+              "Унесло без всякого рывка? Большая кнопка в приложении и виджет на главном экране — и можно сразу смотать нить.")),
+            (("The day's sky", "Небо дня"),
+             ("In the evening every tug is a small kite placed by the hour: green ones lie in the grass, dusk-blue drifted into the past, sunrise-orange into the future, rose into cares. Reeled-in kites have their string to the ground; let-go ones, a loose end. One line in words, and the week's skies below. No scores, streaks or percentages.",
+              "Вечером каждый рывок — маленький змей на своём часе: зелёные лежат в траве, сумеречно-синих унесло в прошлое, рассветно-оранжевых — в будущее, розовых — в заботы. У смотанных нить тянется до земли, у отпущенных болтается свободный конец. Одна строка словами и небо недели ниже. Ни очков, ни серий, ни процентов.")),
+            (("Small, quiet things", "Тихие мелочи"),
+             ("Quiet for an hour, for meetings and films. Light spool clicks under your finger while you reel. The sky follows the clock: dawn, midday, dusk and stars at night. All drawn in code: a red paper kite on rice paper.",
+              "Тишина на час — для встреч и кино. Лёгкие щелчки катушки под пальцем, пока сматываете. Небо идёт за часами: рассвет, полдень, закат и звёзды ночью. Всё нарисовано кодом: красный бумажный змей на рисовой бумаге.")),
+        ],
+        "shots": [
+            ("kt-home.png", "kt-home.ru.png", ("The string", "Нить"), ("Quiet tugs from 9:00 to 21:00, and \"I drifted off\".", "Тихие рывки с 9:00 до 21:00 и «Меня унесло».")),
+            ("kt-where.png", "kt-where.ru.png", ("Where was the mind?", "Где были мысли?"), ("Here, the past, the future or cares.", "Здесь, в прошлом, в будущем или в заботах.")),
+            ("kt-reel.png", "kt-reel.ru.png", ("Reel in", "Смотать нить"), ("Hold the spool while you look.", "Держите катушку, пока смотрите.")),
+            ("kt-sky.png", "kt-sky.ru.png", ("The day's sky", "Небо дня"), ("Every tug a kite, placed by the hour.", "Каждый рывок — змей на своём часе.")),
+            ("kt-settings.png", "kt-settings.ru.png", ("Settings", "Настройки"), ("How many tugs, and between which hours.", "Сколько рывков и в какие часы.")),
+            ("kt-welcome.png", "kt-welcome.ru.png", ("Welcome", "Начало"), ("Your mind is a kite.", "Мысли — воздушный змей.")),
+        ],
+        "extra": {
+            "title": ("Where the mind goes", "Куда уносит мысли"),
+            "head": [("Answer", "Ответ"), ("What it's like", "Как это бывает"), ("In the sky", "В небе")],
+            "rows": [
+                [("Here", "Здесь"), ("In what I'm doing.", "В том, что делаю."), ("Green, lying in the grass", "Зелёный, лежит в траве")],
+                [("In the past", "В прошлом"), ("Replaying a conversation, going over what happened.", "Прокручиваю разговор, перебираю, что было."), ("Dusk blue", "Сумеречно-синий")],
+                [("In the future", "В будущем"), ("Plans, worries, what-ifs.", "Планы, тревоги, «а вдруг»."), ("Sunrise orange", "Рассветно-оранжевый")],
+                [("In cares", "В заботах"), ("Tasks, lists, who to message.", "Дела, списки, кому написать."), ("Rose", "Розовый")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Kite.apk", "Kite.apk")),
+            (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Notifications and vibration, for the tugs. No internet.", "Уведомления и вибрация — для рывков. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Pick how many tugs a day and between which hours, then wait for the first one.", "Выбери, сколько рывков в день и в какие часы, и жди первого."),
+        ],
+        "note": None,
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. The sky, the kites and the spool are drawn on a Compose canvas.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Небо, змеи и катушка рисуются на Compose canvas."),
+        "build": "git clone https://github.com/bigdevwhale/kite.git\ncd kite\n./gradlew testDebugUnitTest             <c># the tug plan, the day's sky</c>\n./gradlew assembleDebug                 <c># app.kite.dev, installs next to a release</c>\n./gradlew assembleDebug -Pdemo          <c># app.kite.demo, three weeks of made-up tugs</c>\n./gradlew testDebugUnitTest -Prender --tests '*RenderArtScreens*'  <c># every screen to app/build/art</c>",
+        "faq": [
+            (("What if a tug comes at a bad moment?", "А если рывок придёт не вовремя?"),
+             ("Let it pass, or tap \"Not now\": nothing is lost and nothing is held against you. Quiet for an hour silences tugs for meetings and films, and you can switch them off altogether.",
+              "Пропустите его или нажмите «Не сейчас»: ничего не теряется и ничего не ставится в упрёк. «Тишина на час» глушит рывки на время встреч и кино, а можно выключить их совсем.")),
+            (("Why no sound?", "Почему без звука?"),
+             ("A tug is for you alone, in the middle of a meeting, a queue or a conversation. A soft buzz is enough to notice; a chime would pull everyone else's attention too.",
+              "Рывок — только для вас, посреди встречи, очереди или разговора. Чтобы заметить, хватает тихой вибрации, а звонок отвлёк бы и всех вокруг.")),
+            (("The tugs don't arrive. Why?", "Рывки не приходят. Почему?"),
+             ("Some phones stop apps to save battery. Settings → Let tugs through opens the right page for your phone.",
+              "Некоторые телефоны останавливают приложения ради батареи. Настройки → Пропустить рывки открывает нужную страницу.")),
+            (("What does it keep?", "Что хранится?"),
+             ("Only the time of each tug, where you said you were and whether you reeled in. On the phone, with no account, no internet permission and no analytics.",
+              "Только время рывка, где, по вашему ответу, были мысли, и смотана ли нить. На телефоне, без аккаунта, без доступа в интернет и без аналитики.")),
+            (("Why no scores or streaks?", "Почему нет очков и серий?"),
+             ("Because drifting off isn't a failure; it's what minds do. The practice is noticing and coming back, and a score would turn that into one more thing to worry about.",
+              "Потому что отвлекаться — не провал, так устроена голова. Практика в том, чтобы замечать и возвращаться, а счёт превратил бы это в ещё один повод для тревоги.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -3083,12 +3176,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "nighttrain": "tr", "tessera": "ts"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "nighttrain": "tr", "tessera": "ts", "kite": "kt"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
