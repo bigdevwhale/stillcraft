@@ -2649,6 +2649,103 @@ APPS = [
               "«Настройки → Резервная копия» сохраняет все дисциплины и заезды в один JSON-файл. Восстанови его на новом телефоне.")),
         ],
     },
+    {
+        "slug": "keeper",
+        "name": "Keeper",
+        "panel": "app--keeper",
+        "gallery": "g-keeper",
+        "icon": "keeper-logo.png",
+        "visual": "kp-bay.png", "visual_ru": "kp-bay.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/keeper",
+        "download": "https://github.com/bigdevwhale/keeper/releases/latest/download/Keeper.apk",
+        "version": "v1.0.0",
+        "tagline": ("Intrusive thoughts as ships: the lighthouse beam, the evening watch, forecasts checked.", "Навязчивые мысли как корабли: луч маяка, вечерняя вахта, проверка прогнозов."),
+        "badge": ("Intrusive thoughts · New", "Навязчивые мысли · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Thoughts are ships. <em>You keep the lighthouse.</em>",
+                  "Мысли — это корабли. <em>Ты — смотритель маяка.</em>"),
+        "desc": ("“I'll be fired” doesn't go away when you argue with it, and it doesn't go away when someone says it'll be fine. In Keeper each recurring thought becomes a named ship. You log it in a line, light it and watch it sail into the fog in time with your breath, or anchor it until the evening watch, the one place a ship is looked over. Forecasts are checked on their day; ships whose cargo never comes turn into ghosts, and ships that stop coming end up in bottles on the shelf. Free, no ads, no account, no internet permission.",
+                 "«Меня уволят» не уходит, если с этим спорить, и не уходит, когда тебе говорят, что всё будет хорошо. В Смотрителе каждая повторяющаяся мысль становится кораблём с именем. Его записывают одной строкой, освещают и смотрят, как он уходит в туман в ритме твоего дыхания, или ставят на якорь до вечерней вахты — единственного места, где корабли осматривают. Прогнозы проверяются в свой день; корабли, чей груз так и не прибывает, становятся призраками, а те, что перестали заходить, оказываются в бутылках на полке. Бесплатно, без рекламы, без аккаунта и без доступа в интернет."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · No internet permission · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · Без доступа к интернету · English и Русский"),
+        "features": [
+            (("A ship on the horizon", "Корабль на горизонте"),
+             ("The thought in one line, in your own words. Pick its ship or name a new one (a thought that keeps coming back is easier to see as a ship than as the truth), weigh it from boat to galleon and say where it sailed in from. A quick-settings tile gets you there in two swipes.",
+              "Мысль одной строкой, своими словами. Выбери её корабль или назови новый (мысль, которая возвращается, легче увидеть кораблём, чем правдой), взвесь от лодки до галеона и отметь, из какого порта он пришёл. Плитка в шторке — два свайпа.")),
+            (("Under the beam", "Под лучом"),
+             ("The lamp keeps time for your breath: in as it turns toward you, out as it sweeps away (4·6, 4·4·4 or 4·7·8). The ship crosses the bay with “I'm having the thought that…” written beneath it and goes into the fog. Then you weigh it again.",
+              "Луч задаёт ритм дыхания: вдох, пока он поворачивается к тебе, выдох, пока уходит (4·6, 4·4·4 или 4·7·8). Корабль пересекает бухту с надписью «Мне приходит мысль, что…» и уходит в туман. Потом его взвешивают заново.")),
+            (("The roadstead and the evening watch", "Рейд и вечерняя вахта"),
+             ("A ship can wait at anchor until the watch: once a day, at a time you choose, with a lamp-oil timer. There you weigh each one again (often it's smaller by evening), write its cargo and chart it. A ship seen three times in an hour isn't lit again: it goes to anchor.",
+              "Корабль может ждать на якоре до вахты: раз в день, во время, которое ты выбрал, с таймером-маслом в лампе. Там каждый корабль взвешивают заново (к вечеру он часто меньше), записывают груз и прокладывают лоцию. Корабль, пришедший трижды за час, больше не освещают: он встаёт на якорь.")),
+            (("Cargo, checked", "Груз, проверенный"),
+             ("A ship's cargo is written as a forecast with a day: “I'll be fired by the end of November”. On that day the log asks whether it arrived, and whether you got through it. The ship's log keeps the count as a row of crates.",
+              "Груз корабля записывают как прогноз с датой: «Меня уволят до конца ноября». В этот день журнал спрашивает, прибыл ли он и справился ли ты. Судовой журнал ведёт счёт рядом ящиков.")),
+            (("Ghost ships and bottles", "Корабли-призраки и бутылки"),
+             ("A ship whose cargo keeps coming to nothing fades into a ghost: translucent, green, sails in tatters. A ship that hasn't come for thirty days goes over the horizon and into a bottle on the keeper's shelf.",
+              "Корабль, чей груз раз за разом не прибывает, превращается в призрака: полупрозрачный, зелёный, с рваными парусами. Корабль, который тридцать дней не заходил, уходит за горизонт — в бутылку на полке смотрителя.")),
+            (("The chart and the foghorn", "Лоция и туманный горн"),
+             ("“And if it does, then what?”, sounded down to the bottom, where the lifeboat is: what you would actually do. And for three in the morning, the foghorn: only the beam turning in time with the breath, no words.",
+              "«А если да — что дальше?», промеренное до дна, где лежит шлюпка: что ты на самом деле сделаешь. А на три часа ночи — туманный горн: только луч в ритме дыхания, без слов.")),
+        ],
+        "shots": [
+            ("kp-bay.png", "kp-bay.ru.png", ("The bay", "Бухта"), ("Fog for the day, ships at anchor.", "Туман дня, корабли на якоре.")),
+            ("kp-sight.png", "kp-sight.ru.png", ("On the horizon", "На горизонте"), ("A line, a ship, its tonnage.", "Строка, корабль, водоизмещение.")),
+            ("kp-pass.png", "kp-pass.ru.png", ("Under the beam", "Под лучом"), ("The thought sails into the fog.", "Мысль уходит в туман.")),
+            ("kp-watch.png", "kp-watch.ru.png", ("The watch", "Вахта"), ("Weighed again, cargo checked.", "Новое взвешивание, проверка груза.")),
+            ("kp-log.png", "kp-log.ru.png", ("The ship's log", "Судовой журнал"), ("What your forecasts came to.", "Чем кончились прогнозы.")),
+            ("kp-fleet.png", "kp-fleet.ru.png", ("The fleet", "Флот"), ("Every named thought; some are ghosts.", "Все названные мысли; есть и призраки.")),
+            ("kp-ship.png", "kp-ship.ru.png", ("A ship", "Корабль"), ("Its cargo record and its weather.", "Грузы и погода.")),
+            ("kp-chart.png", "kp-chart.ru.png", ("The chart", "Лоция"), ("Sounded to the bottom.", "Промер до дна.")),
+            ("kp-shelf.png", "kp-shelf.ru.png", ("The shelf", "Полка"), ("Ships in bottles.", "Корабли в бутылках.")),
+            ("kp-welcome.png", "kp-welcome.ru.png", ("The keeper", "Смотритель"), ("Notice, log, light.", "Заметить, записать, посветить.")),
+        ],
+        "extra": {
+            "title": ("What's on the water", "Что на воде"),
+            "head": [("On the water", "На воде"), ("What it is", "Что это")],
+            "rows": [
+                [("A ship", "Корабль"), ("A thought that keeps coming back, given a name (defusion)", "Повторяющаяся мысль с именем (когнитивное разделение)")],
+                [("The beam", "Луч"), ("Paced breathing while you watch the thought pass", "Дыхание в ритме, пока мысль проходит мимо")],
+                [("The roadstead", "Рейд"), ("Worry postponed to one set time a day", "Беспокойство, отложенное на одно время в день")],
+                [("The cargo", "Груз"), ("A forecast, checked against what happened", "Прогноз, сверенный с тем, что случилось")],
+                [("The chart", "Лоция"), ("Decatastrophising, down to a plan", "Декатастрофизация до плана")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Keeper.apk", "Keeper.apk")),
+            (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Notifications for the evening watch, only when something is waiting. No internet.",
+                                            "Уведомления о вечерней вахте — только когда что-то ждёт. Без интернета.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Choose the time of your evening watch, then log the next thought that comes out of the fog.", "Выбери время вечерней вахты и запиши следующую мысль, которая выйдет из тумана."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei, Samsung and some other phones, allow Autostart for Keeper and remove battery limits so the watch reminder arrives on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei, Samsung и некоторых других телефонах разреши Keeper автозапуск и сними ограничения батареи, чтобы напоминание о вахте приходило вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. The ships, the lighthouse, the fog and the bottles are drawn on a Compose canvas, nothing else to install.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Корабли, маяк, туман и бутылки рисуются на Compose canvas, больше ничего ставить не нужно."),
+        "build": "git clone https://github.com/bigdevwhale/keeper.git\ncd keeper\n./gradlew testDebugUnitTest     <c># unit tests</c>\n./gradlew assembleDebug         <c># app.keeper.dev, installs next to a release</c>\n./gradlew assembleDebug -Pdemo  <c># app.keeper.demo, six made-up weeks</c>\n./gradlew testDebugUnitTest -Prender --tests '*RenderArt*'  <c># ships, bottles and every screen</c>",
+        "faq": [
+            (("Why won't it tell me it'll be fine?", "Почему он не говорит, что всё будет хорошо?"),
+             ("Because reassurance is what keeps this kind of thought coming back: it helps for a minute and teaches you to ask again. Keeper gives you your own log instead: how many cargoes actually arrived.",
+              "Потому что утешение как раз и заставляет такие мысли возвращаться: оно помогает на минуту и приучает спрашивать снова. Вместо него Смотритель даёт твой собственный журнал: сколько грузов прибыло на самом деле.")),
+            (("Why can't I look a ship over right now?", "Почему нельзя разобрать корабль прямо сейчас?"),
+             ("Going over a worry the moment it comes usually turns into another round of it. Postponing it to a set time each day is one of the best-tested techniques for worry; often, by evening, the ship is much smaller.",
+              "Разбор тревоги в момент, когда она пришла, обычно превращается в ещё один круг. Откладывать её на назначенное время дня — один из самых проверенных приёмов при тревоге; к вечеру корабль часто гораздо меньше.")),
+            (("Is it a therapy?", "Это терапия?"),
+             ("No. It's a tool built on ideas from CBT and ACT. If thoughts get in the way of work, sleep or people, a CBT therapist can help; with intrusive thoughts and checking, ask about exposure and response prevention.",
+              "Нет. Это инструмент на идеях КПТ и ACT. Если мысли мешают работе, сну или людям, поможет специалист по КПТ; при навязчивых мыслях и проверках спроси про экспозицию с предотвращением реакции.")),
+            (("What if I change phones?", "А если я сменю телефон?"),
+             ("Settings → Save a backup writes every ship, sighting and cargo to one JSON file. Restore it on the new phone.",
+              "«Настройки → Сохранить копию» записывает все корабли, заходы и грузы в один JSON-файл. Восстанови его на новом телефоне.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -2697,12 +2794,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
