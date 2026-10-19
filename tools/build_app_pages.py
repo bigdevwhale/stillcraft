@@ -3263,4 +3263,8 @@ def stamp_assets():
 if __name__ == "__main__":
     for app in APPS:
         build(app)
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import catalog
+    catalog.build()
     stamp_assets()

@@ -103,7 +103,7 @@ p { margin: 0; }
 .lang { display: flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; }
 .lang button { font: 500 0.75rem/1 var(--f-mono); border: 0; background: transparent; color: var(--muted); padding: 0.45em 0.7em; border-radius: 999px; cursor: pointer; }
 .lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
-@media (max-width: 760px) { .nav-links { display: none; } .lang { margin-left: auto; } }
+@media (max-width: 760px) { .nav-links { margin-left: auto; } .nav-links a:not(:first-child) { display: none; } .lang { margin-left: 0.75rem; } }
 
 /* Hero */
 .hero { padding-block: clamp(3rem, 8vw, 6rem) 0; overflow: hidden; }
@@ -296,7 +296,7 @@ footer.site a:hover { text-decoration: underline; }
 
 @media (max-width: 900px) {
   .hero .wrap, .app-top { grid-template-columns: 1fr; }
-  .breath { order: -1; }
+  .breath { order: 1; }
   .orb-stage { width: min(100%, 17rem); }
   .moments { grid-template-columns: 1fr 1fr; }
   .moments:not(.feature-grid) > .moment:last-child:nth-child(3n+1),
@@ -725,3 +725,36 @@ pre.code .c { opacity: 0.55; }
 .app--lantern h1 em { color: var(--ln-lamp); }
 .app--lantern .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ln-line); }
 .g-lantern { --shot-bg: var(--ln-bg); --shot-ratio: 540 / 1200; }
+
+/* catalog:start — the catalogue on the home page and /apps (tools/catalog.py writes the markup) */
+.cat-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; }
+.cat-nav a { padding: 0.5rem 1rem; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--ink); font-weight: 500; }
+.cat-nav a:hover { border-color: var(--muted); }
+.cat { scroll-margin-top: 5rem; }
+.cat + .cat { margin-top: clamp(2rem, 5vw, 3rem); }
+.cat-head { display: grid; gap: 0.35rem; margin-bottom: 1.1rem; max-width: 44rem; }
+.cat-head h3, .cat-head h2 { font-size: var(--step-2); font-weight: 400; }
+.cat-head p { color: var(--muted); line-height: 1.5; }
+.mini-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
+.mini { display: flex; gap: 0.9rem; align-items: flex-start; padding: 1rem; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); text-decoration: none; color: var(--ink); transition: border-color .2s ease, transform .2s ease; }
+.mini:hover { border-color: var(--muted); transform: translateY(-2px); }
+.mini img { width: 48px; height: 48px; border-radius: 12px; flex: none; }
+.mini-text { display: grid; gap: 0.3rem; }
+.mini-name { font-weight: 600; font-size: 1.05rem; display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+.mini-name small { font: 500 0.68rem/1 var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.mini-what { color: var(--muted); line-height: 1.45; font-size: 0.95rem; }
+.cat-more { margin-top: 2rem; }
+.filter { display: grid; gap: 0.9rem; margin-top: 1.75rem; }
+.filter-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.filter-chips button { font: inherit; font-weight: 500; padding: 0.5rem 1rem; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); cursor: pointer; }
+.filter-chips button small { color: var(--muted); font: 500 0.75rem/1 var(--f-mono); margin-left: 0.25rem; }
+.filter-chips button.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.filter-chips button.on small { color: inherit; opacity: 0.7; }
+#app-search { font: inherit; font-size: 1.05rem; width: min(100%, 32rem); padding: 0.8rem 1.1rem; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); }
+#app-search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.cat-none { color: var(--muted); font-size: var(--step-1); padding: 2rem 0; }
+.fold-more { margin-top: 1.25rem; }
+[hidden] { display: none !important; }
+@media (max-width: 900px) { .mini-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .mini-grid { grid-template-columns: minmax(0, 1fr); } }
+/* catalog:end */

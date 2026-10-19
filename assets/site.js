@@ -402,6 +402,65 @@
     ru: ["Сколько суббот осталось", "Квадрат 4‑4‑4‑4", "Фильтр тревог", "Раунды Вима Хофа", "Блокировка YouTube", "Колокольчик осознанности", "Дыхание 4‑7‑8", "Пока не поздно", "Сканирование тела", "Строка в день", "Росток-помидоро", "Заземление 5‑4‑3‑2‑1", "Ты всё ещё жив", "Медитация доброты", "Кольцо, которое остывает", "Переждать волну тяги", "Босс недели", "Аффирмация дня", "Переждать волну голода", "Развеять туман", "Запечатано до нужного дня", "Встряхни банку побед", "Зажги звезду на карте"]
   };
 
+  // The catalogue: groups to filter by, a search box, and the long list of moments folded to its first few.
+  (function catalog() {
+    var search = document.getElementById("app-search");
+    var chips = document.querySelectorAll(".filter-chips button");
+    var groups = document.querySelectorAll("section.cat[data-cat]");
+    var none = document.getElementById("cat-none");
+    var current = "all";
+    function apply() {
+      var q = search ? search.value.trim().toLowerCase() : "";
+      var shown = 0;
+      groups.forEach(function (g) {
+        var inGroup = current === "all" || g.dataset.cat === current;
+        var n = 0;
+        g.querySelectorAll(".card").forEach(function (c) {
+          var ok = inGroup && (!q || (c.dataset.q || "").indexOf(q) >= 0);
+          c.hidden = !ok;
+          if (ok) n++;
+        });
+        g.hidden = n === 0;
+        shown += n;
+      });
+      if (none) none.hidden = shown > 0;
+    }
+    chips.forEach(function (b) {
+      b.addEventListener("click", function () {
+        current = b.dataset.f;
+        chips.forEach(function (x) { x.classList.toggle("on", x === b); });
+        apply();
+      });
+    });
+    if (search) {
+      search.addEventListener("input", apply);
+      var ph = { en: search.getAttribute("placeholder"), ru: search.dataset.phRu };
+      var sync = function () { search.setAttribute("placeholder", document.documentElement.lang === "ru" ? ph.ru : ph.en); };
+      new MutationObserver(sync).observe(document.documentElement, { attributes: true, attributeFilter: ["lang"] });
+      sync();
+      // A link like apps/#c-family opens on that group.
+      var m = location.hash.match(/^#c-([a-z]+)$/);
+      if (m) {
+        chips.forEach(function (b) { if (b.dataset.f === m[1]) b.click(); });
+        // The groups above it are hidden now, so the jump would overshoot: start from the filter.
+        setTimeout(function () { document.querySelector(".filter").scrollIntoView(); }, 0);
+      }
+    }
+    document.querySelectorAll("[data-fold]").forEach(function (box) {
+      var keep = +box.dataset.fold;
+      var items = Array.prototype.slice.call(box.children);
+      if (items.length <= keep) return;
+      items.slice(keep).forEach(function (el) { el.hidden = true; });
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "btn btn-ghost fold-more";
+      btn.dataset.i18n = "c.moreMoments";
+      btn.innerHTML = "More moments";
+      btn.addEventListener("click", function () { items.forEach(function (el) { el.hidden = false; }); btn.remove(); });
+      box.after(btn);
+    });
+  })();
+
   if (window.PAGE_RU) Object.keys(window.PAGE_RU).forEach(function (k) { I18N.ru[k] = window.PAGE_RU[k]; });
   var nodes = document.querySelectorAll("[data-i18n]");
   var EN = {};
