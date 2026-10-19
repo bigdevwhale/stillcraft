@@ -34,6 +34,7 @@
   --ma-bg: #1B1512; --ma-top: #2E2219; --ma-surface: #241C17; --ma-ink: #F3E7D7; --ma-muted: #B9A794; --ma-amber: #E9A23B; --ma-lamp: #FFCF87; --ma-phone: #7194C2; --ma-line: #3B2F27;
   --pd-bg: #F5F4EF; --pd-top: #FFFFFF; --pd-ink: #17242E; --pd-muted: #56646E; --pd-blue: #1C88CC; --pd-green: #3C9D50; --pd-orange: #EA8424; --pd-gold: #D4A11E; --pd-line: #DCE2E6;
   --ln-bg: #0D0A0E; --ln-top: #241A16; --ln-ink: #F1E4C8; --ln-muted: #B9A88A; --ln-lamp: #F2B04F; --ln-brass: #C9A25A; --ln-line: #30272F;
+  --tr-bg: #0D1220; --tr-top: #1C2439; --tr-ink: #F1E8D6; --tr-muted: #ADB2C4; --tr-brass: #D6AE62; --tr-lamp: #F6CB78; --tr-velvet: #A03A40; --tr-line: #2A3350;
   --kp-bg: #0B1624; --kp-top: #15304D; --kp-ink: #EFE7D6; --kp-muted: #A7B3C2; --kp-lamp: #F4B94E; --kp-line: #243A57; --kp-fog: #9DB0C5;
   --st-bg: #EDE3D1; --st-top: #F8F2E7; --st-ink: #2B2119; --st-muted: #6E5C49; --st-clay: #B5552F; --st-bronze: #3F7A70; --st-gold: #CBA43F; --st-line: #D5C3A4;
   --sc-bg: #EFE4CC; --sc-top: #F7EFDC; --sc-ink: #2A1F17; --sc-muted: #6D5B45; --sc-cinnabar: #B0372A; --sc-lapis: #2B4785; --sc-gold: #CDA33E; --sc-line: #D8C59F;
@@ -54,14 +55,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62;
   color-scheme: dark;
 }
 
@@ -478,17 +479,17 @@ pre.code .c { opacity: 0.55; }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-nighttrain { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -725,6 +726,21 @@ pre.code .c { opacity: 0.55; }
 .app--lantern h1 em { color: var(--ln-lamp); }
 .app--lantern .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ln-line); }
 .g-lantern { --shot-bg: var(--ln-bg); --shot-ratio: 540 / 1200; }
+
+/* Night Train: a compartment at night, brass fittings, lamplight and the velvet of the seats */
+.app--nighttrain { --fl: var(--tr-line); --fm: var(--tr-muted); background: radial-gradient(60% 55% at 50% 0%, rgb(214 174 98 / 0.2) 0%, transparent 65%), radial-gradient(80% 70% at 100% 100%, rgb(160 58 64 / 0.14) 0%, transparent 60%), linear-gradient(180deg, var(--tr-top) 0%, var(--tr-bg) 72%); color: var(--tr-ink); }
+.app--nighttrain .app-tag { color: var(--tr-brass); }
+.app--nighttrain .app-lede em { font-style: normal; color: var(--tr-lamp); }
+.app--nighttrain .btn-primary { background: var(--tr-brass); color: #141018; }
+.app--nighttrain .btn-ghost { color: var(--tr-ink); border-color: var(--tr-line); }
+.app--nighttrain .app-desc, .app--nighttrain .feats span, .app--nighttrain small { color: var(--tr-muted); }
+.tr-shot { border-radius: 20px; background: var(--tr-bg); image-rendering: auto; }
+.pill.tr { --dot: var(--tr-dot, #D6AE62); }
+.cv-tr { background: radial-gradient(70% 60% at 50% 0%, rgb(214 174 98 / 0.22) 0%, transparent 62%), linear-gradient(180deg, var(--tr-top) 0%, var(--tr-bg) 75%); }
+.cv-tr img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.5); }
+.app--nighttrain h1 em { color: var(--tr-lamp); }
+.app--nighttrain .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--tr-line); }
+.g-nighttrain { --shot-bg: var(--tr-bg); --shot-ratio: 540 / 1200; }
 
 /* catalog:start — the catalogue on the home page and /apps (tools/catalog.py writes the markup) */
 .cat-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; }
