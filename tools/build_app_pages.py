@@ -3128,6 +3128,99 @@ APPS = [
               "Потому что отвлекаться — не провал, так устроена голова. Практика в том, чтобы замечать и возвращаться, а счёт превратил бы это в ещё один повод для тревоги.")),
         ],
     },
+    {
+        "slug": "sidea",
+        "name": "Side A",
+        "panel": "app--sidea",
+        "gallery": "g-sidea",
+        "icon": "side-a-logo.png",
+        "visual": "sa-room.png", "visual_ru": "sa-room.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/side-a",
+        "download": "https://github.com/bigdevwhale/side-a/releases/latest/download/SideA.apk",
+        "version": "v1.0.0",
+        "tagline": ("There is too much music. One album a week, a whole side at a time, on a turntable or a tape deck.", "Музыки стало слишком много. Один альбом в неделю, сторона целиком — на вертушке или в кассетной деке."),
+        "badge": ("Love music again · New", "Снова любить музыку · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("There is too much music. <em>Fall back in love with it.</em>",
+                  "Музыки стало слишком много. <em>Влюбиться в неё снова.</em>"),
+        "desc": ("A hundred million songs in your pocket, and hardly one heard all the way through. Side A brings back what made music precious: there was little of it. The record shop gets one delivery a week; you bring one album home, play it a whole side at a time, turn it over, and the sleeve wears in as you love it. Skip a song and the record keeps the scratch; wind a cassette and it takes as long as a real deck. Play your own files with real vinyl crackle, or listen along with Spotify and other players. Free, no ads, no account.",
+                 "Сто миллионов песен в кармане — и почти ни одной, дослушанной до конца. «Сторона А» возвращает то, из-за чего музыку ценили: её было мало. Привоз в магазин пластинок — раз в неделю; несёшь домой один альбом, слушаешь сторону целиком, переворачиваешь, а конверт стареет от любви. Пропустишь песню — на пластинке останется царапина; перемотка кассеты идёт столько же, сколько на настоящей деке. Свои файлы играют с настоящим треском винила, а со Spotify и другими плеерами можно слушать вместе. Бесплатно, без рекламы и без аккаунта."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · English и Русский"),
+        "features": [
+            (("Records or cassettes", "Пластинки или кассеты"),
+             ("Pick a look at the start and the whole app follows. A walnut hi‑fi with a turntable, a tonearm and lit VU meters, or a silver eighties tape deck with piano keys, a counter and LED meters. Each in its own light or dark.",
+              "В начале выбираешь эстетику, и под неё подстраивается всё. Ореховый проигрыватель с вертушкой, тонармом и подсвеченными VU-стрелками или серебристая дека восьмидесятых с клавишами, счётчиком и светодиодами. У каждой своя светлая и тёмная тема.")),
+            (("One album a week", "Один альбом в неделю"),
+             ("The shop gets a delivery on the day you pick, and an unused week doesn't carry over. Put others aside on the counter for later weeks. The first three are a gift, for the records you already love.",
+              "Привоз в магазин — в выбранный день, неиспользованная неделя не копится. Остальное можно отложить на кассе на следующие недели. Первые три — в подарок, для пластинок, которые уже любишь.")),
+            (("Skipping leaves a mark", "Пропуск оставляет след"),
+             ("Move the needle while it's down and the record keeps a scratch that clicks each time round. A cassette can't jump; it winds, at the speed of a real deck. Prefer to change songs freely? There's a setting for that.",
+              "Двинешь опущенную иглу — на пластинке останется царапина и будет щёлкать на каждом обороте. Кассета не прыгает, она перематывается со скоростью настоящей деки. Хочется переключать песни свободно — для этого есть настройка.")),
+            (("Twenty‑four places", "Двадцать четыре места"),
+             ("A shelf of spines or a rack of cassettes titled in ballpoint. When it's full, one goes to the second‑hand shop with a farewell line, and can be bought back as a week's buy.",
+              "Полка корешков или стойка кассет, подписанных шариковой ручкой. Когда места нет, одна уходит в букинист с прощальной строчкой — её можно выкупить в счёт недельной покупки.")),
+            (("The listening room", "Слушальня"),
+             ("Thirty seconds of silence before the needle drops. Pick up the phone and the needle lifts; put it down and the music plays on. After a long sitting, write a line on the inner sleeve.",
+              "Тридцать секунд тишины, прежде чем опустится игла. Возьмёшь телефон — игла поднимется, положишь — музыка играет дальше. После долгого прослушивания можно оставить строчку на внутреннем конверте.")),
+            (("Your music, wherever it lives", "Твоя музыка, где бы она ни была"),
+             ("Albums from a folder play here, with crackle, wow and flutter that grow with wear (real CC0 recordings if you like). Or listen along with Spotify, YouTube Music, Yandex Music: with your own Spotify Client ID, search its catalogue and start albums without opening it.",
+              "Альбомы из папки играют здесь, с треском и «плаванием», которые растут с износом (по желанию — настоящие записи под CC0). Или слушай вместе со Spotify, YouTube Music, Яндекс Музыкой: со своим Spotify Client ID можно искать по каталогу и запускать альбомы, не открывая Spotify.")),
+        ],
+        "shots": [
+            ("sa-shelf.png", "sa-shelf.ru.png", ("The shelf", "Полка"), ("Twenty‑four places, spines that crack with use.", "Двадцать четыре места, корешки трескаются от любви.")),
+            ("sa-room.png", "sa-room.ru.png", ("The turntable", "Вертушка"), ("A side at a time, scratches and all.", "Сторона целиком, с царапинами.")),
+            ("sa-record.png", "sa-record.ru.png", ("A record", "Пластинка"), ("Ring wear, sides, lines on the inner sleeve.", "Потёртый конверт, стороны, строчки на конверте.")),
+            ("sa-rack.png", "sa-rack.ru.png", ("The rack", "Стойка"), ("The same shelf, as cassettes.", "Та же полка — кассетами.")),
+            ("sa-deck.png", "sa-deck.ru.png", ("The tape deck", "Дека"), ("Winding takes real time.", "Перемотка идёт по-настоящему.")),
+            ("sa-shop.png", "sa-shop.ru.png", ("The record shop", "Магазин"), ("One delivery a week.", "Привоз раз в неделю.")),
+        ],
+        "extra": {
+            "title": ("Records or cassettes", "Пластинки или кассеты"),
+            "head": [("", ""), ("Records", "Пластинки"), ("Cassettes", "Кассеты")],
+            "rows": [
+                [("Skipping", "Пропуск"), ("Move the needle while it's down: a scratch that clicks each time round.", "Двинешь опущенную иглу — царапина, щёлкает на каждом обороте."), ("No jumping: it winds, about twenty times faster than it plays.", "Не прыгает: перематывается, примерно в двадцать раз быстрее воспроизведения.")],
+                [("A skip in another player", "Пропуск в другом плеере"), ("Scratches the record.", "Царапает пластинку."), ("Creases the tape.", "Мнёт плёнку.")],
+                [("Wear", "Износ"), ("Ring wear, white corners, crackle.", "Кольцо на конверте, белые уголки, треск."), ("A yellowed label, stretched tape, wow and flutter.", "Желтеющая наклейка, растянутая плёнка, «плавание».")],
+                [("Turning over", "Перевернуть"), ("When side A runs out.", "Когда кончится сторона А."), ("Any time; it plays on from the mirrored spot.", "В любой момент — заиграет с зеркального места.")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("SideA.apk", "SideA.apk")),
+            (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Folders you pick, notification access (only to see what your player plays), media playback. Internet only to search Spotify, if you connect it.", "Выбранные папки, доступ к уведомлениям (только чтобы видеть, что играет плеер), воспроизведение. Интернет — только для поиска в Spotify, если его подключить.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Pick records or cassettes, then bring home the three albums you already love.", "Выбери пластинки или кассеты и принеси домой три альбома, которые уже любишь."),
+        ],
+        "note": None,
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. Sleeves, the turntable, cassettes and meters are drawn on a Compose canvas; the surface noise is a Media3 audio processor.", "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Конверты, вертушка, кассеты и стрелки рисуются на Compose canvas, а шум поверхности — аудиопроцессор Media3."),
+        "build": "git clone https://github.com/bigdevwhale/side-a.git\ncd side-a\n./gradlew testDebugUnitTest             <c># the shop week, sides, wear, matching, the needle</c>\n./gradlew assembleDebug                 <c># app.sidea.dev, installs next to a release</c>\n./gradlew assembleDebug -Pdemo          <c># app.sidea.demo, a lived-in shelf of made-up records</c>\n./gradlew testDebugUnitTest -Prender --tests '*RenderArtScreens*'  <c># every screen, both looks, to app/build/art</c>",
+        "faq": [
+            (("Does it sell or stream music?", "Здесь продают или стримят музыку?"),
+             ("No. It's the turntable: the music is yours, from a folder on the phone or the streaming app you already use. The shop sells nothing; it only rations.",
+              "Нет. Это вертушка, а музыка твоя: из папки на телефоне или из стриминга, которым ты уже пользуешься. Магазин ничего не продаёт — только отмеряет.")),
+            (("How does it listen along with Spotify?", "Как она слушает вместе со Spotify?"),
+             ("With notification access it sees what your player plays (only the song), recognises the album, learns its songs and counts the time. Skips scratch the record. With your own free Spotify Client ID (Settings → Spotify shows how) it can also search Spotify's catalogue and start albums without opening Spotify; that needs Premium.",
+              "С доступом к уведомлениям она видит, что играет плеер (только песню), узнаёт альбом, запоминает песни и считает время. Пропуски царапают пластинку. Со своим бесплатным Spotify Client ID (в Настройках → Spotify есть подсказка) можно ещё искать по каталогу Spotify и запускать альбомы, не открывая его; для этого нужен Premium.")),
+            (("Can I skip songs at all?", "Песни вообще можно пропускать?"),
+             ("Yes. Lift the needle first and move the arm, and nothing is scratched; or turn on Songs by button for previous and next in the room.",
+              "Да. Подними иглу, переставь тонарм — и царапин не будет; или включи «Песни по кнопке», и в слушальне появятся «назад» и «дальше».")),
+            (("Is the crackle real?", "Треск настоящий?"),
+             ("Made in code by default, rising with wear. Optionally, real recordings of vinyl crackle and tape hiss (CC0, from Freesound), under folder albums and over your streaming app too.",
+              "По умолчанию сделан кодом и растёт с износом. По желанию — настоящие записи треска винила и шипения плёнки (CC0, с Freesound), под альбомами из папки и поверх стриминга.")),
+            (("What does it keep?", "Что хранится?"),
+             ("Your shelf, notes, scratches and listening times, on the phone, with no account and no analytics. It goes online only to search Spotify's catalogue, when you've connected Spotify.",
+              "Полка, заметки, царапины и время прослушивания — на телефоне, без аккаунта и аналитики. В интернет — только для поиска по каталогу Spotify, если он подключён.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -3176,12 +3269,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "nighttrain": "tr", "tessera": "ts", "kite": "kt"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">

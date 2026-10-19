@@ -21,6 +21,8 @@ PLAIN = {
                "Для тревожных и навязчивых мыслей: заметить, отпустить, проверить, что сбылось."),
     "kite": ("Come back to the present during the day: a few soft tugs ask where your mind has wandered.",
              "Возвращаться в настоящее посреди дня: несколько тихих рывков спрашивают, куда унесло мысли."),
+    "sidea": ("Love music again: one album a week, a whole side at a time, on a turntable or a tape deck.",
+               "Снова полюбить музыку: один альбом в неделю, сторона целиком — на вертушке или в кассетной деке."),
     "focusshield": ("A focus timer for Windows that blocks distracting sites and apps until the session ends.",
                     "Таймер фокуса для Windows: блокирует отвлекающие сайты и приложения до конца сессии."),
     "obol": ("Less scrolling: time in Reels, Shorts and TikTok has to be earned with useful apps.",
@@ -83,7 +85,7 @@ CATS = [
      ["swisszen", "serene", "keeper", "kite"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, and help giving something up.", "Меньше лент и отвлечений и помощь, чтобы от чего-то отказаться."),
-     ["focusshield", "obol", "unhook", "vigil"]),
+     ["focusshield", "obol", "unhook", "vigil", "sidea"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
      ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk"]),
@@ -100,10 +102,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 31 free apps", "Stillcraft · 31 бесплатное приложение"),
+    "c.hero.eyebrow": ("Stillcraft · 32 free apps", "Stillcraft · 32 бесплатных приложения"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 30 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 30 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 31 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 31 приложение для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -114,7 +116,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("31 apps, <em>grouped by what they help with.</em>", "31 приложение, <em>по задачам.</em>"),
+    "c.ap.title": ("32 apps, <em>grouped by what they help with.</em>", "32 приложения, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -128,6 +130,7 @@ WORDS = {
     "serene": "meditation sleep relax affirmation медитация сон расслабление аффирмации",
     "keeper": "anxiety worry ocd intrusive тревога беспокойство окр навязчивые мысли",
     "kite": "mindfulness present moment here now wandering mind grounding senses reminder notification осознанность настоящее здесь и сейчас блуждающие мысли заземление чувства напоминание",
+    "sidea": "music album vinyl record turntable cassette tape spotify listening streaming музыка альбом винил пластинка проигрыватель кассета плёнка слушать стриминг",
     "focusshield": "focus pomodoro windows block work фокус помодоро работа блокировка",
     "obol": "social media scrolling tiktok screen time соцсети лента экранное время",
     "unhook": "quit smoking alcohol addiction бросить курить алкоголь зависимость",
