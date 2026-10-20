@@ -38,6 +38,7 @@
   --ts-bg: #0F1220; --ts-top: #1C2135; --ts-ink: #F3EBDD; --ts-muted: #B9B2A4; --ts-gold: #D9AA48; --ts-leaf: #E2B552; --ts-lapis: #2F5DA8; --ts-line: #2D3350;
   --sa-bg: #17120E; --sa-top: #2D231B; --sa-ink: #F2E7D5; --sa-muted: #BCA98F; --sa-lamp: #FF9A3C; --sa-wood: #6B4429; --sa-line: #433529;
   --rw-bg: #0D0B14; --rw-top: #1C2350; --rw-ink: #F5F0E4; --rw-muted: #B4AFC4; --rw-pink: #FF4FA3; --rw-cyan: #52E6FF; --rw-line: #2B2742;
+  --sp-bg: #15100C; --sp-top: #2B2018; --sp-ink: #F2E4CF; --sp-muted: #BCA78C; --sp-lamp: #E9A54B; --sp-gold: #F1C66C; --sp-line: #3A2D22;
   --pt-bg: #F1E6CC; --pt-top: #F7EEDB; --pt-ink: #2B2018; --pt-muted: #5E4B3A; --pt-vermilion: #A8322B; --pt-lapis: #2C4C8C; --pt-gold: #C99A2E; --pt-line: #D5C29C;
   --kt-bg: #F5F1E8; --kt-top: #DCE9F4; --kt-ink: #1F2A3A; --kt-muted: #5B6676; --kt-red: #D4543D; --kt-sky: #7FB1DE; --kt-grass: #79A866; --kt-line: #E2D9C7;
   --kp-bg: #0B1624; --kp-top: #15304D; --kp-ink: #EFE7D6; --kp-muted: #A7B3C2; --kp-lamp: #F4B94E; --kp-line: #243A57; --kp-fog: #9DB0C5;
@@ -60,14 +61,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --pt-dot: #2C4C8C;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --pt-dot: #2C4C8C;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --pt-dot: #2C4C8C;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --pt-dot: #2C4C8C;
   color-scheme: dark;
 }
 
@@ -483,18 +484,18 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-serene, .g-ember, .g-fogwalk, .g-glow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -854,3 +855,17 @@ pre.code .c { opacity: 0.55; }
 .app--party h1 em { color: var(--pt-lapis); }
 .app--party .ap-visual img { box-shadow: 0 24px 60px rgb(60 35 15 / 0.30); border: 1px solid var(--pt-line); }
 .g-party { --shot-bg: var(--pt-bg); --shot-ratio: 540 / 1171; }
+
+/* Spintop: a night desk, dark walnut under one warm lamp, brass rings */
+.app--spintop { --fl: var(--sp-line); --fm: var(--sp-muted); background: radial-gradient(90% 70% at 20% 30%, rgb(233 165 75 / 0.22) 0%, transparent 60%), radial-gradient(70% 60% at 100% 0%, rgb(46 61 94 / 0.35) 0%, transparent 60%), var(--sp-bg); color: var(--sp-ink); }
+.app--spintop .app-tag { color: var(--sp-lamp); }
+.app--spintop .app-lede em, .app--spintop h1 em { font-style: normal; color: var(--sp-gold); }
+.app--spintop .btn-primary { background: var(--sp-lamp); color: #1D130A; }
+.app--spintop .btn-ghost { color: var(--sp-ink); border-color: var(--sp-line); }
+.app--spintop .app-desc, .app--spintop .feats span, .app--spintop small { color: var(--sp-muted); }
+.sp-shot { border-radius: 20px; background: var(--sp-bg); image-rendering: auto; }
+.pill.sp { --dot: var(--sp-dot, #E9A54B); }
+.cv-sp { background: radial-gradient(90% 70% at 20% 40%, rgb(233 165 75 / 0.30) 0%, transparent 60%), radial-gradient(70% 60% at 100% 0%, rgb(46 61 94 / 0.40) 0%, transparent 60%), var(--sp-bg); }
+.cv-sp img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--spintop .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--sp-line); }
+.g-spintop { --shot-bg: var(--sp-bg); --shot-ratio: 540 / 1171; }

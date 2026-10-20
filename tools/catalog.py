@@ -25,6 +25,8 @@ PLAIN = {
                "Снова полюбить музыку: один альбом в неделю, сторона целиком — на вертушке или в кассетной деке."),
     "party": ("Dates as quests: the two of you are a party of heroes, the phone is the game master.",
               "Свидания как квесты: вы двое — отряд героев, а телефон — мастер игры."),
+    "spintop": ("Learn lucid dreaming: dream signs, reality checks by day, a ritual at night, and a top that keeps count.",
+                "Научиться осознанным снам: знаки сна, проверки реальности днём, ритуал на ночь и волчок, который ведёт счёт."),
     "rewind": ("Love films again: your watchlist as a nineties video rental store, two tapes at a time, with due dates.",
                "Снова полюбить кино: список «посмотреть потом» как видеопрокат девяностых, две кассеты на руках и срок возврата."),
     "focusshield": ("A focus timer for Windows that blocks distracting sites and apps until the session ends.",
@@ -86,7 +88,7 @@ PLAIN = {
 CATS = [
     ("calm", ("Calm and worry", "Спокойствие и тревога"),
      ("Breathing, meditation, and a way through thoughts that won't let go.", "Дыхание, медитации и способ справиться с мыслями, которые не отпускают."),
-     ["swisszen", "serene", "keeper", "kite"]),
+     ["swisszen", "serene", "keeper", "kite", "spintop"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, and help giving something up.", "Меньше лент и отвлечений и помощь, чтобы от чего-то отказаться."),
      ["focusshield", "obol", "unhook", "vigil", "sidea", "rewind"]),
@@ -106,10 +108,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 34 free apps", "Stillcraft · 34 бесплатных приложения"),
+    "c.hero.eyebrow": ("Stillcraft · 35 free apps", "Stillcraft · 35 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 33 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 33 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 34 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 34 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -120,7 +122,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("34 apps, <em>grouped by what they help with.</em>", "34 приложения, <em>по задачам.</em>"),
+    "c.ap.title": ("35 apps, <em>grouped by what they help with.</em>", "35 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -136,6 +138,7 @@ WORDS = {
     "kite": "mindfulness present moment here now wandering mind grounding senses reminder notification осознанность настоящее здесь и сейчас блуждающие мысли заземление чувства напоминание",
     "sidea": "music album vinyl record turntable cassette tape spotify listening streaming музыка альбом винил пластинка проигрыватель кассета плёнка слушать стриминг",
     "party": "date couple quest quests fantasy rpg dnd d20 dice adventure game knights heraldry coat of arms partner relationship свидание пара квест квесты фэнтези ролевая игра кость приключение рыцари герб отношения отряд",
+    "spintop": "lucid dream dreams dreaming sleep dream journal diary reality check mild wbtb inception totem spinning top nightmare осознанный сон сны сновидения дневник снов проверка реальности сон волчок начало кошмар",
     "rewind": "watchlist movies films cinema series tv shows books comics manga albums video rental vhs tape kinopoisk imdb letterboxd goodreads список посмотреть потом фильмы кино сериалы книги комиксы манга альбомы видеопрокат кассета кинопоиск",
     "focusshield": "focus pomodoro windows block work фокус помодоро работа блокировка",
     "obol": "social media scrolling tiktok screen time соцсети лента экранное время",

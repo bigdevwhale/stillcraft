@@ -3426,6 +3426,96 @@ APPS = [
               "Хроника, герб и трофеи — только на телефоне: без аккаунта, рекламы и вообще без доступа в интернет. Копию хроники можно сохранить в файл.")),
         ],
     },
+    {
+        "slug": "spintop",
+        "name": "Spintop",
+        "panel": "app--spintop",
+        "gallery": "g-spintop",
+        "icon": "spintop-logo.png",
+        "visual": "sp-home.png", "visual_ru": "sp-home.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/slumber",
+        "download": "https://github.com/bigdevwhale/slumber/releases/latest/download/Spintop.apk",
+        "version": "v1.0.0",
+        "tagline": ("A cosy lucid-dreaming trainer. In a dream, the top never falls.",
+                    "Уютный тренажёр осознанных снов. Во сне волчок не падает."),
+        "badge": ("Lucid dreams · New", "Осознанные сны · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Notice that you're dreaming. <em>In a dream, the top never falls.</em>",
+                  "Заметить, что спишь. <em>Во сне волчок не падает.</em>"),
+        "desc": ("Lucid dreaming isn't a gift, it's a habit: asking “am I dreaming?” often enough that you ask it in your sleep too. Spintop builds that habit in three small moments a day. In the morning you tell your dream in the dark; in the day a few quiet checks ask whether you're dreaming; at night two minutes with the top and an intention. A wooden top on a lamplit desk keeps count: the more you practise, the longer it spins.",
+                 "Осознанный сон — не дар, а привычка: спрашивать себя «а не сплю ли я?» так часто, что вопрос приходит и во сне. «Волчок» вырабатывает её в три коротких момента в день. Утром вы рассказываете сон в темноте, днём несколько тихих проверок спрашивают, не спите ли вы, ночью две минуты с волчком и намерением. Деревянный волчок на столе под лампой ведёт счёт: чем больше практики, тем дольше он крутится."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · English и Русский"),
+        "features": [
+            (("Tell it in the dark", "Рассказать в темноте"),
+             ("At waking, a dim red screen you can use half asleep. Type or say the dream aloud; pause too long and the words pale, the way a dream does. Then one question: did you know it was a dream?",
+              "После пробуждения — тусклый красный экран, которым можно пользоваться в полусне. Напишите или надиктуйте сон; если надолго замолчать, слова бледнеют, как сам сон. Потом один вопрос: было ли ясно, что это сон?")),
+            (("Your dream signs", "Ваши знаки сна"),
+             ("School and exams, running late, lights that won't turn on, a childhood home, water: the app finds what keeps happening in your dreams by itself. Nothing to tag. Add a sign of your own in your own words.",
+              "Школа и экзамены, опоздания, свет, который не включается, дом детства, вода — приложение само находит, что повторяется в ваших снах. Ничего не нужно размечать. Можно добавить свой знак своими словами.")),
+            (("Reality checks", "Проверки реальности"),
+             ("A few times a day, at moments you can't guess, “Are you dreaming?” with one check that dreams get wrong: count your fingers, read a line twice, pinch your nose and breathe. One tap on “Checked”.",
+              "Несколько раз в день, в моменты, которые не угадать, — «Ты спишь?» и одна проверка, на которой сон ошибается: сосчитать пальцы, дважды прочитать строку, зажать нос и вдохнуть. Одно касание — «Проверено».")),
+            (("The ritual before sleep", "Ритуал перед сном"),
+             ("Two minutes of MILD, the best-tested way into lucid dreams: recall your last dream, look at tonight's sign, and hold the top spinning while you repeat the intention. Then the lamp goes down.",
+              "Две минуты по методу MILD — самому изученному способу войти в осознанный сон: вспомнить последний сон, посмотреть на знак этой ночи и держать волчок, повторяя намерение. Потом лампа гаснет.")),
+            (("The top keeps count", "Волчок ведёт счёт"),
+             ("Dreams remembered, checks and rituals wind it up, glimmers and lucid dreams most of all. A missed day loosens it a little, nothing more. Each lucid dream adds a brass ring; the morning after one, it glows and doesn't fall all day.",
+              "Его закручивают записанные сны, проверки и ритуалы, а сильнее всего — проблески и осознанные сны. Пропущенный день лишь немного ослабляет. Каждый осознанный сон добавляет латунное кольцо, а наутро после него волчок светится и весь день не падает.")),
+            (("Quiet and private", "Тихо и приватно"),
+             ("Warm walnut and lamplight, dim enough for bed. Dreams stay on the phone: no account, no internet, no tracking.",
+              "Тёплый орех и свет лампы, достаточно тусклые для постели. Сны остаются на телефоне: без аккаунта, интернета и слежки.")),
+        ],
+        "shots": [
+            ("sp-home.png", "sp-home.ru.png", ("The desk", "Стол"), ("The top, the day, tonight's sign.", "Волчок, день, знак этой ночи.")),
+            ("sp-lucid.png", "sp-lucid.ru.png", ("After a lucid dream", "После осознанного сна"), ("It glows and doesn't fall.", "Светится и не падает.")),
+            ("sp-capture.png", "sp-capture.ru.png", ("At waking", "После пробуждения"), ("Dim enough to tell it half asleep.", "Тускло, чтобы рассказать в полусне.")),
+            ("sp-clarity.png", "sp-clarity.ru.png", ("One question", "Один вопрос"), ("And the signs in that dream.", "И знаки в этом сне.")),
+            ("sp-signs.png", "sp-signs.ru.png", ("Dream signs", "Знаки сна"), ("Found in your journal by themselves.", "Находятся в дневнике сами.")),
+            ("sp-check.png", "sp-check.ru.png", ("Are you dreaming?", "Ты спишь?"), ("A check, and a line to read twice.", "Проверка и строка, чтобы прочитать дважды.")),
+            ("sp-ritual.png", "sp-ritual.ru.png", ("Before sleep", "Перед сном"), ("Recall, the sign, the top.", "Вспомнить, знак, волчок.")),
+            ("sp-journal.png", "sp-journal.ru.png", ("The journal", "Дневник"), ("Brass rings for lucid dreams.", "Латунные кольца — осознанные сны.")),
+        ],
+        "extra": {
+            "title": ("Three moments a day", "Три момента в день"),
+            "head": [("", ""), ("What you do", "Что вы делаете"), ("Why it helps", "Зачем")],
+            "rows": [
+                [("Morning", "Утро"), ("Tell the dream, say how clear it was", "Рассказать сон и как ясно он ощущался"), ("Remembered dreams are the ones you can wake up in", "Осознать можно только сон, который помнишь")],
+                [("Day", "День"), ("A few reality checks", "Несколько проверок реальности"), ("The question becomes a habit and turns up in sleep", "Вопрос становится привычкой и приходит во сне")],
+                [("Night", "Ночь"), ("Recall, tonight's sign, the intention", "Вспомнить сон, знак, намерение"), ("You fall asleep expecting to notice", "Вы засыпаете с ожиданием заметить")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Spintop.apk", "Spintop.apk")),
+            (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Notifications and vibration. No internet; telling a dream aloud uses your phone's own speech recognition.", "Уведомления и вибрация. Без интернета; для рассказа вслух — распознавание речи самого телефона.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачай APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Pick when you go to bed and wake, and spin the top.", "Выбери, когда ложишься и встаёшь, и закрути волчок."),
+        ],
+        "note": None,
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. Kotlin, Jetpack Compose, Room, DataStore; the desk, the lamp and the spinning top are drawn in code.",
+                      "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Kotlin, Jetpack Compose, Room, DataStore; стол, лампа и волчок нарисованы кодом."),
+        "build": "git clone https://github.com/bigdevwhale/slumber.git\ncd slumber\n./gradlew testDebugUnitTest             <c># signs, the wind-up, the top's spin</c>\n./gradlew assembleDebug                 <c># app.slumber.dev, installs next to a release</c>\n./gradlew assembleDebug -Pdemo          <c># app.slumber.demo with three weeks of practice</c>",
+        "faq": [
+            (("Does it actually work?", "Это правда работает?"),
+             ("Reality checks, a dream journal and MILD are the techniques with the best evidence behind them, and the app puts all three into one small daily routine. Most people need a few weeks of practice; a first glimmer of “wait, is this a dream?” usually comes before the first fully lucid dream.",
+              "Проверки реальности, дневник снов и MILD — техники с лучшими подтверждениями, и приложение собирает все три в одну короткую ежедневную привычку. Обычно нужно несколько недель практики; первый проблеск «а не сон ли это?» чаще всего приходит раньше первого полностью осознанного сна.")),
+            (("I don't remember my dreams", "Я не помню снов"),
+             ("Start with the morning: tell anything, even one word or a feeling, before you sit up. Recall grows within days of doing this, and the signs appear once a few dreams are in.",
+              "Начните с утра: расскажите хоть что-то, даже одно слово или чувство, ещё не вставая. Через несколько дней таких записей сны вспоминаются лучше, а знаки появляются, когда наберётся несколько снов.")),
+            (("What does it keep?", "Что хранится?"),
+             ("Your dreams, checks and rituals, on the phone only: no account, no ads, no internet permission at all.",
+              "Сны, проверки и ритуалы — только на телефоне: без аккаунта, рекламы и вообще без доступа в интернет.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -3474,12 +3564,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
