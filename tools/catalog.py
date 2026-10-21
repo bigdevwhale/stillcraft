@@ -29,6 +29,8 @@ PLAIN = {
                 "Научиться осознанным снам: знаки сна, проверки реальности днём, ритуал на ночь и волчок, который ведёт счёт."),
     "hushwood": ("A cosy pixel-art meditation tracker: sit still and shy animals come out.",
                  "Уютный пиксельный трекер медитации: замри — и выйдут пугливые звери."),
+    "longwave": ("Fall asleep faster: sleep sounds, and spoken programmes that quiet the mind, with a timer.",
+                 "Засыпать быстрее: звуки для сна и говорящие передачи, которые успокаивают ум, с таймером."),
     "rewind": ("Love films again: your watchlist as a nineties video rental store, two tapes at a time, with due dates.",
                "Снова полюбить кино: список «посмотреть потом» как видеопрокат девяностых, две кассеты на руках и срок возврата."),
     "focusshield": ("A focus timer for Windows that blocks distracting sites and apps until the session ends.",
@@ -94,7 +96,7 @@ PLAIN = {
 CATS = [
     ("calm", ("Calm and worry", "Спокойствие и тревога"),
      ("Breathing, meditation, and a way through thoughts that won't let go.", "Дыхание, медитации и способ справиться с мыслями, которые не отпускают."),
-     ["swisszen", "serene", "keeper", "kite", "spintop", "hushwood"]),
+     ["swisszen", "serene", "keeper", "kite", "spintop", "hushwood", "longwave"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, and help giving something up.", "Меньше лент и отвлечений и помощь, чтобы от чего-то отказаться."),
      ["focusshield", "obol", "unhook", "vigil", "sidea", "rewind"]),
@@ -114,10 +116,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 38 free apps", "Stillcraft · 38 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 39 free apps", "Stillcraft · 39 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 37 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 37 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 38 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 38 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -128,7 +130,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("38 apps, <em>grouped by what they help with.</em>", "38 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("39 apps, <em>grouped by what they help with.</em>", "39 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -146,6 +148,7 @@ WORDS = {
     "party": "date couple quest quests fantasy rpg dnd d20 dice adventure game knights heraldry coat of arms partner relationship свидание пара квест квесты фэнтези ролевая игра кость приключение рыцари герб отношения отряд",
     "spintop": "lucid dream dreams dreaming sleep dream journal diary reality check mild wbtb inception totem spinning top nightmare осознанный сон сны сновидения дневник снов проверка реальности сон волчок начало кошмар",
     "hushwood": "meditation meditate mindfulness sitting stillness breathing breathwork box breathing 4-7-8 yoga timer tracker pixel art cozy cosy forest animals nature sounds rain birds tingsha guardian медитация осознанность тишина дыхание йога таймер трекер пиксель лес звери природа звуки птицы хранитель",
+    "longwave": "sleep insomnia fall asleep bedtime night white noise brown noise rain sounds sea waves train nature sounds sleep timer radio valve tube vintage shipping forecast body scan cognitive shuffle 4-7-8 breathing counting relaxation qsl сон бессонница уснуть заснуть засыпание ночь белый шум коричневый шум дождь море волны поезд звуки природы таймер сна радио приёмник ламповый морская сводка сканирование тела дыхание счёт расслабление",
     "rewind": "watchlist movies films cinema series tv shows books comics manga albums video rental vhs tape kinopoisk imdb letterboxd goodreads список посмотреть потом фильмы кино сериалы книги комиксы манга альбомы видеопрокат кассета кинопоиск",
     "focusshield": "focus pomodoro windows block work фокус помодоро работа блокировка",
     "obol": "social media scrolling tiktok screen time соцсети лента экранное время",
