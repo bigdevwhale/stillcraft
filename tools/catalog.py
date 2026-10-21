@@ -61,6 +61,8 @@ PLAIN = {
               "Запоминать слова, термины, даты и цитаты интервальными повторениями. Импорт колод Anki."),
     "familiar": ("A reading tracker with a pixel pet that grows on the pages you read.",
                  "Трекер чтения с пиксельным питомцем, который растёт от прочитанных страниц."),
+    "fridge": ("A fridge door for two: the shopping list, whose turn, notes and worries, shared between your two phones at home.",
+               "Дверца холодильника на двоих: покупки, чья очередь, записки и тревоги — общие на двух телефонах дома."),
     "campfire": ("A talk by the fire with the people close to you: sparks bring questions, and the word of the day stays in the ash.",
                  "Разговор у костра с близкими: искры приносят вопросы, а слово дня остаётся в пепле."),
     "lantern": ("Make up bedtime stories with your child from randomly dealt heroes, places and troubles.",
@@ -110,7 +112,7 @@ CATS = [
      ["scriptor", "stele", "familiar", "sill"]),
     ("family", ("Family and friends", "Семья и близкие"),
      ("Time with your children and each other, bedtime stories, family photos, keeping in touch.", "Время с детьми и друг с другом, сказки на ночь, семейные фото, связь с близкими."),
-     ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "ties", "notch", "silverbox"]),
+     ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "fridge", "ties", "notch", "silverbox"]),
     ("self", ("You and your life", "Вы и ваша жизнь"),
      ("Your time, your wins, who you want to be, letters to the future, moments worth keeping.", "Ваше время, ваши победы, каким вы хотите быть, письма в будущее и моменты, которые стоит сохранить."),
      ["anyway", "calavera", "dearme", "glow", "prism", "hoard", "theusual"]),
@@ -118,10 +120,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 40 free apps", "Stillcraft · 40 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 41 free apps", "Stillcraft · 41 бесплатное приложение"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 39 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 39 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 40 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 40 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -132,7 +134,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("40 apps, <em>grouped by what they help with.</em>", "40 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("41 apps, <em>grouped by what they help with.</em>", "41 приложение, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -167,6 +169,7 @@ WORDS = {
     "scriptor": "study memory notes spaced repetition учёба память конспект",
     "stele": "language words anki flashcards язык слова карточки",
     "familiar": "books reading pet книги чтение питомец",
+    "fridge": "fridge refrigerator door couple couples partner relationship shopping list groceries chores whose turn notes sticky notes magnets worries confession envelope love wishes gifts household home sync wifi qr холодильник дверца пара отношения партнёр покупки список продуктов дела чья очередь записки стикеры магниты тревоги признание конверт любовь желания подарки быт дом синхронизация",
     "campfire": "campfire fire talk conversation questions couple couples parent child kids family friends evening ritual together journal word recording костёр огонь разговор вопросы пара семья дети друзья вечер ритуал вместе дневник запись",
     "lantern": "kids children bedtime story fairy tale sleep дети ребёнок сказка сон на ночь",
     "marbles": "kids children parents screen time дети родители",
