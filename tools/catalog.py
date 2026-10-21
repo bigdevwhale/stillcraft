@@ -85,6 +85,8 @@ PLAIN = {
              "Записывать свои победы, большие и маленькие, и получать за них похвалу."),
     "prism": ("Choose who you want to be in each part of life: partner, parent, colleague, friend.",
               "Выбрать, каким быть в каждой сфере жизни: партнёром, родителем, коллегой, другом."),
+    "theusual": ("A diary of the cafés you keep coming back to: a page, a sugar packet and a ring for every cup.",
+                 "Дневник кофеен, куда ты возвращаешься: страница, сахарный пакетик и кольцо за каждую чашку."),
     "hoard": ("A camera for moments worth keeping: three a day, kept as pixel-art treasure.",
               "Камера для моментов, которые хочется сохранить: три в день, как пиксельные сокровища."),
 }
@@ -107,15 +109,15 @@ CATS = [
      ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "ties", "notch", "silverbox"]),
     ("self", ("You and your life", "Вы и ваша жизнь"),
      ("Your time, your wins, who you want to be, letters to the future, moments worth keeping.", "Ваше время, ваши победы, каким вы хотите быть, письма в будущее и моменты, которые стоит сохранить."),
-     ["anyway", "calavera", "dearme", "glow", "prism", "hoard"]),
+     ["anyway", "calavera", "dearme", "glow", "prism", "hoard", "theusual"]),
 ]
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 37 free apps", "Stillcraft · 37 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 38 free apps", "Stillcraft · 38 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 36 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 36 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 37 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 37 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -126,7 +128,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("37 apps, <em>grouped by what they help with.</em>", "37 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("38 apps, <em>grouped by what they help with.</em>", "38 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -172,6 +174,7 @@ WORDS = {
     "dearme": "letter future diary письмо будущее дневник",
     "glow": "praise self esteem wins похвала самооценка победы",
     "prism": "roles values identity роли ценности",
+    "theusual": "the usual cafe café cafes coffee coffee shop barista diary journal notebook places favourite regular visits map friends кофейня кофейни кафе кофе бариста дневник блокнот места любимые визиты карта друзья как обычно",
     "hoard": "photo moments memories фото моменты воспоминания",
 }
 
