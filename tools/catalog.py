@@ -85,8 +85,8 @@ PLAIN = {
              "Записывать свои победы, большие и маленькие, и получать за них похвалу."),
     "prism": ("Choose who you want to be in each part of life: partner, parent, colleague, friend.",
               "Выбрать, каким быть в каждой сфере жизни: партнёром, родителем, коллегой, другом."),
-    "theusual": ("A diary of the cafés you keep coming back to: a page, a sugar packet and a ring for every cup.",
-                 "Дневник кофеен, куда ты возвращаешься: страница, сахарный пакетик и кольцо за каждую чашку."),
+    "theusual": ("A diary of the cafés you keep coming back to: each gets a page and a sugar packet, and every cup leaves a coffee stain on the page.",
+                 "Дневник кофеен, куда ты возвращаешься: у каждой своя страница и сахарный пакетик, а каждая чашка оставляет на странице кофейный след."),
     "hoard": ("A camera for moments worth keeping: three a day, kept as pixel-art treasure.",
               "Камера для моментов, которые хочется сохранить: три в день, как пиксельные сокровища."),
 }
