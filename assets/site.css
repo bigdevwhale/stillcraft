@@ -40,6 +40,7 @@
   --ts-bg: #0F1220; --ts-top: #1C2135; --ts-ink: #F3EBDD; --ts-muted: #B9B2A4; --ts-gold: #D9AA48; --ts-leaf: #E2B552; --ts-lapis: #2F5DA8; --ts-line: #2D3350;
   --sa-bg: #17120E; --sa-top: #2D231B; --sa-ink: #F2E7D5; --sa-muted: #BCA98F; --sa-lamp: #FF9A3C; --sa-wood: #6B4429; --sa-line: #433529;
   --rw-bg: #0D0B14; --rw-top: #1C2350; --rw-ink: #F5F0E4; --rw-muted: #B4AFC4; --rw-pink: #FF4FA3; --rw-cyan: #52E6FF; --rw-line: #2B2742;
+  --sl-bg: #F1E9DA; --sl-top: #F8F3EA; --sl-ink: #2E2921; --sl-muted: #6B6153; --sl-terra: #B65A36; --sl-leaf: #4C7A35; --sl-water: #3F7EA3; --sl-line: #DDD1BC;
   --lw-bg: #0D0B0A; --lw-top: #2A1B12; --lw-ink: #F2E6CF; --lw-muted: #BBAA90; --lw-amber: #E9B765; --lw-eye: #6FCB9C; --lw-walnut: #6B4429; --lw-line: #3A2C22;
   --hw-bg: #111819; --hw-top: #1E3437; --hw-ink: #E8EEDC; --hw-muted: #A5B0A0; --hw-moss: #B5CF8E; --hw-amber: #F0B866; --hw-line: #26332F;
   --sp-bg: #15100C; --sp-top: #2B2018; --sp-ink: #F2E4CF; --sp-muted: #BCA78C; --sp-lamp: #E9A54B; --sp-gold: #F1C66C; --sp-line: #3A2D22;
@@ -65,14 +66,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --pt-dot: #2C4C8C;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --pt-dot: #2C4C8C;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --pt-dot: #2C4C8C;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --pt-dot: #2C4C8C;
   color-scheme: dark;
 }
 
@@ -491,7 +492,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -499,12 +500,12 @@ pre.code .c { opacity: 0.55; }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-focus { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -906,6 +907,20 @@ pre.code .c { opacity: 0.55; }
 .cv-lw img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
 .app--longwave .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--lw-line); }
 .g-longwave { --shot-bg: var(--lw-bg); --shot-ratio: 540 / 1171; }
+
+/* Sill: a limewashed windowsill, terracotta pots, a leaf and a watering can */
+.app--sill { --fl: var(--sl-line); --fm: var(--sl-muted); background: radial-gradient(70% 50% at 85% 0%, rgb(63 126 163 / 0.12) 0%, transparent 60%), radial-gradient(90% 40% at 50% 100%, rgb(76 122 53 / 0.14) 0%, transparent 65%), linear-gradient(180deg, var(--sl-top) 0%, var(--sl-bg) 60%); color: var(--sl-ink); }
+.app--sill .app-tag { color: var(--sl-leaf); }
+.app--sill .app-lede em, .app--sill h1 em { font-style: normal; color: var(--sl-terra); }
+.app--sill .btn-primary { background: var(--sl-terra); color: #FFFFFF; }
+.app--sill .btn-ghost { color: var(--sl-ink); border-color: var(--sl-line); }
+.app--sill .app-desc, .app--sill .feats span, .app--sill small { color: var(--sl-muted); }
+.sl-shot { border-radius: 20px; background: var(--sl-bg); image-rendering: auto; }
+.pill.sl { --dot: var(--sl-dot, #B65A36); }
+.cv-sl { background: radial-gradient(70% 50% at 50% 100%, rgb(182 90 54 / 0.18) 0%, transparent 62%), radial-gradient(60% 40% at 50% 0%, rgb(63 126 163 / 0.14) 0%, transparent 60%), linear-gradient(180deg, var(--sl-top) 0%, var(--sl-bg) 75%); }
+.cv-sl img { box-shadow: 0 20px 50px rgb(46 41 33 / 0.22); }
+.app--sill .ap-visual img { box-shadow: 0 24px 60px rgb(46 41 33 / 0.22); border: 1px solid var(--sl-line); }
+.g-sill { --shot-bg: var(--sl-bg); --shot-ratio: 540 / 1171; }
 
 /* Campfire: a night clearing, firelight on the grass, paper tickets */
 .app--campfire { --fl: var(--cf-line); --fm: var(--cf-muted); background: radial-gradient(70% 55% at 50% 100%, rgb(242 164 74 / 0.20) 0%, transparent 65%), radial-gradient(60% 50% at 0% 0%, rgb(194 84 58 / 0.10) 0%, transparent 60%), linear-gradient(180deg, var(--cf-top) 0%, var(--cf-bg) 75%); color: var(--cf-ink); }

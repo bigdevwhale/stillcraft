@@ -89,6 +89,8 @@ PLAIN = {
               "Выбрать, каким быть в каждой сфере жизни: партнёром, родителем, коллегой, другом."),
     "theusual": ("A diary of the cafés you keep coming back to: each gets a page and a sugar packet, and every cup leaves a coffee stain on the page.",
                  "Дневник кофеен, куда ты возвращаешься: у каждой своя страница и сахарный пакетик, а каждая чашка оставляет на странице кофейный след."),
+    "sill": ("Try new things again: sow a seed from a catalogue of new things, water it each time you go back, and when it blooms it's yours.",
+             "Снова пробовать новое: посади семя из каталога нового, поливай каждый раз, когда возвращаешься, — расцвело, значит твоё."),
     "hoard": ("A camera for moments worth keeping: three a day, kept as pixel-art treasure.",
               "Камера для моментов, которые хочется сохранить: три в день, как пиксельные сокровища."),
 }
@@ -104,8 +106,8 @@ CATS = [
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
      ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
-     ("Remember what you learn, and read more.", "Запоминать выученное и читать больше."),
-     ["scriptor", "stele", "familiar"]),
+     ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
+     ["scriptor", "stele", "familiar", "sill"]),
     ("family", ("Family and friends", "Семья и близкие"),
      ("Time with your children and each other, bedtime stories, family photos, keeping in touch.", "Время с детьми и друг с другом, сказки на ночь, семейные фото, связь с близкими."),
      ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "ties", "notch", "silverbox"]),
@@ -116,10 +118,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 39 free apps", "Stillcraft · 39 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 40 free apps", "Stillcraft · 40 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 38 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 38 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 39 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 39 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -130,7 +132,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("39 apps, <em>grouped by what they help with.</em>", "39 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("40 apps, <em>grouped by what they help with.</em>", "40 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -149,6 +151,7 @@ WORDS = {
     "spintop": "lucid dream dreams dreaming sleep dream journal diary reality check mild wbtb inception totem spinning top nightmare осознанный сон сны сновидения дневник снов проверка реальности сон волчок начало кошмар",
     "hushwood": "meditation meditate mindfulness sitting stillness breathing breathwork box breathing 4-7-8 yoga timer tracker pixel art cozy cosy forest animals nature sounds rain birds tingsha guardian медитация осознанность тишина дыхание йога таймер трекер пиксель лес звери природа звуки птицы хранитель",
     "longwave": "sleep insomnia fall asleep bedtime night white noise brown noise rain sounds sea waves train nature sounds sleep timer radio valve tube vintage shipping forecast body scan cognitive shuffle 4-7-8 breathing counting relaxation qsl сон бессонница уснуть заснуть засыпание ночь белый шум коричневый шум дождь море волны поезд звуки природы таймер сна радио приёмник ламповый морская сводка сканирование тела дыхание счёт расслабление",
+    "sill": "new things try something new novelty curiosity hobby hobbies new experiences comfort zone bucket list learn new skills explore food cuisine music art crafts pottery language people courage plants garden windowsill seeds pots watering bloom herbarium gift friend новое попробовать что-то новое новизна любопытство хобби увлечения новый опыт зона комфорта список желаний научиться навыки кухня еда музыка искусство ремёсла язык люди смелость растения сад подоконник семена горшки полив цветение гербарий подарок друг",
     "rewind": "watchlist movies films cinema series tv shows books comics manga albums video rental vhs tape kinopoisk imdb letterboxd goodreads список посмотреть потом фильмы кино сериалы книги комиксы манга альбомы видеопрокат кассета кинопоиск",
     "focusshield": "focus pomodoro windows block work фокус помодоро работа блокировка",
     "obol": "social media scrolling tiktok screen time соцсети лента экранное время",
