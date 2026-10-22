@@ -102,7 +102,7 @@ APPS = [
         "repo": "https://github.com/bigdevwhale/SwissZen",
         "download": "https://github.com/bigdevwhale/SwissZen/releases/latest/download/SwissZen.apk",
         "play": "https://play.google.com/store/apps/details?id=app.swisszen",
-        "version": "v1.1.3",
+        "version": "v1.1.4",
         "tagline": ("The mindfulness multi-tool: breathing, Wim Hof, a bell, practices and a journal.",
                     "Мультитул осознанности: дыхание, Вим Хоф, колокол, практики, дневник."),
         "badge": ("Mindfulness multi-tool · Stable", "Мультитул осознанности · Стабильная"),
@@ -153,7 +153,7 @@ APPS = [
             ],
         },
         "facts": [
-            (("Version", "Версия"), ("v1.1.3", "v1.1.3")),
+            (("Version", "Версия"), ("v1.1.4", "v1.1.4")),
             (("Store", "Магазин"), ("Google Play", "Google Play")),
             (("File", "Файл"), ("SwissZen.apk", "SwissZen.apk")),
             (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer", "Android 8.0 (API 26) или новее")),
