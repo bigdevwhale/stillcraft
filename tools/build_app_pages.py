@@ -4171,7 +4171,7 @@ APPS = [
         "visual": "cr-cellar.png", "visual_ru": "cr-cellar.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/cellar",
         "download": "https://github.com/bigdevwhale/cellar/releases/latest/download/Cellar.apk",
-        "version": "v1.0.0",
+        "version": "v1.1.0",
         "tagline": ("Let your wishes age before you buy them. Every urge to buy goes into a bottle on the rack; when it's ripe, you open it without guilt or pour it into the barrel of your real dream.",
                     "Дайте желаниям выдержаться, прежде чем покупать. Каждый порыв купить ложится бутылкой на стеллаж; когда она созреет, вы откроете её без вины или выльете в бочку настоящей мечты."),
         "badge": ("Impulse buys, aged · New", "Импульсивные покупки на выдержке · Новинка"),
@@ -4190,8 +4190,8 @@ APPS = [
              ("Type the wish in, or press “Share” in any shop's app and pick Cellar: the name and the link come in by themselves, and the price too when the shop sends it. Then one honest question: why right now? Need, boredom, feeling low, an ad, “everyone has it”, a sale.",
               "Впишите желание или нажмите «Поделиться» в приложении любого магазина и выберите «Погреб»: название и ссылка подставятся сами, а цена — если магазин её передаёт. И один честный вопрос: почему хочется именно сейчас? Правда нужно, скука, грусть, реклама, «у всех есть», скидка.")),
             (("The price picks the bottle", "Цена выбирает бутылку"),
-             ("A vial ages three days, a bottle two weeks, a magnum a month, a cask three months, or choose your own. On the rack the dust settles on the shoulders, a cobweb grows to the shelf above and the label yellows.",
-              "Флакон выдерживается три дня, бутылка две недели, магнум месяц, бочонок три месяца — или выберите свой срок. На стеллаже на плечики оседает пыль, к полке тянется паутина, желтеет этикетка.")),
+             ("A vial ages three days, a bottle two weeks, a magnum a month, a cask three months, or choose your own; the prices and the ageing of every bottle can be changed in the settings. On the rack the dust settles on the shoulders, a cobweb grows to the shelf above and the label yellows.",
+              "Флакон выдерживается три дня, бутылка две недели, магнум месяц, бочонок три месяца — или выберите свой срок; цены и выдержку каждой бутылки можно поменять в настройках. На стеллаже на плечики оседает пыль, к полке тянется паутина, желтеет этикетка.")),
             (("The tasting", "Дегустация"),
              ("Ripe bottles glow by candlelight and send one quiet notification. Take one in your hands: open it (the cork pops), pour it into the barrel (the bottle tips and empties), or give it another week.",
               "Созревшие бутылки светятся при свечах и присылают одно тихое уведомление. Возьмите бутылку в руки: открыть (хлопает пробка), вылить в бочку (бутылка наклоняется и пустеет) или ещё неделю на стеллаже.")),
@@ -4227,7 +4227,7 @@ APPS = [
             ("cr-guide.png", "cr-guide.ru.png", ("Ageing", "Выдержка"), ("Dust, cobwebs, time.", "Пыль, паутина, время.")),
         ],
         "extra": {
-            "title": ("The price picks the bottle", "Цена выбирает бутылку"),
+            "title": ("The price picks the bottle (by default)", "Цена выбирает бутылку (по умолчанию)"),
             "head": [("Bottle", "Бутылка"), ("Price", "Цена"), ("Ages", "Выдержка")],
             "rows": [
                 [("Vial", "Флакон"), ("under $15 / 1 000 ₽", "до 1 000 ₽ / $15"), ("3 days", "3 дня")],
@@ -4237,7 +4237,7 @@ APPS = [
             ],
         },
         "facts": [
-            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("Version", "Версия"), ("v1.1.0", "v1.1.0")),
             (("File", "Файл"), ("Cellar.apk", "Cellar.apk")),
             (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
             (("Permissions", "Разрешения"), ("Notifications, for one quiet message when a bottle is ripe. No internet: links open in your browser, pictures are picked from your gallery, nothing is connected to a bank. No account.",
