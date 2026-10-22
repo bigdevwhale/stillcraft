@@ -4163,6 +4163,113 @@ APPS = [
         ],
     },
     {
+        "slug": "cellar",
+        "name": "Cellar",
+        "panel": "app--cellar",
+        "gallery": "g-cellar",
+        "icon": "cellar-logo.png",
+        "visual": "cr-cellar.png", "visual_ru": "cr-cellar.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/cellar",
+        "download": "https://github.com/bigdevwhale/cellar/releases/latest/download/Cellar.apk",
+        "version": "v1.0.0",
+        "tagline": ("Let your wishes age before you buy them. Every urge to buy goes into a bottle on the rack; when it's ripe, you open it without guilt or pour it into the barrel of your real dream.",
+                    "Дайте желаниям выдержаться, прежде чем покупать. Каждый порыв купить ложится бутылкой на стеллаж; когда она созреет, вы откроете её без вины или выльете в бочку настоящей мечты."),
+        "badge": ("Impulse buys, aged · New", "Импульсивные покупки на выдержке · Новинка"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Let your wishes age. <em>Open the ones that last.</em>",
+                  "Пусть желания выдержатся. <em>Откройте те, что не выдохлись.</em>"),
+        "desc": ("An impulse buy feels urgent for about a week. Cellar stands between “I want it” and “I bought it” and asks only for time. Lay every wish down as a bottle in a candlelit cellar; the price picks the bottle and how long it ages. When it's ripe, go down to the tasting: still want it? Open it, no guilt, it passed the test of time. Faded? Pour it into the barrel with your real dream chalked on it. Free, no ads, no account, no internet, no bank.",
+                 "Импульсивная покупка кажется срочной примерно неделю. «Погреб» встаёт между «хочу» и «купил» и просит только времени. Каждое желание ложится бутылкой в погреб при свечах; цена выбирает бутылку и срок выдержки. Когда она созреет, спуститесь на дегустацию: всё ещё хочется? Откройте без вины — желание прошло проверку временем. Выдохлось? Вылейте в бочку, на которой мелом написана ваша настоящая мечта. Бесплатно, без рекламы, аккаунта, интернета и банков."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · English и Русский"),
+        "features": [
+            (("Lay it down", "Заложить бутылку"),
+             ("Type the wish in, or press “Share” in any shop's app and pick Cellar: the name and the link come in by themselves, and the price too when the shop sends it. Then one honest question: why right now? Need, boredom, feeling low, an ad, “everyone has it”, a sale.",
+              "Впишите желание или нажмите «Поделиться» в приложении любого магазина и выберите «Погреб»: название и ссылка подставятся сами, а цена — если магазин её передаёт. И один честный вопрос: почему хочется именно сейчас? Правда нужно, скука, грусть, реклама, «у всех есть», скидка.")),
+            (("The price picks the bottle", "Цена выбирает бутылку"),
+             ("A vial ages three days, a bottle two weeks, a magnum a month, a cask three months, or choose your own. On the rack the dust settles on the shoulders, a cobweb grows to the shelf above and the label yellows.",
+              "Флакон выдерживается три дня, бутылка две недели, магнум месяц, бочонок три месяца — или выберите свой срок. На стеллаже на плечики оседает пыль, к полке тянется паутина, желтеет этикетка.")),
+            (("The tasting", "Дегустация"),
+             ("Ripe bottles glow by candlelight and send one quiet notification. Take one in your hands: open it (the cork pops), pour it into the barrel (the bottle tips and empties), or give it another week.",
+              "Созревшие бутылки светятся при свечах и присылают одно тихое уведомление. Возьмите бутылку в руки: открыть (хлопает пробка), вылить в бочку (бутылка наклоняется и пустеет) или ещё неделю на стеллаже.")),
+            (("The dream's barrel", "Бочка мечты"),
+             ("Every poured bottle's price flows into the barrel with your real dream on it: Japan, a safety cushion, a bicycle. A glass gauge shows the level; a full barrel is sealed with wax and an empty one rolled in. Saying no to one thing becomes getting closer to another.",
+              "Цена каждой вылитой бутылки перетекает в бочку с вашей настоящей мечтой: Япония, подушка безопасности, велосипед. Уровень видно в стеклянной трубке; полную бочку запечатывают сургучом и вкатывают пустую. Отказ от одного становится шагом к другому.")),
+            (("The sommelier's journal", "Журнал сомелье"),
+             ("A month after you open a bottle, it asks how the purchase turned out: a fine vintage, so-so, or vinegar. Over time you learn what actually brings joy.",
+              "Через месяц после открытия журнал спрашивает, как оказалась покупка: удачный винтаж, так себе или уксус. Со временем видно, что на самом деле радует.")),
+            (("The ledger", "Опись"),
+             ("By month, year or all time: what was laid, opened and poured, and the cellarman's notes on your reasons, like “7 of the 9 bottles you poured were laid out of boredom” or “a sale gives the most vinegar”.",
+              "За месяц, год или всё время: что заложено, открыто и вылито, и записки погребщика о ваших причинах — вроде «7 из 9 вылитых бутылок были заложены от скуки» или «больше всего уксуса даёт скидка».")),
+            (("Storms on sale days", "Грозы в дни распродаж"),
+             ("On 11.11, Black Friday to Cyber Monday, 12.12 and 6.18 a storm rages in the cellar's little window, and whatever is laid down then ages twice as long.",
+              "На 11.11, с «чёрной пятницы» по «киберпонедельник», на 12.12 и 6.18 в окошке погреба гроза, и всё, что заложено в эти дни, выдерживается вдвое дольше.")),
+            (("The gift shelf", "Полка подарков"),
+             ("Ideas for presents wait on the top shelf with a ribbon round the neck, and the cellar tells you when someone's day is near.",
+              "Идеи подарков ждут на верхней полке с ленточкой на горлышке, а погреб напомнит, когда чей-то день близко.")),
+            (("Wax seals", "Сургучные печати"),
+             ("Nine seals for things that happen once: the first pour, patience, a bottle half a year on the rack, a full barrel, a hundred bottles' worth let go.",
+              "Девять печатей за то, что случается однажды: первая вылитая, терпение, бутылка полгода на стеллаже, полная бочка, сотня отпущенных бутылок.")),
+        ],
+        "shots": [
+            ("cr-cellar.png", "cr-cellar.ru.png", ("The cellar", "Погреб"), ("Wishes ageing on the rack.", "Желания зреют на стеллаже.")),
+            ("cr-tasting.png", "cr-tasting.ru.png", ("The tasting", "Дегустация"), ("Still want it?", "Всё ещё хочется?")),
+            ("cr-barrel.png", "cr-barrel.ru.png", ("The dream's barrel", "Бочка мечты"), ("Where the urge went.", "Куда ушёл порыв.")),
+            ("cr-ledger.png", "cr-ledger.ru.png", ("The ledger", "Опись"), ("Which reasons fade.", "Какие причины выдыхаются.")),
+            ("cr-bottle.png", "cr-bottle.ru.png", ("A bottle", "Бутылка"), ("Ten days to go.", "Осталось десять дней.")),
+            ("cr-lay.png", "cr-lay.ru.png", ("Laying it down", "Закладка"), ("Why right now?", "Почему именно сейчас?")),
+            ("cr-journal.png", "cr-journal.ru.png", ("The journal", "Журнал сомелье"), ("Vintage, so-so or vinegar.", "Винтаж, так себе или уксус.")),
+            ("cr-storm.png", "cr-storm.ru.png", ("A storm", "Гроза"), ("Sale days age twice as long.", "В распродажу — вдвое дольше.")),
+            ("cr-gift.png", "cr-gift.ru.png", ("The gift shelf", "Полка подарков"), ("A present waiting for its day.", "Подарок ждёт своего дня.")),
+            ("cr-guide.png", "cr-guide.ru.png", ("Ageing", "Выдержка"), ("Dust, cobwebs, time.", "Пыль, паутина, время.")),
+        ],
+        "extra": {
+            "title": ("The price picks the bottle", "Цена выбирает бутылку"),
+            "head": [("Bottle", "Бутылка"), ("Price", "Цена"), ("Ages", "Выдержка")],
+            "rows": [
+                [("Vial", "Флакон"), ("under $15 / 1 000 ₽", "до 1 000 ₽ / $15"), ("3 days", "3 дня")],
+                [("Bottle", "Бутылка"), ("from $15 / 1 000 ₽", "от 1 000 ₽ / $15"), ("2 weeks", "2 недели")],
+                [("Magnum", "Магнум"), ("from $120 / 10 000 ₽", "от 10 000 ₽ / $120"), ("a month", "месяц")],
+                [("Cask", "Бочонок"), ("from $600 / 50 000 ₽", "от 50 000 ₽ / $600"), ("3 months", "3 месяца")],
+            ],
+        },
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0", "v1.0.0")),
+            (("File", "Файл"), ("Cellar.apk", "Cellar.apk")),
+            (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
+            (("Permissions", "Разрешения"), ("Notifications, for one quiet message when a bottle is ripe. No internet: links open in your browser, pictures are picked from your gallery, nothing is connected to a bank. No account.",
+                                            "Уведомления — для одного тихого сообщения, когда бутылка созрела. Без интернета: ссылки открываются в браузере, картинки выбираются из галереи, банки не подключаются. Без аккаунта.")),
+            (("License", "Лицензия"), ("MIT", "MIT")),
+        ],
+        "steps": [
+            ("Download the APK on your phone.", "Скачайте APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Откройте файл и разрешите установку из этого источника, когда Android спросит."),
+            ("Next time you want to buy something, share it from the shop to Cellar.", "В следующий раз, когда захочется что-то купить, поделитесь товаром из магазина в «Погреб»."),
+        ],
+        "note": ("On Xiaomi (MIUI / HyperOS), Huawei and some other phones, allow Autostart for Cellar so the “ripe” notification arrives on time.",
+                 "На Xiaomi (MIUI / HyperOS), Huawei и некоторых других телефонах разрешите «Погребу» автозапуск, чтобы уведомление о созревшей бутылке приходило вовремя."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. Kotlin, Jetpack Compose, Room, DataStore, WorkManager; the cellar, the candles, every bottle, the dust, the cobwebs and the barrel are drawn in code.",
+                      "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Kotlin, Jetpack Compose, Room, DataStore, WorkManager; погреб, свечи, каждая бутылка, пыль, паутина и бочка нарисованы кодом."),
+        "build": "git clone https://github.com/bigdevwhale/cellar.git\ncd cellar\n./gradlew assembleDebug                <c># app.cellar.dev</c>\n./gradlew assembleDebug -Pdemo         <c># app.cellar.demo: a cellar half a year in</c>\n./gradlew testDebugUnitTest            <c># rules: ageing, storms, seals, the ledger, shop links</c>\n./gradlew testDebugUnitTest -Prender &amp;&amp; python tools/shots.py   <c># screenshots</c>",
+        "faq": [
+            (("Does it stop me from buying?", "Он запрещает покупать?"),
+             ("No. You can open any bottle early; the ledger just remembers it. The cellar only adds time between the urge and the purchase. What still matters after a month, you buy without guilt.",
+              "Нет. Любую бутылку можно открыть раньше срока — опись это просто запомнит. Погреб лишь добавляет время между порывом и покупкой. То, что важно и через месяц, вы покупаете без вины.")),
+            (("Is the barrel real money?", "Бочка — это настоящие деньги?"),
+             ("No money moves anywhere. The barrel shows what the poured wishes would have cost, next to the dream you'd rather spend it on. If you like, move that sum to savings yourself.",
+              "Деньги никуда не переводятся. Бочка показывает, сколько стоили бы вылитые желания, рядом с мечтой, на которую их лучше потратить. Если хотите, переложите эту сумму в копилку сами.")),
+            (("Does it need the internet or my bank?", "Нужен ли интернет или банк?"),
+             ("Neither. The app has no internet permission and never sees your bank. Only what you bring down yourself is in the cellar.",
+              "Ни то, ни другое. У приложения нет разрешения на интернет, и банк оно не видит. В погребе только то, что вы принесли сами.")),
+            (("Which shops can share into it?", "Из каких магазинов можно делиться?"),
+             ("Any app with a “Share” button: Ozon, Wildberries, Yandex Market, AliExpress, Amazon, a browser. The name and link come in; if the shop puts the price into the shared text, that comes in too.",
+              "Из любого приложения с кнопкой «Поделиться»: Ozon, Wildberries, Яндекс Маркет, AliExpress, Amazon, браузер. Название и ссылка подставятся; если магазин кладёт в текст цену, подставится и она.")),
+        ],
+    },
+    {
         "slug": "campfire",
         "name": "Campfire",
         "panel": "app--campfire",
@@ -4416,12 +4523,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "campfire": "cf", "theusual": "tu", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp", "hushwood": "hw", "longwave": "lw", "sill": "sl", "fridge": "fr", "lipovka": "lp", "heartwood": "hd"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "campfire": "cf", "theusual": "tu", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp", "hushwood": "hw", "longwave": "lw", "sill": "sl", "fridge": "fr", "lipovka": "lp", "heartwood": "hd", "cellar": "cr"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "campfire": ("cf-branch.png", "cf-branch.ru.png"), "theusual": ("tu-board.png", "tu-board.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png"), "hushwood": ("hw-lake.png", "hw-lake.ru.png"), "longwave": ("lw-radio.png", "lw-radio.ru.png"), "sill": ("sl-sill.png", "sl-sill.ru.png"), "fridge": ("fr-door.png", "fr-door.ru.png"), "lipovka": ("lp-post.png", "lp-post.ru.png"), "heartwood": ("hd-tree.png", "hd-tree.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "campfire": ("cf-branch.png", "cf-branch.ru.png"), "theusual": ("tu-board.png", "tu-board.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png"), "hushwood": ("hw-lake.png", "hw-lake.ru.png"), "longwave": ("lw-radio.png", "lw-radio.ru.png"), "sill": ("sl-sill.png", "sl-sill.ru.png"), "fridge": ("fr-door.png", "fr-door.ru.png"), "lipovka": ("lp-post.png", "lp-post.ru.png"), "heartwood": ("hd-tree.png", "hd-tree.ru.png"), "cellar": ("cr-cellar.png", "cr-cellar.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
@@ -4598,6 +4705,7 @@ TEMPLATE = """<!doctype html>
       <a href="../../#moments" data-i18n="nav.moments">Pick a moment</a>
       <a href="../../#principles" data-i18n="nav.principles">Principles</a>
       <a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener">Telegram</a>
     </div>
     <div class="lang" role="group" aria-label="Language">
       <button type="button" id="lang-en" data-lang="en" aria-pressed="true">EN</button>
@@ -4749,6 +4857,7 @@ TEMPLATE = """<!doctype html>
       <h4 data-i18n="ft.source">Source</h4>
       <ul>
         <li><a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener" data-i18n="ft.tg">Telegram community</a></li>
         <li><a href="https://github.com/bigdevwhale/anyway/releases" target="_blank" rel="noopener" data-i18n="ft.awrel">Anyway releases</a></li>
         <li><a href="https://github.com/bigdevwhale/SwissZen/releases" target="_blank" rel="noopener" data-i18n="ft.szrel">SwissZen releases</a></li>
         <li><a href="https://github.com/bigdevwhale/focus-shield/releases" target="_blank" rel="noopener" data-i18n="ft.fsrel">FocusShield releases</a></li>

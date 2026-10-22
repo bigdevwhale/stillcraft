@@ -42,6 +42,7 @@
   --rw-bg: #0D0B14; --rw-top: #1C2350; --rw-ink: #F5F0E4; --rw-muted: #B4AFC4; --rw-pink: #FF4FA3; --rw-cyan: #52E6FF; --rw-line: #2B2742;
   --sl-bg: #F1E9DA; --sl-top: #F8F3EA; --sl-ink: #2E2921; --sl-muted: #6B6153; --sl-terra: #B65A36; --sl-leaf: #4C7A35; --sl-water: #3F7EA3; --sl-line: #DDD1BC;
   --lp-bg: #EADFC0; --lp-top: #F6EFDA; --lp-ink: #2A1C14; --lp-muted: #6B5A45; --lp-green: #3D5E43; --lp-wax: #A33B2E; --lp-blue: #2F4F8F; --lp-mustard: #E9C24F; --lp-wood: #6B3F26; --lp-line: #D6C79F;
+  --cr-bg: #17120F; --cr-top: #2A1F18; --cr-ink: #F2E6D2; --cr-muted: #BFAD93; --cr-flame: #E9A447; --cr-wine: #C0444E; --cr-line: #3A2D24;
   --hd-bg: #D8C39D; --hd-top: #EFE4CC; --hd-ink: #2F2A24; --hd-muted: #64573F; --hd-moss: #55703A; --hd-rust: #A9533F; --hd-amber: #A8602A; --hd-line: #C4AD82;
   --fr-bg: #DDE7E0; --fr-top: #EEF3EF; --fr-enamel: #F5F0E5; --fr-ink: #2E2A24; --fr-muted: #5F655E; --fr-red: #D9483B; --fr-blue: #2C4A8C; --fr-line: #C5D3CA;
   --lw-bg: #0D0B0A; --lw-top: #2A1B12; --lw-ink: #F2E6CF; --lw-muted: #BBAA90; --lw-amber: #E9B765; --lw-eye: #6FCB9C; --lw-walnut: #6B4429; --lw-line: #3A2C22;
@@ -495,7 +496,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -508,7 +509,7 @@ pre.code .c { opacity: 0.55; }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -992,3 +993,18 @@ pre.code .c { opacity: 0.55; }
 .cv-hd img { box-shadow: 0 20px 50px rgb(47 42 36 / 0.26); }
 .app--heartwood .ap-visual img { box-shadow: 0 24px 60px rgb(47 42 36 / 0.26); border: 1px solid var(--hd-line); }
 .g-heartwood { --shot-bg: var(--hd-bg); --shot-ratio: 540 / 1171; }
+
+/* Cellar: a cellar by candlelight, dark stone, oak, amber flame, wine and chalk */
+.app--cellar { --fl: var(--cr-line); --fm: var(--cr-muted); color: var(--cr-ink); background: radial-gradient(60% 45% at 80% 0%, rgb(233 164 71 / 0.16) 0%, transparent 60%), radial-gradient(80% 40% at 20% 100%, rgb(192 68 78 / 0.12) 0%, transparent 65%), linear-gradient(180deg, var(--cr-top) 0%, var(--cr-bg) 70%); }
+.app--cellar h1, .app--cellar h2, .app--cellar h3, .app--cellar .app-lede { color: var(--cr-ink); }
+.app--cellar .app-tag { color: var(--cr-flame); }
+.app--cellar .app-lede em, .app--cellar h1 em { font-style: normal; color: var(--cr-flame); }
+.app--cellar .btn-primary { background: var(--cr-flame); color: #1E1408; }
+.app--cellar .btn-ghost { color: var(--cr-ink); border-color: var(--cr-line); }
+.app--cellar .app-desc, .app--cellar .feats span, .app--cellar small { color: var(--cr-muted); }
+.cr-shot { border-radius: 20px; background: var(--cr-bg); image-rendering: auto; }
+.pill.cr { --dot: var(--cr-dot, #E9A447); }
+.cv-cr { background: radial-gradient(70% 50% at 50% 100%, rgb(233 164 71 / 0.22) 0%, transparent 62%), linear-gradient(180deg, var(--cr-top) 0%, var(--cr-bg) 75%); }
+.cv-cr img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--cellar .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--cr-line); }
+.g-cellar { --shot-bg: var(--cr-bg); --shot-ratio: 540 / 1171; }
