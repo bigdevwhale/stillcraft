@@ -42,6 +42,7 @@
   --rw-bg: #0D0B14; --rw-top: #1C2350; --rw-ink: #F5F0E4; --rw-muted: #B4AFC4; --rw-pink: #FF4FA3; --rw-cyan: #52E6FF; --rw-line: #2B2742;
   --sl-bg: #F1E9DA; --sl-top: #F8F3EA; --sl-ink: #2E2921; --sl-muted: #6B6153; --sl-terra: #B65A36; --sl-leaf: #4C7A35; --sl-water: #3F7EA3; --sl-line: #DDD1BC;
   --lp-bg: #EADFC0; --lp-top: #F6EFDA; --lp-ink: #2A1C14; --lp-muted: #6B5A45; --lp-green: #3D5E43; --lp-wax: #A33B2E; --lp-blue: #2F4F8F; --lp-mustard: #E9C24F; --lp-wood: #6B3F26; --lp-line: #D6C79F;
+  --sr-bg: #ECE6D8; --sr-top: #F7F3EA; --sr-ink: #221F1B; --sr-muted: #625B50; --sr-red: #AE2F27; --sr-form: #EDE2C4; --sr-blue: #3B5A86; --sr-line: #D6CDB8;
   --cr-bg: #17120F; --cr-top: #2A1F18; --cr-ink: #F2E6D2; --cr-muted: #BFAD93; --cr-flame: #E9A447; --cr-wine: #C0444E; --cr-line: #3A2D24;
   --hd-bg: #D8C39D; --hd-top: #EFE4CC; --hd-ink: #2F2A24; --hd-muted: #64573F; --hd-moss: #55703A; --hd-rust: #A9533F; --hd-amber: #A8602A; --hd-line: #C4AD82;
   --fr-bg: #DDE7E0; --fr-top: #EEF3EF; --fr-enamel: #F5F0E5; --fr-ink: #2E2A24; --fr-muted: #5F655E; --fr-red: #D9483B; --fr-blue: #2C4A8C; --fr-line: #C5D3CA;
@@ -70,14 +71,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --fr-dot: #E2665A; --lp-dot: #7FB08A; --hd-dot: #9BB77A; --pt-dot: #2C4C8C;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --fr-dot: #E2665A; --lp-dot: #7FB08A; --hd-dot: #9BB77A; --sr-dot: #E0675E; --pt-dot: #2C4C8C;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --fr-dot: #E2665A; --lp-dot: #7FB08A; --hd-dot: #9BB77A; --pt-dot: #2C4C8C;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --fr-dot: #E2665A; --lp-dot: #7FB08A; --hd-dot: #9BB77A; --sr-dot: #E0675E; --pt-dot: #2C4C8C;
   color-scheme: dark;
 }
 
@@ -496,7 +497,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -509,7 +510,7 @@ pre.code .c { opacity: 0.55; }
 }
 @media (max-width: 560px) {
   .feature-grid { grid-template-columns: minmax(0, 1fr); }
-  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-anyway, .g-swisszen, .g-ties, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .g-focus { grid-template-columns: minmax(0, 1fr); }
   .ap-visual img { max-width: 100%; height: auto; max-height: 24rem; }
 }
@@ -1008,3 +1009,17 @@ pre.code .c { opacity: 0.55; }
 .cv-cr img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
 .app--cellar .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--cr-line); }
 .g-cellar { --shot-bg: var(--cr-bg); --shot-ratio: 540 / 1171; }
+
+/* Stringer: a district paper's newsprint, black ink, a red editor's stamp and the yellowish telegraph form */
+.app--stringer { --fl: var(--sr-line); --fm: var(--sr-muted); background: radial-gradient(70% 50% at 85% 0%, rgb(237 226 196 / 0.9) 0%, transparent 60%), radial-gradient(90% 45% at 50% 100%, rgb(174 47 39 / 0.08) 0%, transparent 65%), linear-gradient(180deg, var(--sr-top) 0%, var(--sr-bg) 70%); color: var(--sr-ink); }
+.app--stringer .app-tag { color: var(--sr-red); }
+.app--stringer .app-lede em, .app--stringer h1 em { font-style: normal; color: var(--sr-red); }
+.app--stringer .btn-primary { background: var(--sr-red); color: #FFFFFF; }
+.app--stringer .btn-ghost { color: var(--sr-ink); border-color: var(--sr-line); }
+.app--stringer .app-desc, .app--stringer .feats span, .app--stringer small { color: var(--sr-muted); }
+.sr-shot { border-radius: 20px; background: var(--sr-bg); image-rendering: auto; }
+.pill.sr { --dot: var(--sr-dot, #AE2F27); }
+.cv-sr { background: radial-gradient(70% 50% at 50% 0%, rgb(237 226 196 / 0.95) 0%, transparent 62%), radial-gradient(60% 40% at 50% 100%, rgb(59 90 134 / 0.10) 0%, transparent 60%), linear-gradient(180deg, var(--sr-top) 0%, var(--sr-bg) 75%); }
+.cv-sr img { box-shadow: 0 20px 50px rgb(34 31 27 / 0.24); }
+.app--stringer .ap-visual img { box-shadow: 0 24px 60px rgb(34 31 27 / 0.24); border: 1px solid var(--sr-line); }
+.g-stringer { --shot-bg: var(--sr-bg); --shot-ratio: 540 / 1171; }

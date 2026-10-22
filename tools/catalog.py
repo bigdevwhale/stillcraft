@@ -65,6 +65,8 @@ PLAIN = {
                  "Трекер чтения с пиксельным питомцем, который растёт от прочитанных страниц."),
     "lipovka": ("A pedometer where your steps carry the village post: letters and stories of a small village that go on for years.",
                 "Шагомер, в котором шаги разносят деревенскую почту: письма и истории маленькой деревни, которые длятся годами."),
+    "stringer": ("Get out every day and see your street again: a small paper's editor wires one thing to photograph, and Sunday's issue collects the week.",
+                 "Выходить каждый день и снова видеть свою улицу: редактор маленькой газеты телеграфирует, что снять, а воскресный номер собирает неделю."),
     "fridge": ("A fridge door for two: the shopping list, whose turn, notes and worries, shared between your two phones at home.",
                "Дверца холодильника на двоих: покупки, чья очередь, записки и тревоги — общие на двух телефонах дома."),
     "campfire": ("A talk by the fire with the people close to you: sparks bring questions, and the word of the day stays in the ash.",
@@ -112,7 +114,7 @@ CATS = [
      ["focusshield", "obol", "unhook", "vigil", "cellar", "sidea", "rewind"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
-     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka"]),
+     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
      ["scriptor", "stele", "familiar", "sill"]),
@@ -126,10 +128,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 44 free apps", "Stillcraft · 44 бесплатных приложения"),
+    "c.hero.eyebrow": ("Stillcraft · 45 free apps", "Stillcraft · 45 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 43 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 43 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 44 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 44 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -140,7 +142,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("44 apps, <em>grouped by what they help with.</em>", "44 приложения, <em>по задачам.</em>"),
+    "c.ap.title": ("45 apps, <em>grouped by what they help with.</em>", "45 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -178,6 +180,7 @@ WORDS = {
     "familiar": "books reading pet книги чтение питомец",
     "lipovka": "lipovka post postman pedometer step counter steps walking walk walks letters mail village cozy pixel game stories telegram stamps map weather почта в липовке почтальон шагомер шаги ходьба прогулки письма деревня уютная пиксельная игра истории телеграммы марки карта погода",
     "fridge": "fridge refrigerator door couple couples partner relationship shopping list groceries chores whose turn notes sticky notes magnets worries confession envelope love wishes gifts household home sync wifi qr холодильник дверца пара отношения партнёр покупки список продуктов дела чья очередь записки стикеры магниты тревоги признание конверт любовь желания подарки быт дом синхронизация",
+    "stringer": "stringer correspondent reporter newspaper paper district editor telegram assignment assignments task walk walks walking outdoors go outside every day street city photo photography photo walk street photography camera halftone newsprint caption sunday issue rubrics doors cats signs letters alphabet press card flash dusk внештатник корреспондент репортёр газета районная редактор телеграмма задание задания прогулка прогулки на улицу каждый день улица город фото фотография фотопрогулка уличная фотография камера растр подпись воскресный номер рубрики двери коты вывески буквы алфавит пресс-карта молния сумерки",
     "cellar": "cellar wine bottle impulse buying impulse buys shopping spending money save saving savings budget wishlist wish list want buy purchase delay wait 30 day rule marketplace sale black friday 11.11 dream barrel погреб вино бутылка импульсивные покупки шопинг траты деньги экономия копить бюджет вишлист желания хочу купить подождать распродажа скидки чёрная пятница мечта бочка",
     "campfire": "campfire fire talk conversation questions couple couples parent child kids family friends evening ritual together journal word recording костёр огонь разговор вопросы пара семья дети друзья вечер ритуал вместе дневник запись",
     "lantern": "kids children bedtime story fairy tale sleep дети ребёнок сказка сон на ночь",
