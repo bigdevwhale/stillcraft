@@ -101,12 +101,13 @@ APPS = [
         "visual": "sz-home.png", "visual_ru": "sz-home.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/SwissZen",
         "download": "https://github.com/bigdevwhale/SwissZen/releases/latest/download/SwissZen.apk",
-        "version": "v1.0.1",
+        "play": "https://play.google.com/store/apps/details?id=app.swisszen",
+        "version": "v1.1.3",
         "tagline": ("The mindfulness multi-tool: breathing, Wim Hof, a bell, practices and a journal.",
                     "Мультитул осознанности: дыхание, Вим Хоф, колокол, практики, дневник."),
         "badge": ("Mindfulness multi-tool · Stable", "Мультитул осознанности · Стабильная"),
         "status": ("ok", "Stable", "Стабильная"),
-        "file_badge": ("APK ready", "APK готов"),
+        "file_badge": ("On Google Play", "В Google Play"),
         "plat_badge": "Android 8.0+",
         "title": ("Open the knife. <em>A minute is enough.</em>", "Открой нож. <em>Минуты достаточно.</em>"),
         "desc": ("Most mindfulness apps want a commitment. SwissZen is a pocket knife: unfold the one tool that fits the moment, use it, fold it back.",
@@ -152,14 +153,15 @@ APPS = [
             ],
         },
         "facts": [
-            (("Version", "Версия"), ("v1.0.1", "v1.0.1")),
+            (("Version", "Версия"), ("v1.1.3", "v1.1.3")),
+            (("Store", "Магазин"), ("Google Play", "Google Play")),
             (("File", "Файл"), ("SwissZen.apk", "SwissZen.apk")),
             (("Requires", "Нужно"), ("Android 8.0 (API 26) or newer", "Android 8.0 (API 26) или новее")),
             (("License", "Лицензия"), ("MIT", "MIT")),
         ],
         "steps": [
-            ("Download the APK on your phone.", "Скачай APK на телефоне."),
-            ("Open it and allow installs from this source when Android asks.", "Открой файл и разреши установку из этого источника, когда Android спросит."),
+            ("Install it from Google Play, or download the APK on your phone.", "Установи из Google Play или скачай APK на телефоне."),
+            ("If you took the APK, open it and allow installs from this source when Android asks.", "Если скачал APK, открой файл и разреши установку из этого источника, когда Android спросит."),
             ("Turn on the bell if you want the app to find you during the day.", "Включи колокол, если хочешь, чтобы приложение само находило тебя днём."),
         ],
         "note": ("Always do breathing exercises sitting or lying down. Never in or near water, never while driving. If you have a heart condition or epilepsy, are pregnant or unsure, talk to a doctor first.",
@@ -4263,6 +4265,7 @@ COMMON = {
     "pg.familyTitle": ("Other tools on the shelf.", "Другие инструменты на полке."),
     "pg.github": ("View on GitHub", "Открыть на GitHub"),
     "pg.allrel": ("All releases", "Все релизы"),
+    "pg.play": ("Get it on Google Play", "Скачать в Google Play"),
     "pg.issue": ("Open an issue", "Написать в issues"),
     "pg.helpDesc": ("Found a bug, missing a feature, or want it in your language? Tell us on GitHub.",
                     "Нашёл ошибку, не хватает функции или нужен твой язык? Напиши на GitHub."),
@@ -4395,6 +4398,11 @@ def build(app):
         return a, en
 
     a_gh, gh_en = ct("pg.github")
+    play, dl_cls = "", "btn-primary"
+    if app.get("play"):
+        a_play, play_en = ct("pg.play")
+        play = '<a class="btn btn-primary" href="%s" target="_blank" rel="noopener"%s>%s</a>\n        ' % (app["play"], a_play, play_en)
+        dl_cls = "btn-ghost"
     out = TEMPLATE.format(
         name=name, slug=app["slug"], A=A, desc_meta=esc(app["tagline"][0]),
         panel=app["panel"], icon=app["icon"],
@@ -4402,6 +4410,7 @@ def build(app):
         a_title=a_title, title_en=title_en,
         desc=p.t(app["desc"], tag="p", cls="app-desc"),
         download=app["download"], target=target, a_cta=a_cta, cta_en=cta_en,
+        play=play, play2=play.replace("\n        ", "\n            "), dl_cls=dl_cls,
         repo=app["repo"], a_gh=a_gh, gh_en=gh_en,
         plat=p.t(app["plat"], tag="p", cls="ap-plat"),
         visual=app["visual"], ru_vis=ru_vis, wide=" wide" if app["visual_wide"] else "",
@@ -4494,7 +4503,7 @@ TEMPLATE = """<!doctype html>
       <h1{a_title}>{title_en}</h1>
       {desc}
       <div class="app-actions">
-        <a class="btn btn-primary" href="{download}"{target}{a_cta}>{cta_en}</a>
+        {play}<a class="btn {dl_cls}" href="{download}"{target}{a_cta}>{cta_en}</a>
         <a class="btn btn-ghost" href="{repo}" target="_blank" rel="noopener"{a_gh}>{gh_en}</a>
       </div>
       {plat}
@@ -4547,7 +4556,7 @@ TEMPLATE = """<!doctype html>
           </ol>
 {note}
           <div class="app-actions">
-            <a class="btn btn-primary" href="{download}"{target}{a_cta}>{cta_en}</a>
+            {play2}<a class="btn {dl_cls}" href="{download}"{target}{a_cta}>{cta_en}</a>
             <a class="btn btn-ghost" href="{repo}/releases" target="_blank" rel="noopener">{allrel}</a>
           </div>
         </div>
