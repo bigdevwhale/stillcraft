@@ -107,6 +107,8 @@ PLAIN = {
                "Покупки как симулятор курьера: домашние заказывают, магазины запоминают полки, а каждая доставленная накладная платит латунными жетонами."),
     "windup": ("A little movement all day long: nine pixel-art tin toys, each wound for two hours by a minute or three of squats, balance or breathing.",
                "Понемногу, но весь день: девять пиксельных жестяных игрушек, каждую на два часа заводит пара минут приседаний, баланса или дыхания."),
+    "archipelago": ("Make friends and keep them for years: everyone you meet is an island, and every hour together builds the bridge.",
+                    "Заводить друзей и не терять их годами: каждый новый человек — остров, а каждый час вместе строит мост."),
     "tsukumo": ("The things of your hobbies wake into little spirits with practice and keep growing for years in a pixel-art Japanese house.",
                 "Вещи ваших хобби от занятий оживают и годами растут маленькими духами в пиксельном японском доме."),
     "hoard": ("A camera for moments worth keeping: three a day, kept as pixel-art treasure.",
@@ -128,7 +130,7 @@ CATS = [
      ["scriptor", "stele", "familiar", "sill", "tsukumo"]),
     ("family", ("Family and friends", "Семья и близкие"),
      ("Time with your children and each other, bedtime stories, family photos, keeping in touch.", "Время с детьми и друг с другом, сказки на ночь, семейные фото, связь с близкими."),
-     ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "fridge", "ties", "notch", "silverbox"]),
+     ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "archipelago", "fridge", "ties", "notch", "silverbox"]),
     ("self", ("You and your life", "Вы и ваша жизнь"),
      ("Your time, your wins, who you want to be, letters to the future, moments worth keeping.", "Ваше время, ваши победы, каким вы хотите быть, письма в будущее и моменты, которые стоит сохранить."),
      ["anyway", "calavera", "dearme", "glow", "prism", "hoard", "theusual", "carriage"]),
@@ -136,10 +138,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 49 free apps", "Stillcraft · 49 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 50 free apps", "Stillcraft · 50 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 48 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 48 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 49 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 49 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -150,7 +152,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("49 apps, <em>grouped by what they help with.</em>", "49 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("50 apps, <em>grouped by what they help with.</em>", "50 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -191,6 +193,7 @@ WORDS = {
     "stringer": "stringer correspondent reporter newspaper paper district editor telegram assignment assignments task walk walks walking outdoors go outside every day street city photo photography photo walk street photography camera halftone newsprint caption sunday issue rubrics doors cats signs letters alphabet press card flash dusk внештатник корреспондент репортёр газета районная редактор телеграмма задание задания прогулка прогулки на улицу каждый день улица город фото фотография фотопрогулка уличная фотография камера растр подпись воскресный номер рубрики двери коты вывески буквы алфавит пресс-карта молния сумерки",
     "errand": "errand courier delivery shopping shopping list grocery groceries list shop shops supermarket store waybill order orders family household chat messenger share list rush weight bag string bag cold aisle shelf route budget receipt prices price tracker inflation cheaper game gamification tokens depot bicycle van rank badges simulator посыльный курьер доставка покупки список покупок продукты магазин супермаркет накладная заказ заказы семья домашние мессенджер чат молния вес авоська термобокс полки маршрут бюджет чек цены подорожало дешевле игра геймификация жетоны депо велосипед фургон звание знаки симулятор habits привычки",
     "windup": "windup wind-up wind up tin toys toy shelf exercise snacks exercise snack movement move all day micro workout workout fitness bodyweight no equipment desk office stretch mobility balance squats push-ups plank breathing posture kettle music box melody tune drum pins score records alloys brass copper silver gold fair weekend fair skier hare diver miner clown sailor reminder habits gamification pixel art завод заводные игрушки жестяные полка разминка разминки движение весь день упражнения фитнес без инвентаря за столом офис растяжка баланс приседания отжимания планка дыхание осанка чайник шкатулка мелодия барабан штифты партитура пластинки латунь медь серебро золото ярмарка выходные лыжник заяц водолаз шахтёр клоун морячок напоминание привычки геймификация пиксель-арт habits привычки",
+    "archipelago": "archipelago islands island bridges bridge sea chart map friends friendship make friends new people meet people meeting strangers social anxiety shy introvert courage small talk conversation invite invitation loneliness lonely community club hobby group keep in touch follow up second time reminder hall 50 hours 200 hours close friend acquaintance lighthouse party gathering introduce mutual friends years anniversary journal мостки архипелаг острова мосты карта друзья дружба знакомства новые люди познакомиться незнакомцы стеснительность интроверт смелость разговор пригласить одиночество клуб общение второй раз поддерживать связь маяк вечеринка годовщина журнал",
     "tsukumo": "tsukumo tsukumogami hobby hobbies hobby tracker practice practice log practise music guitar piano drawing painting watercolour knitting crochet embroidery sewing origami baking sourdough tea coffee cooking language japanese calligraphy writing reading chess go puzzles programming yoga running climbing dance garden bonsai pottery models woodcarving spirits pixel art japanese house candles kami game gamification years no guilt цукумо цукумогами хобби увлечения трекер хобби практика занятия музыка гитара фортепиано рисование акварель вязание вышивка шитьё оригами выпечка закваска чай кофе готовка язык японский каллиграфия писательство чтение шахматы го головоломки программирование йога бег скалолазание танцы огород бонсай гончарство модели резьба духи пиксель японский дом свечи ками игра геймификация годы без чувства вины",
     "carriage": "carriage typewriter typing type diary journal journaling notes writing write honest slow no backspace no delete index cards card drawer recipes lists telegram telegrams letter letters carbon copy ribbon red ribbon bell margin correction fluid typo strike out stamps folders drawer lock archive index underline paper yellowing wastebasket year ago counter office portable electric machine bluetooth keyboard pdf каретка пишущая машинка машинка печатать дневник записи заметки писать честно медленно без стирания карточки картотека рецепты списки телеграмма телеграммы письмо письма копирка копия лента красная лента звоночек край штрих опечатка забить иксами штампы папки ящик архив указатель подчёркивание бумага желтеет корзина год назад счётчик конторская походная электрическая клавиатура",
     "cellar": "cellar wine bottle impulse buying impulse buys shopping spending money save saving savings budget wishlist wish list want buy purchase delay wait 30 day rule marketplace sale black friday 11.11 dream barrel погреб вино бутылка импульсивные покупки шопинг траты деньги экономия копить бюджет вишлист желания хочу купить подождать распродажа скидки чёрная пятница мечта бочка",
