@@ -535,10 +535,10 @@ APPS = [
         ],
         "shots": [
             ("dq-tasks.png", "dq-tasks.ru.png", ("Tasks", "Задачи"), ("The board under a living scene.", "Доска задач под живой сценой.")),
-            ("dq-quests.png", "dq-quests.ru.png", ("Quests", "Квесты"), ("An elite rematch and the boss of the week.", "Элитный реванш и босс недели.")),
-            ("dq-stable.png", "dq-stable.ru.png", ("Stable", "Питомцы"), ("Egg plus potion: see who hatches.", "Яйцо и зелье: сразу видно, кто вылупится.")),
-            ("dq-shop.png", "dq-shop.ru.png", ("Shop", "Лавка"), ("Seasonal hats and gear you try on.", "Сезонные шляпы и примерка снаряжения.")),
-            ("dq-home.png", "dq-home.ru.png", ("Home", "Дом"), ("A room to furnish with your gold.", "Комната, которую обставляешь на заработанное золото.")),
+            ("dq-quests.png", "dq-quests.ru.png", ("Quests", "Квесты"), ("An elite boss and your class skills.", "Элитный босс и умения вашего класса.")),
+            ("dq-stable.png", "dq-stable.ru.png", ("Stable", "Питомцы"), ("Hatch pets and ride the grown ones.", "Выводите питомцев и ездите на взрослых.")),
+            ("dq-shop.png", "dq-shop.ru.png", ("Shop", "Лавка"), ("Clothes for your pets.", "Одежда для питомцев.")),
+            ("dq-home.png", "dq-home.ru.png", ("Home", "Дом"), ("A room to furnish; your pets live there too.", "Комната на заработанное золото, где живут и питомцы.")),
             ("dq-hero.png", "dq-hero.ru.png", ("Achievements", "Достижения"), ("Medals that take real time.", "Медали, на которые уходит реальное время.")),
         ],
         "extra": {
