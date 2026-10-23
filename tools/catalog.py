@@ -101,6 +101,8 @@ PLAIN = {
              "Снова пробовать новое: посади семя из каталога нового, поливай каждый раз, когда возвращаешься, — расцвело, значит твоё."),
     "cellar": ("Fewer impulse buys: every wish ages as a bottle in a cellar; open what you still want, pour the rest into your dream.",
                "Меньше импульсивных покупок: каждое желание выдерживается бутылкой в погребе; открой то, что всё ещё хочется, остальное вылей в мечту."),
+    "carriage": ("A diary, index cards, telegrams and letters on a typewriter: nothing can be erased, so you write slower and more honestly.",
+                 "Дневник, карточки, телеграммы и письма на пишущей машинке: стереть ничего нельзя, поэтому пишешь медленнее и честнее."),
     "hoard": ("A camera for moments worth keeping: three a day, kept as pixel-art treasure.",
               "Камера для моментов, которые хочется сохранить: три в день, как пиксельные сокровища."),
 }
@@ -123,15 +125,15 @@ CATS = [
      ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "fridge", "ties", "notch", "silverbox"]),
     ("self", ("You and your life", "Вы и ваша жизнь"),
      ("Your time, your wins, who you want to be, letters to the future, moments worth keeping.", "Ваше время, ваши победы, каким вы хотите быть, письма в будущее и моменты, которые стоит сохранить."),
-     ["anyway", "calavera", "dearme", "glow", "prism", "hoard", "theusual"]),
+     ["anyway", "calavera", "dearme", "glow", "prism", "hoard", "theusual", "carriage"]),
 ]
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 45 free apps", "Stillcraft · 45 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 46 free apps", "Stillcraft · 46 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 44 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 44 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 45 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 45 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -142,7 +144,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("45 apps, <em>grouped by what they help with.</em>", "45 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("46 apps, <em>grouped by what they help with.</em>", "46 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -181,6 +183,7 @@ WORDS = {
     "lipovka": "lipovka post postman pedometer step counter steps walking walk walks letters mail village cozy pixel game stories telegram stamps map weather почта в липовке почтальон шагомер шаги ходьба прогулки письма деревня уютная пиксельная игра истории телеграммы марки карта погода",
     "fridge": "fridge refrigerator door couple couples partner relationship shopping list groceries chores whose turn notes sticky notes magnets worries confession envelope love wishes gifts household home sync wifi qr холодильник дверца пара отношения партнёр покупки список продуктов дела чья очередь записки стикеры магниты тревоги признание конверт любовь желания подарки быт дом синхронизация",
     "stringer": "stringer correspondent reporter newspaper paper district editor telegram assignment assignments task walk walks walking outdoors go outside every day street city photo photography photo walk street photography camera halftone newsprint caption sunday issue rubrics doors cats signs letters alphabet press card flash dusk внештатник корреспондент репортёр газета районная редактор телеграмма задание задания прогулка прогулки на улицу каждый день улица город фото фотография фотопрогулка уличная фотография камера растр подпись воскресный номер рубрики двери коты вывески буквы алфавит пресс-карта молния сумерки",
+    "carriage": "carriage typewriter typing type diary journal journaling notes writing write honest slow no backspace no delete index cards card drawer recipes lists telegram telegrams letter letters carbon copy ribbon red ribbon bell margin correction fluid typo strike out stamps folders drawer lock archive index underline paper yellowing wastebasket year ago counter office portable electric machine bluetooth keyboard pdf каретка пишущая машинка машинка печатать дневник записи заметки писать честно медленно без стирания карточки картотека рецепты списки телеграмма телеграммы письмо письма копирка копия лента красная лента звоночек край штрих опечатка забить иксами штампы папки ящик архив указатель подчёркивание бумага желтеет корзина год назад счётчик конторская походная электрическая клавиатура",
     "cellar": "cellar wine bottle impulse buying impulse buys shopping spending money save saving savings budget wishlist wish list want buy purchase delay wait 30 day rule marketplace sale black friday 11.11 dream barrel погреб вино бутылка импульсивные покупки шопинг траты деньги экономия копить бюджет вишлист желания хочу купить подождать распродажа скидки чёрная пятница мечта бочка",
     "campfire": "campfire fire talk conversation questions couple couples parent child kids family friends evening ritual together journal word recording костёр огонь разговор вопросы пара семья дети друзья вечер ритуал вместе дневник запись",
     "lantern": "kids children bedtime story fairy tale sleep дети ребёнок сказка сон на ночь",
