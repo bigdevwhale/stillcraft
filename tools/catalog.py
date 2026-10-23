@@ -103,6 +103,8 @@ PLAIN = {
                "Меньше импульсивных покупок: каждое желание выдерживается бутылкой в погребе; открой то, что всё ещё хочется, остальное вылей в мечту."),
     "carriage": ("A diary, index cards, telegrams and letters on a typewriter: nothing can be erased, so you write slower and more honestly.",
                  "Дневник, карточки, телеграммы и письма на пишущей машинке: стереть ничего нельзя, поэтому пишешь медленнее и честнее."),
+    "errand": ("Shopping as a courier sim: the household orders, each shop learns its shelves, and every delivered waybill pays in brass tokens.",
+               "Покупки как симулятор курьера: домашние заказывают, магазины запоминают полки, а каждая доставленная накладная платит латунными жетонами."),
     "hoard": ("A camera for moments worth keeping: three a day, kept as pixel-art treasure.",
               "Камера для моментов, которые хочется сохранить: три в день, как пиксельные сокровища."),
 }
@@ -116,7 +118,7 @@ CATS = [
      ["focusshield", "obol", "unhook", "vigil", "cellar", "sidea", "rewind"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
-     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer"]),
+     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
      ["scriptor", "stele", "familiar", "sill"]),
@@ -130,10 +132,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 46 free apps", "Stillcraft · 46 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 47 free apps", "Stillcraft · 47 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 45 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 45 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 46 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 46 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -144,7 +146,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("46 apps, <em>grouped by what they help with.</em>", "46 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("47 apps, <em>grouped by what they help with.</em>", "47 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -183,6 +185,7 @@ WORDS = {
     "lipovka": "lipovka post postman pedometer step counter steps walking walk walks letters mail village cozy pixel game stories telegram stamps map weather почта в липовке почтальон шагомер шаги ходьба прогулки письма деревня уютная пиксельная игра истории телеграммы марки карта погода",
     "fridge": "fridge refrigerator door couple couples partner relationship shopping list groceries chores whose turn notes sticky notes magnets worries confession envelope love wishes gifts household home sync wifi qr холодильник дверца пара отношения партнёр покупки список продуктов дела чья очередь записки стикеры магниты тревоги признание конверт любовь желания подарки быт дом синхронизация",
     "stringer": "stringer correspondent reporter newspaper paper district editor telegram assignment assignments task walk walks walking outdoors go outside every day street city photo photography photo walk street photography camera halftone newsprint caption sunday issue rubrics doors cats signs letters alphabet press card flash dusk внештатник корреспондент репортёр газета районная редактор телеграмма задание задания прогулка прогулки на улицу каждый день улица город фото фотография фотопрогулка уличная фотография камера растр подпись воскресный номер рубрики двери коты вывески буквы алфавит пресс-карта молния сумерки",
+    "errand": "errand courier delivery shopping shopping list grocery groceries list shop shops supermarket store waybill order orders family household chat messenger share list rush weight bag string bag cold aisle shelf route budget receipt prices price tracker inflation cheaper game gamification tokens depot bicycle van rank badges simulator посыльный курьер доставка покупки список покупок продукты магазин супермаркет накладная заказ заказы семья домашние мессенджер чат молния вес авоська термобокс полки маршрут бюджет чек цены подорожало дешевле игра геймификация жетоны депо велосипед фургон звание знаки симулятор habits привычки",
     "carriage": "carriage typewriter typing type diary journal journaling notes writing write honest slow no backspace no delete index cards card drawer recipes lists telegram telegrams letter letters carbon copy ribbon red ribbon bell margin correction fluid typo strike out stamps folders drawer lock archive index underline paper yellowing wastebasket year ago counter office portable electric machine bluetooth keyboard pdf каретка пишущая машинка машинка печатать дневник записи заметки писать честно медленно без стирания карточки картотека рецепты списки телеграмма телеграммы письмо письма копирка копия лента красная лента звоночек край штрих опечатка забить иксами штампы папки ящик архив указатель подчёркивание бумага желтеет корзина год назад счётчик конторская походная электрическая клавиатура",
     "cellar": "cellar wine bottle impulse buying impulse buys shopping spending money save saving savings budget wishlist wish list want buy purchase delay wait 30 day rule marketplace sale black friday 11.11 dream barrel погреб вино бутылка импульсивные покупки шопинг траты деньги экономия копить бюджет вишлист желания хочу купить подождать распродажа скидки чёрная пятница мечта бочка",
     "campfire": "campfire fire talk conversation questions couple couples parent child kids family friends evening ritual together journal word recording костёр огонь разговор вопросы пара семья дети друзья вечер ритуал вместе дневник запись",
