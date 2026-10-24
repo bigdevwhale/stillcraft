@@ -5629,6 +5629,7 @@ TEMPLATE = """<!doctype html>
       <ul>
         <li><a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a></li>
         <li><a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener" data-i18n="ft.tg">Telegram community</a></li>
+        <li><a href="https://t.me/ArcaneWhisperBot?start=idea" target="_blank" rel="noopener" data-i18n="ft.idea">Suggest an app idea</a></li>
         <li><a href="https://github.com/bigdevwhale/anyway/releases" target="_blank" rel="noopener" data-i18n="ft.awrel">Anyway releases</a></li>
         <li><a href="https://github.com/bigdevwhale/SwissZen/releases" target="_blank" rel="noopener" data-i18n="ft.szrel">SwissZen releases</a></li>
         <li><a href="https://github.com/bigdevwhale/focus-shield/releases" target="_blank" rel="noopener" data-i18n="ft.fsrel">FocusShield releases</a></li>
