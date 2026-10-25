@@ -124,7 +124,7 @@ PLAIN = {
     "horae": ("A book of hours for your own practices: hours by the sun, a bell for each, and what you keep written into an illuminated manuscript.",
               "Часослов для своих практик: часы по солнцу, колокол на каждый, а соблюдённое вписывается в иллюминированную рукопись."),
     "lot": ("Be drawn one of the 117 billion people who ever lived and read their life: the open doors, the shut ones, and what was left behind.",
-            "Стать одним из 117 миллиардов когда-либо живших людей и прочитать его жизнь: открытые двери, закрытые и что после неё осталось."),
+            "Вытянуть жребий из 117 миллиардов когда-либо живших людей и прочитать свою жизнь: какие двери были открыты, какие закрыты и что осталось после."),
     "tsukumo": ("The things of your hobbies wake into little spirits with practice and keep growing for years in a pixel-art Japanese house.",
                 "Вещи ваших хобби от занятий оживают и годами растут маленькими духами в пиксельном японском доме."),
     "hoard": ("A camera for moments worth keeping: three a day, kept as pixel-art treasure.",
