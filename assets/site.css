@@ -49,6 +49,7 @@
   --wu-bg: #1D3532; --wu-top: #24403C; --wu-ink: #FBF3DC; --wu-muted: #9AB8B2; --wu-accent: #D24A32; --wu-brass: #F0C040; --wu-paper: #EFE0BF; --wu-line: #2F5A54;
   --sh-bg: #2B2150; --sh-top: #3A2A66; --sh-ink: #FBF3DC; --sh-muted: #C9B48E; --sh-accent: #C0392B; --sh-gold: #F2C14E; --sh-paper: #F3E6C4; --sh-line: #4A3A70;
   --bh-bg: #0B2240; --bh-top: #0F2C52; --bh-ink: #EFF6FF; --bh-muted: #8FB0DA; --bh-accent: #FFB547; --bh-on-accent: #231300; --bh-green: #5BE39A; --bh-cyan: #59D2FF; --bh-paper: #0B2240; --bh-line: #24508A;
+  --pg-bg: #E8DCC2; --pg-top: #F2E9D5; --pg-ink: #2B231D; --pg-muted: #6E5D4B; --pg-accent: #A8342A; --pg-leather: #4A2620; --pg-line: #C9B795;
   --vy-bg: #151413; --vy-top: #24211E; --vy-ink: #E8E1D0; --vy-muted: #A59E92; --vy-accent: #C9353B; --vy-on-accent: #F3EEE2; --vy-paper: #E8E1D0; --vy-line: #3A3531;
   --cp-bg: #E8D9C0; --cp-top: #F6EDDD; --cp-ink: #3A2A24; --cp-muted: #75604F; --cp-accent: #C83E33; --cp-on-accent: #FFFFFF; --cp-gold: #B8892A; --cp-teal: #5FB8A0; --cp-paper: #EFE3CF; --cp-line: #D9C8AD;
   --ld-bg: #16120F; --ld-top: #241D17; --ld-panel: #1D1814; --ld-ink: #E8DCC2; --ld-muted: #A8977D; --ld-accent: #D8A856; --ld-on-accent: #1A130B; --ld-red: #A33B2B; --ld-paper: #16120F; --ld-line: #3A2F25;
@@ -81,14 +82,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
     --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --fr-dot: #E2665A; --lp-dot: #7FB08A; --hd-dot: #9BB77A; --sr-dot: #E0675E; --ct-dot: #D2AC62; --er-dot: #5FA88C; --tk-dot: #EE8A55; --wu-dot: #D24A32; --ar-dot: #E2A43A; --sh-dot: #E46A55; --bh-dot: #59D2FF; --ld-dot: #D8A856; --cp-dot: #DF5143; --vy-dot: #B3262B; --pt-dot: #2C4C8C;
+    --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --fr-dot: #E2665A; --lp-dot: #7FB08A; --hd-dot: #9BB77A; --sr-dot: #E0675E; --ct-dot: #D2AC62; --er-dot: #5FA88C; --tk-dot: #EE8A55; --wu-dot: #D24A32; --ar-dot: #E2A43A; --sh-dot: #E46A55; --bh-dot: #59D2FF; --ld-dot: #D8A856; --cp-dot: #DF5143; --vy-dot: #B3262B; --pg-dot: #A8342A; --pt-dot: #2C4C8C;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1514; --surface: #162120; --ink: #E2EAE8; --muted: #93A3A0; --line: #263533;
   --accent: #8CC7BC; --accent-ink: #0E1514; --lamp: #EDB25A; --orb-cool: #3F7C72;
-  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --fr-dot: #E2665A; --lp-dot: #7FB08A; --hd-dot: #9BB77A; --sr-dot: #E0675E; --ct-dot: #D2AC62; --er-dot: #5FA88C; --tk-dot: #EE8A55; --wu-dot: #D24A32; --ar-dot: #E2A43A; --sh-dot: #E46A55; --bh-dot: #59D2FF; --ld-dot: #D8A856; --cp-dot: #DF5143; --vy-dot: #B3262B; --pt-dot: #2C4C8C;
+  --un-dot: var(--un-mint); --dq-dot: #9B82FF; --se-dot: #A397FF; --em-dot: #F28A5C; --fw-dot: #5FC79C; --dm-dot: #E06A5F; --gl-dot: #FF7AA8; --wp-dot: #E8CD82; --ob-dot: #D9774A; --pr-dot: #9C7EFF; --tp-dot: #FF7A3D; --hs-dot: #FFB938; --fa-dot: #AE93FF; --cf-dot: #F2A44A; --tu-dot: #F2B25C; --ho-dot: #EDBB55; --sb-dot: #D9A132; --nt-dot: #E4775C; --ca-dot: #F7A21B; --vi-dot: #A8322A; --sc-dot: #8FA8E0; --ma-dot: #E9A23B; --st-dot: #D97A4E; --pd-dot: #4FA8E0; --kp-dot: #F4B94E; --ln-dot: #F2B04F; --tr-dot: #D6AE62; --ts-dot: #D9AA48; --kt-dot: #E2654D; --sa-dot: #FF9A3C; --rw-dot: #FF4FA3; --sp-dot: #E9A54B; --hw-dot: #B5CF8E; --lw-dot: #E9B765; --sl-dot: #D9805A; --fr-dot: #E2665A; --lp-dot: #7FB08A; --hd-dot: #9BB77A; --sr-dot: #E0675E; --ct-dot: #D2AC62; --er-dot: #5FA88C; --tk-dot: #EE8A55; --wu-dot: #D24A32; --ar-dot: #E2A43A; --sh-dot: #E46A55; --bh-dot: #59D2FF; --ld-dot: #D8A856; --cp-dot: #DF5143; --vy-dot: #B3262B; --pg-dot: #A8342A; --pt-dot: #2C4C8C;
   color-scheme: dark;
 }
 
@@ -507,7 +508,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -515,7 +516,7 @@ pre.code .c { opacity: 0.55; }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
@@ -1164,3 +1165,16 @@ pre.code .c { opacity: 0.55; }
 .cv-vy img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.5); }
 .app--papertrail .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.55); border: 1px solid var(--vy-line); }
 .g-papertrail { --shot-bg: var(--vy-bg); --shot-ratio: 540 / 1170; }
+
+.app--pilgrim { --fl: var(--pg-line); --fm: var(--pg-muted); background: repeating-linear-gradient(0deg, transparent 0 3px, rgb(107 84 52 / 0.035) 3px 4px), radial-gradient(60% 45% at 85% 0%, rgb(168 52 42 / 0.12) 0%, transparent 62%), radial-gradient(80% 40% at 50% 100%, rgb(74 38 32 / 0.10) 0%, transparent 65%), linear-gradient(180deg, var(--pg-top) 0%, var(--pg-bg) 72%); color: var(--pg-ink); }
+.app--pilgrim .app-tag { color: var(--pg-accent); }
+.app--pilgrim .app-lede em, .app--pilgrim h1 em { font-style: normal; color: var(--pg-accent); }
+.app--pilgrim .btn-primary { background: var(--pg-accent); color: #F2E9D5; }
+.app--pilgrim .btn-ghost { color: var(--pg-ink); border-color: var(--pg-line); }
+.app--pilgrim .app-desc, .app--pilgrim .feats span, .app--pilgrim small { color: var(--pg-muted); }
+.pg-shot { border-radius: 20px; background: var(--pg-bg); }
+.pill.pg { --dot: var(--pg-dot, #A8342A); }
+.cv-pg { background: repeating-linear-gradient(0deg, transparent 0 3px, rgb(107 84 52 / 0.04) 3px 4px), radial-gradient(70% 50% at 50% 100%, rgb(168 52 42 / 0.14) 0%, transparent 62%), linear-gradient(180deg, var(--pg-top) 0%, var(--pg-bg) 78%); }
+.cv-pg img { box-shadow: 0 20px 50px rgb(43 35 29 / 0.25); }
+.app--pilgrim .ap-visual img { box-shadow: 0 24px 60px rgb(43 35 29 / 0.26); border: 1px solid var(--pg-line); }
+.g-pilgrim { --shot-bg: var(--pg-bg); --shot-ratio: 540 / 1171; }
