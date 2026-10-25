@@ -5673,7 +5673,7 @@ APPS = [
         "visual": "lt-draw.png", "visual_ru": "lt-draw.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/lot",
         "download": "https://github.com/bigdevwhale/lot/releases/latest/download/Lot.apk",
-        "version": "v1.1.2",
+        "version": "v1.1.3",
         "tagline": ("Be drawn one of the 117 billion people who have ever lived, and read their life in a parish register: the doors that were open, the ones that were shut, and what was left behind.",
                     "Вытянуть жребий из 117 миллиардов людей, когда-либо живших на Земле, и прочитать свою жизнь в метрической книге: какие двери были открыты, какие закрыты и что осталось после."),
         "badge": ("A life · New", "Жизнь · Новинка"),
@@ -5736,7 +5736,7 @@ APPS = [
             ],
         },
         "facts": [
-            (("Version", "Версия"), ("v1.1.2", "v1.1.2")),
+            (("Version", "Версия"), ("v1.1.3", "v1.1.3")),
             (("File", "Файл"), ("Lot.apk", "Lot.apk")),
             (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
             (("Permissions", "Разрешения"), ("None. No internet, no account, no ads, no analytics. Lives are kept on the phone.",
