@@ -54,6 +54,7 @@
   --cw-bg: #E8E0CA; --cw-top: #F3EAD7; --cw-ink: #2A2420; --cw-muted: #74695B; --cw-accent: #1E3A2C; --cw-on-accent: #F2DA92; --cw-brass: #C9A04A; --cw-baize: #1E3A2C; --cw-line: #D3C29E;
   --ub-bg: #E6DCC5; --ub-top: #EFE6D2; --ub-ink: #1B1714; --ub-muted: #6E6253; --ub-accent: #1B1714; --ub-on-accent: #EFE6D2; --ub-glow: #F2C14E; --ub-night: #0D0B0A; --ub-line: #B5A68C;
   --rl-bg: #E2ECCB; --rl-top: #EEF4DD; --rl-ink: #1E2A1A; --rl-muted: #56664A; --rl-accent: #C83828; --rl-on-accent: #FFF6E6; --rl-leaf: #3C9D50; --rl-sky: #5898E8; --rl-line: #A6B88A;
+  --uw-bg: #EFE4CC; --uw-top: #F7EFDC; --uw-ink: #2B2118; --uw-muted: #6E5E4C; --uw-accent: #B5502F; --uw-on-accent: #FBF5E6; --uw-lamp: #F3C77A; --uw-wall: #33261B; --uw-line: #C9B796;
   --hr-bg: #F2E8D2; --hr-top: #F8F1E1; --hr-ink: #2A1E16; --hr-muted: #7A6650; --hr-accent: #B4351F; --hr-lapis: #2B4C8C; --hr-gold: #C79A3A; --hr-line: #D9C59C;
   --pg-bg: #E8DCC2; --pg-top: #F2E9D5; --pg-ink: #2B231D; --pg-muted: #6E5D4B; --pg-accent: #A8342A; --pg-leather: #4A2620; --pg-line: #C9B795;
   --vy-bg: #151413; --vy-top: #24211E; --vy-ink: #E8E1D0; --vy-muted: #A59E92; --vy-accent: #C9353B; --vy-on-accent: #F3EEE2; --vy-paper: #E8E1D0; --vy-line: #3A3531;
@@ -514,7 +515,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -522,7 +523,7 @@ pre.code .c { opacity: 0.55; }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
@@ -1262,3 +1263,16 @@ pre.code .c { opacity: 0.55; }
 .cv-rl img { box-shadow: 0 16px 40px rgb(30 42 26 / 0.3); }
 .app--rootlings .ap-visual img { box-shadow: 0 24px 60px rgb(30 42 26 / 0.25); border: 3px solid var(--rl-ink); border-radius: 6px; }
 .g-rootlings { --shot-bg: var(--rl-bg); --shot-ratio: 540 / 1171; }
+
+.app--unwritten { --fl: var(--uw-line); --fm: var(--uw-muted); background: radial-gradient(55% 40% at 50% 0%, rgb(243 199 122 / 0.22) 0%, transparent 65%), radial-gradient(circle at 12px 12px, rgb(51 38 27 / 0.06) 2px, transparent 2.5px) 0 0 / 24px 24px, linear-gradient(180deg, var(--uw-top) 0%, var(--uw-bg) 72%); color: var(--uw-ink); }
+.app--unwritten .app-tag { color: var(--uw-ink); }
+.app--unwritten .app-lede em, .app--unwritten h1 em { font-style: italic; color: var(--uw-accent); }
+.app--unwritten .btn-primary { background: linear-gradient(180deg, #F6D394, #E7B664); color: #3A2414; }
+.app--unwritten .btn-ghost { color: var(--uw-ink); border-color: var(--uw-line); }
+.app--unwritten .app-desc, .app--unwritten .feats span, .app--unwritten small { color: var(--uw-muted); }
+.uw-shot { border-radius: 20px; background: var(--uw-wall); }
+.pill.uw { --dot: var(--uw-dot, #F3C77A); }
+.cv-uw { background: radial-gradient(60% 50% at 50% 20%, rgb(243 199 122 / 0.3) 0%, transparent 65%), linear-gradient(180deg, #3B2A1D 0%, var(--uw-wall) 80%); }
+.cv-uw img { box-shadow: 0 20px 50px rgb(0 0 0 / 0.45); }
+.app--unwritten .ap-visual img { box-shadow: 0 24px 60px rgb(43 33 24 / 0.3); border: 1px solid var(--uw-line); }
+.g-unwritten { --shot-bg: var(--uw-wall); --shot-ratio: 540 / 1171; }
