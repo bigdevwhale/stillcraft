@@ -130,7 +130,7 @@ PLAIN = {
     "underbed": ("Feed a pet under your bed with fear: horror films and books, a little news. It guards your own fears at night.",
                  "Кормить страхом питомца под кроватью: ужастики, книги ужасов, немного новостей. Твои страхи он сторожит по ночам."),
     "unwritten": ("Keep a bookshop of books that don't exist: a customer a day, and you write the title, first line and blurb.",
-                  "Держать лавку книг, которых нет: покупатель в день, а ты пишешь название, первую фразу и аннотацию."),
+                  "Книжная лавка, где продаются несуществующие книги: каждый день приходит покупатель, и ты придумываешь ему книгу."),
     "rootlings": ("Catch the spirits of your real houseplants: real sun on the sill, a finger in the soil instead of a calendar, cuttings that hatch, real pests.",
                   "Ухаживать за настоящими комнатными растениями вместе с их пиксельными духами: свет по настоящему солнцу, полив по проверке пальцем, черенки и бои с вредителями."),
     "honours": ("Get enamel badges for the small deeds of your day, with an order, a stamp and a fanfare. Nothing to plan and no streaks.",
