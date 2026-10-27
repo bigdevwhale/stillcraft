@@ -130,7 +130,7 @@ PLAIN = {
     "underbed": ("Feed a pet under your bed with fear: horror films and books, a little news. It guards your own fears at night.",
                  "Кормить страхом питомца под кроватью: ужастики, книги ужасов, немного новостей. Твои страхи он сторожит по ночам."),
     "rootlings": ("Catch the spirits of your real houseplants: real sun on the sill, a finger in the soil instead of a calendar, cuttings that hatch, real pests.",
-                  "Ловить духов своих настоящих комнатных растений: настоящее солнце на подоконнике, палец в земле вместо календаря, черенки-яйца, настоящие вредители."),
+                  "Ухаживать за настоящими комнатными растениями вместе с их пиксельными духами: свет по настоящему солнцу, полив по проверке пальцем, черенки и бои с вредителями."),
     "honours": ("Get enamel badges for the small deeds of your day, with an order, a stamp and a fanfare. Nothing to plan and no streaks.",
                 "Получать эмалевые значки за маленькие дела дня, с приказом, печатью и фанфарами. Ничего не нужно планировать, и никаких серий."),
     "tsukumo": ("The things of your hobbies wake into little spirits with practice and keep growing for years in a pixel-art Japanese house.",
