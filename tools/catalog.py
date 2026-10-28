@@ -130,7 +130,7 @@ PLAIN = {
     "underbed": ("Feed a pet under your bed with fear: horror films and books, a little news. It guards your own fears at night.",
                  "Кормить страхом питомца под кроватью: ужастики, книги ужасов, немного новостей. Твои страхи он сторожит по ночам."),
     "aloft": ("A training log where five elemental spirits keep your floating island in the sky.",
-              "Журнал тренировок, где пять духов стихий держат твой летучий остров в небе."),
+              "Дневник тренировок, в котором пять духов стихий держат в небе твой летучий остров."),
     "mimic": ("Video games, board games and tabletop RPGs on one pixel shelf, with a mimic that eats what you finish.",
               "Видеоигры, настолки и НРИ на одной пиксельной полке и мимик, который ест пройденное."),
     "insidejob": ("Your limiting beliefs are a bank that keeps what you forbade yourself: put a crew together and take it back.",
