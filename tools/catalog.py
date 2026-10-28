@@ -129,6 +129,8 @@ PLAIN = {
                       "Положить тревогу камнем на латунные весы, а на другую чашу — гирьки с доводами, пока не перевесит."),
     "underbed": ("Feed a pet under your bed with fear: horror films and books, a little news. It guards your own fears at night.",
                  "Кормить страхом питомца под кроватью: ужастики, книги ужасов, немного новостей. Твои страхи он сторожит по ночам."),
+    "mimic": ("Video games, board games and tabletop RPGs on one pixel shelf, with a mimic that eats what you finish.",
+              "Видеоигры, настолки и НРИ на одной пиксельной полке и мимик, который ест пройденное."),
     "insidejob": ("Your limiting beliefs are a bank that keeps what you forbade yourself: put a crew together and take it back.",
                   "Убеждения, которые мешают жить, — банк с тем, что ты себе запретил: собери команду и забери своё."),
     "silverlining": ("Draw tarot with no bad cards: an auntie finds the good in every card and gives you an omen to watch for today.",
@@ -153,7 +155,7 @@ CATS = [
      ["swisszen", "serene", "counterweight", "keeper", "kite", "spintop", "hushwood", "heartwood", "pilgrim", "horae", "longwave"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, fewer impulse buys, and help giving something up.", "Меньше лент, отвлечений и импульсивных покупок и помощь, чтобы от чего-то отказаться."),
-     ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind"]),
+     ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
      ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer"]),
@@ -170,10 +172,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 66 free apps", "Stillcraft · 66 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 67 free apps", "Stillcraft · 67 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 65 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 65 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 66 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 66 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -184,7 +186,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("66 apps, <em>grouped by what they help with.</em>", "66 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("67 apps, <em>grouped by what they help with.</em>", "67 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -233,6 +235,7 @@ WORDS = {
     "lot": "lot lots draw a lot fate life simulator life sim bitlife 1 in 8 billion one in eight billion 117 billion everyone who ever lived history world history historical life peasant serf slave medieval middle ages ancient stone age early modern demography population birth lottery inequality privilege chance odds probability statistics census parish register genealogy family tree ancestors ancestry heirloom inheritance great-grandchildren dynasty epitaph choices doors witness gratitude perspective reflection memento mori black death mongols socrates ibn battuta жребий судьба симулятор жизни один из восьми миллиардов 117 миллиардов все жившие история всемирная история историческая жизнь крестьянин крепостной раб средневековье древний мир каменный век новое время демография население лотерея рождения неравенство привилегии шанс шансы вероятность статистика перепись метрическая книга генеалогия родословная предки наследство реликвия правнуки род эпитафия выбор двери свидетель благодарность взгляд со стороны размышление чёрная смерть монголы сократ ибн баттута",
     "counterweight": "counterweight counter weight противовес противовеса anxiety anxious worry worries worrying fear fears overthinking rumination catastrophizing catastrophising cbt stoic stoicism seneca reassurance optimism optimist positive arguments facts balance scale scales weights brass stone pebble panic 3am sleepless тревога тревоги тревожность беспокойство страх страхи накручивание катастрофизация кпт стоики сенека оптимизм оптимист доводы аргументы факты весы гирьки гиря камень на душе галька паника бессонница деньги увольнение смерть здоровье отношения",
     "underbed": "underbed under bed bogey bogeyman boogeyman monster under the bed pet virtual pet tamagotchi creature ghost zombie vampire werewolf doll kikimora horror horror movies horror films horror books scary scared fear fears anxiety news doomscrolling night light nightlight night watch goosebumps jump scare film night popcorn graveyard grave epitaph gothic folk horror j-horror halloween full moon бука букa подкроватник чудище под кроватью питомец тамагочи призрак зомби вампир оборотень кукла кикимора ужасы ужастики фильмы ужасов книги ужасов страх страхи тревога новости думскроллинг ночник дозор мурашки кино попкорн погост кладбище могилка эпитафия готика фолк хэллоуин полнолуние",
+    "mimic": "mimic chest game shelf game collection backlog pile of shame games video games board games tabletop rpg ttrpg steam backloggd boardgamegeek bgg howlongtobeat covers rating reviews sessions screenshots genres pixel art мимик сундук полка игр коллекция игр бэклог куча позора игры видеоигры настолки настольные игры нри ролевые игры стим обложки оценки отзывы сессии скриншоты жанры пиксель-арт",
     "insidejob": "inside job heist bank robbery crew safe vault safecracker blueprint limiting beliefs beliefs core beliefs inner critic cbt cognitive behavioral therapy cognitive behavioural therapy cognitive distortions thinking traps mind reading catastrophizing should statements all or nothing evidence socratic questions behavioral experiments exposure self help mental health self esteem confidence permission rest asking for help perfectionism people pleasing дело века ограбление банк нельзя команда сейф ячейка медвежатник чертёж убеждения ограничивающие убеждения глубинные убеждения внутренний критик кпт когнитивно-поведенческая терапия когнитивные искажения ловушки мышления чтение мыслей катастрофизация долженствование всё или ничего доказательства сократические вопросы поведенческие эксперименты самопомощь психология самооценка уверенность разрешение отдых просить о помощи перфекционизм угодничество",
     "silverlining": "silver lining tarot tarot cards rider waite rider-waite 1909 pamela colman smith fortune telling fortune teller reading spread card of the day omen omens signs luck lucky good luck positive positive thinking optimism gratitude noticing good things hope comfort auntie grandma kitchen tea candle death tower happy predictions good news journal what came true к добру таро карты таро райдер уэйт гадание гадалка расклад карта дня примета приметы знак удача везение счастье позитив оптимизм благодарность замечать хорошее надежда утешение тётушка бабушка кухня чай свеча смерть башня хорошие предсказания сбылось шкатулка святки купала",
     "unwritten": "unwritten bookshop book shop bookstore second-hand books library books that don't exist imaginary books fake books writing creative writing writing prompts prompts story ideas fiction first line opening line blurb back cover title pen name epigraph table of contents zine print booklet cover design book covers pulp samizdat paperback critics reviews library card stamps oulipo six-word story lipogram imprint publisher cozy rain window weather лавка книжная лавка букинист библиотека ненаписанное ненаписанные книги книги которых нет выдуманные книги писать письмо творческое письмо писательство идеи для текста сюжет первая фраза аннотация обложка название псевдоним эпиграф оглавление зин печать книжка обложки бульварное самиздат критики рецензии формуляр штамп улипо рассказ в шесть слов липограмма издательство уют дождь окно погода",
