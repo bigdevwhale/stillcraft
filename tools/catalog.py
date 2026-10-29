@@ -130,7 +130,7 @@ PLAIN = {
     "underbed": ("Feed a pet under your bed with fear: horror films and books, a little news. It guards your own fears at night.",
                  "Кормить страхом питомца под кроватью: ужастики, книги ужасов, немного новостей. Твои страхи он сторожит по ночам."),
     "farwalker": ("A pedometer that walks you round the real world: every border a stamp, every km a coin for a train or a ship.",
-                  "Шагомер, который ведёт тебя вокруг света: каждая граница — штамп, каждый километр — монета на поезд или корабль."),
+                  "Шагомер-кругосветка: твои шаги ведут путника по настоящей карте мира. За каждую границу в паспорте появляется штамп, за каждый километр — монета на поезд или корабль."),
     "aloft": ("A training log where five elemental spirits keep your floating island in the sky.",
               "Дневник тренировок, в котором пять духов стихий держат в небе твой летучий остров."),
     "mimic": ("Video games, board games and tabletop RPGs on one pixel shelf, with a mimic that eats what you finish.",
