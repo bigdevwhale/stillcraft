@@ -62,6 +62,7 @@
   --al-bg: #1A2450; --al-top: #2A3A78; --al-ink: #F4ECD8; --al-muted: #D8CCB0; --al-accent: #F0C048; --al-on-accent: #141A36; --al-line: #4A5CA0; --al-rose: #E8607A;
   --kv-bg: #EFE3C8; --kv-top: #F5ECD6; --kv-ink: #2B2118; --kv-muted: #6B5A45; --kv-accent: #9E2B20; --kv-on-accent: #EFE3C8; --kv-line: #C9B48C; --kv-sea: #4E6577;
   --um-bg: #F3E2BE; --um-top: #FBF4E4; --um-ink: #3A2A1E; --um-muted: #7A6350; --um-accent: #B3392B; --um-on-accent: #FBF4E4; --um-line: #D9C49A; --um-door: #2F5A43;
+  --nk-bg: #2C180E; --nk-top: #4A2C1A; --nk-ink: #F6EAD0; --nk-muted: #E2CFA6; --nk-accent: #E8B840; --nk-on-accent: #2A160E; --nk-line: #6A4228; --nk-red: #C2402F;
   --hr-bg: #F2E8D2; --hr-top: #F8F1E1; --hr-ink: #2A1E16; --hr-muted: #7A6650; --hr-accent: #B4351F; --hr-lapis: #2B4C8C; --hr-gold: #C79A3A; --hr-line: #D9C59C;
   --pg-bg: #E8DCC2; --pg-top: #F2E9D5; --pg-ink: #2B231D; --pg-muted: #6E5D4B; --pg-accent: #A8342A; --pg-leather: #4A2620; --pg-line: #C9B795;
   --vy-bg: #151413; --vy-top: #24211E; --vy-ink: #E8E1D0; --vy-muted: #A59E92; --vy-accent: #C9353B; --vy-on-accent: #F3EEE2; --vy-paper: #E8E1D0; --vy-line: #3A3531;
@@ -522,7 +523,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -530,7 +531,7 @@ pre.code .c { opacity: 0.55; }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
@@ -1367,3 +1368,15 @@ pre.code .c { opacity: 0.55; }
 .cv-um img { box-shadow: 0 18px 44px rgb(58 42 30 / 0.28); image-rendering: auto; }
 .app--undermat .ap-visual img { box-shadow: 0 24px 60px rgb(58 42 30 / 0.3); border-radius: 18px; }
 .g-undermat { --shot-bg: var(--um-bg); --shot-ratio: 540 / 1171; }
+
+.app--nooklings { --fl: var(--nk-line); --fm: var(--nk-muted); background: repeating-linear-gradient(0deg, transparent 0 22px, rgb(0 0 0 / 0.14) 22px 24px), radial-gradient(45% 35% at 15% 0%, rgb(255 208 120 / 0.18) 0%, transparent 65%), linear-gradient(180deg, var(--nk-top) 0%, var(--nk-bg) 70%); color: var(--nk-ink); }
+.app--nooklings .app-tag { color: var(--nk-ink); }
+.app--nooklings .app-lede em, .app--nooklings h1 em { font-style: normal; color: var(--nk-accent); }
+.app--nooklings .btn-primary { background: var(--nk-red); color: var(--nk-ink); }
+.app--nooklings .btn-ghost { color: var(--nk-ink); border-color: var(--nk-muted); }
+.app--nooklings .app-desc, .app--nooklings .feats span, .app--nooklings small { color: var(--nk-muted); }
+.pill.nk { --dot: #C2402F; }
+.cv-nk { background: linear-gradient(90deg, #C2402F, #E8B840, #6A9AD8, #C8D4EA) top / 100% 6px no-repeat, var(--nk-bg); }
+.cv-nk img { box-shadow: 0 18px 44px rgb(20 8 4 / 0.5); image-rendering: auto; }
+.app--nooklings .ap-visual img { box-shadow: 0 24px 60px rgb(20 8 4 / 0.55); border: 1px solid var(--nk-line); }
+.g-nooklings { --shot-bg: var(--nk-bg); --shot-ratio: 540 / 1171; }

@@ -129,6 +129,8 @@ PLAIN = {
                       "Положить тревогу камнем на латунные весы, а на другую чашу — гирьки с доводами, пока не перевесит."),
     "underbed": ("Feed a pet under your bed with fear: horror films and books, a little news. It guards your own fears at night.",
                  "Кормить страхом питомца под кроватью: ужастики, книги ужасов, немного новостей. Твои страхи он сторожит по ночам."),
+    "nooklings": ("Catch the cosy moments of your day into glowing jars; six little lodgers of a pixel room eat them.",
+                  "Лови уютные моменты дня в светящиеся банки — ими питаются шестеро маленьких жильцов пиксельной комнаты."),
     "undermat": ("A week in someone's flat abroad: notes in every corner on what to cook, watch, hear and read.",
                  "Неделя в чужой квартире за границей: записки во всех углах — что приготовить, посмотреть, послушать и почитать."),
     "farwalker": ("A pedometer that walks you round the real world: every border a stamp, every km a coin for a train or a ship.",
@@ -173,15 +175,15 @@ CATS = [
      ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "archipelago", "fridge", "ties", "notch", "silverbox"]),
     ("self", ("You and your life", "Вы и ваша жизнь"),
      ("Your time, your wins, who you want to be, letters to the future, moments worth keeping.", "Ваше время, ваши победы, каким вы хотите быть, письма в будущее и моменты, которые стоит сохранить."),
-     ["anyway", "calavera", "dearme", "glow", "prism", "shapito", "lodger", "capsule", "lot", "honours", "underbed", "unwritten", "silverlining", "insidejob", "hoard", "theusual", "carriage"]),
+     ["anyway", "calavera", "dearme", "glow", "prism", "shapito", "lodger", "capsule", "lot", "honours", "underbed", "unwritten", "silverlining", "insidejob", "hoard", "theusual", "carriage", "nooklings"]),
 ]
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 70 free apps", "Stillcraft · 70 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 71 free apps", "Stillcraft · 71 бесплатное приложение"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 69 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 69 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 70 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 70 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -192,7 +194,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("70 apps, <em>grouped by what they help with.</em>", "70 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("71 apps, <em>grouped by what they help with.</em>", "71 приложение, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -241,6 +243,7 @@ WORDS = {
     "lot": "lot lots draw a lot fate life simulator life sim bitlife 1 in 8 billion one in eight billion 117 billion everyone who ever lived history world history historical life peasant serf slave medieval middle ages ancient stone age early modern demography population birth lottery inequality privilege chance odds probability statistics census parish register genealogy family tree ancestors ancestry heirloom inheritance great-grandchildren dynasty epitaph choices doors witness gratitude perspective reflection memento mori black death mongols socrates ibn battuta жребий судьба симулятор жизни один из восьми миллиардов 117 миллиардов все жившие история всемирная история историческая жизнь крестьянин крепостной раб средневековье древний мир каменный век новое время демография население лотерея рождения неравенство привилегии шанс шансы вероятность статистика перепись метрическая книга генеалогия родословная предки наследство реликвия правнуки род эпитафия выбор двери свидетель благодарность взгляд со стороны размышление чёрная смерть монголы сократ ибн баттута",
     "counterweight": "counterweight counter weight противовес противовеса anxiety anxious worry worries worrying fear fears overthinking rumination catastrophizing catastrophising cbt stoic stoicism seneca reassurance optimism optimist positive arguments facts balance scale scales weights brass stone pebble panic 3am sleepless тревога тревоги тревожность беспокойство страх страхи накручивание катастрофизация кпт стоики сенека оптимизм оптимист доводы аргументы факты весы гирьки гиря камень на душе галька паника бессонница деньги увольнение смерть здоровье отношения",
     "underbed": "underbed under bed bogey bogeyman boogeyman monster under the bed pet virtual pet tamagotchi creature ghost zombie vampire werewolf doll kikimora horror horror movies horror films horror books scary scared fear fears anxiety news doomscrolling night light nightlight night watch goosebumps jump scare film night popcorn graveyard grave epitaph gothic folk horror j-horror halloween full moon бука букa подкроватник чудище под кроватью питомец тамагочи призрак зомби вампир оборотень кукла кикимора ужасы ужастики фильмы ужасов книги ужасов страх страхи тревога новости думскроллинг ночник дозор мурашки кино попкорн погост кладбище могилка эпитафия готика фолк хэллоуин полнолуние",
+    "nooklings": "nooklings cosy cozy cosiness hygge comfort moments small joys noticing jar jars pantry catch sound recording rain kettle tea lamp light photo quiet silence walk steps pedometer weather snow lodgers pets pet cat dormouse moth bullfinch hedgehog raccoon pixel room stove dreams gifts jam diary mood ютята уют уютный уютные моменты маленькие радости замечать банка банки кладовка поймать звук запись дождь чайник чай лампа свет снимок тишина прогулка шаги шагомер погода снег жильцы питомцы питомец кот соня моль снегирь ёжик енотик пиксельная комната печка сны подарки варенье дневник настроение",
     "undermat": "under the mat undermat culture countries abroad travel from home host flat apartment week notes recipes cooking films movies music records books reading holidays traditions languages words naples kyoto oaxaca bergen seoul lyon tbilisi kolkata salvador lisbon galway istanbul ключ под ковриком культура страны заграница путешествие из дома хозяин квартира неделя записки рецепты кухня фильмы кино музыка пластинки книги чтение праздники традиции языки слова неаполь киото оахака берген сеул лион тбилиси калькутта салвадор лиссабон голуэй стамбул",
     "farwalker": "farwalker round the world around the world pedometer step counter steps walking walk travel journey world map atlas countries borders passport stamps trains ships sea voyage cape ends of the earth weather local time natural earth кругосветка вокруг света кругосветное путешествие шагомер шаги ходьба прогулки путешествие карта мира атлас страны границы паспорт штампы поезд корабль море мыс края земли погода местное время",
     "aloft": "aloft floating island sky island training log workout log fitness sports exercise running walking cycling swimming weights strength gym yoga stretching boxing hiit intervals training load srpe rpe overtraining rest day injury recovery elements spirits sylph golem undine dryad salamander voyage laputa avalon weather guests pixel art летучий остров остров в небе журнал тренировок тренировки фитнес спорт бег ходьба велосипед плавание силовая зал йога растяжка бокс интервалы нагрузка перетренированность отдых травма восстановление стихии духи сильф голем ундина дриада саламандра путешествие лапута буян авалон погода гости пиксель-арт",
