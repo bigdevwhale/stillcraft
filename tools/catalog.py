@@ -130,7 +130,7 @@ PLAIN = {
     "underbed": ("Feed a pet under your bed with fear: horror films and books, a little news. It guards your own fears at night.",
                  "Кормить страхом питомца под кроватью: ужастики, книги ужасов, немного новостей. Твои страхи он сторожит по ночам."),
     "nooklings": ("Catch the cosy moments of your day into glowing jars; six little lodgers of a pixel room eat them.",
-                  "Лови уютные моменты дня в светящиеся банки — ими питаются шестеро маленьких жильцов пиксельной комнаты."),
+                  "Собирай уютные минуты дня в банки — ими кормятся шестеро жильцов пиксельной комнаты."),
     "undermat": ("A week in someone's flat abroad: notes in every corner on what to cook, watch, hear and read.",
                  "Неделя в чужой квартире за границей: записки во всех углах — что приготовить, посмотреть, послушать и почитать."),
     "farwalker": ("A pedometer that walks you round the real world: every border a stamp, every km a coin for a train or a ship.",
