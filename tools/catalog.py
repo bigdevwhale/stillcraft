@@ -341,6 +341,13 @@ def home_catalog(A):
     return "\n".join(out)
 
 
+def refresh(s, keys):
+    """The English texts that sit in the page itself (Russian comes from PAGE_RU): rewritten on every build, so counts never go stale."""
+    for k in keys:
+        s = re.sub(r'(data-i18n="%s">).*?(</(?:span|h1|p)>)' % re.escape(k), lambda m: m.group(1) + TEXT[k][0] + m.group(2), s, count=1, flags=re.S)
+    return s
+
+
 def build_home(A):
     p = os.path.join(ROOT, "index.html")
     s = open(p, encoding="utf-8").read()
@@ -351,9 +358,9 @@ def build_home(A):
         s = s[:i] + '<div class="shelf">\n<!-- catalog:home -->\n<!-- /catalog:home -->\n        ' + s[j:]
         s = s.replace('<span class="eyebrow" data-i18n="apps.eyebrow">', '<span class="eyebrow" data-i18n="c.eyebrow">', 1)
         s = re.sub(r'<h2 data-i18n="apps.title">.*?</h2>', '<h2 data-i18n="c.title">%s</h2>\n        <p data-i18n="c.lede">%s</p>' % (TEXT["c.title"][0], TEXT["c.lede"][0]), s, count=1)
-        s = re.sub(r'<span class="eyebrow" data-i18n="hero.eyebrow">.*?</span>', '<span class="eyebrow" data-i18n="c.hero.eyebrow">%s</span>' % TEXT["c.hero.eyebrow"][0], s, count=1)
-        s = re.sub(r'<h1 data-i18n="hero.title">.*?</h1>', '<h1 data-i18n="c.hero.title">%s</h1>' % TEXT["c.hero.title"][0], s, count=1)
-        s = re.sub(r'<p class="lede" data-i18n="hero.lede">.*?</p>', '<p class="lede" data-i18n="c.hero.lede">%s</p>' % TEXT["c.hero.lede"][0], s, count=1)
+        s = re.sub(r'<span class="eyebrow" data-i18n="(?:c\.)?hero.eyebrow">.*?</span>', '<span class="eyebrow" data-i18n="c.hero.eyebrow">%s</span>' % TEXT["c.hero.eyebrow"][0], s, count=1)
+        s = re.sub(r'<h1 data-i18n="(?:c\.)?hero.title">.*?</h1>', '<h1 data-i18n="c.hero.title">%s</h1>' % TEXT["c.hero.title"][0], s, count=1)
+        s = re.sub(r'<p class="lede" data-i18n="(?:c\.)?hero.lede">.*?</p>', '<p class="lede" data-i18n="c.hero.lede">%s</p>' % TEXT["c.hero.lede"][0], s, count=1)
         s = s.replace('<a class="btn btn-primary" href="#apps" data-i18n="hero.cta">See the apps</a>',
                       '<a class="btn btn-primary" href="#apps" data-i18n="c.hero.cta">%s</a>\n        <a class="btn btn-ghost" href="apps/" data-i18n="c.hero.all">%s</a>' % (TEXT["c.hero.cta"][0], TEXT["c.hero.all"][0]), 1)
         # The GitHub button stays in the nav; the hero keeps two clear choices.
@@ -363,6 +370,7 @@ def build_home(A):
         s = s.replace('<script src="assets/site.js', '<!-- catalog:ru -->\n<!-- /catalog:ru -->\n<script src="assets/site.js', 1)
     s = put(s, "home", home_catalog(A))
     s = put(s, "ru", ru_script(keys_all()))
+    s = refresh(s, ['c.hero.eyebrow', 'c.hero.title', 'c.hero.lede'])
     open(p, "w", encoding="utf-8", newline="\n").write(s)
 
 
@@ -378,9 +386,9 @@ def build_apps(A):
         s = s[:i] + '<!-- catalog:apps -->\n<!-- /catalog:apps -->\n\n      ' + s[j:]
         # The section heading moves into the hero; the name chips become the filter.
         s = re.sub(r'\s*<div class="section-head">\s*<span class="eyebrow" data-i18n="ap.lineup">.*?</div>', "", s, count=1, flags=re.S)
-        s = re.sub(r'<span class="eyebrow" data-i18n="ap.eyebrow">.*?</span>', '<span class="eyebrow" data-i18n="c.ap.eyebrow">%s</span>' % TEXT["c.ap.eyebrow"][0], s, count=1)
-        s = re.sub(r'<h1 data-i18n="ap.title">.*?</h1>', '<h1 data-i18n="c.ap.title">%s</h1>' % TEXT["c.ap.title"][0], s, count=1)
-        s = re.sub(r'<p class="lede" data-i18n="ap.lede">.*?</p>', '<p class="lede" data-i18n="c.ap.lede">%s</p>' % TEXT["c.ap.lede"][0], s, count=1)
+        s = re.sub(r'<span class="eyebrow" data-i18n="(?:c\.)?ap.eyebrow">.*?</span>', '<span class="eyebrow" data-i18n="c.ap.eyebrow">%s</span>' % TEXT["c.ap.eyebrow"][0], s, count=1)
+        s = re.sub(r'<h1 data-i18n="(?:c\.)?ap.title">.*?</h1>', '<h1 data-i18n="c.ap.title">%s</h1>' % TEXT["c.ap.title"][0], s, count=1)
+        s = re.sub(r'<p class="lede" data-i18n="(?:c\.)?ap.lede">.*?</p>', '<p class="lede" data-i18n="c.ap.lede">%s</p>' % TEXT["c.ap.lede"][0], s, count=1)
         s = re.sub(r'\s*<div class="cta-row">\s*<a class="btn btn-primary" href="https://github.com/bigdevwhale".*?</div>', "", s, count=1, flags=re.S)
         s = re.sub(r'\s*<p class="meta" data-i18n="ap.meta">.*?</p>', "", s, count=1, flags=re.S)
         s = re.sub(r'<div class="quick">.*?</div>', '<!-- catalog:filter -->\n<!-- /catalog:filter -->', s, count=1, flags=re.S)
@@ -411,6 +419,7 @@ def build_apps(A):
     s = put(s, "filter", filt)
     s = put(s, "apps", "\n".join(groups))
     s = put(s, "ru", ru_script(keys_all()))
+    s = refresh(s, ['c.ap.eyebrow', 'c.ap.title', 'c.ap.lede'])
     open(p, "w", encoding="utf-8", newline="\n").write(s)
 
 
