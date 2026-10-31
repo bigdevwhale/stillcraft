@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>LiveLib export · Familiar · Stillcraft</title>
-<meta name="description" content="Take the books you have read on LiveLib into Familiar.">
+<title>LiveLib and Goodreads · Familiar · Stillcraft</title>
+<meta name="description" content="Take the books you have read on LiveLib or Goodreads into Familiar.">
 <link rel="icon" href="../../../assets/stillcraft.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,11 +73,20 @@
         <li data-i18n="ll.s2">Press <b>F12</b> (on a Mac, <b>⌥⌘J</b>) and open the <b>Console</b> tab.</li>
         <li data-i18n="ll.s3">Copy the script below, paste it into the console and press <b>Enter</b>. If Chrome refuses to paste, type <code>allow pasting</code>, press Enter and paste again.</li>
         <li data-i18n="ll.s4">The script goes through the shelf page by page, shows its progress in the corner and downloads <code>livelib.csv</code>.</li>
-        <li data-i18n="ll.s5">Send the file to your phone, and in Familiar open <b>Settings → Import books</b> and pick it.</li>
+        <li data-i18n="ll.s5">Send the file to your phone, and in Familiar open <b>Settings → Books from LiveLib or Goodreads → Pick a CSV file</b>.</li>
       </ol>
 
       <div class="row"><button class="btn btn-primary" type="button" id="copy" data-i18n="ll.copy">Copy the script</button></div>
       <textarea id="code" readonly aria-label="Script"></textarea>
+
+      <h2 data-i18n="ll.grTitle">From Goodreads</h2>
+      <p class="ll-note" data-i18n="ll.gr">Goodreads makes the file itself, no script needed, and it works from a phone's browser too.</p>
+      <ol>
+        <li data-i18n="ll.g1">Sign in to Goodreads and open <a href="https://www.goodreads.com/review/import" target="_blank" rel="noopener">My Books → Import and export</a>.</li>
+        <li data-i18n="ll.g2">Press <b>Export Library</b>. In a minute a link <b>Your export from …</b> appears under the button (reload the page if it doesn't).</li>
+        <li data-i18n="ll.g3">Tap the link: <code>goodreads_library_export.csv</code> downloads.</li>
+        <li data-i18n="ll.g4">In Familiar open <b>Settings → Books from LiveLib or Goodreads → Pick a CSV file</b> and pick it. Goodreads gives no covers, so Familiar finds them in book catalogues; that takes a few minutes and carries on next time if you close the app.</li>
+      </ol>
 
       <h2 data-i18n="ll.whatTitle">What comes across</h2>
       <p class="ll-note" data-i18n="ll.what">Title, author, cover, year, ISBN, pages (minutes for an audiobook), genres, the cycle and the book's number in it, the date you read it and your rating (out of ten on LiveLib, so 9 and 10 become five stars). Familiar turns LiveLib's genres into its own. For every book the script asks LiveLib once more, so a long shelf takes a few minutes. The file uses the same columns as a Goodreads export, and a Goodreads export (My Books → Import and export) imports the same way; Familiar finds its covers by itself. You need to be signed in to LiveLib.</p>
@@ -199,8 +208,14 @@ function livelibExport() {
 "ll.s2": "Нажми <b>F12</b> (на Mac — <b>⌥⌘J</b>) и открой вкладку <b>Console</b>.",
 "ll.s3": "Скопируй скрипт ниже, вставь в консоль и нажми <b>Enter</b>. Если Chrome не даёт вставить, напечатай <code>allow pasting</code>, нажми Enter и вставь ещё раз.",
 "ll.s4": "Скрипт пройдёт полку страница за страницей, покажет прогресс в углу и скачает <code>livelib.csv</code>.",
-"ll.s5": "Перекинь файл на телефон, в Familiar открой <b>Настройки → Импорт книг</b> и выбери его.",
+"ll.s5": "Перекинь файл на телефон, в Familiar открой <b>Настройки → Книги из LiveLib или Goodreads → Выбрать CSV-файл</b>.",
 "ll.copy": "Скопировать скрипт",
+"ll.grTitle": "Из Goodreads",
+"ll.gr": "Goodreads сам делает файл, скрипт не нужен, и это получится даже из браузера на телефоне.",
+"ll.g1": "Войди в Goodreads и открой <a href=\"https://www.goodreads.com/review/import\" target=\"_blank\" rel=\"noopener\">My Books → Import and export</a>.",
+"ll.g2": "Нажми <b>Export Library</b>. Через минуту под кнопкой появится ссылка <b>Your export from …</b> (если нет — обнови страницу).",
+"ll.g3": "Нажми на неё — скачается <code>goodreads_library_export.csv</code>.",
+"ll.g4": "В Familiar открой <b>Настройки → Книги из LiveLib или Goodreads → Выбрать CSV-файл</b> и выбери его. Обложек Goodreads не отдаёт, поэтому Familiar подбирает их по книжным каталогам: это займёт несколько минут и продолжится в следующий раз, если закрыть приложение.",
 "ll.whatTitle": "Что переносится",
 "ll.what": "Название, автор, обложка, год, ISBN, страницы (у аудиокниги — минуты), жанры, цикл и номер книги в нём, дата прочтения и твоя оценка (на LiveLib она из десяти, так что 9 и 10 станут пятью звёздами). Жанры LiveLib Familiar переводит в свои. Про каждую книгу скрипт спрашивает LiveLib ещё раз, поэтому длинная полка выгружается несколько минут. Колонки в файле такие же, как в экспорте Goodreads, и экспорт Goodreads (My Books → Import and export) импортируется так же — обложки к нему Familiar найдёт сам. На LiveLib нужно войти в свой аккаунт.",
 "ll.source": "Скрипт целиком на этой странице, ничего не подгружается со стороны. Есть и <a href=\"https://github.com/bigdevwhale/familiar/blob/main/tools/livelib.py\" target=\"_blank\" rel=\"noopener\">версия на Python</a> для компьютера."
