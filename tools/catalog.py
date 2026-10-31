@@ -129,6 +129,8 @@ PLAIN = {
                       "Положить тревогу камнем на латунные весы, а на другую чашу — гирьки с доводами, пока не перевесит."),
     "underbed": ("Feed a pet under your bed with fear: horror films and books, a little news. It guards your own fears at night.",
                  "Кормить страхом питомца под кроватью: ужастики, книги ужасов, немного новостей. Твои страхи он сторожит по ночам."),
+    "curator": ("Sort your phone's gallery like a museum storeroom: a crate a month, one gesture per photo, and the space you free builds the museum.",
+                "Разбор галереи как работа хранителя музея: по ящику на месяц, по жесту на фото, а освобождённое место достраивает музей."),
     "softlanding": ("A calorie counter where every day is a balloon flight: land in your norm and you reach the next village and its recipe.",
                     "Счётчик калорий, где каждый день — полёт на воздушном шаре: попал в свою норму — долетел до следующей деревни, а там дают рецепт."),
     "nooklings": ("Catch the cosy moments of your day into glowing jars; six little lodgers of a pixel room eat them.",
@@ -168,7 +170,7 @@ CATS = [
      ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
-     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "softlanding"]),
+     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "softlanding", "curator"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
      ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat"]),
@@ -182,10 +184,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 72 free apps", "Stillcraft · 72 бесплатных приложения"),
+    "c.hero.eyebrow": ("Stillcraft · 73 free apps", "Stillcraft · 73 бесплатных приложения"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 71 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 71 приложение для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 72 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 72 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -196,7 +198,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("72 apps, <em>grouped by what they help with.</em>", "72 приложения, <em>по задачам.</em>"),
+    "c.ap.title": ("73 apps, <em>grouped by what they help with.</em>", "73 приложения, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -245,6 +247,7 @@ WORDS = {
     "lot": "lot lots draw a lot fate life simulator life sim bitlife 1 in 8 billion one in eight billion 117 billion everyone who ever lived history world history historical life peasant serf slave medieval middle ages ancient stone age early modern demography population birth lottery inequality privilege chance odds probability statistics census parish register genealogy family tree ancestors ancestry heirloom inheritance great-grandchildren dynasty epitaph choices doors witness gratitude perspective reflection memento mori black death mongols socrates ibn battuta жребий судьба симулятор жизни один из восьми миллиардов 117 миллиардов все жившие история всемирная история историческая жизнь крестьянин крепостной раб средневековье древний мир каменный век новое время демография население лотерея рождения неравенство привилегии шанс шансы вероятность статистика перепись метрическая книга генеалогия родословная предки наследство реликвия правнуки род эпитафия выбор двери свидетель благодарность взгляд со стороны размышление чёрная смерть монголы сократ ибн баттута",
     "counterweight": "counterweight counter weight противовес противовеса anxiety anxious worry worries worrying fear fears overthinking rumination catastrophizing catastrophising cbt stoic stoicism seneca reassurance optimism optimist positive arguments facts balance scale scales weights brass stone pebble panic 3am sleepless тревога тревоги тревожность беспокойство страх страхи накручивание катастрофизация кпт стоики сенека оптимизм оптимист доводы аргументы факты весы гирьки гиря камень на душе галька паника бессонница деньги увольнение смерть здоровье отношения",
     "underbed": "underbed under bed bogey bogeyman boogeyman monster under the bed pet virtual pet tamagotchi creature ghost zombie vampire werewolf doll kikimora horror horror movies horror films horror books scary scared fear fears anxiety news doomscrolling night light nightlight night watch goosebumps jump scare film night popcorn graveyard grave epitaph gothic folk horror j-horror halloween full moon бука букa подкроватник чудище под кроватью питомец тамагочи призрак зомби вампир оборотень кукла кикимора ужасы ужастики фильмы ужасов книги ужасов страх страхи тревога новости думскроллинг ночник дозор мурашки кино попкорн погост кладбище могилка эпитафия готика фолк хэллоуин полнолуние",
+    "curator": "curator gallery photos photo cleaner clean up gallery delete photos duplicates duplicate photos blurred screenshots storage free space phone memory swipe sort albums museum storeroom crates exhibits act of write-off wings куратор запасник галерея фото фотографии почистить галерею удалить фото дубли дубликаты смазанные скриншоты память место на телефоне свайп разобрать альбомы музей ящики экспонаты акт списания крылья",
     "softlanding": "soft landing calories calorie counter kcal diet nutrition food diary meal tracker weight loss lose weight keep weight protein macros barcode scanner qr label photo open food facts recipes dishes portions plates balloon flight villages route hangar logbook мягкая посадка калории счётчик калорий ккал диета питание дневник питания похудеть вес белки бжу штрихкод сканер честный знак этикетка рецепты блюда порции тарелка воздушный шар полёт деревни маршрут ангар журнал",
     "nooklings": "nooklings cosy cozy cosiness hygge comfort moments small joys noticing jar jars pantry catch sound recording rain kettle tea lamp light photo quiet silence walk steps pedometer weather snow lodgers pets pet cat dormouse moth bullfinch hedgehog raccoon pixel room stove dreams gifts jam diary mood ютята уют уютный уютные моменты маленькие радости замечать банка банки кладовка поймать звук запись дождь чайник чай лампа свет снимок тишина прогулка шаги шагомер погода снег жильцы питомцы питомец кот соня моль снегирь ёжик енотик пиксельная комната печка сны подарки варенье дневник настроение",
     "undermat": "under the mat undermat culture countries abroad travel from home host flat apartment week notes recipes cooking films movies music records books reading holidays traditions languages words naples kyoto oaxaca bergen seoul lyon tbilisi kolkata salvador lisbon galway istanbul ключ под ковриком культура страны заграница путешествие из дома хозяин квартира неделя записки рецепты кухня фильмы кино музыка пластинки книги чтение праздники традиции языки слова неаполь киото оахака берген сеул лион тбилиси калькутта салвадор лиссабон голуэй стамбул",
