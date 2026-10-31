@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LiveLib export · Familiar · Stillcraft</title>
+<meta name="description" content="Take the books you have read on LiveLib into Familiar.">
+<link rel="icon" href="../../../assets/stillcraft.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css?v=43f4d5fa">
+<style>
+  .ll { max-width: 48rem; display: grid; gap: 1.4rem; padding-block: 2rem 3.5rem; }
+  .ll h1 { font-size: var(--step-4, 2.6rem); margin: 0; }
+  .ll .app-desc { margin: 0; }
+  .ll ol { margin: 0; padding-left: 1.3rem; display: grid; gap: 0.7rem; line-height: 1.5; }
+  .ll ol li::marker { color: var(--fa-gold); font-family: var(--f-mono); }
+  .ll a:not(.btn) { color: var(--fa-violet); }
+  .ll code { font-family: var(--f-mono); font-size: 0.85em; }
+  .ll .ll-note { color: var(--fa-muted); font-size: 0.92rem; line-height: 1.55; margin: 0; }
+  .ll h2 { font-size: var(--step-2, 1.6rem); margin: 1rem 0 0; }
+  .ll textarea { width: 100%; min-height: 12rem; resize: vertical; box-sizing: border-box; padding: 0.8rem; border-radius: 12px;
+    border: 1px solid var(--fa-line); background: rgb(0 0 0 / 0.25); color: var(--fa-ink); font: 400 0.75rem/1.45 var(--f-mono); }
+  .ll .row { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center; }
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9W6SRW929L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9W6SRW929L');
+</script>
+</head>
+<body>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="../../../" aria-label="Stillcraft home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="14" r="7" fill="var(--lamp)"/><rect x="3" y="20.5" width="26" height="1.6" rx=".8" fill="currentColor"/><rect x="9" y="24.5" width="14" height="1.6" rx=".8" fill="currentColor" opacity=".45"/></svg>
+      Stillcraft
+    </a>
+    <div class="nav-links">
+      <a href="../../" data-i18n="nav.apps">Apps</a>
+      <a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener">Telegram</a>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-en" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" id="lang-ru" data-lang="ru" aria-pressed="false">RU</button>
+    </div>
+  </div>
+</nav>
+
+<header class="wrap">
+  <p class="crumbs"><a href="../../../">Stillcraft</a> / <a href="../../" data-i18n="nav.apps">Apps</a> / <a href="../">Familiar</a> / LiveLib</p>
+</header>
+
+<main class="wrap">
+  <div class="app app--familiar ap-band">
+    <div class="ll">
+      <div class="app-id">
+        <img src="../../../assets/familiar-logo.png" alt="" width="56" height="56">
+        <span class="app-tag" data-i18n="ll.tag">Familiar · Import</span>
+      </div>
+      <h1 data-i18n="ll.title">Bring your <em>LiveLib</em> shelf along.</h1>
+      <p class="app-desc" data-i18n="ll.lede">LiveLib has no export of its own, so here is a short script that makes one. You run it on your LiveLib page, on a computer: it reads your "Read" shelf and saves it as a file Familiar can import. Nothing goes anywhere else.</p>
+
+      <ol>
+        <li data-i18n="ll.s1">On a computer, open <a href="https://www.livelib.ru" target="_blank" rel="noopener">livelib.ru</a>, go to your profile and open the <b>Read</b> shelf. The address looks like <code>livelib.ru/users/me/books/read</code>.</li>
+        <li data-i18n="ll.s2">Press <b>F12</b> (on a Mac, <b>⌥⌘J</b>) and open the <b>Console</b> tab.</li>
+        <li data-i18n="ll.s3">Copy the script below, paste it into the console and press <b>Enter</b>. If Chrome refuses to paste, type <code>allow pasting</code>, press Enter and paste again.</li>
+        <li data-i18n="ll.s4">The script goes through the shelf page by page, shows its progress in the corner and downloads <code>livelib.csv</code>.</li>
+        <li data-i18n="ll.s5">Send the file to your phone, and in Familiar open <b>Settings → Import books</b> and pick it.</li>
+      </ol>
+
+      <div class="row"><button class="btn btn-primary" type="button" id="copy" data-i18n="ll.copy">Copy the script</button></div>
+      <textarea id="code" readonly aria-label="Script"></textarea>
+
+      <h2 data-i18n="ll.whatTitle">What comes across</h2>
+      <p class="ll-note" data-i18n="ll.what">Title, author, cover, year, ISBN, pages (minutes for an audiobook), genres, the cycle and the book's number in it, the date you read it and your rating (out of ten on LiveLib, so 9 and 10 become five stars). Familiar turns LiveLib's genres into its own. For every book the script asks LiveLib once more, so a long shelf takes a few minutes. The file uses the same columns as a Goodreads export, and a Goodreads export (My Books → Import and export) imports the same way; Familiar finds its covers by itself. You need to be signed in to LiveLib.</p>
+      <p class="ll-note" data-i18n="ll.source">The script is all on this page, nothing is loaded from elsewhere. There is also a <a href="https://github.com/bigdevwhale/familiar/blob/main/tools/livelib.py" target="_blank" rel="noopener">Python version</a> for a computer.</p>
+    </div>
+  </div>
+</main>
+
+<script>
+/* The script itself: runs on livelib.ru and asks LiveLib's own API, the one its pages use. */
+function livelibExport() {
+  var api = "https://beta.api.livelib.ru/trisolaris";
+  var m = location.hostname.indexOf("livelib.ru") >= 0 && location.pathname.match(/\/users\/(\d+|me)\b/);
+  if (!m) { alert("Откройте на LiveLib свою полку «Прочитано» (livelib.ru/users/me/books/read) и запустите скрипт ещё раз."); return; }
+  var box = document.createElement("div");
+  box.style.cssText = "position:fixed;z-index:2147483647;right:16px;bottom:16px;padding:14px 18px;border-radius:14px;background:#15121C;color:#F1E9DC;font:500 15px/1.4 system-ui,sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.4);border:1px solid #AE93FF";
+  box.textContent = "Familiar: собираю книги…";
+  document.body.appendChild(box);
+  var cols = ["Title", "Author", "ISBN", "My Rating", "Number of Pages", "Year Published", "Date Read", "Date Added", "Bookshelves", "Exclusive Shelf", "Cover", "Genres", "Series", "Series Number", "Audio"];
+  function pause(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+  function get(url) {
+    return fetch(api + url, { credentials: "include", headers: { Accept: "application/json" } }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).then(function (j) { return j.payload || j; });
+  }
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+  function cell(v) { v = String(v == null ? "" : v); return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
+  /* What the list leaves out: genres, pages, ISBN, paper or audio, and the cycle with the book's number in it. */
+  async function more(it) {
+    var b = it.art_edition, x = {};
+    try {
+      var d = (await get("/api/art-editions/" + b.id + "/details")).data || {};
+      var main = (d.genres || []).filter(function (g) { return g.is_main; }).concat((d.genres || []).filter(function (g) { return !g.is_main; }));
+      x.genres = main.concat(d.root_genres || []).map(function (g) { return g.title; }).filter(function (t, i, a) { return t && a.indexOf(t) === i; }).join("; ");
+      x.isbn = d.isbn || "";
+      x.audio = /audio/.test(d.art_type || "") ? "yes" : "";
+      /* Publishers write it every which way: "Страниц: 464", "Колличество страниц: 640", "416 стр."; an audiobook counts minutes. */
+      var t = d.details || "", h = t.match(/(\d+)\s*ч(?:ас|\.|\s)[^\d]{0,12}(\d+)?\s*(?:мин)?/i);
+      x.pages = x.audio && h ? String(+h[1] * 60 + (+h[2] || 0)) : ((t.match(/страниц[а-я]*[\s:.\-–]*(\d{2,5})/i) || t.match(/(\d{2,5})\s*(?:стр|с\.)/i) || [])[1] || "");
+      var cycles = await get("/api/art-editions/" + b.id + "/cycles");
+      (Array.isArray(cycles) ? cycles : cycles.data || []).some(function (c) {
+        var self = (c.arts || []).filter(function (a) { return a.id === b.id || a.title === b.title; })[0];
+        if (self) { x.series = c.title; x.number = self.series_number || ""; }
+        return !!self;
+      });
+    } catch (e) { /* the book still comes across, with what the list knows */ }
+    return x;
+  }
+  function row(it, x) {
+    var b = it.art_edition || {}, d = it.read_date || {}, r = it.rating || 0;
+    return [
+      (b.title || "").trim(),
+      (b.authors || []).map(function (a) { return a.full_name || ""; }).join(", "),
+      x.isbn || "", r ? Math.floor((r + 1) / 2) : 0, x.pages || "", b.publication_year || "",
+      d.year ? d.year + "/" + pad(d.month || 1) + "/" + pad(d.day || 1) : "",
+      (it.status_set_at || "").slice(0, 10).replace(/-/g, "/"),
+      "read", "read", b.cover_url || "", x.genres || "", x.series || "", x.number || "", x.audio || ""
+    ];
+  }
+  function save(rows, note) {
+    var csv = "\ufeff" + [cols].concat(rows).map(function (r) { return r.map(cell).join(","); }).join("\r\n") + "\r\n";
+    window.familiarCsv = csv;
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    a.download = "livelib.csv";
+    a.click();
+    /* A browser may hold back a second download from the same site; a link the reader taps always works. */
+    box.textContent = "Familiar: готово, " + rows.length + " книг" + (note || "") + ". ";
+    a.textContent = "Скачать livelib.csv";
+    a.style.cssText = "color:#E9C26A;text-decoration:underline";
+    box.appendChild(a);
+    var x = document.createElement("span");
+    x.textContent = " ✕";
+    x.style.cssText = "cursor:pointer;margin-left:10px;opacity:.7";
+    x.onclick = function () { box.remove(); };
+    box.appendChild(x);
+  }
+  (async function () {
+    var items = [], total = "?", url = "/api/users/" + m[1] + "/arts/reads?limit=20&offset=0&ordering=read_at_desc&art_cover_size=200x305";
+    try {
+      while (url) {
+        var p = await get(url);
+        if (p.counters && p.counters.all != null) total = p.counters.all;
+        items = items.concat(p.data || []);
+        box.textContent = "Familiar: список, " + items.length + " из " + total + "…";
+        url = p.pagination && p.pagination.next_page;
+        if (url) await pause(500);
+      }
+    } catch (e) {
+      if (!items.length) { box.textContent = "Familiar: не получилось (" + e.message + "). Вы вошли на LiveLib?"; setTimeout(function () { box.remove(); }, 8000); return; }
+    }
+    var rows = [];
+    for (var i = 0; i < items.length; i++) {
+      box.textContent = "Familiar: жанры и страницы, " + (i + 1) + " из " + items.length + "…";
+      rows.push(row(items[i], await more(items[i])));
+      await pause(300);
+    }
+    save(rows, items.length < total ? " (не всё: " + items.length + " из " + total + ")" : "");
+  })();
+}
+(function () {
+  var code = livelibExport.toString() + "\nlivelibExport();\n";
+  var area = document.getElementById("code"), btn = document.getElementById("copy");
+  area.value = code;
+  btn.addEventListener("click", function () {
+    area.select();
+    (navigator.clipboard ? navigator.clipboard.writeText(code) : Promise.reject()).catch(function () { document.execCommand("copy"); });
+    btn.textContent = document.documentElement.lang === "ru" ? "Скопировано" : "Copied";
+  });
+})();
+</script>
+<script>window.PAGE_RU = {
+"nav.apps": "Приложения",
+"ll.tag": "Familiar · Импорт",
+"ll.title": "Забери полку <em>LiveLib</em> с собой.",
+"ll.lede": "У LiveLib нет своего экспорта, поэтому вот короткий скрипт, который его делает. Он запускается на твоей странице LiveLib, с компьютера: читает полку «Прочитано» и сохраняет её файлом, который Familiar умеет импортировать. Больше никуда ничего не уходит.",
+"ll.s1": "С компьютера открой <a href=\"https://www.livelib.ru\" target=\"_blank\" rel=\"noopener\">livelib.ru</a>, зайди в свой профиль и открой полку <b>Прочитано</b>. Адрес выглядит так: <code>livelib.ru/users/me/books/read</code>.",
+"ll.s2": "Нажми <b>F12</b> (на Mac — <b>⌥⌘J</b>) и открой вкладку <b>Console</b>.",
+"ll.s3": "Скопируй скрипт ниже, вставь в консоль и нажми <b>Enter</b>. Если Chrome не даёт вставить, напечатай <code>allow pasting</code>, нажми Enter и вставь ещё раз.",
+"ll.s4": "Скрипт пройдёт полку страница за страницей, покажет прогресс в углу и скачает <code>livelib.csv</code>.",
+"ll.s5": "Перекинь файл на телефон, в Familiar открой <b>Настройки → Импорт книг</b> и выбери его.",
+"ll.copy": "Скопировать скрипт",
+"ll.whatTitle": "Что переносится",
+"ll.what": "Название, автор, обложка, год, ISBN, страницы (у аудиокниги — минуты), жанры, цикл и номер книги в нём, дата прочтения и твоя оценка (на LiveLib она из десяти, так что 9 и 10 станут пятью звёздами). Жанры LiveLib Familiar переводит в свои. Про каждую книгу скрипт спрашивает LiveLib ещё раз, поэтому длинная полка выгружается несколько минут. Колонки в файле такие же, как в экспорте Goodreads, и экспорт Goodreads (My Books → Import and export) импортируется так же — обложки к нему Familiar найдёт сам. На LiveLib нужно войти в свой аккаунт.",
+"ll.source": "Скрипт целиком на этой странице, ничего не подгружается со стороны. Есть и <a href=\"https://github.com/bigdevwhale/familiar/blob/main/tools/livelib.py\" target=\"_blank\" rel=\"noopener\">версия на Python</a> для компьютера."
+};</script>
+<script src="../../../assets/site.js?v=e1951337"></script>
+</body>
+</html>
