@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>LiveLib and Goodreads · Familiar · Stillcraft</title>
-<meta name="description" content="Take the books you have read on LiveLib or Goodreads into Familiar.">
+<title>Import books · Familiar · Stillcraft</title>
+<meta name="description" content="Take your books from LiveLib, Goodreads, Yandex Books, Livelib Backup or Bookmory into Familiar.">
 <link rel="icon" href="../../../assets/stillcraft.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,7 +55,7 @@
 </nav>
 
 <header class="wrap">
-  <p class="crumbs"><a href="../../../">Stillcraft</a> / <a href="../../" data-i18n="nav.apps">Apps</a> / <a href="../">Familiar</a> / LiveLib</p>
+  <p class="crumbs"><a href="../../../">Stillcraft</a> / <a href="../../" data-i18n="nav.apps">Apps</a> / <a href="../">Familiar</a> / <span data-i18n="ll.crumb">Import</span></p>
 </header>
 
 <main class="wrap">
@@ -65,15 +65,17 @@
         <img src="../../../assets/familiar-logo.png" alt="" width="56" height="56">
         <span class="app-tag" data-i18n="ll.tag">Familiar · Import</span>
       </div>
-      <h1 data-i18n="ll.title">Bring your <em>LiveLib</em> shelf along.</h1>
-      <p class="app-desc" data-i18n="ll.lede">LiveLib has no export of its own, so here is a short script that makes one. You run it on your LiveLib page, on a computer: it reads your "Read" shelf and saves it as a file Familiar can import. Nothing goes anywhere else.</p>
+      <h1 data-i18n="ll.title">Bring your <em>shelves</em> along.</h1>
+      <p class="app-desc" data-i18n="ll.lede">Familiar takes the books you keep elsewhere: LiveLib, Goodreads, Yandex Books, Livelib Backup and Bookmory. Each ends in one file you pick in Familiar under <b>Settings → Books from another app → Pick a file</b>. LiveLib and Yandex Books have no export of their own, so for them there is a short script below that makes one; it runs on your own page and sends nothing anywhere else.</p>
+
+      <h2 data-i18n="ll.llTitle">From LiveLib</h2>
 
       <ol>
         <li data-i18n="ll.s1">On a computer, open <a href="https://www.livelib.ru" target="_blank" rel="noopener">livelib.ru</a>, go to your profile and open the <b>Read</b> shelf. The address looks like <code>livelib.ru/users/me/books/read</code>.</li>
         <li data-i18n="ll.s2">Press <b>F12</b> (on a Mac, <b>⌥⌘J</b>) and open the <b>Console</b> tab.</li>
         <li data-i18n="ll.s3">Copy the script below, paste it into the console and press <b>Enter</b>. If Chrome refuses to paste, type <code>allow pasting</code>, press Enter and paste again.</li>
         <li data-i18n="ll.s4">The script goes through the shelf page by page, shows its progress in the corner and downloads <code>livelib.csv</code>.</li>
-        <li data-i18n="ll.s5">Send the file to your phone, and in Familiar open <b>Settings → Books from LiveLib or Goodreads → Pick a CSV file</b>.</li>
+        <li data-i18n="ll.s5">Send the file to your phone, and in Familiar open <b>Settings → Books from another app → Pick a file</b>.</li>
       </ol>
 
       <div class="row"><button class="btn btn-primary" type="button" id="copy" data-i18n="ll.copy">Copy the script</button></div>
@@ -85,7 +87,26 @@
         <li data-i18n="ll.g1">Sign in to Goodreads and open <a href="https://www.goodreads.com/review/import" target="_blank" rel="noopener">My Books → Import and export</a>.</li>
         <li data-i18n="ll.g2">Press <b>Export Library</b>. In a minute a link <b>Your export from …</b> appears under the button (reload the page if it doesn't).</li>
         <li data-i18n="ll.g3">Tap the link: <code>goodreads_library_export.csv</code> downloads.</li>
-        <li data-i18n="ll.g4">In Familiar open <b>Settings → Books from LiveLib or Goodreads → Pick a CSV file</b> and pick it. Goodreads gives no covers, so Familiar finds them in book catalogues; that takes a few minutes and carries on next time if you close the app.</li>
+        <li data-i18n="ll.g4">In Familiar open <b>Settings → Books from another app → Pick a file</b> and pick it. Goodreads gives no covers, so Familiar finds them in book catalogues; that takes a few minutes and carries on next time if you close the app.</li>
+      </ol>
+
+      <h2 data-i18n="ll.yaTitle">From Yandex Books</h2>
+      <p class="ll-note" data-i18n="ll.ya">Yandex Books has no export either, so this script makes one from your profile page. It takes finished books, the ones you are reading and the ones you want to read, with covers, genres, audiobooks and comics. Yandex Books shows nobody the dates, ratings or page counts, so those stay behind. You don't even need to sign in: an open profile is enough.</p>
+      <ol>
+        <li data-i18n="ll.y1">On a computer, open <a href="https://books.yandex.ru" target="_blank" rel="noopener">books.yandex.ru</a>, go to your profile and open <b>Books</b>. The address looks like <code>books.yandex.ru/@login/books/all</code>.</li>
+        <li data-i18n="ll.y2">Press <b>F12</b> (on a Mac, <b>⌥⌘J</b>), open the <b>Console</b> tab, paste the script below and press <b>Enter</b>.</li>
+        <li data-i18n="ll.y3">In a few seconds <code>yandex-books-login.csv</code> downloads. Send it to your phone and pick it in Familiar: <b>Settings → Books from another app → Pick a file</b>.</li>
+      </ol>
+      <div class="row"><button class="btn btn-primary" type="button" id="copy-ya" data-i18n="ll.copy">Copy the script</button></div>
+      <textarea id="code-ya" readonly aria-label="Script"></textarea>
+
+      <h2 data-i18n="ll.lbTitle">From Livelib Backup</h2>
+      <p class="ll-note" data-i18n="ll.lb">If you have already saved your LiveLib shelf with <a href="https://chimildic.github.io/livelib-backup/" target="_blank" rel="noopener">Livelib Backup</a>, pick its file in Familiar as it is: CSV, JSON or the one "for Goodreads" all work. Familiar learns the shelf (Read, Reading, Want to read, Didn't finish) from the file's name, so keep the name it was saved with; a file for Goodreads carries the shelf inside. "Didn't finish" goes to Paused, and a date known only to the month becomes its first day.</p>
+
+      <h2 data-i18n="ll.bmTitle">From Bookmory</h2>
+      <ol>
+        <li data-i18n="ll.b1">In Bookmory, make a backup in its settings. You get a <code>bookmory_….bookmory</code> file.</li>
+        <li data-i18n="ll.b2">Pick it in Familiar: <b>Settings → Books from another app → Pick a file</b>. Shelves, dates, ratings, pages, covers and audiobooks come across, and your Bookmory collections become your shelves.</li>
       </ol>
 
       <h2 data-i18n="ll.whatTitle">What comes across</h2>
@@ -95,6 +116,258 @@
   </div>
 </main>
 
+<!-- The Yandex Books script, word for word as tools/yandex_books.js in the Familiar repository. -->
+<script type="text/plain" id="yandex-script">
+// Exports your Yandex Books shelves to a CSV that Familiar imports (Settings → Books from another app).
+//
+// Open your profile on books.yandex.ru (or anyone's open profile: books.yandex.ru/@login/books/all),
+// press F12, go to Console, paste all of this and press Enter. The browser asks to type "allow pasting"
+// the first time. A file yandex-books-<login>.csv is downloaded when it's done.
+//
+// Finished books go to Read, the ones opened lately and not finished to Reading, the rest to Want to read.
+// Text books, audiobooks and comics all come, with their covers and the site's topics as genres.
+// In a block of its own, so pasting it again doesn't clash with the last run.
+{
+// The site's own query, word for word: its proxy refuses any other.
+const QUERY = `
+    query GetUserLibrary($userLogin: String!, $params: UserLibraryBooksParamsInput!) {
+  user(login: $userLogin) {
+    library {
+      books(params: $params) {
+        cursor
+        page {
+          __typename
+          ... on AudioBook {
+            availability {
+              ...FAvailability
+            }
+            progress {
+              ...FProgress
+            }
+            book {
+              ...FBook
+            }
+            listenersCount
+          }
+          ... on TextBook {
+            availability {
+              ...FAvailability
+            }
+            progress {
+              ...FProgress
+            }
+            book {
+              ...FBook
+            }
+            readersCount
+          }
+          ... on TextSerial {
+            episodes {
+              total
+            }
+            availability {
+              ...FAvailability
+            }
+            progress {
+              ...FProgress
+            }
+            book {
+              ...FBook
+            }
+            readersCount
+          }
+          ... on ComicBook {
+            availability {
+              ...FAvailability
+            }
+            progress {
+              ...FProgress
+            }
+            book {
+              ...FBook
+            }
+            readersCount
+          }
+        }
+      }
+    }
+  }
+}
+    
+    fragment FAvailability on Availability {
+  __typename
+  ageRestriction {
+    __typename
+    name
+    value
+  }
+  state {
+    ... on Unavailable {
+      __typename
+      reason
+    }
+    ... on Available {
+      __typename
+      full
+    }
+  }
+}
+    
+
+    fragment FProgress on Progress {
+  inLibrary
+  finished
+  progress
+  __typename
+}
+    
+
+    fragment FBook on Book {
+  uuid
+  initUuid
+  name
+  annotation
+  ageRestriction
+  editorAnnotation
+  cover {
+    ...FCover
+  }
+  topics {
+    name
+    totalBook
+    uuid
+  }
+  publisher {
+    uuid
+    name
+    avatar {
+      ...FCover
+    }
+  }
+  translators {
+    uuid
+    name
+    narrator {
+      totalBook
+    }
+    author {
+      totalBook
+    }
+    author {
+      totalBook
+    }
+    translator {
+      totalBook
+    }
+    avatar {
+      ...FCover
+    }
+  }
+  authors {
+    ...FPerson
+  }
+}
+    
+
+    fragment FCover on Cover {
+  url
+  ratio
+  backgroundColorHex
+  fromShedevrum
+  __typename
+}
+    
+
+    fragment FPerson on Person {
+  uuid
+  hidden
+  avatar {
+    ...FCover
+    __typename
+  }
+  author {
+    totalBook
+    __typename
+  }
+  name
+  roles
+  narrator {
+    totalBook
+    __typename
+  }
+  translator {
+    totalBook
+    __typename
+  }
+  __typename
+}
+    `;
+
+(async () => {
+    const login = (location.pathname.match(/@([^/]+)/) || [])[1]
+    if (location.host !== 'books.yandex.ru' || !login) {
+        alert('Откройте свой профиль на books.yandex.ru (адрес вида books.yandex.ru/@логин/books/all) и запустите скрипт ещё раз.')
+        return
+    }
+    const token = (document.documentElement.innerHTML.match(/"csrfToken":"([^"]+)"/) || [])[1]
+    if (!token) {
+        alert('Familiar: обновите страницу и запустите скрипт ещё раз.')
+        return
+    }
+    // The order a book is kept in when it turns up under several: a finished one is also among the opened.
+    const states = [['FINISHED', 'read'], ['OPENED', 'currently-reading'], ['ADDED', 'to-read']]
+    const seen = new Set()
+    const rows = []
+    for (const [state, shelf] of states) {
+        let cursor = ''
+        while (true) {
+            const r = await fetch('/graphql-proxy', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', Accept: 'application/json', 'x-csrf-token': token },
+                body: JSON.stringify({
+                    operationName: 'GetUserLibrary',
+                    query: QUERY,
+                    variables: { userLogin: login, params: { cursor, step: 50, contentFilter: null, state } },
+                }),
+            }).then(r => r.json())
+            if (!r.data || !r.data.user) {
+                alert('Familiar: Яндекс Книги не отдали полку: ' + JSON.stringify(r.errors || r))
+                return
+            }
+            const books = r.data.user.library.books
+            for (const item of books.page || []) {
+                const book = item.book || {}
+                if (!book.uuid || seen.has(book.uuid)) continue
+                seen.add(book.uuid)
+                rows.push({
+                    Title: (book.name || '').trim(),
+                    Author: (book.authors || []).filter(a => !a.hidden && (a.roles || ['AUTHOR']).includes('AUTHOR')).map(a => a.name).join(', '),
+                    'Exclusive Shelf': shelf,
+                    Bookshelves: item.__typename === 'ComicBook' ? 'комиксы' : '',
+                    Cover: (book.cover && book.cover.url) || '',
+                    Genres: (book.topics || []).map(t => t.name).join('; '),
+                    Audio: item.__typename === 'AudioBook' ? 'yes' : '',
+                })
+            }
+            console.log(`Familiar: ${rows.length} книг…`)
+            cursor = books.cursor || ''
+            if (!cursor || !(books.page || []).length) break
+            await new Promise(ok => setTimeout(ok, 500))
+        }
+    }
+    const columns = ['Title', 'Author', 'ISBN', 'My Rating', 'Number of Pages', 'Date Read', 'Date Added',
+        'Bookshelves', 'Exclusive Shelf', 'Cover', 'Genres', 'Audio']
+    const cell = v => /[",\r\n]/.test(v || '') ? '"' + v.replaceAll('"', '""') + '"' : (v || '')
+    const csv = [columns.join(','), ...rows.filter(r => r.Title).map(r => columns.map(c => cell(r[c])).join(','))].join('\r\n')
+    const a = document.createElement('a')
+    a.href = URL.createObjectURL(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' }))
+    a.download = `yandex-books-${login}.csv`
+    a.click()
+    setTimeout(() => URL.revokeObjectURL(a.href), 10000)
+    alert(`Familiar: готово, ${rows.length} книг в файле ${a.download}.`)
+})()
+}
+</script>
 <script>
 /* The script itself: runs on livelib.ru and asks LiveLib's own API, the one its pages use. */
 function livelibExport() {
@@ -189,33 +462,48 @@ function livelibExport() {
   })();
 }
 (function () {
-  var code = livelibExport.toString() + "\nlivelibExport();\n";
-  var area = document.getElementById("code"), btn = document.getElementById("copy");
-  area.value = code;
-  btn.addEventListener("click", function () {
-    area.select();
-    (navigator.clipboard ? navigator.clipboard.writeText(code) : Promise.reject()).catch(function () { document.execCommand("copy"); });
-    btn.textContent = document.documentElement.lang === "ru" ? "Скопировано" : "Copied";
-  });
+  function offer(code, areaId, btnId) {
+    var area = document.getElementById(areaId), btn = document.getElementById(btnId);
+    area.value = code;
+    btn.addEventListener("click", function () {
+      area.select();
+      (navigator.clipboard ? navigator.clipboard.writeText(code) : Promise.reject()).catch(function () { document.execCommand("copy"); });
+      btn.textContent = document.documentElement.lang === "ru" ? "Скопировано" : "Copied";
+    });
+  }
+  offer(livelibExport.toString() + "\nlivelibExport();\n", "code", "copy");
+  offer(document.getElementById("yandex-script").textContent.trim() + "\n", "code-ya", "copy-ya");
 })();
 </script>
 <script>window.PAGE_RU = {
 "nav.apps": "Приложения",
+"ll.crumb": "Импорт",
 "ll.tag": "Familiar · Импорт",
-"ll.title": "Забери полку <em>LiveLib</em> с собой.",
-"ll.lede": "У LiveLib нет своего экспорта, поэтому вот короткий скрипт, который его делает. Он запускается на твоей странице LiveLib, с компьютера: читает полку «Прочитано» и сохраняет её файлом, который Familiar умеет импортировать. Больше никуда ничего не уходит.",
+"ll.title": "Забери свои <em>полки</em> с собой.",
+"ll.lede": "Familiar забирает книги, которые ты ведёшь в другом месте: LiveLib, Goodreads, Яндекс Книги, Livelib Backup и Bookmory. В конце всегда один файл, который выбираешь в Familiar: <b>Настройки → Книги из другого приложения → Выбрать файл</b>. У LiveLib и Яндекс Книг своего экспорта нет, поэтому для них ниже короткий скрипт, который его делает; он запускается на твоей странице и никуда ничего не отправляет.",
+"ll.llTitle": "Из LiveLib",
 "ll.s1": "С компьютера открой <a href=\"https://www.livelib.ru\" target=\"_blank\" rel=\"noopener\">livelib.ru</a>, зайди в свой профиль и открой полку <b>Прочитано</b>. Адрес выглядит так: <code>livelib.ru/users/me/books/read</code>.",
 "ll.s2": "Нажми <b>F12</b> (на Mac — <b>⌥⌘J</b>) и открой вкладку <b>Console</b>.",
 "ll.s3": "Скопируй скрипт ниже, вставь в консоль и нажми <b>Enter</b>. Если Chrome не даёт вставить, напечатай <code>allow pasting</code>, нажми Enter и вставь ещё раз.",
 "ll.s4": "Скрипт пройдёт полку страница за страницей, покажет прогресс в углу и скачает <code>livelib.csv</code>.",
-"ll.s5": "Перекинь файл на телефон, в Familiar открой <b>Настройки → Книги из LiveLib или Goodreads → Выбрать CSV-файл</b>.",
+"ll.s5": "Перекинь файл на телефон, в Familiar открой <b>Настройки → Книги из другого приложения → Выбрать файл</b>.",
 "ll.copy": "Скопировать скрипт",
 "ll.grTitle": "Из Goodreads",
 "ll.gr": "Goodreads сам делает файл, скрипт не нужен, и это получится даже из браузера на телефоне.",
 "ll.g1": "Войди в Goodreads и открой <a href=\"https://www.goodreads.com/review/import\" target=\"_blank\" rel=\"noopener\">My Books → Import and export</a>.",
 "ll.g2": "Нажми <b>Export Library</b>. Через минуту под кнопкой появится ссылка <b>Your export from …</b> (если нет — обнови страницу).",
 "ll.g3": "Нажми на неё — скачается <code>goodreads_library_export.csv</code>.",
-"ll.g4": "В Familiar открой <b>Настройки → Книги из LiveLib или Goodreads → Выбрать CSV-файл</b> и выбери его. Обложек Goodreads не отдаёт, поэтому Familiar подбирает их по книжным каталогам: это займёт несколько минут и продолжится в следующий раз, если закрыть приложение.",
+"ll.g4": "В Familiar открой <b>Настройки → Книги из другого приложения → Выбрать файл</b> и выбери его. Обложек Goodreads не отдаёт, поэтому Familiar подбирает их по книжным каталогам: это займёт несколько минут и продолжится в следующий раз, если закрыть приложение.",
+"ll.yaTitle": "Из Яндекс Книг",
+"ll.ya": "У Яндекс Книг экспорта тоже нет, поэтому этот скрипт делает его со страницы профиля. Он берёт прочитанные книги, те, что читаешь сейчас, и те, что хочешь прочитать, — с обложками, жанрами, аудиокнигами и комиксами. Даты, оценки и число страниц Яндекс Книги никому не показывают, поэтому они не переедут. Входить в аккаунт не обязательно: хватит открытого профиля.",
+"ll.y1": "С компьютера открой <a href=\"https://books.yandex.ru\" target=\"_blank\" rel=\"noopener\">books.yandex.ru</a>, зайди в свой профиль и открой <b>Книги</b>. Адрес выглядит так: <code>books.yandex.ru/@логин/books/all</code>.",
+"ll.y2": "Нажми <b>F12</b> (на Mac — <b>⌥⌘J</b>), открой вкладку <b>Console</b>, вставь скрипт ниже и нажми <b>Enter</b>.",
+"ll.y3": "Через несколько секунд скачается <code>yandex-books-логин.csv</code>. Перекинь его на телефон и выбери в Familiar: <b>Настройки → Книги из другого приложения → Выбрать файл</b>.",
+"ll.lbTitle": "Из Livelib Backup",
+"ll.lb": "Если ты уже сохранил полку LiveLib через <a href=\"https://chimildic.github.io/livelib-backup/\" target=\"_blank\" rel=\"noopener\">Livelib Backup</a>, просто выбери его файл в Familiar: подойдёт CSV, JSON и вариант «для импорта в goodreads». Полку (Прочитал, Читаю сейчас, Хочу прочитать, Не дочитал) Familiar узнаёт по имени файла, поэтому не переименовывай его; в файле для Goodreads полка записана внутри. «Не дочитал» попадёт в «На паузе», а дата, известная только до месяца, станет его первым числом.",
+"ll.bmTitle": "Из Bookmory",
+"ll.b1": "В Bookmory сделай резервную копию в настройках. Получится файл <code>bookmory_….bookmory</code>.",
+"ll.b2": "Выбери его в Familiar: <b>Настройки → Книги из другого приложения → Выбрать файл</b>. Переедут полки, даты, оценки, страницы, обложки и аудиокниги, а подборки Bookmory станут твоими полками.",
 "ll.whatTitle": "Что переносится",
 "ll.what": "Название, автор, обложка, год, ISBN, страницы (у аудиокниги — минуты), жанры, цикл и номер книги в нём, дата прочтения и твоя оценка (на LiveLib она из десяти, так что 9 и 10 станут пятью звёздами). Жанры LiveLib Familiar переводит в свои. Про каждую книгу скрипт спрашивает LiveLib ещё раз, поэтому длинная полка выгружается несколько минут. Колонки в файле такие же, как в экспорте Goodreads, и экспорт Goodreads (My Books → Import and export) импортируется так же — обложки к нему Familiar найдёт сам. На LiveLib нужно войти в свой аккаунт.",
 "ll.source": "Скрипт целиком на этой странице, ничего не подгружается со стороны. Есть и <a href=\"https://github.com/bigdevwhale/familiar/blob/main/tools/livelib.py\" target=\"_blank\" rel=\"noopener\">версия на Python</a> для компьютера."
