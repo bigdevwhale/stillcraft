@@ -68,7 +68,7 @@ PLAIN = {
     "stringer": ("Get out every day and see your street again: a small paper's editor wires one thing to photograph, and Sunday's issue collects the week.",
                  "Выходить каждый день и снова видеть свою улицу: редактор маленькой газеты телеграфирует, что снять, а воскресный номер собирает неделю."),
     "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
-                   "Подарок, который открывают слой за слоем: сам подарок в самой маленькой фигурке, а у каждой вокруг свой замок."),
+                   "Подарок, спрятанный в матрёшку: открывать её придётся фигурку за фигуркой, и у каждой свой замок."),
     "fridge": ("A fridge door for two: the shopping list, whose turn, notes and worries, shared between your two phones at home.",
                "Дверца холодильника на двоих: покупки, чья очередь, записки и тревоги — общие на двух телефонах дома."),
     "campfire": ("A talk by the fire with the people close to you: sparks bring questions, and the word of the day stays in the ash.",
