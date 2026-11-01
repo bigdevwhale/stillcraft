@@ -67,6 +67,8 @@ PLAIN = {
                 "Шагомер, в котором шаги разносят деревенскую почту: письма и истории маленькой деревни, которые длятся годами."),
     "stringer": ("Get out every day and see your street again: a small paper's editor wires one thing to photograph, and Sunday's issue collects the week.",
                  "Выходить каждый день и снова видеть свою улицу: редактор маленькой газеты телеграфирует, что снять, а воскресный номер собирает неделю."),
+    "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
+                   "Подарок, который открывают слой за слоем: сам подарок в самой маленькой фигурке, а у каждой вокруг свой замок."),
     "fridge": ("A fridge door for two: the shopping list, whose turn, notes and worries, shared between your two phones at home.",
                "Дверца холодильника на двоих: покупки, чья очередь, записки и тревоги — общие на двух телефонах дома."),
     "campfire": ("A talk by the fire with the people close to you: sparks bring questions, and the word of the day stays in the ash.",
@@ -176,7 +178,7 @@ CATS = [
      ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat"]),
     ("family", ("Family and friends", "Семья и близкие"),
      ("Time with your children and each other, bedtime stories, family photos, keeping in touch.", "Время с детьми и друг с другом, сказки на ночь, семейные фото, связь с близкими."),
-     ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "archipelago", "fridge", "ties", "notch", "silverbox"]),
+     ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "archipelago", "fridge", "matryoshka", "ties", "notch", "silverbox"]),
     ("self", ("You and your life", "Вы и ваша жизнь"),
      ("Your time, your wins, who you want to be, letters to the future, moments worth keeping.", "Ваше время, ваши победы, каким вы хотите быть, письма в будущее и моменты, которые стоит сохранить."),
      ["anyway", "calavera", "dearme", "glow", "prism", "shapito", "lodger", "capsule", "lot", "honours", "underbed", "unwritten", "silverlining", "insidejob", "hoard", "theusual", "carriage", "nooklings"]),
@@ -184,10 +186,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 73 free apps", "Stillcraft · 73 бесплатных приложения"),
+    "c.hero.eyebrow": ("Stillcraft · 74 free apps", "Stillcraft · 74 бесплатных приложения"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 72 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 72 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 73 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 73 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -198,7 +200,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("73 apps, <em>grouped by what they help with.</em>", "73 приложения, <em>по задачам.</em>"),
+    "c.ap.title": ("74 apps, <em>grouped by what they help with.</em>", "74 приложения, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -235,6 +237,7 @@ WORDS = {
     "stele": "language words anki flashcards язык слова карточки",
     "familiar": "books reading pet книги чтение питомец",
     "lipovka": "lipovka post postman pedometer step counter steps walking walk walks letters mail village cozy pixel game stories telegram stamps map weather почта в липовке почтальон шагомер шаги ходьба прогулки письма деревня уютная пиксельная игра истории телеграммы марки карта погода",
+    "matryoshka": "matryoshka nesting doll russian doll gift gifts present birthday surprise wrapping unwrap quest treasure hunt riddle puzzle code word place location time capsule gesture locks layers encryption shared gift group gift friends family voice note photo note reply матрёшка подарок подарки день рождения сюрприз вручение квест загадка кодовое слово место время жест замки слои шифрование общий подарок вместе друзья семья голос фото записка отклик",
     "fridge": "fridge refrigerator door couple couples partner relationship shopping list groceries chores whose turn notes sticky notes magnets worries confession envelope love wishes gifts household home sync wifi qr холодильник дверца пара отношения партнёр покупки список продуктов дела чья очередь записки стикеры магниты тревоги признание конверт любовь желания подарки быт дом синхронизация",
     "stringer": "stringer correspondent reporter newspaper paper district editor telegram assignment assignments task walk walks walking outdoors go outside every day street city photo photography photo walk street photography camera halftone newsprint caption sunday issue rubrics doors cats signs letters alphabet press card flash dusk внештатник корреспондент репортёр газета районная редактор телеграмма задание задания прогулка прогулки на улицу каждый день улица город фото фотография фотопрогулка уличная фотография камера растр подпись воскресный номер рубрики двери коты вывески буквы алфавит пресс-карта молния сумерки",
     "errand": "errand courier delivery shopping shopping list grocery groceries list shop shops supermarket store waybill order orders family household chat messenger share list rush weight bag string bag cold aisle shelf route budget receipt prices price tracker inflation cheaper game gamification tokens depot bicycle van rank badges simulator посыльный курьер доставка покупки список покупок продукты магазин супермаркет накладная заказ заказы семья домашние мессенджер чат молния вес авоська термобокс полки маршрут бюджет чек цены подорожало дешевле игра геймификация жетоны депо велосипед фургон звание знаки симулятор habits привычки",
