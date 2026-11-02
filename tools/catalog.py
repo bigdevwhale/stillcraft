@@ -67,6 +67,8 @@ PLAIN = {
                 "Шагомер, в котором шаги разносят деревенскую почту: письма и истории маленькой деревни, которые длятся годами."),
     "stringer": ("Get out every day and see your street again: a small paper's editor wires one thing to photograph, and Sunday's issue collects the week.",
                  "Выходить каждый день и снова видеть свою улицу: редактор маленькой газеты телеграфирует, что снять, а воскресный номер собирает неделю."),
+    "charms": ("A child photographs the deeds they've done, the pictures turn into golden engravings, and a week of them brews a real reward.",
+                "Ребёнок фотографирует сделанные дела, снимки превращаются в золотые гравюры, а за неделю из них варится настоящая награда."),
     "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
                    "Подарок, спрятанный в матрёшку: открывать её придётся фигурку за фигуркой, и у каждой свой замок."),
     "gossamer": ("Catch passing thoughts in two seconds and see which ones you keep coming back to.",
@@ -186,7 +188,7 @@ CATS = [
      ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat"]),
     ("family", ("Family and friends", "Семья и близкие"),
      ("Time with your children and each other, bedtime stories, family photos, keeping in touch.", "Время с детьми и друг с другом, сказки на ночь, семейные фото, связь с близкими."),
-     ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "archipelago", "fridge", "matryoshka", "ties", "notch", "silverbox"]),
+     ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "archipelago", "fridge", "matryoshka", "charms", "ties", "notch", "silverbox"]),
     ("self", ("You and your life", "Вы и ваша жизнь"),
      ("Your time, your wins, who you want to be, letters to the future, moments worth keeping.", "Ваше время, ваши победы, каким вы хотите быть, письма в будущее и моменты, которые стоит сохранить."),
      ["anyway", "calavera", "dearme", "glow", "prism", "shapito", "lodger", "capsule", "lot", "honours", "underbed", "unwritten", "silverlining", "insidejob", "hoard", "theusual", "carriage", "gossamer", "nooklings"]),
@@ -194,10 +196,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 78 free apps", "Stillcraft · 78 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 79 free apps", "Stillcraft · 79 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 77 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 77 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 78 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 78 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -208,7 +210,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("78 apps, <em>grouped by what they help with.</em>", "78 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("79 apps, <em>grouped by what they help with.</em>", "79 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -245,6 +247,7 @@ WORDS = {
     "stele": "language words anki flashcards язык слова карточки",
     "familiar": "books reading pet книги чтение питомец",
     "lipovka": "lipovka post postman pedometer step counter steps walking walk walks letters mail village cozy pixel game stories telegram stamps map weather почта в липовке почтальон шагомер шаги ходьба прогулки письма деревня уютная пиксельная игра истории телеграммы марки карта погода",
+    "charms": "charms grimoire kids children child chores chore chart routine tracker habit tracker reward chart rewards morning routine bedtime routine teeth homework tidy room school bag reminders without nagging parents mentor magic spells potions cauldron engraving photo camera creatures bestiary owl cat fox gamification чары гримуар дети ребёнок дела обязанности распорядок режим трекер привычек награды поощрения утро вечер отбой зубы уроки уборка портфель без напоминаний родители наставник магия волшебство заклинания зелья котёл гравюра фото камера существа бестиарий сова кот лиса геймификация",
     "matryoshka": "matryoshka nesting doll russian doll gift gifts present birthday surprise wrapping unwrap quest treasure hunt riddle puzzle code word place location time capsule gesture locks layers encryption shared gift group gift friends family voice note photo note reply матрёшка подарок подарки день рождения сюрприз вручение квест загадка кодовое слово место время жест замки слои шифрование общий подарок вместе друзья семья голос фото записка отклик",
     "gossamer": "gossamer thought catcher thoughts ideas idea capture quick capture inbox notes note taking zettelkasten mind map web spider threads links connections second brain voice notes widget dew wind forgetting cocoon butterfly insight journal паутинка ловец мыслей мысли идеи идея заметки записать быстро входящие связи нити паутина паук карта мыслей второй мозг голос виджет роса ветер кокон бабочка озарение дневник",
     "greenstreet": "green street greenstreet beta farming game farm cozy game stardew pixel art garden gardening beds seeds plants harvest walking walk gps location based real map openstreetmap district neighbours neighbors stories hens eggs cooking recipes fishing fair market finds foraging mushrooms зелёная улица зеленая улица бета ферма фермерская игра уютная игра пиксельная грядки семена огород сад урожай прогулки ходьба gps настоящая карта район соседи истории куры яйца кухня рецепты рыбалка ярмарка рынок находки грибы",
