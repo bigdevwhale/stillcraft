@@ -71,6 +71,8 @@ PLAIN = {
                    "Подарок, спрятанный в матрёшку: открывать её придётся фигурку за фигуркой, и у каждой свой замок."),
     "gossamer": ("Catch passing thoughts in two seconds and see which ones you keep coming back to.",
                  "Записывать мысли на лету и замечать, к каким из них вы возвращаетесь снова и снова."),
+    "greenstreet": ("A cozy farming game on the real map of your district: beds by the roads you walk and neighbours with stories.",
+                    "Уютная ферма на карте вашего района: грядки вдоль привычных дорог и соседи, у каждого из которых своя история."),
     "overwinter": ("A wellbeing diary kept like a polar station: energy is the wind, mood is the cloud, pain is the rain.",
                    "Дневник самочувствия в виде полярной станции: силы — это ветер, настроение — облачность, а боль — осадки."),
     "fridge": ("A fridge door for two: the shopping list, whose turn, notes and worries, shared between your two phones at home.",
@@ -176,7 +178,7 @@ CATS = [
      ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
-     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "softlanding", "curator", "overwinter"]),
+     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
      ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat"]),
@@ -190,10 +192,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 76 free apps", "Stillcraft · 76 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 77 free apps", "Stillcraft · 77 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 75 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 75 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 76 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 76 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -204,7 +206,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("76 apps, <em>grouped by what they help with.</em>", "76 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("77 apps, <em>grouped by what they help with.</em>", "77 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -243,6 +245,7 @@ WORDS = {
     "lipovka": "lipovka post postman pedometer step counter steps walking walk walks letters mail village cozy pixel game stories telegram stamps map weather почта в липовке почтальон шагомер шаги ходьба прогулки письма деревня уютная пиксельная игра истории телеграммы марки карта погода",
     "matryoshka": "matryoshka nesting doll russian doll gift gifts present birthday surprise wrapping unwrap quest treasure hunt riddle puzzle code word place location time capsule gesture locks layers encryption shared gift group gift friends family voice note photo note reply матрёшка подарок подарки день рождения сюрприз вручение квест загадка кодовое слово место время жест замки слои шифрование общий подарок вместе друзья семья голос фото записка отклик",
     "gossamer": "gossamer thought catcher thoughts ideas idea capture quick capture inbox notes note taking zettelkasten mind map web spider threads links connections second brain voice notes widget dew wind forgetting cocoon butterfly insight journal паутинка ловец мыслей мысли идеи идея заметки записать быстро входящие связи нити паутина паук карта мыслей второй мозг голос виджет роса ветер кокон бабочка озарение дневник",
+    "greenstreet": "green street greenstreet beta farming game farm cozy game stardew pixel art garden gardening beds seeds plants harvest walking walk gps location based real map openstreetmap district neighbours neighbors stories hens eggs cooking recipes fishing fair market finds foraging mushrooms зелёная улица зеленая улица бета ферма фермерская игра уютная игра пиксельная грядки семена огород сад урожай прогулки ходьба gps настоящая карта район соседи истории куры яйца кухня рецепты рыбалка ярмарка рынок находки грибы",
     "overwinter": "overwinter wellbeing diary health diary symptom tracker symptoms mood tracker mood energy fatigue pain headache migraine sleep tracker sleep journal barometer pressure weather sensitivity meteosensitive patterns triggers coffee doctor report pdf polar station arctic weather station beaufort cloud cyclone forecast зимовка дневник самочувствия самочувствие дневник здоровья симптомы трекер настроения настроение силы усталость боль головная боль мигрень сон давление барометр метеозависимость метеочувствительность погода закономерности триггеры кофе врач отчёт pdf полярная станция арктика метеостанция бофорт облачность циклон прогноз",
     "fridge": "fridge refrigerator door couple couples partner relationship shopping list groceries chores whose turn notes sticky notes magnets worries confession envelope love wishes gifts household home sync wifi qr холодильник дверца пара отношения партнёр покупки список продуктов дела чья очередь записки стикеры магниты тревоги признание конверт любовь желания подарки быт дом синхронизация",
     "stringer": "stringer correspondent reporter newspaper paper district editor telegram assignment assignments task walk walks walking outdoors go outside every day street city photo photography photo walk street photography camera halftone newsprint caption sunday issue rubrics doors cats signs letters alphabet press card flash dusk внештатник корреспондент репортёр газета районная редактор телеграмма задание задания прогулка прогулки на улицу каждый день улица город фото фотография фотопрогулка уличная фотография камера растр подпись воскресный номер рубрики двери коты вывески буквы алфавит пресс-карта молния сумерки",
