@@ -150,7 +150,7 @@ PLAIN = {
     "aloft": ("A training log where five elemental spirits keep your floating island in the sky.",
               "Дневник тренировок, в котором пять духов стихий держат в небе твой летучий остров."),
     "reelkin": ("Films and series raise a small pet in a projectionist's booth, and every film seats a spectator in your hall.",
-                "Фильмы и сериалы растят зверька в будке киномеханика, а каждый фильм сажает зрителя в твой зал."),
+                "Дневник фильмов и сериалов с питомцем, который живёт в будке киномеханика и растёт с каждым просмотром."),
     "mimic": ("Video games, board games and tabletop RPGs on one pixel shelf, with a mimic that eats what you finish.",
               "Видеоигры, настолки и НРИ на одной пиксельной полке и мимик, который ест пройденное."),
     "insidejob": ("Your limiting beliefs are a bank that keeps what you forbade yourself: put a crew together and take it back.",
