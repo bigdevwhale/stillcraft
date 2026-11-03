@@ -70,7 +70,7 @@ PLAIN = {
     "ranger": ("A running journal with a fantasy twist: every run is a patrol, and weather, moon, terrain and pulse decide which creatures you meet.",
                "Беговой дневник со сказкой: каждая пробежка — дозор, а кого вы встретите, решают погода, луна, местность и пульс."),
     "apothecary": ("The fridge and the medicine box as a potion shop: every product is a bottle that dims before its date, and every meal is a potion.",
-                   "Холодильник и аптечка как лавка зелий: каждый продукт — колба, которая тускнеет к концу срока, а приготовленная еда — зелье."),
+                   "Сроки годности продуктов и лекарств в виде лавки зелий. Свежие продукты светятся, а из приготовленной еды получаются зелья."),
     "charms": ("A child photographs the deeds they've done, the pictures turn into golden engravings, and a week of them brews a real reward.",
                 "Ребёнок фотографирует сделанные дела, и они становятся золотыми страницами гримуара. За неделю набирается на настоящую награду."),
     "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
