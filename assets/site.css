@@ -72,6 +72,7 @@
   --rk-bg: #171019; --rk-top: #2D2231; --rk-ink: #F3E9DA; --rk-muted: #B7A6AC; --rk-gold: #E8B850; --rk-velvet: #D8435E; --rk-line: rgb(243 233 218 / 0.16);
   --rg-bg: #EFE3C8; --rg-top: #F6EEDB; --rg-ink: #2A2118; --rg-muted: #6E5E48; --rg-red: #9E3B26; --rg-night: #161B2B; --rg-line: #D6C4A0;
   --ac-bg: #F3E6CF; --ac-top: #FAF1E0; --ac-ink: #2E1E14; --ac-muted: #7A604A; --ac-amber: #A85A22; --ac-night: #1A1210; --ac-line: #DCC69B;
+  --fs-bg: #E3E0D4; --fs-top: #ECE9DF; --fs-ink: #1D1D1B; --fs-muted: #6D6A60; --fs-red: #B3302A; --fs-night: #2B2D2A; --fs-line: #C9C5B6;
   --ch-bg: #120D22; --ch-top: #2C2154; --ch-ink: #F3E9D2; --ch-muted: #A99CC8; --ch-gold: #E8C26A; --ch-glow: #FFC765; --ch-line: rgb(243 233 210 / 0.16);
   --hr-bg: #F2E8D2; --hr-top: #F8F1E1; --hr-ink: #2A1E16; --hr-muted: #7A6650; --hr-accent: #B4351F; --hr-lapis: #2B4C8C; --hr-gold: #C79A3A; --hr-line: #D9C59C;
   --pg-bg: #E8DCC2; --pg-top: #F2E9D5; --pg-ink: #2B231D; --pg-muted: #6E5D4B; --pg-accent: #A8342A; --pg-leather: #4A2620; --pg-line: #C9B795;
@@ -533,7 +534,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -541,7 +542,7 @@ pre.code .c { opacity: 0.55; }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
@@ -1510,3 +1511,15 @@ pre.code .c { opacity: 0.55; }
 .cv-ac img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.45); }
 .app--apothecary .ap-visual img { box-shadow: 0 24px 60px rgb(46 30 20 / 0.35); border: 1px solid var(--ac-line); }
 .g-apothecary { --shot-bg: var(--ac-night); --shot-ratio: 540 / 1170; }
+
+.app--fieldscan { --fl: var(--fs-line); --fm: var(--fs-muted); background: repeating-linear-gradient(0deg, rgb(0 0 0 / 0.025) 0 1px, transparent 1px 3px), linear-gradient(180deg, var(--fs-top) 0%, var(--fs-bg) 70%); color: var(--fs-ink); }
+.app--fieldscan .app-tag { color: var(--fs-red); }
+.app--fieldscan .app-lede em, .app--fieldscan h1 em { font-style: italic; color: var(--fs-red); }
+.app--fieldscan .btn-primary { background: var(--fs-ink); color: var(--fs-bg); }
+.app--fieldscan .btn-ghost { color: var(--fs-red); border-color: var(--fs-red); }
+.app--fieldscan .app-desc, .app--fieldscan .feats span, .app--fieldscan small { color: var(--fs-muted); }
+.pill.fs { --dot: #B3302A; }
+.cv-fs { background: radial-gradient(55% 40% at 50% 40%, rgb(179 48 42 / 0.16) 0%, transparent 70%), linear-gradient(180deg, #3C3F3B, #161715); }
+.cv-fs img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.5); }
+.app--fieldscan .ap-visual img { box-shadow: 0 24px 60px rgb(29 29 27 / 0.35); border: 1px solid var(--fs-line); }
+.g-fieldscan { --shot-bg: var(--fs-night); --shot-ratio: 540 / 1170; }
