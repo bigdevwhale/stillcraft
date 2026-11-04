@@ -76,7 +76,7 @@ PLAIN = {
     "postround": ("Be the postman of your own neighbourhood: real house numbers, mail handed over only at the door, letters you carry between houses.",
                   "Почтальон своего района: настоящие номера домов, письмо вручается только у двери, а переписку соседей вы носите сами."),
     "opposite": ("An advent calendar across the yard: a window lights after the real sunset for each day's small deed, and ten neighbours are suspects.",
-                 "Адвент-календарь через двор: окно загорается после настоящего заката за маленькое дело дня, а подозреваемых в доме десять."),
+                 "Адвент-календарь в окнах дома напротив: каждый вечер после заката загорается новое окно, а за ним — комната, соседи и загадка."),
     "charms": ("A child photographs the deeds they've done, the pictures turn into golden engravings, and a week of them brews a real reward.",
                 "Ребёнок фотографирует сделанные дела, и они становятся золотыми страницами гримуара. За неделю набирается на настоящую награду."),
     "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
