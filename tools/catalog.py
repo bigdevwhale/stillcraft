@@ -75,6 +75,8 @@ PLAIN = {
                   "Прибор, который ищет аномалии в городе. Существа показываются тем, кто разгадал загадку и выполнил обряд. Бета."),
     "postround": ("Be the postman of your own neighbourhood: real house numbers, mail handed over only at the door, letters you carry between houses.",
                   "Почтальон своего района: настоящие номера домов, письмо вручается только у двери, а переписку соседей вы носите сами."),
+    "opposite": ("An advent calendar across the yard: a window lights after the real sunset for each day's small deed, and ten neighbours are suspects.",
+                 "Адвент-календарь через двор: окно загорается после настоящего заката за маленькое дело дня, а подозреваемых в доме десять."),
     "charms": ("A child photographs the deeds they've done, the pictures turn into golden engravings, and a week of them brews a real reward.",
                 "Ребёнок фотографирует сделанные дела, и они становятся золотыми страницами гримуара. За неделю набирается на настоящую награду."),
     "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
@@ -190,7 +192,7 @@ CATS = [
      ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
-     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround"]),
+     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
      ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat"]),
@@ -204,10 +206,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 83 free apps", "Stillcraft · 83 бесплатных приложения"),
+    "c.hero.eyebrow": ("Stillcraft · 84 free apps", "Stillcraft · 84 бесплатных приложения"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 82 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 82 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 83 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 83 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -218,7 +220,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("83 apps, <em>grouped by what they help with.</em>", "83 приложения, <em>по задачам.</em>"),
+    "c.ap.title": ("84 apps, <em>grouped by what they help with.</em>", "84 приложения, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -259,6 +261,7 @@ WORDS = {
     "apothecary": "apothecary зельевар expiry date expiration best before use by shelf life food waste fridge refrigerator freezer pantry cupboard groceries leftovers meal prep kitchen inventory food tracker medicine cabinet medicine box first aid kit medicines pills vitamins supplements course opened after opening potion potions brew cauldron recipes alchemy witch magic cosy cozy game gamification guild срок годности просрочка просроченные продукты холодильник морозилка шкаф запасы продукты остатки еда выбрасывать еду пищевые отходы аптечка лекарства таблетки витамины курс вскрыто после вскрытия зелья зелье котёл рецепты алхимия лавка уютное игра гильдия",
     "fieldscan": "fieldscan сканер scanner anomaly anomalies creatures monsters cryptids bestiary collection trail camera trail cam night ir infrared riddles rites location based game gps walking walks urban exploration city mystery openstreetmap bridges fountains stairs bus stops compass torch morse sing note fog full moon beta аномалии аномалия сканер существа монстры бестиарий коллекция фотоловушка ночная съёмка загадки обряды игра по геолокации gps прогулки город городские легенды тайна мосты фонтаны лестницы остановки компас фонарик морзе спеть ноту туман полнолуние бета",
     "postround": "postround poste restante postman post office mail letters postcards parcels telegrams newspaper delivery round neighbourhood district real map openstreetmap house numbers addresses residents neighbours correspondence pen pals stories walking walks gps location based game steps pedometer health connect stamps pixel art cozy до востребования почтальон почта письма открытки посылки телеграммы газета разносить участок район настоящая карта номера домов адреса жильцы соседи переписка истории прогулки ходьба игра по геолокации gps шаги шагомер марки пиксель уютная",
+    "opposite": "opposite the house opposite advent calendar december christmas new year winter countdown 24 windows sunset dusk daily deed small task kindness rooms neighbours residents mystery detective deduction whodunit secret santa clues notebook suspects tree ornaments presents gifts surprise candles cozy дом напротив адвент календарь адвент-календарь декабрь новый год рождество зима 24 окна закат дело дня огонёк доброе дело комнаты соседи жильцы загадка детектив тайный дед дед мороз улики блокнот подозреваемые ёлка елка игрушки подарки сюрприз свечи уютный",
     "charms": "charms grimoire kids children child chores chore chart routine tracker habit tracker reward chart rewards morning routine bedtime routine teeth homework tidy room school bag reminders without nagging parents mentor magic spells potions cauldron engraving photo camera creatures bestiary owl cat fox gamification чары гримуар дети ребёнок дела обязанности распорядок режим трекер привычек награды поощрения утро вечер отбой зубы уроки уборка портфель без напоминаний родители наставник магия волшебство заклинания зелья котёл гравюра фото камера существа бестиарий сова кот лиса геймификация",
     "matryoshka": "matryoshka nesting doll russian doll gift gifts present birthday surprise wrapping unwrap quest treasure hunt riddle puzzle code word place location time capsule gesture locks layers encryption shared gift group gift friends family voice note photo note reply матрёшка подарок подарки день рождения сюрприз вручение квест загадка кодовое слово место время жест замки слои шифрование общий подарок вместе друзья семья голос фото записка отклик",
     "gossamer": "gossamer thought catcher thoughts ideas idea capture quick capture inbox notes note taking zettelkasten mind map web spider threads links connections second brain voice notes widget dew wind forgetting cocoon butterfly insight journal паутинка ловец мыслей мысли идеи идея заметки записать быстро входящие связи нити паутина паук карта мыслей второй мозг голос виджет роса ветер кокон бабочка озарение дневник",

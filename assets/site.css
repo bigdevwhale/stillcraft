@@ -73,6 +73,7 @@
   --rg-bg: #EFE3C8; --rg-top: #F6EEDB; --rg-ink: #2A2118; --rg-muted: #6E5E48; --rg-red: #9E3B26; --rg-night: #161B2B; --rg-line: #D6C4A0;
   --ac-bg: #F3E6CF; --ac-top: #FAF1E0; --ac-ink: #2E1E14; --ac-muted: #7A604A; --ac-amber: #A85A22; --ac-night: #1A1210; --ac-line: #DCC69B;
   --po-bg: #F2E2BB; --po-top: #F8EED4; --po-ink: #22160F; --po-muted: #7A5A3E; --po-blue: #2F4A80; --po-navy: #1A2A4A; --po-red: #A33A2C; --po-line: #DCC69B;
+  --op-night: #0F1A33; --op-deep: #16234A; --op-paper: #F5ECD9; --op-ink: #EEF0F6; --op-muted: #A9B3CB; --op-warm: #FFCB6B; --op-red: #C8483C; --op-line: #2C3A63;
   --fs-bg: #E3E0D4; --fs-top: #ECE9DF; --fs-ink: #1D1D1B; --fs-muted: #6D6A60; --fs-red: #B3302A; --fs-night: #2B2D2A; --fs-line: #C9C5B6;
   --ch-bg: #120D22; --ch-top: #2C2154; --ch-ink: #F3E9D2; --ch-muted: #A99CC8; --ch-gold: #E8C26A; --ch-glow: #FFC765; --ch-line: rgb(243 233 210 / 0.16);
   --hr-bg: #F2E8D2; --hr-top: #F8F1E1; --hr-ink: #2A1E16; --hr-muted: #7A6650; --hr-accent: #B4351F; --hr-lapis: #2B4C8C; --hr-gold: #C79A3A; --hr-line: #D9C59C;
@@ -535,7 +536,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan, .g-postround { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan, .g-postround, .g-opposite { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -543,7 +544,7 @@ pre.code .c { opacity: 0.55; }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan, .g-postround { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan, .g-postround, .g-opposite { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
@@ -1536,3 +1537,15 @@ pre.code .c { opacity: 0.55; }
 .cv-po img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.45); }
 .app--postround .ap-visual img { box-shadow: 0 24px 60px rgb(26 42 74 / 0.35); border: 1px solid var(--po-line); }
 .g-postround { --shot-bg: var(--po-navy); --shot-ratio: 540 / 1170; }
+
+.app--opposite { --fl: var(--op-line); --fm: var(--op-muted); background: radial-gradient(60% 40% at 70% 20%, rgb(255 203 107 / 0.10) 0%, transparent 70%), linear-gradient(180deg, var(--op-deep) 0%, var(--op-night) 70%); color: var(--op-ink); }
+.app--opposite .app-tag { color: var(--op-warm); }
+.app--opposite .app-lede em, .app--opposite h1 em { font-style: italic; color: var(--op-warm); }
+.app--opposite .btn-primary { background: var(--op-warm); color: #1A1408; }
+.app--opposite .btn-ghost { color: var(--op-warm); border-color: var(--op-warm); }
+.app--opposite .app-desc, .app--opposite .feats span, .app--opposite small { color: var(--op-muted); }
+.pill.op { --dot: #FFCB6B; }
+.cv-op { background: radial-gradient(55% 40% at 50% 40%, rgb(255 203 107 / 0.20) 0%, transparent 70%), linear-gradient(180deg, #1C2A52, #0F1A33); }
+.cv-op img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.5); }
+.app--opposite .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--op-line); }
+.g-opposite { --shot-bg: var(--op-night); --shot-ratio: 540 / 1170; }
