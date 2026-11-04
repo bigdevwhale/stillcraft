@@ -79,6 +79,8 @@ PLAIN = {
                  "Адвент-календарь в окнах дома напротив: каждый вечер после заката загорается новое окно, а за ним — комната, соседи и загадка."),
     "yourmove": ("Chess by post with seven correspondents: every letter brings a move and a little of their life.",
                  "Шахматы по переписке с семью собеседниками. В каждом письме ход и немного их жизни."),
+    "rustle": ("A little creature that lives inside the phone: turn the phone face down, and it goes out exploring and brings back finds.",
+               "Зверёк, который живёт в телефоне: переверните телефон экраном вниз, и он уйдёт гулять и вернётся с находками."),
     "charms": ("A child photographs the deeds they've done, the pictures turn into golden engravings, and a week of them brews a real reward.",
                 "Ребёнок фотографирует сделанные дела, и они становятся золотыми страницами гримуара. За неделю набирается на настоящую награду."),
     "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
@@ -191,7 +193,7 @@ CATS = [
      ["swisszen", "serene", "counterweight", "keeper", "kite", "spintop", "hushwood", "heartwood", "pilgrim", "horae", "longwave"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, fewer impulse buys, and help giving something up.", "Меньше лент, отвлечений и импульсивных покупок и помощь, чтобы от чего-то отказаться."),
-     ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin"]),
+     ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin", "rustle"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
      ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite"]),
@@ -208,10 +210,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 85 free apps", "Stillcraft · 85 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 86 free apps", "Stillcraft · 86 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 84 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 84 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 85 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 85 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -222,7 +224,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("85 apps, <em>grouped by what they help with.</em>", "85 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("86 apps, <em>grouped by what they help with.</em>", "86 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -265,6 +267,7 @@ WORDS = {
     "postround": "postround poste restante postman post office mail letters postcards parcels telegrams newspaper delivery round neighbourhood district real map openstreetmap house numbers addresses residents neighbours correspondence pen pals stories walking walks gps location based game steps pedometer health connect stamps pixel art cozy до востребования почтальон почта письма открытки посылки телеграммы газета разносить участок район настоящая карта номера домов адреса жильцы соседи переписка истории прогулки ходьба игра по геолокации gps шаги шагомер марки пиксель уютная",
     "opposite": "opposite the house opposite advent calendar december christmas new year winter countdown 24 windows sunset dusk daily deed small task kindness rooms neighbours residents mystery detective deduction whodunit secret santa clues notebook suspects tree ornaments presents gifts surprise candles cozy дом напротив адвент календарь адвент-календарь декабрь новый год рождество зима 24 окна закат дело дня огонёк доброе дело комнаты соседи жильцы загадка детектив тайный дед дед мороз улики блокнот подозреваемые ёлка елка игрушки подарки сюрприз свечи уютный",
     "yourmove": "yourmove your move chess by post correspondence chess letters pen pal penpal mail post stamps stamp album engine opponent bot characters story lighthouse teacher slow chess cozy board pieces knight bishop queen king endgame opening kitchen board analysis presents gifts rating titles ваш ход шахматы по переписке переписка письма почта марки альбом марок движок соперник собеседники маяк учительница кружок доска фигуры конь слон ферзь король эндшпиль дебют кухонная доска анализ подарки разряд разряды уютные шахматы",
+    "rustle": "rustle virtual pet tamagotchi pet creature critter cozy game pixel art focus timer focus phone face down put the phone down screen time digital wellbeing outings explore finds loot collect crafting workshop furniture clothes dress up kitchen cooking battery charging stove camera window weather sleep night widget achievements streak requests boko шуршик виртуальный питомец тамагочи питомец зверёк уютная игра пиксель пиксельная графика фокус таймер отложить телефон экраном вниз экранное время цифровой детокс вылазки прогулки находки коллекция мастерская мебель одежда одёжка кухня готовка батарея зарядка печка камера окно погода сон ночь виджет достижения серия просьбы",
     "charms": "charms grimoire kids children child chores chore chart routine tracker habit tracker reward chart rewards morning routine bedtime routine teeth homework tidy room school bag reminders without nagging parents mentor magic spells potions cauldron engraving photo camera creatures bestiary owl cat fox gamification чары гримуар дети ребёнок дела обязанности распорядок режим трекер привычек награды поощрения утро вечер отбой зубы уроки уборка портфель без напоминаний родители наставник магия волшебство заклинания зелья котёл гравюра фото камера существа бестиарий сова кот лиса геймификация",
     "matryoshka": "matryoshka nesting doll russian doll gift gifts present birthday surprise wrapping unwrap quest treasure hunt riddle puzzle code word place location time capsule gesture locks layers encryption shared gift group gift friends family voice note photo note reply матрёшка подарок подарки день рождения сюрприз вручение квест загадка кодовое слово место время жест замки слои шифрование общий подарок вместе друзья семья голос фото записка отклик",
     "gossamer": "gossamer thought catcher thoughts ideas idea capture quick capture inbox notes note taking zettelkasten mind map web spider threads links connections second brain voice notes widget dew wind forgetting cocoon butterfly insight journal паутинка ловец мыслей мысли идеи идея заметки записать быстро входящие связи нити паутина паук карта мыслей второй мозг голос виджет роса ветер кокон бабочка озарение дневник",
