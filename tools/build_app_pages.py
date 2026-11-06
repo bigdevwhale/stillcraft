@@ -1703,6 +1703,7 @@ APPS = [
             ("fa-shelf.png", "fa-shelf.ru.png", ("The shelf", "Полка"), ("Books and their cycles.", "Книги и их циклы.")),
             ("fa-tree.png", "fa-tree.ru.png", ("Tree of stories", "Древо историй"), ("A fruit for every finished book.", "Плод за каждую дочитанную книгу.")),
             ("fa-saga.png", "fa-saga.ru.png", ("Saga", "Сага"), ("Your year as a legend.", "Твой год как легенда.")),
+            ("fa-look.png", "fa-look.ru.png", ("Backgrounds", "Фоны"), ("A photo for each genre, or your own.", "Фото по жанру книги или своя картинка.")),
         ],
         "extra": {
             "title": ("The eight familiars", "Восемь фамильяров"),
