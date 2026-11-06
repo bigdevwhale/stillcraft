@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Steps from a watch · Lipovka Post · Stillcraft</title>
+<meta name="description" content="How to bring steps from Samsung Health, Mi Fitness, Zepp, Google Fit, Huawei and other watches and bands into Lipovka Post through Health Connect.">
+<link rel="icon" href="../../../assets/stillcraft.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css?v=3545086d">
+<style>
+  .hs { max-width: 48rem; display: grid; gap: 1.4rem; padding-block: 2rem 3.5rem; }
+  .hs h1 { font-size: var(--step-4, 2.6rem); margin: 0; }
+  .hs .app-desc { margin: 0; }
+  .hs ol, .hs ul { margin: 0; padding-left: 1.3rem; display: grid; gap: 0.7rem; line-height: 1.5; }
+  .hs ol li::marker { color: var(--lp-wax); font-family: var(--f-mono); }
+  .hs ul li::marker { color: var(--lp-green); }
+  .hs a:not(.btn) { color: var(--lp-blue); }
+  .hs code { font-family: var(--f-mono); font-size: 0.85em; }
+  .hs .hs-note { color: var(--lp-muted); font-size: 0.92rem; line-height: 1.55; margin: 0; }
+  .hs h2 { font-size: var(--step-2, 1.6rem); margin: 1rem 0 0; }
+  .hs .hs-box { border: 1px solid var(--lp-line); border-radius: 14px; padding: 1rem 1.1rem; background: rgb(255 255 255 / 0.35); line-height: 1.55; margin: 0; }
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9W6SRW929L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9W6SRW929L');
+</script>
+</head>
+<body>
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="../../../" aria-label="Stillcraft home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="14" r="7" fill="var(--lamp)"/><rect x="3" y="20.5" width="26" height="1.6" rx=".8" fill="currentColor"/><rect x="9" y="24.5" width="14" height="1.6" rx=".8" fill="currentColor" opacity=".45"/></svg>
+      Stillcraft
+    </a>
+    <div class="nav-links">
+      <a href="../../" data-i18n="nav.apps">Apps</a>
+      <a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener">Telegram</a>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-en" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" id="lang-ru" data-lang="ru" aria-pressed="false">RU</button>
+    </div>
+  </div>
+</nav>
+<header class="wrap">
+  <p class="crumbs"><a href="../../../">Stillcraft</a> / <a href="../../" data-i18n="nav.apps">Apps</a> / <a href="../">Lipovka Post</a> / <span data-i18n="hs.crumb">Steps</span></p>
+</header>
+<main class="wrap">
+  <div class="app app--lipovka ap-band">
+    <div class="hs">
+      <div class="app-id">
+        <img src="../../../assets/lipovka-logo.png" alt="" width="56" height="56">
+        <span class="app-tag" data-i18n="hs.tag">Lipovka Post · Steps</span>
+      </div>
+      <h1 data-i18n="hs.title">Steps from your <em>watch</em>.</h1>
+      <p class="app-desc" data-i18n="hs.lede">Lipovka takes steps from <b>Health Connect</b>, the phone's shared health shelf. Health Connect counts nothing itself: it only holds what other apps put on it. So if you allowed everything and the steps are still the phone's, the watch's app almost always isn't putting its steps there yet. Four checks below, two minutes in all.</p>
+
+      <h2 data-i18n="hs.aTitle">1. Choose Health Connect in Lipovka</h2>
+      <ol>
+        <li data-i18n="hs.a1">In Lipovka open <b>Settings</b> (the gear) and find <b>Steps</b>.</li>
+        <li data-i18n="hs.a2">Tap <b>Health Connect</b> and allow reading <b>Steps</b>.</li>
+        <li data-i18n="hs.a3">Under the buttons it should say <b>Steps come from Health Connect.</b> If it says Health Connect is missing, tap <b>Install Health Connect</b>.</li>
+      </ol>
+
+      <h2 data-i18n="hs.bTitle">2. Let the watch's app write to Health Connect</h2>
+      <p class="hs-note" data-i18n="hs.b">This is the step most often missed. Allowing Lipovka to <i>read</i> is half of it; the app of your watch or band must also be allowed to <i>write</i>. Menu names shift a little between versions; look for <b>Health Connect</b> in the app's settings.</p>
+      <ul>
+        <li data-i18n="hs.bSam"><b>Samsung Health:</b> ⋮ or ≡ → <b>Settings</b> → <b>Health Connect</b> → allow Samsung Health to write <b>Steps</b>.</li>
+        <li data-i18n="hs.bMi"><b>Mi Fitness (Xiaomi, Redmi):</b> <b>Profile</b> → <b>Health Connect</b> (sometimes under <b>Third-party apps</b>) → turn it on and allow <b>Steps</b>.</li>
+        <li data-i18n="hs.bZepp"><b>Zepp Life, Zepp (Amazfit):</b> <b>Profile</b> → <b>Add accounts</b> → <b>Health Connect</b>.</li>
+        <li data-i18n="hs.bFit"><b>Google Fit:</b> <b>Profile</b> → ⚙ → <b>Sync Fit with Health Connect</b>.</li>
+        <li data-i18n="hs.bHw"><b>Huawei Health (Huawei, Honor):</b> it doesn't share with Health Connect. The <a href="https://play.google.com/store/apps/details?id=nl.appyhapps.healthsync" target="_blank" rel="noopener">Health Sync</a> app carries its steps over: pick Huawei Health as the source and Health Connect as the destination.</li>
+        <li data-i18n="hs.bOther"><b>Other watches</b> (Garmin, Fitbit, Polar, Withings and others): look for Health Connect in the app's settings or connected services.</li>
+      </ul>
+      <p class="hs-note" data-i18n="hs.bSync">Then open the watch's app once and let it sync with the watch: steps reach Health Connect only after the watch has handed them to its app.</p>
+
+      <h2 data-i18n="hs.cTitle">3. Check the steps are there</h2>
+      <ol>
+        <li data-i18n="hs.c1">Open Health Connect. On Android 14 and newer it lives in the phone's <b>Settings</b> (type <b>Health Connect</b> in the search there, or look under <b>Security and privacy → Privacy</b>); on older Android it is an app of its own.</li>
+        <li data-i18n="hs.c2">Go to <b>Data and access</b> → <b>Activity</b> → <b>Steps</b> → <b>See all entries</b>.</li>
+        <li data-i18n="hs.c3">Today's entries should come from your watch's app. If only the phone is there, go back to step 2: Lipovka can't take what isn't on the shelf.</li>
+      </ol>
+
+      <h2 data-i18n="hs.dTitle">4. Put the watch first</h2>
+      <p class="hs-note" data-i18n="hs.d">When both the phone and the watch count the same walk, Health Connect takes each minute once, from the source highest on its list. If the phone stands first, the watch's extra steps are dropped.</p>
+      <ol>
+        <li data-i18n="hs.d1">In the same <b>Steps</b> screen open <b>Data sources and priority</b>.</li>
+        <li data-i18n="hs.d2">Drag your watch's app to the top, above the phone.</li>
+      </ol>
+
+      <h2 data-i18n="hs.eTitle">What happens next</h2>
+      <p class="hs-box" data-i18n="hs.e">Open Lipovka: it reads Health Connect when it opens and from time to time in the background. <b>Steps from Health Connect count from the day you switched to it.</b> Today catches up to the watch's total at once; the days before stay as the phone counted them, because letters already carried aren't redone. If the watch syncs late, its steps still arrive for up to a week back, and steps once in the bag are never taken away.</p>
+
+      <h2 data-i18n="hs.fTitle">Still too few?</h2>
+      <ul>
+        <li data-i18n="hs.f1">Health Connect shows the watch's steps, but Lipovka doesn't: in Lipovka tap <b>Phone</b> and then <b>Health Connect</b> again, and check reading <b>Steps</b> is allowed in Health Connect → <b>App permissions</b> → <b>Lipovka</b>.</li>
+        <li data-i18n="hs.f2">Steps come only when the watch's app is opened: the phone stops it in the background. Allow it to run without battery limits (long-press its icon → <b>App info</b> → <b>Battery</b> → <b>Unrestricted</b>).</li>
+        <li data-i18n="hs.f3">Nothing helps: write to us in <a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener">Telegram</a> or open an <a href="https://github.com/bigdevwhale/lipovka/issues/new" target="_blank" rel="noopener">issue</a>, and say which phone, which watch and which app it uses.</li>
+      </ul>
+    </div>
+  </div>
+</main>
+<script>window.PAGE_RU = {
+"nav.apps": "Приложения",
+"hs.crumb": "Шаги",
+"hs.tag": "Почта Липовки · Шаги",
+"hs.title": "Шаги с ваших <em>часов</em>.",
+"hs.lede": "Липовка берёт шаги из <b>Health Connect</b>, общей полки здоровья в телефоне. Сам Health Connect ничего не считает: на полке лежит только то, что туда положили другие приложения. Поэтому если вы всё разрешили, а шаги остались телефонные, почти всегда приложение часов просто ещё не кладёт туда свои шаги. Ниже четыре проверки, всего минуты на две.",
+"hs.aTitle": "1. Выберите Health Connect в Липовке",
+"hs.a1": "В Липовке откройте <b>Настройки</b> (шестерёнка) и найдите раздел <b>Шаги</b>.",
+"hs.a2": "Нажмите <b>Health Connect</b> и разрешите читать <b>Шаги</b>.",
+"hs.a3": "Под кнопками должно появиться <b>Шаги берутся из Health Connect.</b> Если написано, что Health Connect нет, нажмите <b>Установить Health Connect</b>.",
+"hs.bTitle": "2. Разрешите приложению часов писать в Health Connect",
+"hs.b": "Этот шаг пропускают чаще всего. Разрешить Липовке <i>читать</i> — только половина дела: приложению ваших часов или браслета нужно ещё разрешить <i>записывать</i>. Названия пунктов немного меняются от версии к версии; ищите <b>Health Connect</b> в настройках приложения.",
+"hs.bSam": "<b>Samsung Health:</b> ⋮ или ≡ → <b>Настройки</b> → <b>Health Connect</b> → разрешите Samsung Health записывать <b>Шаги</b>.",
+"hs.bMi": "<b>Mi Fitness (Xiaomi, Redmi):</b> <b>Профиль</b> → <b>Health Connect</b> (иногда в разделе <b>Сторонние приложения</b>) → включите и разрешите <b>Шаги</b>.",
+"hs.bZepp": "<b>Zepp Life, Zepp (Amazfit):</b> <b>Профиль</b> → <b>Добавить аккаунты</b> → <b>Health Connect</b>.",
+"hs.bFit": "<b>Google Fit:</b> <b>Профиль</b> → ⚙ → <b>Синхронизировать Google Fit с Health Connect</b>.",
+"hs.bHw": "<b>Huawei Health (Huawei, Honor):</b> с Health Connect не делится. Его шаги переносит приложение <a href=\"https://play.google.com/store/apps/details?id=nl.appyhapps.healthsync\" target=\"_blank\" rel=\"noopener\">Health Sync</a>: источник — Huawei Health, куда — Health Connect.",
+"hs.bOther": "<b>Другие часы</b> (Garmin, Fitbit, Polar, Withings и прочие): ищите Health Connect в настройках приложения или в подключённых сервисах.",
+"hs.bSync": "Потом откройте приложение часов и дайте ему синхронизироваться с часами: в Health Connect шаги попадают только после того, как часы отдали их своему приложению.",
+"hs.cTitle": "3. Проверьте, что шаги там есть",
+"hs.c1": "Откройте Health Connect. На Android 14 и новее он в <b>Настройках</b> телефона (наберите <b>Health Connect</b> в поиске по настройкам или загляните в <b>Безопасность и конфиденциальность → Конфиденциальность</b>); на Android постарше это отдельное приложение.",
+"hs.c2": "Зайдите в <b>Данные и доступ</b> → <b>Активность</b> → <b>Шаги</b> → <b>Показать все записи</b>.",
+"hs.c3": "Сегодняшние записи должны быть от приложения ваших часов. Если там только телефон, вернитесь ко второму пункту: Липовка не возьмёт того, чего нет на полке.",
+"hs.dTitle": "4. Поставьте часы первыми",
+"hs.d": "Когда одну и ту же прогулку считают и телефон, и часы, Health Connect берёт каждую минуту один раз — от источника, который выше в его списке. Если первым стоит телефон, лишние шаги часов отбрасываются.",
+"hs.d1": "На том же экране <b>Шаги</b> откройте <b>Источники данных и приоритет</b>.",
+"hs.d2": "Перетащите приложение часов наверх, выше телефона.",
+"hs.eTitle": "Что будет дальше",
+"hs.e": "Откройте Липовку: она читает Health Connect при открытии и время от времени в фоне. <b>Шаги из Health Connect считаются с того дня, когда вы на него переключились.</b> Сегодняшний день сразу догонит то, что насчитали часы, а прошлые дни остаются такими, как их посчитал телефон: разнесённые письма заново не разносят. Если часы синхронизируются с опозданием, их шаги всё равно придут — до недели назад, а шаги, уже попавшие в сумку, никогда не отнимаются.",
+"hs.fTitle": "Всё равно мало?",
+"hs.f1": "В Health Connect шаги часов видны, а в Липовке нет: нажмите в Липовке <b>Телефон</b>, потом снова <b>Health Connect</b>, и проверьте, что чтение <b>Шагов</b> разрешено в Health Connect → <b>Разрешения приложений</b> → <b>Липовка</b>.",
+"hs.f2": "Шаги приходят, только когда вы открываете приложение часов: телефон останавливает его в фоне. Разрешите ему работать без ограничений батареи (долгое нажатие на значок → <b>О приложении</b> → <b>Батарея</b> → <b>Без ограничений</b>).",
+"hs.f3": "Ничего не помогло: напишите нам в <a href=\"https://t.me/+Q4gFEDk8O842OGVi\" target=\"_blank\" rel=\"noopener\">Telegram</a> или откройте <a href=\"https://github.com/bigdevwhale/lipovka/issues/new\" target=\"_blank\" rel=\"noopener\">issue</a> и напишите, какой у вас телефон, какие часы и какое у них приложение."
+};</script>
+<script src="../../../assets/site.js?v=9894fecb"></script>
+</body>
+</html>
