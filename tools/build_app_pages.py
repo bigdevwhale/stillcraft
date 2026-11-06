@@ -4048,6 +4048,9 @@ APPS = [
             (("Does it count steps with the app closed?", "Считает ли оно шаги, когда приложение закрыто?"),
              ("Yes. The phone's own step counter counts all day, whether the app is open or not. Lipovka reads it when you open the app and from time to time in the background.",
               "Да. Счётчик шагов телефона считает весь день, открыто приложение или нет. Липовка читает его, когда вы открываете приложение, и время от времени в фоне.")),
+             (("My watch counts more steps. How do I bring them in?", "Часы насчитали больше шагов. Как их перенести?"),
+              ("Through Health Connect: in Lipovka choose it under Settings → Steps, and let your watch's app (Samsung Health, Mi Fitness, Zepp and others) write its steps there too. <a href=\"steps/\">A step-by-step guide</a>.",
+               "Через Health Connect: выберите его в Липовке в Настройках → Шаги и разрешите приложению часов (Samsung Health, Mi Fitness, Zepp и другим) записывать туда шаги. <a href=\"steps/\">Подробная инструкция</a>.")),
             (("What if I don't walk much?", "А если я мало хожу?"),
              ("The bag is sized to your own days, so a short walk still finishes a round. Nothing is lost: steps carry over, and letters that don't fit wait on the shelf for another day.",
               "Сумка собирается по вашим дням, так что и короткая прогулка закончит обход. Ничего не теряется: шаги переходят на завтра, а письма, которые не поместились, ждут на полке.")),
@@ -9152,6 +9155,7 @@ TEMPLATE = """<!doctype html>
       <a href="../../#principles" data-i18n="nav.principles">Principles</a>
       <a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a>
       <a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener">Telegram</a>
+      <a href="../../support/" data-i18n="nav.support">Support</a>
     </div>
     <div class="lang" role="group" aria-label="Language">
       <button type="button" id="lang-en" data-lang="en" aria-pressed="true">EN</button>
@@ -9304,6 +9308,7 @@ TEMPLATE = """<!doctype html>
       <ul>
         <li><a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a></li>
         <li><a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener" data-i18n="ft.tg">Telegram community</a></li>
+        <li><a href="../../support/" data-i18n="ft.support">Support Stillcraft</a></li>
         <li><a href="https://t.me/ArcaneWhisperBot?start=idea" target="_blank" rel="noopener" data-i18n="ft.idea">Suggest an app idea</a></li>
         <li><a href="https://github.com/bigdevwhale/anyway/releases" target="_blank" rel="noopener" data-i18n="ft.awrel">Anyway releases</a></li>
         <li><a href="https://github.com/bigdevwhale/SwissZen/releases" target="_blank" rel="noopener" data-i18n="ft.szrel">SwissZen releases</a></li>
@@ -9338,7 +9343,7 @@ def stamp_assets():
     for name in ("site.css", "site.js"):
         with open(os.path.join(ROOT, "assets", name), "rb") as f:
             versions[name] = hashlib.sha1(f.read()).hexdigest()[:8]
-    pages = [os.path.join(ROOT, "index.html")] + glob.glob(os.path.join(ROOT, "apps", "**", "index.html"), recursive=True)
+    pages = [os.path.join(ROOT, "index.html")] + glob.glob(os.path.join(ROOT, "apps", "**", "index.html"), recursive=True) + [os.path.join(ROOT, "support", "index.html")]
     for page in pages:
         with open(page, encoding="utf-8") as f:
             s = f.read()

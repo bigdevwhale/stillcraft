@@ -1,0 +1,24 @@
+{
+  "updated": "2026-11-06",
+  "raised": 0,
+  "backers": 0,
+  "usd_rate": 90,
+  "goals": [
+    {
+      "id": "iphone",
+      "target": 130000
+    },
+    {
+      "id": "mac",
+      "target": 200000
+    },
+    {
+      "id": "watch",
+      "target": 45000
+    },
+    {
+      "id": "tools",
+      "target": 220000
+    }
+  ]
+}

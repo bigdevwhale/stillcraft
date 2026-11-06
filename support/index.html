@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Support · Stillcraft</title>
+<meta name="description" content="Support Stillcraft: fixes, new features and new apps on Android, and the long-awaited iPhone versions of Lipovka Post, Fogwalk, Familiar and others.">
+<link rel="icon" href="../assets/stillcraft.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/site.css?v=3545086d">
+<style>
+  .sp-hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; padding: clamp(1.5rem, 4vw, 3rem); }
+  .sp-hero h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); font-weight: 300; line-height: 1.02; margin: 0; }
+  .sp-hero h1 em { font-style: normal; color: var(--lp-wax); }
+  .sp-total { display: grid; gap: 0.5rem; }
+  .sp-total-num { font: 500 0.95rem/1.2 var(--f-mono); margin: 0; color: var(--lp-ink); }
+  .sp-total-num b { font-size: 1.35rem; }
+  .sp-total-num span { color: var(--lp-muted); }
+  .sp-segs { display: flex; gap: 4px; }
+  .sp-seg { flex: var(--w) 1 0; display: grid; gap: 0.35rem; min-width: 0; }
+  .sp-seg small { font: 500 0.7rem/1 var(--f-mono); color: var(--lp-muted); text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sp-seg .sp-bar { height: 12px; border-radius: 4px; }
+  .sp-segs .sp-seg:first-child .sp-bar { border-radius: 99px 4px 4px 99px; }
+  .sp-segs .sp-seg:last-child .sp-bar { border-radius: 4px 99px 99px 4px; }
+  @media (max-width: 860px) { .sp-hero { grid-template-columns: minmax(0, 1fr); } }
+  .sp-goalrow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+  @media (max-width: 860px) { .sp-goalrow { grid-template-columns: minmax(0, 1fr); } }
+  .sp-goalrow .sp-goal, .sp-always { border-color: var(--line); background: transparent; }
+  .sp-goalrow .sp-goal p, .sp-always p { color: var(--muted); }
+  .sp-goalrow .sp-goal { grid-template-rows: auto 1fr auto auto; align-content: stretch; }
+  .sp-goalrow .sp-goal > p:not(.sp-num) { align-self: start; }
+  .sp-goalrow .sp-num { color: var(--ink) !important; }
+  .sp-goalrow .sp-bar { background: color-mix(in srgb, currentColor 12%, transparent); }
+  .sp-always { margin: 0 0 1rem; border-style: solid !important; border-color: color-mix(in srgb, var(--lp-green) 45%, transparent) !important; background: color-mix(in srgb, var(--lp-green) 8%, transparent) !important; }
+  .sp-always h3 small { color: var(--lp-green) !important; }
+  .sp-seg { min-width: 3.4rem; }
+  .sp-super { border: 1px solid color-mix(in srgb, var(--lp-mustard) 70%, transparent) !important;
+    background: linear-gradient(120deg, color-mix(in srgb, var(--lp-mustard) 16%, transparent), transparent 70%) !important; }
+  .sp-super h3 small { color: color-mix(in srgb, var(--lp-mustard) 55%, var(--lp-wax)) !important; }
+  .sp-super .sp-bar i, .sp-seg-super .sp-bar i { background: linear-gradient(90deg, var(--lp-mustard), #d9a93a); }
+  .sp-seg-super small { color: color-mix(in srgb, var(--lp-mustard) 45%, var(--lp-wax)); }
+  .sp-promises { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem 2.5rem; margin: 0; padding: 0; list-style: none; counter-reset: p; }
+  .sp-promises li { counter-increment: p; position: relative; padding-left: 2rem; line-height: 1.55; color: var(--muted); }
+  .sp-promises li::before { content: counter(p); position: absolute; left: 0; top: 0; font: 500 0.85rem/1.8 var(--f-mono); color: var(--lp-wax); }
+  .sp-promises b { color: var(--ink); display: block; }
+  @media (max-width: 760px) { .sp-promises { grid-template-columns: minmax(0, 1fr); } }
+  .sp-close { text-align: center; display: grid; gap: 0.8rem; justify-items: center; padding-block: 1rem 4rem; }
+  .sp-close h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); font-weight: 300; margin: 0; }
+  .sp-close p { margin: 0; color: var(--muted); max-width: 38rem; line-height: 1.55; }
+  .sp-copy { display: grid; gap: 1.2rem; }
+  .sp-copy h1 { margin: 0; }
+  .sp-copy .app-desc { margin: 0; }
+  .sp-goals { display: grid; gap: 1rem; margin-top: 0.4rem; }
+  .sp-goal { border: 1px solid var(--lp-line); border-radius: 16px; padding: 1rem 1.1rem; background: rgb(255 255 255 / 0.4); display: grid; gap: 0.55rem; }
+  .sp-goal h3 { margin: 0; font-size: 1.05rem; font-weight: 600; display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
+  .sp-goal h3 small { font: 500 0.72rem/1 var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--lp-wax); }
+  .sp-goal p { margin: 0; color: var(--lp-muted); line-height: 1.5; font-size: 0.95rem; }
+  .sp-bar { height: 10px; border-radius: 99px; background: rgb(42 28 20 / 0.1); overflow: hidden; }
+  .sp-bar i { display: block; height: 100%; width: 0; border-radius: inherit; background: var(--lp-green); transition: width 0.8s ease; }
+  .sp-goal.is-done .sp-bar i, .sp-seg.is-done .sp-bar i, .sp-bar.is-full i { background: var(--lp-mustard); }
+  .sp-num { font: 500 0.85rem/1.3 var(--f-mono); color: var(--lp-ink) !important; }
+  .sp-updated { font: 400 0.75rem/1.3 var(--f-mono); color: var(--lp-muted); margin: 0; }
+
+  .sp-ways { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 1rem; }
+  .sp-way { border: 1px solid var(--line); border-radius: 16px; padding: 1.1rem; grid-template-rows: auto 1fr auto; display: grid; gap: 0.6rem; align-content: start; background: var(--card, transparent); }
+  .sp-way h3 { margin: 0; font-size: 1.05rem; }
+  .sp-way p { margin: 0; color: var(--muted); line-height: 1.5; font-size: 0.93rem; }
+  .sp-way .btn { justify-self: start; }
+  .sp-addr { font: 400 0.78rem/1.4 var(--f-mono); word-break: break-all; padding: 0.55rem 0.7rem; border-radius: 10px; border: 1px dashed var(--line); user-select: all; }
+  .sp-list { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.7rem; line-height: 1.55; color: var(--muted); max-width: 46rem; }
+  .sp-list b { color: var(--ink); }
+  .sp-stage { position: relative; width: min(100%, 500px, 60vh); aspect-ratio: 1 / 1.24; margin-inline: auto; }
+  .sp-glow { position: absolute; inset: 12% 10%; border-radius: 50%; background: radial-gradient(closest-side, rgb(233 194 79 / 0.55), rgb(233 194 79 / 0) 70%); filter: blur(8px); }
+  .sp-phone { position: absolute; left: var(--cx); top: var(--cy); width: var(--pw); aspect-ratio: 540 / 1171; transform: translate(-50%, -50%) rotate(var(--r)); z-index: 2;
+    border-radius: 15% / 7%; padding: 3.2%; background: linear-gradient(145deg, #4a4540, #1d1a17 45%, #3b3631); box-shadow: 0 0 0 1.5px #6d665e inset, 0 30px 60px rgb(42 28 20 / 0.35), 0 8px 18px rgb(42 28 20 / 0.25); }
+  .sp-phone.sp-side { z-index: 1; filter: saturate(0.92) brightness(0.97); box-shadow: 0 0 0 1.5px #6d665e inset, 0 20px 40px rgb(42 28 20 / 0.3); }
+  .sp-screen { width: 100%; height: 100%; border-radius: 12% / 5.6%; overflow: hidden; background: var(--lp-bg); }
+  .sp-screen img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .sp-island { position: absolute; top: 4.6%; left: 50%; width: 30%; height: 3.4%; transform: translateX(-50%); border-radius: 99px; background: #0d0c0b; }
+  .sp-ico { position: absolute; left: var(--x); top: var(--y); width: calc(17% * var(--k)); aspect-ratio: 1; border-radius: 23%; transform: translate(-50%, -50%);
+    box-shadow: 0 10px 22px rgb(42 28 20 / 0.28), 0 0 0 1px rgb(255 255 255 / 0.5); background: #fff; object-fit: cover; animation: sp-float 6s ease-in-out var(--d) infinite; }
+  @keyframes sp-float { 50% { transform: translate(-50%, calc(-50% - 7px)); } }
+  .sp-badge { position: absolute; z-index: 3; left: 50%; bottom: 2%; transform: translateX(-50%); display: inline-flex; align-items: center; gap: 0.45rem; white-space: nowrap;
+    padding: 0.5rem 0.9rem; border-radius: 99px; background: #111; color: #fff; font: 500 0.82rem/1 var(--f-body, inherit); box-shadow: 0 10px 24px rgb(0 0 0 / 0.25); }
+  .sp-badge svg { width: 1.05rem; height: 1.05rem; margin-top: -2px; }
+  .app--lipovka .ap-visual .sp-stage img { max-height: none; max-width: none; border: 0; }
+  .app--lipovka .ap-visual .sp-screen img { width: 100%; height: 100%; border-radius: 0; box-shadow: none; }
+  .app--lipovka .ap-visual .sp-stage img.sp-ico { width: 8%; height: auto; border-radius: 23%; box-shadow: 0 10px 22px rgb(42 28 20 / 0.28), 0 0 0 1px rgb(255 255 255 / 0.5); }
+  .app--lipovka .ap-visual .sp-stage img.sp-mini { width: 3.8%; border-radius: 24%; box-shadow: 0 3px 7px rgb(42 28 20 / 0.22); animation: none; }
+  @media (prefers-reduced-motion: reduce) { .sp-ico { animation: none; } }
+  .sp-now { margin: 0; font-size: 0.95rem; color: var(--lp-muted); }
+  .sp-now b { color: var(--lp-ink); font-weight: 600; }
+  .sp-now span { font: 500 0.72rem/1 var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--lp-wax); }
+  .sp-bar-big { height: 16px; }
+  .sp-then { margin: 0; font-size: 0.85rem; color: var(--lp-muted); opacity: 0.85; }
+  .sp-main { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 860px) { .sp-main { grid-template-columns: minmax(0, 1fr); } }
+  .sp-feature { padding: 1.5rem 1.6rem !important; gap: 0.8rem !important; border: 2px solid var(--lp-green) !important;
+    background: linear-gradient(135deg, var(--lp-top), var(--lp-bg)) !important; color: var(--lp-ink); }
+  .sp-feature h3 { font-size: 1.45rem !important; }
+  .sp-feature p { color: var(--lp-muted) !important; font-size: 1rem !important; }
+  .sp-feature .sp-num { color: var(--lp-ink) !important; font-size: 1rem; }
+  .sp-feature .sp-bar { height: 14px; background: rgb(42 28 20 / 0.1); }
+  .sp-main .sp-always { margin: 0; }
+  .sp-next-title { margin: 2rem 0 0.8rem; font: 500 0.8rem/1 var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .sp-later .sp-goal { opacity: 0.78; padding: 0.9rem 1rem; }
+  .sp-later .sp-goal h3 { font-size: 0.98rem; }
+  .sp-later .sp-goal p { font-size: 0.88rem; }
+  .sp-later .sp-bar { height: 6px; }
+  .sp-segs { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; column-gap: 8px; }
+  .sp-seg { display: grid; grid-row: span 3; grid-template-rows: subgrid; row-gap: 0.4rem; min-width: 0; }
+  .sp-seg b { align-self: end; }
+  .sp-seg b { font-size: 0.84rem; font-weight: 600; line-height: 1.2; color: var(--lp-ink); }
+  .sp-seg:first-child b { color: var(--lp-green); }
+  .sp-seg small { font: 400 0.72rem/1.25 var(--f-mono); color: var(--lp-muted); text-transform: none; letter-spacing: 0; white-space: normal; }
+  .sp-seg .sp-bar { height: 12px; border-radius: 99px !important; }
+  .sp-seg:first-child .sp-bar { height: 14px; }
+  .sp-seg-super b { color: color-mix(in srgb, var(--lp-mustard) 45%, var(--lp-wax)); }
+  @media (max-width: 520px) { .sp-segs { grid-template-columns: 1fr 1fr; row-gap: 0.9rem; } }
+  .sp-android { justify-self: start; margin: 0 0 0.3rem; display: inline-flex; align-items: center; gap: 0.55rem; padding: 0.38rem 0.85rem 0.38rem 0.7rem; border-radius: 99px; font-size: 0.85rem; line-height: 1.2; color: var(--lp-ink); background: color-mix(in srgb, #3f8a62 11%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, #3f8a62 32%, transparent); }
+  .sp-android b { color: #2f6f4e; font-weight: 600; }
+  .sp-pulse { flex: none; width: 8px; height: 8px; border-radius: 50%; background: #3f8a62; box-shadow: 0 0 0 0 rgb(63 138 98 / 0.5); animation: sp-pulse 2.4s ease-out infinite; }
+  @keyframes sp-pulse { 70% { box-shadow: 0 0 0 9px rgb(63 138 98 / 0); } 100% { box-shadow: 0 0 0 0 rgb(63 138 98 / 0); } }
+  .sp-road { display: grid; gap: 0.7rem; }
+  .sp-track { position: relative; height: 10px; border-radius: 99px; background: rgb(42 28 20 / 0.1); margin: 6px 11px 0 0; }
+  .sp-zone { position: absolute; left: 0; top: 0; bottom: 0; width: var(--z1); border-radius: 99px; background: color-mix(in srgb, var(--lp-green) 18%, transparent); }
+  .sp-fill { position: absolute; left: 0; top: 0; bottom: 0; width: 0; border-radius: 99px; background: var(--lp-green); transition: width 1s ease; }
+  .sp-dot { position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); background: var(--lp-top); box-shadow: 0 0 0 2px rgb(42 28 20 / 0.22); }
+  .sp-dot.is-on { background: var(--lp-mustard); box-shadow: 0 0 0 2px var(--lp-green); }
+  .sp-dot-main { width: 20px; height: 20px; box-shadow: 0 0 0 3px var(--lp-green); }
+  .sp-dot-main.is-on { background: var(--lp-mustard); }
+  .sp-dot-main.is-on::after { content: "✓"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--lp-ink); font: 700 11px/1 var(--f-body, sans-serif); }
+  .sp-cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; column-gap: 12px; }
+  .sp-c { display: grid; gap: 0.2rem; align-content: start; min-width: 0; }
+  .sp-c b { font-size: 0.85rem; font-weight: 600; line-height: 1.2; color: var(--lp-ink); opacity: 0.7; }
+  .sp-c small { font: 400 0.72rem/1.25 var(--f-mono); color: var(--lp-muted); opacity: 0.85; }
+  .sp-c1 b { color: var(--lp-green); opacity: 1; font-size: 0.95rem; }
+  .sp-c1 small { color: var(--lp-green); opacity: 1; }
+  .sp-c4 b { color: color-mix(in srgb, var(--lp-mustard) 45%, var(--lp-wax)); opacity: 1; }
+  @media (max-width: 520px) { .sp-cols { grid-template-columns: 1fr 1fr; row-gap: 0.7rem; } }
+  @media (prefers-reduced-motion: reduce) { .sp-pulse { animation: none; } }
+  .sp-main .sp-always { padding: 1.5rem 1.6rem !important; gap: 0.8rem !important; border: 2px solid #3f8a62 !important; color: var(--lp-ink);
+    background: linear-gradient(135deg, #e3eedf, #cfe1cc) !important; grid-template-rows: auto 1fr auto; }
+  .sp-main .sp-always h3 { font-size: 1.45rem !important; color: var(--lp-ink); }
+  .sp-main .sp-always h3 small { display: inline-flex; align-items: center; gap: 0.45rem; color: #2f6f4e !important; }
+  .sp-main .sp-always p { color: #4a5a48 !important; font-size: 1rem !important; }
+  .sp-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
+  .sp-chips li { padding: 0.3rem 0.75rem; border-radius: 99px; background: #3f8a62; color: #fff; font-size: 0.82rem; font-weight: 600; }
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9W6SRW929L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9W6SRW929L');
+</script>
+</head>
+<!-- Hand-written page. Sums live in support/goal.json; payment links are the href/data-addr values below ("#todo" hides a way). -->
+<body>
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Stillcraft home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="14" r="7" fill="var(--lamp)"/><rect x="3" y="20.5" width="26" height="1.6" rx=".8" fill="currentColor"/><rect x="9" y="24.5" width="14" height="1.6" rx=".8" fill="currentColor" opacity=".45"/></svg>
+      Stillcraft
+    </a>
+    <div class="nav-links">
+      <a href="../apps/" data-i18n="nav.apps">Apps</a>
+      <a href="./" aria-current="page" data-i18n="nav.support">Support</a>
+      <a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener">Telegram</a>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-en" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" id="lang-ru" data-lang="ru" aria-pressed="false">RU</button>
+    </div>
+  </div>
+</nav>
+
+<header class="wrap">
+  <p class="crumbs"><a href="../">Stillcraft</a> / <span data-i18n="nav.support">Support</span></p>
+  <div class="app app--lipovka sp-hero">
+    <div class="sp-copy">
+      <div class="app-id">
+        <img src="../assets/lipovka-logo.png" alt="" width="48" height="48">
+        <span class="app-tag" data-i18n="sp.tag">Support Stillcraft</span>
+      </div>
+      <h1 data-i18n="sp.title">Help the apps <em>grow</em>.</h1>
+      <p class="app-desc" data-i18n="sp.lede">All the apps are free, with no ads or subscriptions, and will stay that way. On iPhone, Lipovka Post, Fogwalk, Familiar and Farwalker are the most awaited.</p>
+      <div class="sp-total">
+        <p class="sp-android"><span class="sp-pulse"></span><span data-i18n="sp.android"><b>Android:</b> fixes and new apps, as always</span></p>
+        <p class="sp-total-num"><b id="sp-sum">0</b> ₽ <span data-i18n="sp.raisedOf">raised of</span> <span id="sp-all">595 000</span> ₽</p>
+        <div class="sp-road" style="--z1:31.82%">
+          <div class="sp-track">
+            <span class="sp-zone"></span>
+            <i class="sp-fill" id="sp-fill"></i>
+            <span class="sp-dot sp-dot-main" data-dot="iphone" style="left:31.82%"></span>
+            <span class="sp-dot" data-dot="mac" style="left:54.55%"></span>
+            <span class="sp-dot" data-dot="watch" style="left:77.27%"></span>
+            <span class="sp-dot" data-dot="tools" style="left:100.00%"></span>
+          </div>
+          <div class="sp-cols">
+            <div class="sp-c sp-c1"><b data-i18n="sp.o1">Apps on iPhone</b><small data-i18n="sp.m1">iPhone + Apple account</small></div>
+            <div class="sp-c sp-c2"><b data-i18n="sp.o2">Sooner on iPhone</b><small data-i18n="sp.m2">MacBook Pro</small></div>
+            <div class="sp-c sp-c3"><b data-i18n="sp.o3">Apps on the watch</b><small data-i18n="sp.m3">Apple Watch</small></div>
+            <div class="sp-c sp-c4"><b data-i18n="sp.o4">★ A year of calm work</b><small data-i18n="sp.m4">tools and servers</small></div>
+          </div>
+        </div>
+      </div>
+      <div class="app-actions">
+        <a class="btn btn-primary" href="#ways" data-i18n="sp.cta">Chip in</a>
+        <a class="btn btn-ghost" href="#goals" data-i18n="sp.goalsEyebrow">Where the money goes</a>
+      </div>
+    </div>
+    <div class="ap-visual">
+      <div class="sp-stage" aria-hidden="true">
+        <div class="sp-glow"></div>
+        <img class="sp-ico sp-mini" src="../assets/aloft-logo.png" alt="" style="--x:59.9%;--y:13.4%;opacity:0.80" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/apothecary-logo.png" alt="" style="--x:18.4%;--y:13.6%;opacity:0.79" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/archipelago-logo.png" alt="" style="--x:96.8%;--y:13.6%;opacity:0.88" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/biohacker-logo.png" alt="" style="--x:61.7%;--y:90.7%;opacity:0.68" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/cabinet-logo.png" alt="" style="--x:22.3%;--y:5.7%;opacity:0.65" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/calavera-logo.png" alt="" style="--x:46.0%;--y:87.0%;opacity:0.71" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/campfire-logo.png" alt="" style="--x:11.2%;--y:17.1%;opacity:0.61" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/capsule-logo.png" alt="" style="--x:6.6%;--y:83.6%;opacity:0.71" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/carriage-logo.png" alt="" style="--x:63.9%;--y:12.9%;opacity:0.82" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/cellar-logo.png" alt="" style="--x:23.3%;--y:21.0%;opacity:0.78" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/charms-logo.png" alt="" style="--x:77.7%;--y:95.0%;opacity:0.69" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/counterweight-logo.png" alt="" style="--x:36.2%;--y:6.0%;opacity:0.81" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/curator-logo.png" alt="" style="--x:16.5%;--y:17.3%;opacity:0.63" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/dayquest-logo.svg" alt="" style="--x:24.8%;--y:84.0%;opacity:0.89" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/dearme-logo.svg" alt="" style="--x:36.6%;--y:12.9%;opacity:0.66" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/dyer-logo.png" alt="" style="--x:85.1%;--y:91.3%;opacity:0.69" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/ember-logo.svg" alt="" style="--x:69.5%;--y:87.4%;opacity:0.66" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/errand-logo.png" alt="" style="--x:59.9%;--y:86.9%;opacity:0.84" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/fieldscan-logo.png" alt="" style="--x:25.0%;--y:9.3%;opacity:0.89" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/fridge-logo.png" alt="" style="--x:5.0%;--y:20.8%;opacity:0.88" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/glow-logo.svg" alt="" style="--x:52.8%;--y:90.8%;opacity:0.62" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/gossamer-logo.png" alt="" style="--x:57.0%;--y:2.0%;opacity:0.74" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/greenstreet-logo.png" alt="" style="--x:20.8%;--y:2.4%;opacity:0.73" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/hoard-logo.png" alt="" style="--x:80.3%;--y:2.0%;opacity:0.68" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/honours-logo.png" alt="" style="--x:83.1%;--y:20.3%;opacity:0.94" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/horae-logo.png" alt="" style="--x:87.3%;--y:87.7%;opacity:0.61" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/hushwood-logo.png" alt="" style="--x:28.0%;--y:13.1%;opacity:0.77" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/insidejob-logo.png" alt="" style="--x:17.9%;--y:20.6%;opacity:0.87" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/keeper-logo.png" alt="" style="--x:89.1%;--y:91.2%;opacity:0.95" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/kite-logo.png" alt="" style="--x:54.6%;--y:5.7%;opacity:0.65" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/lantern-logo.png" alt="" style="--x:23.0%;--y:13.1%;opacity:0.76" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/lodger-logo.png" alt="" style="--x:46.0%;--y:13.0%;opacity:0.86" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/longwave-logo.png" alt="" style="--x:82.7%;--y:13.5%;opacity:0.61" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/lot-logo.png" alt="" style="--x:18.5%;--y:87.1%;opacity:0.68" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/marbles-logo.png" alt="" style="--x:27.4%;--y:87.4%;opacity:0.91" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/matryoshka-logo.png" alt="" style="--x:80.1%;--y:91.2%;opacity:0.65" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/mimic-logo.png" alt="" style="--x:29.3%;--y:9.7%;opacity:0.74" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/nighttrain-logo.png" alt="" style="--x:61.4%;--y:2.2%;opacity:0.70" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/nooklings-logo.png" alt="" style="--x:22.8%;--y:94.6%;opacity:0.75" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/notch-logo.png" alt="" style="--x:40.9%;--y:87.2%;opacity:0.63" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/opposite-logo.png" alt="" style="--x:7.2%;--y:17.3%;opacity:0.61" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/overwinter-logo.png" alt="" style="--x:83.0%;--y:87.5%;opacity:0.95" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/papertrail-logo.png" alt="" style="--x:78.2%;--y:87.5%;opacity:0.87" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/party-logo.png" alt="" style="--x:13.2%;--y:13.1%;opacity:0.86" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/pilgrim-logo.png" alt="" style="--x:89.3%;--y:9.8%;opacity:0.68" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/podium-logo.png" alt="" style="--x:87.6%;--y:20.8%;opacity:0.69" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/postround-logo.png" alt="" style="--x:59.2%;--y:5.5%;opacity:0.79" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/prism-logo.svg" alt="" style="--x:57.9%;--y:9.9%;opacity:0.68" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/ranger-logo.png" alt="" style="--x:39.6%;--y:2.6%;opacity:0.76" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/reelkin-logo.png" alt="" style="--x:82.2%;--y:94.4%;opacity:0.93" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/rewind-logo.png" alt="" style="--x:8.7%;--y:13.5%;opacity:0.73" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/rootlings-logo.png" alt="" style="--x:82.2%;--y:5.8%;opacity:0.72" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/rustle-logo.png" alt="" style="--x:20.9%;--y:91.3%;opacity:0.94" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/scriptor-logo.png" alt="" style="--x:4.6%;--y:13.1%;opacity:0.81" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/serene-logo.svg" alt="" style="--x:20.5%;--y:17.2%;opacity:0.61" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/shapito-logo.png" alt="" style="--x:93.8%;--y:16.7%;opacity:0.74" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/side-a-logo.png" alt="" style="--x:76.0%;--y:17.0%;opacity:0.83" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/sill-logo.png" alt="" style="--x:14.3%;--y:87.7%;opacity:0.62" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/silverbox-logo.png" alt="" style="--x:91.7%;--y:20.9%;opacity:0.72" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/silverlining-logo.png" alt="" style="--x:9.0%;--y:21.0%;opacity:0.84" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/softlanding-logo.png" alt="" style="--x:91.4%;--y:13.3%;opacity:0.90" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/spintop-logo.png" alt="" style="--x:11.3%;--y:91.3%;opacity:0.81" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/stele-logo.png" alt="" style="--x:11.0%;--y:83.8%;opacity:0.91" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/swisszen-logo.svg" alt="" style="--x:40.9%;--y:13.2%;opacity:0.76" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/temper-logo.svg" alt="" style="--x:75.7%;--y:91.2%;opacity:0.74" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/tessera-logo.png" alt="" style="--x:47.8%;--y:1.8%;opacity:0.90" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/theusual-logo.png" alt="" style="--x:77.7%;--y:6.0%;opacity:0.73" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/ties-logo.svg" alt="" style="--x:36.3%;--y:87.3%;opacity:0.87" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/tsukumo-logo.png" alt="" style="--x:43.8%;--y:2.3%;opacity:0.68" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/underbed-logo.png" alt="" style="--x:23.1%;--y:87.5%;opacity:0.72" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/undermat-logo.png" alt="" style="--x:1.9%;--y:9.5%;opacity:0.66" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/unhook-logo.svg" alt="" style="--x:48.3%;--y:9.9%;opacity:0.79" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/unwritten-logo.png" alt="" style="--x:15.7%;--y:9.4%;opacity:0.66" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/waypoint-logo.svg" alt="" style="--x:95.9%;--y:20.4%;opacity:0.67" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/windup-logo.png" alt="" style="--x:18.8%;--y:95.0%;opacity:0.68" loading="lazy">
+        <img class="sp-ico sp-mini" src="../assets/yourmove-logo.png" alt="" style="--x:4.6%;--y:87.0%;opacity:0.76" loading="lazy">
+        <img class="sp-ico" src="../assets/farwalker-logo.png" alt="" style="--x:6%;--y:5%;--d:0.0s" loading="lazy">
+        <img class="sp-ico" src="../assets/hearthspell-logo.svg" alt="" style="--x:94%;--y:5%;--d:0.7s" loading="lazy">
+        <img class="sp-ico" src="../assets/obol-logo.svg" alt="" style="--x:30%;--y:4%;--d:1.4s" loading="lazy">
+        <img class="sp-ico" src="../assets/heartwood-logo.png" alt="" style="--x:70%;--y:4%;--d:2.1s" loading="lazy">
+        <img class="sp-ico" src="../assets/stringer-logo.png" alt="" style="--x:6%;--y:95%;--d:2.8s" loading="lazy">
+        <img class="sp-ico" src="../assets/vigil-logo.png" alt="" style="--x:94%;--y:95%;--d:3.5s" loading="lazy">
+        <div class="sp-phone sp-side" style="--cx:21%;--cy:53%;--pw:30%;--r:-11deg">
+          <div class="sp-screen"><img src="../assets/fw-map.png" data-src-ru="../assets/fw-map.ru.png" alt="" width="540" height="1145"></div>
+          <span class="sp-island"></span>
+        </div>
+        <div class="sp-phone sp-side" style="--cx:79%;--cy:53%;--pw:30%;--r:11deg">
+          <div class="sp-screen"><img src="../assets/fa-den.png" data-src-ru="../assets/fa-den.ru.png" alt="" width="540" height="1145"></div>
+          <span class="sp-island"></span>
+        </div>
+        <div class="sp-phone" style="--cx:50%;--cy:49%;--pw:37%;--r:-2deg">
+          <div class="sp-screen"><img src="../assets/lp-post.png" data-src-ru="../assets/lp-post.ru.png" alt="" width="540" height="1171"></div>
+          <span class="sp-island"></span>
+        </div>
+        <span class="sp-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.5 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.7.9-.8 0-2-.9-3.2-.8-1.7 0-3.2 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.1-1.2 2.9-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-1-2.3-3.8zM14 5.2c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg><span data-i18n="sp.soon">Coming to the App Store</span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section" id="ways" style="padding-top:2.5rem">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="sp.waysEyebrow">How to chip in</span>
+        <h2 data-i18n="sp.waysTitle">Any amount, any way that suits you.</h2>
+      </div>
+      <div class="sp-ways">
+        <div class="sp-way">
+          <h3>Boosty</h3>
+          <p data-i18n="sp.boosty">Russian and foreign cards. A one-off gift or a small monthly support, which keeps the old apps alive and the new ones coming.</p>
+          <a class="btn btn-primary sp-link" href="https://boosty.to/stillcraft" target="_blank" rel="noopener" data-i18n="sp.open">Open</a>
+        </div>
+        <div class="sp-way">
+          <h3>Telegram Stars</h3>
+          <p data-i18n="sp.stars">Right in Telegram, through the StillCraft bot. Works from any country, nothing to sign up for.</p>
+          <a class="btn btn-primary sp-link" href="https://t.me/ArcaneWhisperBot?start=donate" target="_blank" rel="noopener" data-i18n="sp.openBot">Open the bot</a>
+        </div>
+        <div class="sp-way">
+          <h3>CloudTips</h3>
+          <p data-i18n="sp.cloudtips">A quick transfer by card or СБП, the Russian fast payment system. No account needed.</p>
+          <a class="btn btn-primary sp-link" href="https://pay.cloudtips.ru/p/00889be8" target="_blank" rel="noopener" data-i18n="sp.open">Open</a>
+        </div>
+        <div class="sp-way">
+          <h3>PayPal</h3>
+          <p data-i18n="sp.paypal">For cards from abroad. The payment goes to my brother's account, and he passes it on to me.</p>
+          <a class="btn btn-primary sp-link" href="https://paypal.me/AyratBadykov" target="_blank" rel="noopener" data-i18n="sp.open">Open</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="goals" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="sp.goalsEyebrow2">Where the money goes</span>
+        <h2 data-i18n="sp.goalsTitle">What your support pays for.</h2>
+      </div>
+      <div class="sp-main">
+        <div class="sp-goal sp-feature" data-goal="iphone">
+          <h3><small data-i18n="sp.g1step">Main goal</small><span data-i18n="sp.g1">Apps on iPhone, Lipovka first</span></h3>
+          <p data-i18n="sp.g1d">It takes a current iPhone Pro to build and test on, and a year of Apple Developer Program ($99), without which nothing can go to the App Store. With them the apps come to iPhone: <b>Lipovka Post</b> first, then the rest.</p>
+          <div class="sp-bar"><i></i></div>
+          <p class="sp-num"><b class="sp-raised">0</b> / <span class="sp-target">130 000</span> ₽</p>
+        </div>
+        <div class="sp-goal sp-always">
+          <h3><small><span class="sp-pulse"></span><span data-i18n="sp.g0step">Always · Android</span></small><span data-i18n="sp.g0">Fixes, new features and new apps</span></h3>
+          <p data-i18n="sp.g0d">People write to me all the time: something broke, something is missing, could it do this. Support first of all buys the time for that, for everyone already using the apps on Android. The servers and the bot you send bugs through run on it too.</p>
+          <ul class="sp-chips"><li data-i18n="sp.ch1">Fixes</li><li data-i18n="sp.ch2">New features</li><li data-i18n="sp.ch3">New apps</li></ul>
+        </div>
+      </div>
+      <h3 class="sp-next-title" data-i18n="sp.nextTitle">Then, if we get there</h3>
+      <div class="sp-goalrow sp-later">
+        <div class="sp-goal" data-goal="mac">
+          <h3><small data-i18n="sp.g2step">Goal 2</small><span data-i18n="sp.g2">Sooner on iPhone</span></h3>
+          <p data-i18n="sp.g2d">Every app comes to iPhone either way, but with a Mac of my own it goes several times faster. It takes a MacBook Pro; until then I build on Windows with cloud Macs. First after Lipovka come <b>Fogwalk</b>, <b>Familiar</b>, <b>Farwalker</b> and the ones you vote for.</p>
+          <div class="sp-bar"><i></i></div>
+          <p class="sp-num"><b class="sp-raised">0</b> / <span class="sp-target">200 000</span> ₽</p>
+        </div>
+        <div class="sp-goal" data-goal="watch">
+          <h3><small data-i18n="sp.g3step">Goal 3</small><span data-i18n="sp.g3">Apps on the watch</span></h3>
+          <p data-i18n="sp.g3d">It takes an Apple Watch. Lipovka, Farwalker, Fogwalk and the other walking apps will count steps straight from the wrist and show complications on the watch face.</p>
+          <div class="sp-bar"><i></i></div>
+          <p class="sp-num"><b class="sp-raised">0</b> / <span class="sp-target">45 000</span> ₽</p>
+        </div>
+        <div class="sp-goal sp-super" data-goal="tools">
+          <h3><small data-i18n="sp.g4step">★ Super goal</small><span data-i18n="sp.g4">A year of calm work</span></h3>
+          <p data-i18n="sp.g4d">Everything the work rests on, for a year ahead: tools, build and testing services, servers. So I can stop thinking about it and just make fixes, new features and new apps.</p>
+          <div class="sp-bar"><i></i></div>
+          <p class="sp-num"><b class="sp-raised">0</b> / <span class="sp-target">220 000</span> ₽</p>
+        </div>
+      </div>
+      <p class="sp-updated" style="margin-top:0.9rem"><span data-i18n="sp.updated">Updated by hand:</span> <span id="sp-date">2026-11-06</span></p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="sp.promEyebrow">What I promise</span>
+        <h2 data-i18n="sp.promTitle">Plainly and honestly.</h2>
+      </div>
+      <ol class="sp-promises">
+        <li data-i18n="sp.p1"><b>The apps stay free.</b> No paywalls, no features locked behind a donation, on Android or on iPhone.</li>
+        <li data-i18n="sp.p2"><b>Android as before.</b> Updates and fixes for Android keep coming as usual; on iPhone, Lipovka goes first.</li>
+        <li data-i18n="sp.p3"><b>Open accounts.</b> The sums above are updated by hand; every purchase is shown in Telegram with a receipt and a photo.</li>
+        <li data-i18n="sp.p4"><b>Early access.</b> Everyone who chipped in gets the iPhone betas through TestFlight before the release.</li>
+        <li data-i18n="sp.p5"><b>Your name in the village.</b> If you'd like, write your name with the gift: the residents of Lipovka will thank you in a letter in the iPhone version.</li>
+        <li data-i18n="sp.p6"><b>What comes next is yours to choose.</b> Every app will come to iPhone. Fogwalk, Familiar and Farwalker are next in line, and those who supported vote on which ones follow. Anything beyond the goals goes to fixes, requested features, the servers and the bot, and time for new apps.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="wrap sp-close">
+    <h2 data-i18n="sp.closeTitle">Can't chip in? There are other ways to help.</h2>
+    <p data-i18n="sp.closeDesc">Tell a friend about an app you like, rate it on Google Play, or report a bug in Telegram. It helps just as much.</p>
+    <a class="btn btn-ghost" href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener" data-i18n="sp.closeBtn">The Telegram community</a>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-brand">
+      <a class="brand" href="../">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="14" r="7" fill="var(--lamp)"/><rect x="3" y="20.5" width="26" height="1.6" rx=".8" fill="currentColor"/><rect x="9" y="24.5" width="14" height="1.6" rx=".8" fill="currentColor" opacity=".45"/></svg>
+        Stillcraft
+      </a>
+      <p data-i18n="ft.tag">Small tools for a quieter mind.</p>
+    </div>
+    <div>
+      <h4 data-i18n="ft.source">Source</h4>
+      <ul>
+        <li><a href="../apps/" data-i18n="ft.all">All apps</a></li>
+        <li><a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener" data-i18n="ft.tg">Telegram community</a></li>
+        <li><a href="https://t.me/ArcaneWhisperBot?start=idea" target="_blank" rel="noopener" data-i18n="ft.idea">Suggest an app idea</a></li>
+      </ul>
+    </div>
+    <div class="fine">
+      <span data-i18n="ft.made">© 2026 Stillcraft. Made slowly.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  document.querySelectorAll(".sp-link").forEach(function (a) {
+    if (a.getAttribute("href") === "#todo") a.closest(".sp-way").hidden = true;
+  });
+  var crypto = document.querySelector(".sp-crypto");
+  if (crypto) {
+    var addr = crypto.dataset.addr;
+    if (addr === "#todo") crypto.hidden = true;
+    else {
+      crypto.querySelector(".sp-addr").textContent = addr;
+      var b = crypto.querySelector(".sp-copy-btn");
+      b.addEventListener("click", function () {
+        var done = function () { b.dataset.was = b.dataset.was || b.innerHTML; b.innerHTML = "✓"; setTimeout(function () { b.innerHTML = b.dataset.was; }, 1500); };
+        if (navigator.clipboard) navigator.clipboard.writeText(addr).then(done, function () {});
+      });
+    }
+  }
+  // One running total fills the goals in order.
+  function fmt(n) { return Math.round(n).toLocaleString("ru-RU").replace(/\u00a0/g, " "); }
+  fetch("goal.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (g) {
+    var left = g.raised || 0, all = 0;
+    var W = [1.4, 1, 1, 1], Wsum = 4.4, fill = 0;
+    g.goals.forEach(function (goal, idx) {
+      all += goal.target;
+      var got = Math.max(0, Math.min(left, goal.target)); left -= got;
+      var pct = (100 * got / goal.target).toFixed(1) + "%";
+      var el = document.querySelector('[data-goal="' + goal.id + '"]');
+      if (el) {
+        el.querySelector(".sp-raised").textContent = fmt(got);
+        el.querySelector(".sp-target").textContent = fmt(goal.target);
+        el.querySelector(".sp-bar i").style.width = pct;
+        el.classList.toggle("is-done", got >= goal.target);
+      }
+      var dot = document.querySelector('[data-dot="' + goal.id + '"]');
+      if (dot) dot.classList.toggle("is-on", got >= goal.target);
+      fill += W[idx] / Wsum * Math.min(1, got / goal.target);
+    });
+    document.getElementById("sp-fill").style.width = (100 * fill).toFixed(2) + "%";
+    document.getElementById("sp-sum").textContent = fmt(g.raised || 0);
+    document.getElementById("sp-all").textContent = fmt(all);
+    if (g.updated) document.getElementById("sp-date").textContent = g.updated;
+  }).catch(function () {});
+})();
+</script>
+<script>window.PAGE_RU = {
+"nav.support": "Поддержать",
+"sp.tag": "Поддержать Stillcraft",
+"sp.title": "Помогите приложениям <em>расти</em>.",
+"sp.lede": "Все приложения бесплатны, без рекламы и подписок, и такими останутся. Больше всего на iPhone ждут Почту в Липовке, Fogwalk, Familiar и Кругосветку.",
+"sp.g1step": "Главная цель",
+"sp.g1": "Приложения на iPhone – первой Липовка",
+"sp.g1d": "Для этого нужны новый iPhone Pro, чтобы на нём разрабатывать и проверять, и год Apple Developer Program ($99) – без него в App Store ничего не опубликовать. С ними приложения выходят на iPhone: первой <b>Почта в Липовке</b>, за ней остальные.",
+"sp.g2step": "Цель 2",
+"sp.g2": "Быстрее на iPhone",
+"sp.g2d": "Все приложения выйдут на iPhone в любом случае, но со своим Mac – в разы быстрее. Для этого нужен MacBook Pro; пока его нет, собираю на Windows через облачные Mac. Первыми за Липовкой пойдут <b>Fogwalk</b>, <b>Familiar</b>, <b>Кругосветка</b> и те, за которые вы проголосуете.",
+"sp.g3step": "Цель 3",
+"sp.g3": "Приложения на часах",
+"sp.g3d": "Для этого нужны Apple Watch. Липовка, Кругосветка, Fogwalk и другие приложения для прогулок будут считать шаги прямо с запястья и показывать виджеты на циферблате.",
+"sp.g0step": "Всегда · Android",
+"sp.g0": "Исправления, новые функции и новые приложения",
+"sp.g0d": "Мне постоянно пишут: что-то сломалось, чего-то не хватает, а можно ли сделать вот так. Поддержка – это прежде всего время на всё это, для всех, кто уже пользуется приложениями на Android. На ней же держатся серверы и бот, через который вы присылаете ошибки.",
+"sp.soon": "Скоро в App Store",
+"sp.updated": "Обновлено вручную:",
+"sp.cta": "Поддержать",
+"sp.waysEyebrow": "Как поддержать",
+"sp.waysTitle": "Любая сумма, любым удобным способом.",
+"sp.boosty": "Российские и зарубежные карты. Можно один раз, а можно оформить небольшую ежемесячную подписку – она помогает поддерживать старые приложения и делать новые.",
+"sp.stars": "Прямо в Telegram, через бота StillCraft. Работает из любой страны, регистрироваться нигде не нужно.",
+"sp.cloudtips": "Быстрый перевод с карты или по СБП. Без регистрации.",
+"sp.paypal": "Для зарубежных карт. Платёж приходит на счёт моего брата, а он передаёт его мне.",
+"sp.open": "Открыть",
+"sp.openBot": "Открыть бота",
+"sp.promEyebrow": "Что я обещаю",
+"sp.promTitle": "Коротко и честно.",
+"sp.p1": "<b>Приложения остаются бесплатными.</b> Никаких платных функций и ничего «только для поддержавших» – ни на Android, ни на iPhone.",
+"sp.p2": "<b>Android – как прежде.</b> Обновления и исправления для Android выходят как обычно, а на iPhone первой пойдёт Липовка.",
+"sp.p3": "<b>Всё на виду.</b> Суммы на этой странице я обновляю вручную, а каждую покупку показываю в Telegram – с чеком и фото.",
+"sp.p4": "<b>Раньше всех.</b> Все, кто поддержал, получат тестовые версии для iPhone через TestFlight ещё до выхода.",
+"sp.p5": "<b>Ваше имя в деревне.</b> Если хотите, укажите имя в комментарии к переводу: жители Липовки поблагодарят вас в письме в версии для iPhone.",
+"sp.p6": "<b>Что дальше – решаете вы.</b> На iPhone выйдут все приложения. Следующие в очереди – Fogwalk, Familiar и Кругосветка, а кто пойдёт за ними, решают поддержавшие голосованием. Всё, что соберётся сверх целей, пойдёт на исправления и доработки, серверы и бота, а ещё на новые приложения.",
+"sp.closeTitle": "Не можете поддержать деньгами? Помочь можно и по-другому.",
+"sp.closeDesc": "Расскажите другу о приложении, которое понравилось, оцените его в Google Play или напишите об ошибке в Telegram. Это помогает не меньше.",
+"sp.closeBtn": "Сообщество в Telegram",
+"sp.raisedOf": "собрано из",
+"sp.goalsEyebrow": "Куда пойдут деньги",
+"sp.goalsTitle": "На что идёт поддержка.",
+"sp.g4step": "★ Супер-цель",
+"sp.g4": "Год спокойной работы",
+"sp.g4d": "Всё, на чём держится разработка, – на год вперёд: инструменты, сервисы для сборки и проверки, серверы. Чтобы не думать об этом и спокойно делать исправления, новые функции и новые приложения.",
+"sp.goalsEyebrow2": "Куда пойдут деньги",
+"sp.nextTitle": "Дальше – если наберётся",
+"sp.o1": "Приложения на iPhone",
+"sp.m1": "iPhone + аккаунт Apple",
+"sp.o2": "Быстрее на iPhone",
+"sp.m2": "MacBook Pro",
+"sp.o3": "Приложения на часах",
+"sp.m3": "Apple Watch",
+"sp.o4": "★ Год спокойной работы",
+"sp.m4": "инструменты и серверы",
+"sp.android": "<b>Android:</b> исправления и новые приложения – как всегда",
+"sp.ch1": "Исправления",
+"sp.ch2": "Новые функции",
+"sp.ch3": "Новые приложения"
+};</script>
+<script src="../assets/site.js?v=05f55b45"></script>
+</body>
+</html>
