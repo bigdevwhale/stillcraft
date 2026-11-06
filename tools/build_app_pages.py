@@ -9155,7 +9155,7 @@ TEMPLATE = """<!doctype html>
       <a href="../../#principles" data-i18n="nav.principles">Principles</a>
       <a href="https://github.com/bigdevwhale" target="_blank" rel="noopener">GitHub</a>
       <a href="https://t.me/+Q4gFEDk8O842OGVi" target="_blank" rel="noopener">Telegram</a>
-      <a href="../../support/" data-i18n="nav.support">Support</a>
+      <a class="nav-support" href="../../support/"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.6-9.6-9.3C.9 8.3 3 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.5.8-1.3 2.3-2.5 4.4-2.5 3.6 0 5.7 3.8 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg><span data-i18n="nav.support">Support</span></a>
     </div>
     <div class="lang" role="group" aria-label="Language">
       <button type="button" id="lang-en" data-lang="en" aria-pressed="true">EN</button>
@@ -9275,6 +9275,13 @@ TEMPLATE = """<!doctype html>
     </div>
   </section>
 </main>
+
+<section class="sup-strip">
+  <div class="wrap">
+    <p><b data-i18n="sup.title">Every app here is free.</b> <span data-i18n="sup.text">Support buys time for fixes, new features, new apps and iPhone versions.</span></p>
+    <a class="btn btn-primary sup-btn" href="../../support/"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.6-9.6-9.3C.9 8.3 3 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.5.8-1.3 2.3-2.5 4.4-2.5 3.6 0 5.7 3.8 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg><span data-i18n="sup.btn">Support Stillcraft</span></a>
+  </div>
+</section>
 
 <footer class="site">
   <div class="wrap">
