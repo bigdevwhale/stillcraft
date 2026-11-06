@@ -18,6 +18,7 @@
   .sp-total-num { font: 500 0.95rem/1.2 var(--f-mono); margin: 0; color: var(--lp-ink); }
   .sp-total-num b { font-size: 1.35rem; }
   .sp-total-num span { color: var(--lp-muted); }
+  .sp-total-num .sp-for, .sp-total-num .sp-for span { font-family: var(--f-body, inherit); color: var(--lp-green); font-weight: 600; }
   .sp-segs { display: flex; gap: 4px; }
   .sp-seg { flex: var(--w) 1 0; display: grid; gap: 0.35rem; min-width: 0; }
   .sp-seg small { font: 500 0.7rem/1 var(--f-mono); color: var(--lp-muted); text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -194,7 +195,7 @@
       <p class="app-desc" data-i18n="sp.lede">All the apps are free, with no ads or subscriptions, and will stay that way. On iPhone, Lipovka Post, Fogwalk, Familiar and Farwalker are the most awaited.</p>
       <div class="sp-total">
         <p class="sp-android"><span class="sp-pulse"></span><span data-i18n="sp.android"><b>Android:</b> fixes and new apps, as always</span></p>
-        <p class="sp-total-num"><b id="sp-sum">0</b> ₽ <span data-i18n="sp.raisedOf">raised of</span> <span id="sp-all">595 000</span> ₽</p>
+        <p class="sp-total-num"><b id="sp-sum">0</b> ₽ <span data-i18n="sp.raisedOf">raised of</span> <span id="sp-all">130 000</span> ₽<span class="sp-for"> · <span id="sp-for" data-i18n="sp.o1">Apps on iPhone</span></span></p>
         <div class="sp-road" style="--z1:31.82%">
           <div class="sp-track">
             <span class="sp-zone"></span>
@@ -483,8 +484,24 @@
       fill += W[idx] / Wsum * Math.min(1, got / goal.target);
     });
     document.getElementById("sp-fill").style.width = (100 * fill).toFixed(2) + "%";
-    document.getElementById("sp-sum").textContent = fmt(g.raised || 0);
-    document.getElementById("sp-all").textContent = fmt(all);
+    // Show the nearest goal that isn't reached yet; once it is, the next one takes its place.
+    var rest = g.raised || 0, cur = null, curGot = 0, curIdx = 0;
+    for (var k = 0; k < g.goals.length; k++) {
+      var t = g.goals[k].target;
+      if (rest < t) { cur = g.goals[k]; curGot = rest; curIdx = k; break; }
+      rest -= t;
+    }
+    if (cur) {
+      document.getElementById("sp-sum").textContent = fmt(curGot);
+      document.getElementById("sp-all").textContent = fmt(cur.target);
+      var lbl = document.getElementById("sp-for"), src = document.querySelector('[data-i18n="sp.o' + (curIdx + 1) + '"]');
+      lbl.dataset.i18n = "sp.o" + (curIdx + 1);
+      if (src) lbl.innerHTML = src.innerHTML;
+    } else {
+      document.getElementById("sp-sum").textContent = fmt(g.raised || 0);
+      document.getElementById("sp-all").textContent = fmt(all);
+      document.querySelector(".sp-for").hidden = true;
+    }
     if (g.updated) document.getElementById("sp-date").textContent = g.updated;
   }).catch(function () {});
 })();
