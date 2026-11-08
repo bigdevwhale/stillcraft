@@ -86,7 +86,7 @@ PLAIN = {
     "hob": ("Keeps track of things at home, so nothing gets lost and nothing piles up for nothing.",
             "Чтобы дома ничего не терялось и не копилось зря."),
     "threshold": ("An alarm after which the morning starts at once: each day its own app, video, playlist or radio.",
-                  "Будильник, после которого сразу начинается утро: на каждый день своё приложение, видео, плейлист или радио."),
+                  "Будильник, который утром сам открывает новости, музыку, радио или фильм – на каждый день своё."),
     "charms": ("A child photographs the deeds they've done, the pictures turn into golden engravings, and a week of them brews a real reward.",
                 "Ребёнок фотографирует сделанные дела, и они становятся золотыми страницами гримуара. За неделю набирается на настоящую награду."),
     "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
