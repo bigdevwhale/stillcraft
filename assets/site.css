@@ -78,6 +78,7 @@
   --rs-board: #173A2E; --rs-deep: #0E241C; --rs-light: #285A46; --rs-ink: #F1E8D4; --rs-muted: #B9CBBE; --rs-ember: #E0954A; --rs-line: #2E5C48;
   --cb-bg: #FAF9F7; --cb-ink: #1D1B19; --cb-muted: #6B655E; --cb-accent: #2F6B4F; --cb-lime: #B8E07A; --cb-mint: #E7EFE3; --cb-line: #E4E0DA;
   --hb-bg: #22302B; --hb-deep: #1A2420; --hb-card: #2C3C35; --hb-ink: #F3EAD8; --hb-muted: #A9B3A6; --hb-amber: #F0B75E; --hb-line: #35473F;
+  --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --fs-bg: #E3E0D4; --fs-top: #ECE9DF; --fs-ink: #1D1D1B; --fs-muted: #6D6A60; --fs-red: #B3302A; --fs-night: #2B2D2A; --fs-line: #C9C5B6;
   --ch-bg: #120D22; --ch-top: #2C2154; --ch-ink: #F3E9D2; --ch-muted: #A99CC8; --ch-gold: #E8C26A; --ch-glow: #FFC765; --ch-line: rgb(243 233 210 / 0.16);
   --hr-bg: #F2E8D2; --hr-top: #F8F1E1; --hr-ink: #2A1E16; --hr-muted: #7A6650; --hr-accent: #B4351F; --hr-lapis: #2B4C8C; --hr-gold: #C79A3A; --hr-line: #D9C59C;
@@ -540,7 +541,7 @@ pre.code .c { opacity: 0.55; }
 .g-anyway, .g-unhook, .g-dayquest, .g-dearme, .g-kite, .g-sidea { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .g-swisszen, .g-ties { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-focus, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan, .g-postround, .g-opposite, .g-yourmove, .g-rustle, .g-cabinet, .g-hob { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g-hearthspell, .g-familiar, .g-hoard, .g-calavera, .g-vigil, .g-scriptor, .g-stele, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-cellar, .g-stringer, .g-carriage, .g-errand, .g-tsukumo, .g-windup, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan, .g-postround, .g-opposite, .g-yourmove, .g-rustle, .g-cabinet, .g-hob, .g-threshold { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-silverbox, .g-notch, .g-marbles, .g-podium, .g-keeper, .g-lantern, .g-nighttrain, .g-tessera { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .g-campfire { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .g-theusual { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -548,7 +549,7 @@ pre.code .c { opacity: 0.55; }
 @media (max-width: 900px) {
   .ap-band, .get { grid-template-columns: minmax(0, 1fr); }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan, .g-postround, .g-opposite, .g-yourmove, .g-rustle, .g-cabinet, .g-hob { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .g-anyway, .g-unhook, .g-dayquest, .g-serene, .g-ember, .g-fogwalk, .g-dearme, .g-glow, .g-waypoint, .g-obol, .g-prism, .g-rootlings, .g-temper, .g-hearthspell, .g-familiar, .g-hoard, .g-silverbox, .g-notch, .g-calavera, .g-vigil, .g-scriptor, .g-marbles, .g-stele, .g-podium, .g-keeper, .g-lantern, .g-campfire, .g-theusual, .g-nighttrain, .g-tessera, .g-kite, .g-sidea, .g-rewind, .g-party, .g-spintop, .g-hushwood, .g-longwave, .g-sill, .g-fridge, .g-lipovka, .g-heartwood, .g-focus, .g-archipelago, .g-shapito, .g-biohacker, .g-lodger, .g-capsule, .g-papertrail, .g-pilgrim, .g-horae, .g-lot, .g-honours, .g-counterweight, .g-underbed, .g-unwritten, .g-silverlining, .g-dyer, .g-insidejob, .g-mimic, .g-aloft, .g-farwalker, .g-undermat, .g-nooklings, .g-softlanding, .g-curator, .g-matryoshka, .g-overwinter, .g-gossamer, .g-greenstreet, .g-reelkin, .g-charms, .g-ranger, .g-apothecary, .g-fieldscan, .g-postround, .g-opposite, .g-yourmove, .g-rustle, .g-cabinet, .g-hob, .g-threshold { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .g-swisszen, .g-ties { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
@@ -1597,6 +1598,17 @@ pre.code .c { opacity: 0.55; }
 .cv-hb img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.5); }
 .app--hob .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.45); border: 1px solid var(--hb-line); }
 .g-hob { --shot-bg: var(--hb-deep); --shot-ratio: 540 / 1170; }
+.app--threshold { --fl: var(--ps-line); --fm: var(--ps-muted); background: radial-gradient(50% 36% at 76% 20%, rgb(138 108 255 / 0.22) 0%, transparent 70%), radial-gradient(40% 30% at 20% 90%, rgb(232 194 122 / 0.14) 0%, transparent 70%), linear-gradient(180deg, var(--ps-bg) 0%, var(--ps-deep) 80%); color: var(--ps-ink); }
+.app--threshold .app-tag { color: var(--ps-gold); }
+.app--threshold .app-lede em, .app--threshold h1 em { font-style: italic; color: var(--ps-gold); }
+.app--threshold .btn-primary { background: var(--ps-gold); color: #251A06; }
+.app--threshold .btn-ghost { color: var(--ps-gold); border-color: var(--ps-gold); }
+.app--threshold .app-desc, .app--threshold .feats span, .app--threshold small { color: var(--ps-muted); }
+.pill.ps { --dot: #E8C27A; }
+.cv-ps { background: radial-gradient(55% 40% at 60% 30%, rgb(138 108 255 / 0.3) 0%, transparent 70%), linear-gradient(180deg, #13111F, #06050B); }
+.cv-ps img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.55); }
+.app--threshold .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ps-line); }
+.g-threshold { --shot-bg: var(--ps-deep); --shot-ratio: 540 / 1170; }
 
 /* Support: a warm pill in the nav (kept on phones) and a strip above every footer */
 .nav-links a.nav-support { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.3rem 0.8rem; margin-block: -0.3rem; border-radius: 99px;

@@ -85,6 +85,8 @@ PLAIN = {
                 "Музей для необычной коллекции: залы, шкафы, карточка на каждую вещь и проверка по фото, есть ли такая у вас."),
     "hob": ("Keeps track of things at home, so nothing gets lost and nothing piles up for nothing.",
             "Чтобы дома ничего не терялось и не копилось зря."),
+    "threshold": ("An alarm after which the morning starts at once: each day its own app, video, playlist or radio.",
+                  "Будильник, после которого сразу начинается утро: на каждый день своё приложение, видео, плейлист или радио."),
     "charms": ("A child photographs the deeds they've done, the pictures turn into golden engravings, and a week of them brews a real reward.",
                 "Ребёнок фотографирует сделанные дела, и они становятся золотыми страницами гримуара. За неделю набирается на настоящую награду."),
     "matryoshka": ("A present opened layer by layer: the gift sits in the smallest figure, and every figure around it has its own lock.",
@@ -200,7 +202,7 @@ CATS = [
      ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin", "rustle"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
-     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite"]),
+     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite", "threshold"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
      ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat", "yourmove"]),
@@ -214,10 +216,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 88 free apps", "Stillcraft · 88 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 89 free apps", "Stillcraft · 89 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 87 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 87 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 88 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 88 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -228,7 +230,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("88 apps, <em>grouped by what they help with.</em>", "88 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("89 apps, <em>grouped by what they help with.</em>", "89 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -274,6 +276,7 @@ WORDS = {
     "rustle": "rustle virtual pet tamagotchi pet creature critter cozy game pixel art focus timer focus phone face down put the phone down screen time digital wellbeing outings explore finds loot collect crafting workshop furniture clothes dress up kitchen cooking battery charging stove camera window weather sleep night widget achievements streak requests boko шуршик виртуальный питомец тамагочи питомец зверёк уютная игра пиксель пиксельная графика фокус таймер отложить телефон экраном вниз экранное время цифровой детокс вылазки прогулки находки коллекция мастерская мебель одежда одёжка кухня готовка батарея зарядка печка камера окно погода сон ночь виджет достижения серия просьбы",
     "cabinet": "cabinet of curiosities collection collector collecting catalog catalogue inventory museum halls shelves cabinets records vinyl books coins numismatics banknotes cans bottles figurines toys magnets fridge magnets stamps postcards model cars hobby flea market swap duplicates wish list series do i have it duplicate check photo search image recognition similar background removal cut out exhibition visitors arrivals book backup pdf csv кабинет редкостей коллекция коллекционер коллекционирование каталог учёт опись музей залы полки шкафы пластинки винил книги монеты нумизматика банкноты банки бутылки фигурки игрушки магниты марки открытки модели машин хобби барахолка обмен дубли дубликаты список желаний серии есть ли у меня поиск по фото распознавание похожие убрать фон выставка посетители книга поступлений резервная копия",
     "hob": "hob house spirit domovoi home inventory household things stuff junk clutter declutter clear out organizer organiser storage where is it find lost things rooms shelves boxes numbered boxes labels pantry garage dacha shed attic lend lent borrowed borrow reminder kids children clothes hand-me-downs grow into sizes growth height shoe size season christmas decorations tent backup csv домовой учёт вещей дом вещи хлам барахло разбор порядок хранение где лежит найти потерял комнаты полки антресоль коробки кладовка гараж дача сарай чердак одолжить одолжил взял напоминание дети детская одежда на вырост размеры рост размер ноги сезон ёлочные игрушки палатка резервная копия",
+    "threshold": "threshold portal alarm alarm clock wake up wake-up morning routine morning ritual weekday schedule open app launch app youtube spotify yandex music kinopoisk radio internet radio stream playlist news exercise workout snooze gentle alarm lock screen finds worlds journal holidays vacation порог портал будильник проснуться подъём утро утренний ритуал расписание по дням недели открыть приложение запуск приложения ютуб спотифай яндекс музыка кинопоиск радио интернет-радио плейлист новости зарядка отложить мягкий будильник экран блокировки находки миры журнал праздники отпуск",
     "charms": "charms grimoire kids children child chores chore chart routine tracker habit tracker reward chart rewards morning routine bedtime routine teeth homework tidy room school bag reminders without nagging parents mentor magic spells potions cauldron engraving photo camera creatures bestiary owl cat fox gamification чары гримуар дети ребёнок дела обязанности распорядок режим трекер привычек награды поощрения утро вечер отбой зубы уроки уборка портфель без напоминаний родители наставник магия волшебство заклинания зелья котёл гравюра фото камера существа бестиарий сова кот лиса геймификация",
     "matryoshka": "matryoshka nesting doll russian doll gift gifts present birthday surprise wrapping unwrap quest treasure hunt riddle puzzle code word place location time capsule gesture locks layers encryption shared gift group gift friends family voice note photo note reply матрёшка подарок подарки день рождения сюрприз вручение квест загадка кодовое слово место время жест замки слои шифрование общий подарок вместе друзья семья голос фото записка отклик",
     "gossamer": "gossamer thought catcher thoughts ideas idea capture quick capture inbox notes note taking zettelkasten mind map web spider threads links connections second brain voice notes widget dew wind forgetting cocoon butterfly insight journal паутинка ловец мыслей мысли идеи идея заметки записать быстро входящие связи нити паутина паук карта мыслей второй мозг голос виджет роса ветер кокон бабочка озарение дневник",
