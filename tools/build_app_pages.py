@@ -8436,7 +8436,7 @@ APPS = [
         "visual": "sg-den.png", "visual_ru": "sg-den.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/songling",
         "download": "https://github.com/bigdevwhale/songling/releases/latest/download/Songling.apk",
-        "version": "v1.0.0",
+        "version": "v1.1.0",
         "tagline": ("A pet that listens to music with you, from any player, and grows with every minute.",
                     "Питомец, который слушает с вами музыку из любого плеера и растёт от каждой минуты."),
         "badge": ("Music", "Музыка"),
@@ -8488,7 +8488,7 @@ APPS = [
         ],
         "extra": None,
         "facts": [
-            (("Version", "Версия"), ("v1.0.0 · the first version", "v1.0.0 · первая версия")),
+            (("Version", "Версия"), ("v1.1.0 · player widget, apps to hear", "v1.1.0 · виджет плеера, выбор приложений")),
             (("File", "Файл"), ("Songling.apk, 4.4 MB", "Songling.apk, 4,4 МБ")),
             (("Requires", "Нужно"), ("Android 9 (API 28) or newer.", "Android 9 (API 28) или новее.")),
             (("Permissions", "Разрешения"), ("Notification access, only to see what plays. Internet for covers, genres, countries and the weather in the window. No account, no ads, no analytics.",
