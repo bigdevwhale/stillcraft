@@ -173,6 +173,8 @@ PLAIN = {
               "Дневник тренировок, в котором пять духов стихий держат в небе твой летучий остров."),
     "reelkin": ("Films and series raise a small pet in a projectionist's booth, and every film seats a spectator in your hall.",
                 "Дневник фильмов и сериалов с питомцем, который живёт в будке киномеханика и растёт с каждым просмотром."),
+    "songling": ("A pet that grows from the music you play in any player.",
+                 "Питомец растёт от музыки, которую вы слушаете в любом плеере."),
     "mimic": ("Video games, board games and tabletop RPGs on one pixel shelf, with a mimic that eats what you finish.",
               "Видеоигры, настолки и НРИ на одной пиксельной полке и мимик, который ест пройденное."),
     "insidejob": ("Your limiting beliefs are a bank that keeps what you forbade yourself: put a crew together and take it back.",
@@ -199,7 +201,7 @@ CATS = [
      ["swisszen", "serene", "counterweight", "keeper", "kite", "spintop", "hushwood", "heartwood", "pilgrim", "horae", "longwave"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, fewer impulse buys, and help giving something up.", "Меньше лент, отвлечений и импульсивных покупок и помощь, чтобы от чего-то отказаться."),
-     ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin", "rustle"]),
+     ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin", "songling", "rustle"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
      ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite", "threshold"]),
@@ -216,10 +218,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 89 free apps", "Stillcraft · 89 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 90 free apps", "Stillcraft · 90 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 88 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 88 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 89 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 89 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -230,7 +232,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("89 apps, <em>grouped by what they help with.</em>", "89 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("90 apps, <em>grouped by what they help with.</em>", "90 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -301,6 +303,7 @@ WORDS = {
     "farwalker": "farwalker round the world around the world pedometer step counter steps walking walk travel journey world map atlas countries borders passport stamps trains ships sea voyage cape ends of the earth weather local time natural earth кругосветка вокруг света кругосветное путешествие шагомер шаги ходьба прогулки путешествие карта мира атлас страны границы паспорт штампы поезд корабль море мыс края земли погода местное время",
     "aloft": "aloft floating island sky island training log workout log fitness sports exercise running walking cycling swimming weights strength gym yoga stretching boxing hiit intervals training load srpe rpe overtraining rest day injury recovery elements spirits sylph golem undine dryad salamander voyage laputa avalon weather guests pixel art летучий остров остров в небе журнал тренировок тренировки фитнес спорт бег ходьба велосипед плавание силовая зал йога растяжка бокс интервалы нагрузка перетренированность отдых травма восстановление стихии духи сильф голем ундина дриада саламандра путешествие лапута буян авалон погода гости пиксель-арт",
     "reelkin": "reelkin film diary movie diary watchlist films movies tv series shows letterboxd tracker cinema projector booth projectionist virtual pet tamagotchi ticket stubs popcorn rating genres noir horror animation comedy post-credits scene season ticket cliffhanger awards pixel art бобина дневник кино фильмы кино сериалы трекер вотчлист кинотеатр проектор будка киномеханик питомец тамагочи корешки билеты попкорн оценки жанры нуар хоррор мультфильмы комедии сцена после титров абонемент клифхэнгер премия пиксель-арт",
+    "songling": "songling music pet music tracker scrobbler last.fm listening stats statistics spotify yandex music youtube music vk albums singles songs artists vinyl records cassette tapes playlist genres goals new albums discover virtual pet tamagotchi pixel art den posters lyrebird bestiary eggs listening history wrapped музыка питомец трекер музыки скробблер статистика прослушиваний спотифай яндекс музыка ютуб музыка вк альбомы синглы песни артисты группы винил пластинки кассеты плейлист жанры цели новые альбомы тамагочи пиксель-арт логово постеры бестиарий яйца история прослушиваний итоги года",
     "mimic": "mimic chest game shelf game collection backlog pile of shame games video games board games tabletop rpg ttrpg steam backloggd boardgamegeek bgg howlongtobeat covers rating reviews sessions screenshots genres pixel art мимик сундук полка игр коллекция игр бэклог куча позора игры видеоигры настолки настольные игры нри ролевые игры стим обложки оценки отзывы сессии скриншоты жанры пиксель-арт",
     "insidejob": "inside job heist bank robbery crew safe vault safecracker blueprint limiting beliefs beliefs core beliefs inner critic cbt cognitive behavioral therapy cognitive behavioural therapy cognitive distortions thinking traps mind reading catastrophizing should statements all or nothing evidence socratic questions behavioral experiments exposure self help mental health self esteem confidence permission rest asking for help perfectionism people pleasing дело века ограбление банк нельзя команда сейф ячейка медвежатник чертёж убеждения ограничивающие убеждения глубинные убеждения внутренний критик кпт когнитивно-поведенческая терапия когнитивные искажения ловушки мышления чтение мыслей катастрофизация долженствование всё или ничего доказательства сократические вопросы поведенческие эксперименты самопомощь психология самооценка уверенность разрешение отдых просить о помощи перфекционизм угодничество",
     "silverlining": "silver lining tarot tarot cards rider waite rider-waite 1909 pamela colman smith fortune telling fortune teller reading spread card of the day omen omens signs luck lucky good luck positive positive thinking optimism gratitude noticing good things hope comfort auntie grandma kitchen tea candle death tower happy predictions good news journal what came true к добру таро карты таро райдер уэйт гадание гадалка расклад карта дня примета приметы знак удача везение счастье позитив оптимизм благодарность замечать хорошее надежда утешение тётушка бабушка кухня чай свеча смерть башня хорошие предсказания сбылось шкатулка святки купала",
