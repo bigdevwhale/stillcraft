@@ -173,6 +173,8 @@ PLAIN = {
               "Дневник тренировок, в котором пять духов стихий держат в небе твой летучий остров."),
     "reelkin": ("Films and series raise a small pet in a projectionist's booth, and every film seats a spectator in your hall.",
                 "Дневник фильмов и сериалов с питомцем, который живёт в будке киномеханика и растёт с каждым просмотром."),
+    "keyling": ("A writing tracker where little creatures under your keys eat the words you write.",
+                "Дневник письма: под клавишами живут маленькие жители, и они едят ваши слова."),
     "songling": ("A pet that grows from the music you play in any player.",
                  "Питомец растёт от музыки, которую вы слушаете в любом плеере."),
     "mimic": ("Video games, board games and tabletop RPGs on one pixel shelf, with a mimic that eats what you finish.",
@@ -207,7 +209,7 @@ CATS = [
      ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite", "threshold"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
-     ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat", "yourmove"]),
+     ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat", "yourmove", "keyling"]),
     ("family", ("Family and friends", "Семья и близкие"),
      ("Time with your children and each other, bedtime stories, family photos, keeping in touch.", "Время с детьми и друг с другом, сказки на ночь, семейные фото, связь с близкими."),
      ["lantern", "campfire", "marbles", "tessera", "nighttrain", "party", "archipelago", "fridge", "matryoshka", "charms", "ties", "notch", "silverbox"]),
@@ -218,10 +220,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 90 free apps", "Stillcraft · 90 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 91 free apps", "Stillcraft · 91 бесплатное приложение"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 89 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 89 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 90 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 90 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -232,7 +234,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("90 apps, <em>grouped by what they help with.</em>", "90 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("91 apps, <em>grouped by what they help with.</em>", "91 приложение, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -303,6 +305,7 @@ WORDS = {
     "farwalker": "farwalker round the world around the world pedometer step counter steps walking walk travel journey world map atlas countries borders passport stamps trains ships sea voyage cape ends of the earth weather local time natural earth кругосветка вокруг света кругосветное путешествие шагомер шаги ходьба прогулки путешествие карта мира атлас страны границы паспорт штампы поезд корабль море мыс края земли погода местное время",
     "aloft": "aloft floating island sky island training log workout log fitness sports exercise running walking cycling swimming weights strength gym yoga stretching boxing hiit intervals training load srpe rpe overtraining rest day injury recovery elements spirits sylph golem undine dryad salamander voyage laputa avalon weather guests pixel art летучий остров остров в небе журнал тренировок тренировки фитнес спорт бег ходьба велосипед плавание силовая зал йога растяжка бокс интервалы нагрузка перетренированность отдых травма восстановление стихии духи сильф голем ундина дриада саламандра путешествие лапута буян авалон погода гости пиксель-арт",
     "reelkin": "reelkin film diary movie diary watchlist films movies tv series shows letterboxd tracker cinema projector booth projectionist virtual pet tamagotchi ticket stubs popcorn rating genres noir horror animation comedy post-credits scene season ticket cliffhanger awards pixel art бобина дневник кино фильмы кино сериалы трекер вотчлист кинотеатр проектор будка киномеханик питомец тамагочи корешки билеты попкорн оценки жанры нуар хоррор мультфильмы комедии сцена после титров абонемент клифхэнгер премия пиксель-арт",
+    "keyling": "keyling клавишка writing tracker word count word counter writer novel book manuscript nanowrimo thesis stories chapters editing sprints writing sprint streak year goal author pet virtual pet tamagotchi pixel art keyboard mechanical keyboard keycaps switches typos письмо писатель писательство роман книга рукопись счётчик слов слова знаки авторский лист главы правка редактура спринт серия цель на год питомец тамагочи пиксель-арт клавиатура механическая клавиатура колпачки опечатки learning and reading учёба и чтение",
     "songling": "songling music pet music tracker scrobbler last.fm listening stats statistics spotify yandex music youtube music vk albums singles songs artists vinyl records cassette tapes playlist genres goals new albums discover virtual pet tamagotchi pixel art den posters lyrebird bestiary eggs listening history wrapped музыка питомец трекер музыки скробблер статистика прослушиваний спотифай яндекс музыка ютуб музыка вк альбомы синглы песни артисты группы винил пластинки кассеты плейлист жанры цели новые альбомы тамагочи пиксель-арт логово постеры бестиарий яйца история прослушиваний итоги года",
     "mimic": "mimic chest game shelf game collection backlog pile of shame games video games board games tabletop rpg ttrpg steam backloggd boardgamegeek bgg howlongtobeat covers rating reviews sessions screenshots genres pixel art мимик сундук полка игр коллекция игр бэклог куча позора игры видеоигры настолки настольные игры нри ролевые игры стим обложки оценки отзывы сессии скриншоты жанры пиксель-арт",
     "insidejob": "inside job heist bank robbery crew safe vault safecracker blueprint limiting beliefs beliefs core beliefs inner critic cbt cognitive behavioral therapy cognitive behavioural therapy cognitive distortions thinking traps mind reading catastrophizing should statements all or nothing evidence socratic questions behavioral experiments exposure self help mental health self esteem confidence permission rest asking for help perfectionism people pleasing дело века ограбление банк нельзя команда сейф ячейка медвежатник чертёж убеждения ограничивающие убеждения глубинные убеждения внутренний критик кпт когнитивно-поведенческая терапия когнитивные искажения ловушки мышления чтение мыслей катастрофизация долженствование всё или ничего доказательства сократические вопросы поведенческие эксперименты самопомощь психология самооценка уверенность разрешение отдых просить о помощи перфекционизм угодничество",

@@ -80,6 +80,7 @@
   --hb-bg: #22302B; --hb-deep: #1A2420; --hb-card: #2C3C35; --hb-ink: #F3EAD8; --hb-muted: #A9B3A6; --hb-amber: #F0B75E; --hb-line: #35473F;
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
+  --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
   --fs-bg: #E3E0D4; --fs-top: #ECE9DF; --fs-ink: #1D1D1B; --fs-muted: #6D6A60; --fs-red: #B3302A; --fs-night: #2B2D2A; --fs-line: #C9C5B6;
   --ch-bg: #120D22; --ch-top: #2C2154; --ch-ink: #F3E9D2; --ch-muted: #A99CC8; --ch-gold: #E8C26A; --ch-glow: #FFC765; --ch-line: rgb(243 233 210 / 0.16);
   --hr-bg: #F2E8D2; --hr-top: #F8F1E1; --hr-ink: #2A1E16; --hr-muted: #7A6650; --hr-accent: #B4351F; --hr-lapis: #2B4C8C; --hr-gold: #C79A3A; --hr-line: #D9C59C;
@@ -1636,3 +1637,15 @@ pre.code .c { opacity: 0.55; }
 @media (max-width: 760px) { .nav .wrap { gap: 0.75rem; } .nav-links { gap: 0.9rem; } .nav-links a.nav-support { padding: 0.28rem 0.7rem; } }
 @media (max-width: 480px) { .nav-links a:first-child:not(.nav-support) { display: none; } .lang { margin-left: 0.4rem; } }
 @media (max-width: 380px) { .nav .wrap { gap: 0.5rem; } .lang { margin-left: 0.25rem; } }
+
+.app--keyling { --fl: var(--kl-line); --fm: var(--kl-muted); background: radial-gradient(50% 36% at 78% 18%, rgb(53 87 201 / 0.16) 0%, transparent 70%), radial-gradient(40% 30% at 18% 92%, rgb(236 143 69 / 0.16) 0%, transparent 70%), linear-gradient(180deg, var(--kl-bg) 0%, var(--kl-deep) 100%); color: var(--kl-ink); }
+.app--keyling .app-tag { color: var(--kl-acc); }
+.app--keyling .app-lede em, .app--keyling h1 em { font-style: italic; color: var(--kl-acc); }
+.app--keyling .btn-primary { background: var(--kl-acc); color: #FFFFFF; }
+.app--keyling .btn-ghost { color: var(--kl-acc); border-color: var(--kl-acc); }
+.app--keyling .app-desc, .app--keyling .feats span, .app--keyling small { color: var(--kl-muted); }
+.pill.kl { --dot: #3557C9; }
+.cv-kl { background: radial-gradient(55% 40% at 60% 30%, rgb(53 87 201 / 0.22) 0%, transparent 70%), linear-gradient(180deg, #EEF0F6, #CDD4E6); }
+.cv-kl img { box-shadow: 0 18px 44px rgb(30 34 56 / 0.28); }
+.app--keyling .ap-visual img { box-shadow: 0 24px 60px rgb(30 34 56 / 0.25); border: 1px solid var(--kl-line); }
+.g-keyling { --shot-bg: var(--kl-deep); --shot-ratio: 540 / 1170; }
