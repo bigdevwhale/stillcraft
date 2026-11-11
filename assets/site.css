@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --pu-bg: #2A1712; --pu-deep: #170C09; --pu-ink: #F5EFE6; --pu-muted: #C9B5A8; --pu-acc: #F27A53; --pu-line: #4A2C22;
   --kw-bg: #13261C; --kw-deep: #0B1510; --kw-ink: #EBE6D3; --kw-muted: #A9B8AC; --kw-acc: #D9B25E; --kw-line: #2A4536;
   --fs-bg: #E3E0D4; --fs-top: #ECE9DF; --fs-ink: #1D1D1B; --fs-muted: #6D6A60; --fs-red: #B3302A; --fs-night: #2B2D2A; --fs-line: #C9C5B6;
   --ch-bg: #120D22; --ch-top: #2C2154; --ch-ink: #F3E9D2; --ch-muted: #A99CC8; --ch-gold: #E8C26A; --ch-glow: #FFC765; --ch-line: rgb(243 233 210 / 0.16);
@@ -1662,3 +1663,15 @@ pre.code .c { opacity: 0.55; }
 .cv-kw img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.45); }
 .app--kitchenwitch .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--kw-line); }
 .g-kitchenwitch { --shot-bg: #0E1A14; --shot-ratio: 540 / 1200; }
+
+.app--pumpling { --fl: var(--pu-line); --fm: var(--pu-muted); background: radial-gradient(50% 36% at 78% 14%, rgb(242 122 83 / 0.18) 0%, transparent 70%), radial-gradient(40% 30% at 18% 90%, rgb(224 154 45 / 0.12) 0%, transparent 70%), linear-gradient(180deg, var(--pu-bg) 0%, var(--pu-deep) 100%); color: var(--pu-ink); }
+.app--pumpling .app-tag { color: var(--pu-acc); }
+.app--pumpling .app-lede em, .app--pumpling h1 em { font-style: italic; color: var(--pu-acc); }
+.app--pumpling .btn-primary { background: var(--pu-acc); color: #1E1210; }
+.app--pumpling .btn-ghost { color: var(--pu-acc); border-color: var(--pu-acc); }
+.app--pumpling .app-desc, .app--pumpling .feats span, .app--pumpling small { color: var(--pu-muted); }
+.pill.pu { --dot: #E8613C; }
+.cv-pu { background: radial-gradient(55% 40% at 60% 30%, rgb(242 122 83 / 0.25) 0%, transparent 70%), linear-gradient(180deg, #F5EFE6, #E9D9C6); }
+.cv-pu img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
+.app--pumpling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--pu-line); }
+.g-pumpling { --shot-bg: #F5EFE6; --shot-ratio: 540 / 1170; }

@@ -9397,6 +9397,93 @@ APPS = [
               "Он уходит обычным текстом через любой мессенджер, так что прочесть его может кто угодно. Друг с The Usual делится этим текстом с приложением, и кофейня ложится к нему на доску пунктирным пакетиком «хочу зайти» — с твоим стикером и местом на карте.")),
         ],
     },
+    {
+        "slug": "pumpling",
+        "name": "Pumpling",
+        "panel": "app--pumpling",
+        "gallery": "g-pumpling",
+        "icon": "pumpling-logo.png",
+        "visual": "pu-gym.png", "visual_ru": "pu-gym.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/pumpling",
+        "download": "https://github.com/bigdevwhale/pumpling/releases/latest/download/Pumpling.apk",
+        "version": "v1.0.0",
+        "tagline": ("A workout log with pets that train alongside you.",
+                    "Дневник тренировок с питомцами, которые тренируются вместе с вами."),
+        "badge": ("Fitness", "Тренировки"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Train together. <em>Grow on rest days.</em>",
+                  "Тренируйтесь вместе. <em>Растите в дни отдыха.</em>"),
+        "desc": ("For anyone who goes to the gym, works out at home or runs, and wants a log that is fun to keep. You write down your sets, weights and cardio, and your team in a small basement gym does the same: the leader presses a tiny barbell, the two beside it cheer. Every set feeds the pets, and they grow on rest days, like real muscles. Eggs turn up from the way you train, and there are twenty pets to find.",
+                 "Для тех, кто ходит в зал, занимается дома или бегает и хочет вести дневник, который не надоест. Вы записываете подходы, веса и кардио, а ваша команда в маленьком подвальном зале делает то же самое: ведущий жмёт штангу, двое рядом болеют. За каждый подход питомцы получают еду, а растут в дни отдыха – как настоящие мышцы. Яйца находятся в зависимости от того, как вы тренируетесь, а всего питомцев двадцать."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · English и Русский"),
+        "features": [
+            (("Any workout", "Любая тренировка"),
+             ("Weight and reps, bodyweight, assisted pull-ups, planks, runs with distance or just minutes. Last time's sets and a nudge to beat them; a star tells you a set will be a record.",
+              "Вес и повторы, свой вес, гравитрон, планка, бег с километрами или просто минуты. Видно, что было в прошлый раз, и подсказку, как прибавить, а звёздочка заранее показывает рекорд.")),
+            (("140 exercises and your own", "140 упражнений и свои"),
+             ("Search and filters, your own exercises with muscles picked on a body map, your own equipment.",
+              "Поиск и фильтры, свои упражнения с мышцами на фигуре и свой инвентарь.")),
+            (("33 ready routines", "33 готовые программы"),
+             ("For the gym, home and outdoors, from beginner to advanced. Look inside before you take one; a short survey on the first day suggests a couple.",
+              "Для зала, дома и улицы, от новичка до опытного. Перед тем как взять программу, видно, что в неё входит, а в первый день короткий опрос подберёт пару подходящих.")),
+            (("Twenty pets", "Двадцать питомцев"),
+             ("Each has an ability: the bullock loves legs, the otter cardio, the owl evening workouts, the phoenix a comeback. Three on the team, and their abilities add up.",
+              "У каждого своя способность: бычок любит ноги, выдра – кардио, сова – вечерние тренировки, феникс – возвращение после перерыва. В команде трое, и их способности складываются.")),
+            (("A gym with a window", "Зал с окном"),
+             ("The window shows the time of day and the weather in your town. Plates from workouts and weekly quests furnish the room.",
+              "За окном время суток и погода вашего города. За тренировки и задания недели дают блины, на них зал обставляется вещами.")),
+            (("Lots of stats", "Много статистики"),
+             ("Muscles and balance, each exercise's progress, records, best running times, strength standards, weight and measurements, a year in review.",
+              "Мышцы и баланс, прогресс каждого упражнения, рекорды, лучшее время бега, нормативы силы, вес и замеры, итоги года.")),
+            (("Cards to share", "Открытки"),
+             ("Fourteen kinds, from a workout or a record to your gym and your pets, for the feed or stories, weights hidden if you like.",
+              "Четырнадцать видов, от тренировки и рекорда до вашего зала и питомцев, для ленты и сторис, веса можно скрыть.")),
+            (("No punishment", "Без наказаний"),
+             ("The week counts, not every day. Sick leave keeps your streaks.",
+              "Важна неделя, а не каждый день. На время болезни есть больничный, и серии не сгорят.")),
+        ],
+        "shots": [
+            ("pu-gym.png", "pu-gym.ru.png", ("The gym", "Зал"), ("Your team, its leader and the week.", "Ваша команда, ведущий и неделя.")),
+            ("pu-log.png", "pu-log.ru.png", ("The log", "Журнал"), ("Workouts by week, and what each trained.", "Тренировки по неделям и что в каждой тренировали.")),
+            ("pu-pets.png", "pu-pets.ru.png", ("Pets", "Питомцы"), ("The team and the ones resting at home.", "Команда и те, кто отдыхает дома.")),
+            ("pu-stats.png", "pu-stats.ru.png", ("Stats", "Летопись"), ("The month at a glance.", "Месяц одним взглядом.")),
+            ("pu-exercise.png", "pu-exercise.ru.png", ("An exercise", "Упражнение"), ("Progress and the best weight per rep count.", "Прогресс и лучший вес на каждое число повторов.")),
+            ("pu-card.png", "pu-card.ru.png", ("A card", "Открытка"), ("Share the week, a record or your gym.", "Поделитесь неделей, рекордом или своим залом.")),
+        ],
+        "extra": None,
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0 · first release", "v1.0.0 · первая версия")),
+            (("File", "Файл"), ("Pumpling.apk", "Pumpling.apk")),
+            (("Requires", "Нужно"), ("Android 9 (API 28) or newer.", "Android 9 (API 28) или новее.")),
+            (("Permissions", "Разрешения"), ("Internet only, for the weather in the gym window; notifications for the rest timer. No account, no ads, no analytics.", "Интернет – только для погоды за окном зала, уведомления – для таймера отдыха. Без аккаунта, рекламы и аналитики.")),
+            (("License", "Лицензия"), ("MIT · fonts Nunito, Inter, Press Start 2P (OFL) · weather by Open-Meteo and MET Norway", "MIT · шрифты Nunito, Inter, Press Start 2P (OFL) · погода от Open-Meteo и MET Norway")),
+        ],
+        "steps": [
+            ("Download the APK on the phone.", "Скачайте APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Откройте файл и разрешите установку из этого источника, когда Android спросит."),
+            ("Pick your first egg, answer four questions and take a routine.", "Выберите первое яйцо, ответьте на четыре вопроса и возьмите программу."),
+        ],
+        "note": ("Workouts, pets and photos stay on the phone. Only the town's coordinates go out, for the weather.",
+                 "Тренировки, питомцы и фотографии хранятся только в телефоне. В интернет уходят лишь координаты города, чтобы узнать погоду."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. Kotlin, Jetpack Compose, Room, DataStore.",
+                      "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Kotlin, Jetpack Compose, Room, DataStore."),
+        "build": "git clone https://github.com/bigdevwhale/pumpling.git\ncd pumpling\n./gradlew assembleDebug\n./gradlew assembleDebug -Pdemo              <c># app.pumpling.demo: half a year of training</c>",
+        "faq": [
+            (("Do I need a gym?", "Нужен ли зал?"),
+             ("No. There are routines for home with or without dumbbells, for the yard bars and for running, and any exercise can be added.",
+              "Нет. Есть программы для дома с гантелями и без, для турников во дворе и для бега, а любое упражнение можно добавить.")),
+            (("What if I miss a day?", "А если я пропущу день?"),
+             ("Nothing bad: the pets grow on rest days. What counts is the week, and sick leave keeps your streaks while you're ill.",
+              "Ничего страшного: питомцы как раз растут в дни отдыха. Важна неделя, а на время болезни есть больничный, и серии не сгорят.")),
+            (("It's the first version – what if something breaks?", "Это первая версия. А если что-то сломается?"),
+             ("Then please tell us: Settings → More has buttons to report a bug or suggest an idea through the StillCraft bot.",
+              "Тогда напишите нам: в настройках на вкладке «Ещё» есть кнопки «Сообщить об ошибке» и «Предложить идею» – они ведут в бота StillCraft.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -9446,12 +9533,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "campfire": "cf", "theusual": "tu", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp", "hushwood": "hw", "longwave": "lw", "sill": "sl", "fridge": "fr", "lipovka": "lp", "heartwood": "hd", "cellar": "cr", "stringer": "sr", "carriage": "ct", "errand": "er", "tsukumo": "tk", "windup": "wu", "archipelago": "ar", "shapito": "sh", "biohacker": "bh", "lodger": "ld", "honours": "hn", "counterweight": "cw", "underbed": "ub", "rootlings": "rl", "unwritten": "uw", "silverlining": "kd", "dyer": "dy", "insidejob": "ij", "mimic": "mm", "aloft": "al", "farwalker": "kv", "undermat": "um", "nooklings": "nk", "softlanding": "sf", "curator": "cu", "matryoshka": "mt", "gossamer": "gs", "greenstreet": "gt", "reelkin": "rk", "charms": "ch", "ranger": "rg", "apothecary": "ac", "fieldscan": "fs", "postround": "po", "opposite": "op", "yourmove": "ym", "rustle": "rs", "cabinet": "cb", "hob": "hb", "threshold": "ps", "songling": "sg", "keyling": "kl", "kitchenwitch": "kw", "overwinter": "ow", "capsule": "cp", "papertrail": "vy", "pilgrim": "pg", "horae": "hr", "lot": "lt"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "campfire": "cf", "theusual": "tu", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp", "hushwood": "hw", "longwave": "lw", "sill": "sl", "fridge": "fr", "lipovka": "lp", "heartwood": "hd", "cellar": "cr", "stringer": "sr", "carriage": "ct", "errand": "er", "tsukumo": "tk", "windup": "wu", "archipelago": "ar", "shapito": "sh", "biohacker": "bh", "lodger": "ld", "honours": "hn", "counterweight": "cw", "underbed": "ub", "rootlings": "rl", "unwritten": "uw", "silverlining": "kd", "dyer": "dy", "insidejob": "ij", "mimic": "mm", "aloft": "al", "farwalker": "kv", "undermat": "um", "nooklings": "nk", "softlanding": "sf", "curator": "cu", "matryoshka": "mt", "gossamer": "gs", "greenstreet": "gt", "reelkin": "rk", "charms": "ch", "ranger": "rg", "apothecary": "ac", "fieldscan": "fs", "postround": "po", "opposite": "op", "yourmove": "ym", "rustle": "rs", "cabinet": "cb", "hob": "hb", "threshold": "ps", "songling": "sg", "keyling": "kl", "kitchenwitch": "kw", "pumpling": "pu", "overwinter": "ow", "capsule": "cp", "papertrail": "vy", "pilgrim": "pg", "horae": "hr", "lot": "lt"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "campfire": ("cf-branch.png", "cf-branch.ru.png"), "theusual": ("tu-board.png", "tu-board.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png"), "hushwood": ("hw-lake.png", "hw-lake.ru.png"), "longwave": ("lw-radio.png", "lw-radio.ru.png"), "sill": ("sl-sill.png", "sl-sill.ru.png"), "fridge": ("fr-door.png", "fr-door.ru.png"), "lipovka": ("lp-post.png", "lp-post.ru.png"), "heartwood": ("hd-tree.png", "hd-tree.ru.png"), "cellar": ("cr-cellar.png", "cr-cellar.ru.png"), "stringer": ("sr-issue.png", "sr-issue.ru.png"), "carriage": ("ct-desk.png", "ct-desk.ru.png"), "errand": ("er-office.png", "er-office.ru.png"), "tsukumo": ("tk-house.png", "tk-house.ru.png"), "windup": ("wu-shelf.png", "wu-shelf.ru.png"), "archipelago": ("ar-chart.png", "ar-chart.ru.png"), "shapito": ("sh-ring.png", "sh-ring.ru.png"), "biohacker": ("bh-blueprint.png", "bh-blueprint.ru.png"), "lodger": ("ld-room.png", "ld-room.ru.png"), "honours": ("hn-wall.png", "hn-wall.ru.png"), "counterweight": ("cw-weighing.png", "cw-weighing.ru.png"), "underbed": ("ub-bed.png", "ub-bed.ru.png"), "rootlings": ("rl-sill.png", "rl-sill.ru.png"), "unwritten": ("uw-shop.png", "uw-shop.ru.png"), "silverlining": ("kd-table.png", "kd-table.ru.png"), "dyer": ("dy-square.png", "dy-square.ru.png"), "insidejob": ("ij-plan.png", "ij-plan.ru.png"), "mimic": ("mm-room.png", "mm-room.ru.png"), "aloft": ("al-isle.png", "al-isle.ru.png"), "farwalker": ("kv-atlas.png", "kv-atlas.ru.png"), "undermat": ("um-flat.png", "um-flat.ru.png"), "nooklings": ("nk-room.png", "nk-room.ru.png"), "softlanding": ("sf-flight.png", "sf-flight.ru.png"), "curator": ("cu-card.png", "cu-card.ru.png"), "matryoshka": ("mt-opened.png", "mt-opened.ru.png"), "gossamer": ("gs-web.png", "gs-web.ru.png"), "greenstreet": ("gt-street.png", "gt-street.ru.png"), "reelkin": ("rk-booth.png", "rk-booth.ru.png"), "charms": ("ch-charm.png", "ch-charm.ru.png"), "ranger": ("rg-outpost.png", "rg-outpost.ru.png"), "apothecary": ("ac-shop.png", "ac-shop.ru.png"), "fieldscan": ("fs-scan.png", "fs-scan.ru.png"), "postround": ("po-map.png", "po-map.ru.png"), "opposite": ("op-house.png", "op-house.ru.png"), "yourmove": ("ym-desk.png", "ym-desk.ru.png"), "rustle": ("rs-home.png", "rs-home.ru.png"), "cabinet": ("cb-museum.png", "cb-museum.ru.png"), "hob": ("hb-home.png", "hb-home.ru.png"), "threshold": ("ps-home.png", "ps-home.ru.png"), "songling": ("sg-den.png", "sg-den.ru.png"), "keyling": ("kl-desk.png", "kl-desk.ru.png"), "kitchenwitch": ("kw-kitchen.png", "kw-kitchen.ru.png"), "overwinter": ("ow-station.png", "ow-station.ru.png"), "capsule": ("cp-machine.png", "cp-machine.ru.png"), "papertrail": ("vy-office.png", "vy-office.ru.png"), "pilgrim": ("pg-page.png", "pg-page.ru.png"), "horae": ("hr-page.png", "hr-page.ru.png"), "lot": ("lt-draw.png", "lt-draw.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "campfire": ("cf-branch.png", "cf-branch.ru.png"), "theusual": ("tu-board.png", "tu-board.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png"), "hushwood": ("hw-lake.png", "hw-lake.ru.png"), "longwave": ("lw-radio.png", "lw-radio.ru.png"), "sill": ("sl-sill.png", "sl-sill.ru.png"), "fridge": ("fr-door.png", "fr-door.ru.png"), "lipovka": ("lp-post.png", "lp-post.ru.png"), "heartwood": ("hd-tree.png", "hd-tree.ru.png"), "cellar": ("cr-cellar.png", "cr-cellar.ru.png"), "stringer": ("sr-issue.png", "sr-issue.ru.png"), "carriage": ("ct-desk.png", "ct-desk.ru.png"), "errand": ("er-office.png", "er-office.ru.png"), "tsukumo": ("tk-house.png", "tk-house.ru.png"), "windup": ("wu-shelf.png", "wu-shelf.ru.png"), "archipelago": ("ar-chart.png", "ar-chart.ru.png"), "shapito": ("sh-ring.png", "sh-ring.ru.png"), "biohacker": ("bh-blueprint.png", "bh-blueprint.ru.png"), "lodger": ("ld-room.png", "ld-room.ru.png"), "honours": ("hn-wall.png", "hn-wall.ru.png"), "counterweight": ("cw-weighing.png", "cw-weighing.ru.png"), "underbed": ("ub-bed.png", "ub-bed.ru.png"), "rootlings": ("rl-sill.png", "rl-sill.ru.png"), "unwritten": ("uw-shop.png", "uw-shop.ru.png"), "silverlining": ("kd-table.png", "kd-table.ru.png"), "dyer": ("dy-square.png", "dy-square.ru.png"), "insidejob": ("ij-plan.png", "ij-plan.ru.png"), "mimic": ("mm-room.png", "mm-room.ru.png"), "aloft": ("al-isle.png", "al-isle.ru.png"), "farwalker": ("kv-atlas.png", "kv-atlas.ru.png"), "undermat": ("um-flat.png", "um-flat.ru.png"), "nooklings": ("nk-room.png", "nk-room.ru.png"), "softlanding": ("sf-flight.png", "sf-flight.ru.png"), "curator": ("cu-card.png", "cu-card.ru.png"), "matryoshka": ("mt-opened.png", "mt-opened.ru.png"), "gossamer": ("gs-web.png", "gs-web.ru.png"), "greenstreet": ("gt-street.png", "gt-street.ru.png"), "reelkin": ("rk-booth.png", "rk-booth.ru.png"), "charms": ("ch-charm.png", "ch-charm.ru.png"), "ranger": ("rg-outpost.png", "rg-outpost.ru.png"), "apothecary": ("ac-shop.png", "ac-shop.ru.png"), "fieldscan": ("fs-scan.png", "fs-scan.ru.png"), "postround": ("po-map.png", "po-map.ru.png"), "opposite": ("op-house.png", "op-house.ru.png"), "yourmove": ("ym-desk.png", "ym-desk.ru.png"), "rustle": ("rs-home.png", "rs-home.ru.png"), "cabinet": ("cb-museum.png", "cb-museum.ru.png"), "hob": ("hb-home.png", "hb-home.ru.png"), "threshold": ("ps-home.png", "ps-home.ru.png"), "songling": ("sg-den.png", "sg-den.ru.png"), "keyling": ("kl-desk.png", "kl-desk.ru.png"), "kitchenwitch": ("kw-kitchen.png", "kw-kitchen.ru.png"), "pumpling": ("pu-gym.png", "pu-gym.ru.png"), "overwinter": ("ow-station.png", "ow-station.ru.png"), "capsule": ("cp-machine.png", "cp-machine.ru.png"), "papertrail": ("vy-office.png", "vy-office.ru.png"), "pilgrim": ("pg-page.png", "pg-page.ru.png"), "horae": ("hr-page.png", "hr-page.ru.png"), "lot": ("lt-draw.png", "lt-draw.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
