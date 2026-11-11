@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --kw-bg: #13261C; --kw-deep: #0B1510; --kw-ink: #EBE6D3; --kw-muted: #A9B8AC; --kw-acc: #D9B25E; --kw-line: #2A4536;
   --fs-bg: #E3E0D4; --fs-top: #ECE9DF; --fs-ink: #1D1D1B; --fs-muted: #6D6A60; --fs-red: #B3302A; --fs-night: #2B2D2A; --fs-line: #C9C5B6;
   --ch-bg: #120D22; --ch-top: #2C2154; --ch-ink: #F3E9D2; --ch-muted: #A99CC8; --ch-gold: #E8C26A; --ch-glow: #FFC765; --ch-line: rgb(243 233 210 / 0.16);
   --hr-bg: #F2E8D2; --hr-top: #F8F1E1; --hr-ink: #2A1E16; --hr-muted: #7A6650; --hr-accent: #B4351F; --hr-lapis: #2B4C8C; --hr-gold: #C79A3A; --hr-line: #D9C59C;
@@ -1649,3 +1650,15 @@ pre.code .c { opacity: 0.55; }
 .cv-kl img { box-shadow: 0 18px 44px rgb(30 34 56 / 0.28); }
 .app--keyling .ap-visual img { box-shadow: 0 24px 60px rgb(30 34 56 / 0.25); border: 1px solid var(--kl-line); }
 .g-keyling { --shot-bg: var(--kl-deep); --shot-ratio: 540 / 1170; }
+
+.app--kitchenwitch { --fl: var(--kw-line); --fm: var(--kw-muted); background: radial-gradient(50% 36% at 78% 14%, rgb(242 180 90 / 0.14) 0%, transparent 70%), radial-gradient(40% 30% at 18% 90%, rgb(127 209 154 / 0.10) 0%, transparent 70%), linear-gradient(180deg, var(--kw-bg) 0%, var(--kw-deep) 100%); color: var(--kw-ink); }
+.app--kitchenwitch .app-tag { color: var(--kw-acc); }
+.app--kitchenwitch .app-lede em, .app--kitchenwitch h1 em { font-style: italic; color: var(--kw-acc); }
+.app--kitchenwitch .btn-primary { background: var(--kw-acc); color: #17200F; }
+.app--kitchenwitch .btn-ghost { color: var(--kw-acc); border-color: var(--kw-acc); }
+.app--kitchenwitch .app-desc, .app--kitchenwitch .feats span, .app--kitchenwitch small { color: var(--kw-muted); }
+.pill.kw { --dot: #D9B25E; }
+.cv-kw { background: radial-gradient(55% 40% at 60% 30%, rgb(242 180 90 / 0.22) 0%, transparent 70%), linear-gradient(180deg, #21432F, #0E1A14); }
+.cv-kw img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.45); }
+.app--kitchenwitch .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--kw-line); }
+.g-kitchenwitch { --shot-bg: #0E1A14; --shot-ratio: 540 / 1200; }
