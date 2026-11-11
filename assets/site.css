@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --pn-bg: #2A1D12; --pn-deep: #160F09; --pn-ink: #F6EEDF; --pn-muted: #C9B59C; --pn-acc: #E3A04A; --pn-line: #3E2C1C;
   --pf-bg: #13222E; --pf-deep: #0A131B; --pf-ink: #EEF4F7; --pf-muted: #A9BCC7; --pf-acc: #6EB8D6; --pf-line: #24394A;
   --pu-bg: #2A1712; --pu-deep: #170C09; --pu-ink: #F5EFE6; --pu-muted: #C9B5A8; --pu-acc: #F27A53; --pu-line: #4A2C22;
   --kw-bg: #13261C; --kw-deep: #0B1510; --kw-ink: #EBE6D3; --kw-muted: #A9B8AC; --kw-acc: #D9B25E; --kw-line: #2A4536;
@@ -1688,3 +1689,15 @@ pre.code .c { opacity: 0.55; }
 .cv-pf img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
 .app--puffling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--pf-line); }
 .g-puffling { --shot-bg: #11161C; --shot-ratio: 540 / 1200; }
+
+.app--pennyling { --fl: var(--pn-line); --fm: var(--pn-muted); background: radial-gradient(50% 36% at 78% 14%, rgb(227 160 74 / 0.18) 0%, transparent 70%), radial-gradient(40% 30% at 18% 90%, rgb(79 138 91 / 0.12) 0%, transparent 70%), linear-gradient(180deg, var(--pn-bg) 0%, var(--pn-deep) 100%); color: var(--pn-ink); }
+.app--pennyling .app-tag { color: var(--pn-acc); }
+.app--pennyling .app-lede em, .app--pennyling h1 em { font-style: italic; color: var(--pn-acc); }
+.app--pennyling .btn-primary { background: var(--pn-acc); color: #1E1208; }
+.app--pennyling .btn-ghost { color: var(--pn-acc); border-color: var(--pn-acc); }
+.app--pennyling .app-desc, .app--pennyling .feats span, .app--pennyling small { color: var(--pn-muted); }
+.pill.pn { --dot: #C8742F; }
+.cv-pn { background: radial-gradient(55% 40% at 60% 30%, rgb(227 160 74 / 0.3) 0%, transparent 70%), linear-gradient(180deg, #F6EEDF, #E6D3B4); }
+.cv-pn img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
+.app--pennyling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--pn-line); }
+.g-pennyling { --shot-bg: #1B1613; --shot-ratio: 540 / 1200; }
