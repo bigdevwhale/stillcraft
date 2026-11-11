@@ -15,6 +15,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLAIN = {
     "swisszen": ("Breathing exercises, a mindfulness bell, short practices and a one-line journal.",
                  "Дыхательные упражнения, колокольчик осознанности, короткие практики и дневник в одну строку."),
+    "puffling": ("Breathing practices, Wim Hof and a diary of feelings, with a puffin chick that breathes along.",
+                 "Дыхательные практики, Вим Хоф и дневник чувств – вместе с птенцом тупика, который дышит в такт."),
     "serene": ("Guided meditations, visualisations and affirmations, read aloud and working offline.",
                "Медитации, визуализации и аффирмации с озвучкой, без интернета."),
     "keeper": ("For anxious and intrusive thoughts: notice them, let them pass, check what came true.",
@@ -204,7 +206,7 @@ PLAIN = {
 CATS = [
     ("calm", ("Calm and worry", "Спокойствие и тревога"),
      ("Breathing, meditation, and a way through thoughts that won't let go.", "Дыхание, медитации и способ справиться с мыслями, которые не отпускают."),
-     ["swisszen", "serene", "counterweight", "keeper", "kite", "spintop", "hushwood", "heartwood", "pilgrim", "horae", "longwave"]),
+     ["swisszen", "serene", "counterweight", "keeper", "kite", "spintop", "hushwood", "heartwood", "pilgrim", "horae", "longwave", "puffling"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, fewer impulse buys, and help giving something up.", "Меньше лент, отвлечений и импульсивных покупок и помощь, чтобы от чего-то отказаться."),
      ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin", "songling", "rustle"]),
@@ -224,10 +226,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 93 free apps", "Stillcraft · 93 бесплатных приложения"),
+    "c.hero.eyebrow": ("Stillcraft · 94 free apps", "Stillcraft · 94 бесплатных приложения"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 92 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 92 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 93 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 93 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -238,7 +240,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("93 apps, <em>grouped by what they help with.</em>", "93 приложения, <em>по задачам.</em>"),
+    "c.ap.title": ("94 apps, <em>grouped by what they help with.</em>", "94 приложения, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -249,6 +251,7 @@ TEXT = {
 # Extra words a person might search for, in both languages, that the plain line doesn't say.
 WORDS = {
     "swisszen": "breath meditation mindfulness wim hof дыхание медитация осознанность",
+    "puffling": "puffling breathing breathwork breath box breathing 4-7-8 coherent breathing physiological sigh wim hof cold breath hold meditation mindfulness bell mindfulness bell silent sitting body scan walking meditation grounding anxiety panic calm stress sleep affirmations mood diary mood tracker feelings emotions journal virtual pet pets puffin tamagotchi gamification pixel art дыхание дыхательные практики квадратное дыхание 4-7-8 вим хоф задержка дыхания медитация осознанность колокольчик тишина сканирование тела ходьба заземление тревога паника стресс спокойствие сон аффирмации дневник чувств дневник настроения эмоции чувства питомец питомцы тупик тамагочи геймификация пиксель",
     "serene": "meditation sleep relax affirmation медитация сон расслабление аффирмации",
     "keeper": "anxiety worry ocd intrusive тревога беспокойство окр навязчивые мысли",
     "kite": "mindfulness present moment here now wandering mind grounding senses reminder notification осознанность настоящее здесь и сейчас блуждающие мысли заземление чувства напоминание",

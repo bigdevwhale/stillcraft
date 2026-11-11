@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --pf-bg: #13222E; --pf-deep: #0A131B; --pf-ink: #EEF4F7; --pf-muted: #A9BCC7; --pf-acc: #6EB8D6; --pf-line: #24394A;
   --pu-bg: #2A1712; --pu-deep: #170C09; --pu-ink: #F5EFE6; --pu-muted: #C9B5A8; --pu-acc: #F27A53; --pu-line: #4A2C22;
   --kw-bg: #13261C; --kw-deep: #0B1510; --kw-ink: #EBE6D3; --kw-muted: #A9B8AC; --kw-acc: #D9B25E; --kw-line: #2A4536;
   --fs-bg: #E3E0D4; --fs-top: #ECE9DF; --fs-ink: #1D1D1B; --fs-muted: #6D6A60; --fs-red: #B3302A; --fs-night: #2B2D2A; --fs-line: #C9C5B6;
@@ -1675,3 +1676,15 @@ pre.code .c { opacity: 0.55; }
 .cv-pu img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
 .app--pumpling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--pu-line); }
 .g-pumpling { --shot-bg: #F5EFE6; --shot-ratio: 540 / 1170; }
+
+.app--puffling { --fl: var(--pf-line); --fm: var(--pf-muted); background: radial-gradient(50% 36% at 78% 14%, rgb(110 184 214 / 0.2) 0%, transparent 70%), radial-gradient(40% 30% at 18% 90%, rgb(224 166 58 / 0.1) 0%, transparent 70%), linear-gradient(180deg, var(--pf-bg) 0%, var(--pf-deep) 100%); color: var(--pf-ink); }
+.app--puffling .app-tag { color: var(--pf-acc); }
+.app--puffling .app-lede em, .app--puffling h1 em { font-style: italic; color: var(--pf-acc); }
+.app--puffling .btn-primary { background: var(--pf-acc); color: #0D1A22; }
+.app--puffling .btn-ghost { color: var(--pf-acc); border-color: var(--pf-acc); }
+.app--puffling .app-desc, .app--puffling .feats span, .app--puffling small { color: var(--pf-muted); }
+.pill.pf { --dot: #3E8FB0; }
+.cv-pf { background: radial-gradient(55% 40% at 60% 30%, rgb(110 184 214 / 0.3) 0%, transparent 70%), linear-gradient(180deg, #DCEEF5, #B9D5E2); }
+.cv-pf img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
+.app--puffling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--pf-line); }
+.g-puffling { --shot-bg: #11161C; --shot-ratio: 540 / 1200; }
