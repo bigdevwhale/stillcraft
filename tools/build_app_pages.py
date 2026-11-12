@@ -8494,6 +8494,8 @@ APPS = [
             ("sg-bestiary.png", "sg-bestiary.ru.png", ("Bestiary", "Бестиарий"), ("All 18 pets.", "Все 18 питомцев.")),
             ("sg-pet.png", "sg-pet.ru.png", ("A pet", "Питомец"), ("What it loves and what it can do.", "Что любит и что умеет.")),
             ("sg-shop.png", "sg-shop.ru.png", ("Furnishing", "Обустройство"), ("Try it on first, then buy.", "Сначала примерить, потом купить.")),
+            ("sg-awards.png", "sg-awards.ru.png", ("Awards", "Награды"), ("51 of them, climbed step by step.", "51 штука, по ступеням.")),
+            ("sg-cards.png", "sg-cards.ru.png", ("Postcards", "Открытки"), ("Your den and your month, to share.", "Логово и месяц – чтобы поделиться.")),
         ],
         "extra": None,
         "facts": [
