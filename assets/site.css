@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --ik-bg: #1B1636; --ik-deep: #0E0B22; --ik-ink: #F1EAF9; --ik-muted: #B9AED3; --ik-acc: #F0C060; --ik-line: #2E2752;
   --pn-bg: #2A1D12; --pn-deep: #160F09; --pn-ink: #F6EEDF; --pn-muted: #C9B59C; --pn-acc: #E3A04A; --pn-line: #3E2C1C;
   --pf-bg: #13222E; --pf-deep: #0A131B; --pf-ink: #EEF4F7; --pf-muted: #A9BCC7; --pf-acc: #6EB8D6; --pf-line: #24394A;
   --pu-bg: #2A1712; --pu-deep: #170C09; --pu-ink: #F5EFE6; --pu-muted: #C9B5A8; --pu-acc: #F27A53; --pu-line: #4A2C22;
@@ -1701,3 +1702,15 @@ pre.code .c { opacity: 0.55; }
 .cv-pn img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
 .app--pennyling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--pn-line); }
 .g-pennyling { --shot-bg: #1B1613; --shot-ratio: 540 / 1200; }
+
+.app--inkling { --fl: var(--ik-line); --fm: var(--ik-muted); background: radial-gradient(50% 36% at 78% 14%, rgb(240 192 96 / 0.16) 0%, transparent 70%), radial-gradient(40% 30% at 18% 90%, rgb(75 63 160 / 0.22) 0%, transparent 70%), linear-gradient(180deg, var(--ik-bg) 0%, var(--ik-deep) 100%); color: var(--ik-ink); }
+.app--inkling .app-tag { color: var(--ik-acc); }
+.app--inkling .app-lede em, .app--inkling h1 em { font-style: italic; color: var(--ik-acc); }
+.app--inkling .btn-primary { background: var(--ik-acc); color: #1A1433; }
+.app--inkling .btn-ghost { color: var(--ik-acc); border-color: var(--ik-acc); }
+.app--inkling .app-desc, .app--inkling .feats span, .app--inkling small { color: var(--ik-muted); }
+.pill.ik { --dot: #4B3FA0; }
+.cv-ik { background: radial-gradient(55% 40% at 60% 30%, rgb(75 63 160 / 0.28) 0%, transparent 70%), linear-gradient(180deg, #F3ECDD, #E3D3B4); }
+.cv-ik img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
+.app--inkling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ik-line); }
+.g-inkling { --shot-bg: #15122A; --shot-ratio: 540 / 1170; }

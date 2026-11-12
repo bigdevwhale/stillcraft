@@ -9662,6 +9662,93 @@ APPS = [
               "Тогда напишите нам: в настройках, в разделе StillCraft, есть кнопки «Сообщить об ошибке» и «Предложить идею» – они ведут в бота StillCraft.")),
         ],
     },
+    {
+        "slug": "inkling",
+        "name": "Inkling",
+        "panel": "app--inkling",
+        "gallery": "g-inkling",
+        "icon": "inkling-logo.png",
+        "visual": "ik-home.png", "visual_ru": "ik-home.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/inkling",
+        "download": "https://github.com/bigdevwhale/inkling/releases/latest/download/Inkling.apk",
+        "version": "v1.0.0",
+        "tagline": ("Study in an academy of magic, with creatures that grow as you learn.",
+                    "Учёба в академии магии вместе с волшебными существами."),
+        "badge": ("Study", "Учёба"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Your timetable, tasks and exams, <em>in an academy of magic.</em>",
+                  "Расписание, задания и экзамены <em>в академии магии.</em>"),
+        "desc": ("For pupils, students and anyone who studies on their own. You live in a room at the top of a tower in an old academy of magic, and every subject you take belongs to one of its schools: calculus to Numerology, English to Runes, anatomy to Healing. Light a candle, put the phone face down and study. While you do, the creatures in the tower take in what you learn, and at night they grow.",
+                 "Для школьников, студентов и всех, кто учится сам. Вы живёте в комнате на вершине башни старой академии магии, а каждый ваш предмет относится к одной из её школ: матанализ – к Нумерологии, английский – к Рунам, анатомия – к Целительству. Зажгите свечу, положите телефон экраном вниз и занимайтесь. Пока вы учитесь, существа в башне набираются знаний, а ночью растут."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · English и Русский"),
+        "features": [
+            (("The candle", "Свеча"),
+             ("A timed lesson. Put the phone face down and nothing will pull you away until the candle burns out. Then comes a break.",
+              "Урок с таймером. Положите телефон экраном вниз, и до конца свечи вас ничто не отвлечёт. Потом – перемена.")),
+            (("The timetable", "Расписание"),
+             ("Bells, odd and even weeks, terms and semesters. After a class the app asks whether you were there and what was set, and you can photograph the homework off the board.",
+              "Звонки, числитель и знаменатель, четверти и семестры. После пары приложение спросит, были ли вы на ней и что задали, а домашнее задание можно сфотографировать с доски.")),
+            (("Tasks and exams", "Задания и экзамены"),
+             ("Homework, labs, coursework split into stages. Exam tickets drawn by the sphinx, and a predicted state exam score from your practice papers.",
+              "Домашние задания, лабы, курсовая по этапам. Билеты к экзамену, которые тянет сфинкс, и прогноз балла ЕГЭ по пробным вариантам.")),
+            (("Marks", "Оценки"),
+             ("Any scale, from 1–5 to a points system. You see what the term comes to and how many top marks you still need.",
+              "Любая шкала, от пятибалльной до БРС. Видно, что выходит за четверть и сколько пятёрок не хватает до пятёрки.")),
+            (("The grimoire", "Гримуар"),
+             ("Write down what you learned in class, and the sphinx asks you about it after a day, a week and a month, until it sticks.",
+              "Запишите, что запомнили на занятии, и сфинкс спросит об этом через день, неделю и месяц, пока знание не закрепится.")),
+            (("Teach the familiar", "Научи фамильяра"),
+             ("Explain a topic in your own words while the raven keeps asking why, for an example and to put it simpler. You see at once what to go back to.",
+              "Объясните тему своими словами, а ворон будет переспрашивать: почему, а пример, а проще? Так сразу видно, что стоит доучить.")),
+            (("24 creatures", "24 существа"),
+             ("Each turns up for a habit of its own: the salamander for an hour without distractions, the gargoyle for classes attended. Every one has six stats and a speciality.",
+              "Каждое появляется за свою привычку: саламандра – за час без отвлечений, гаргулья – за посещённые пары. У всех шесть характеристик и своя специальность.")),
+            (("The chronicle", "Летопись"),
+             ("Hours by subject, a calendar, the star of schools, memory, attendance and a year in review.",
+              "Часы по предметам, календарь, звезда школ магии, память, посещаемость и итоги года.")),
+        ],
+        "shots": [
+            ("ik-home.png", "ik-home.ru.png", ("The tower", "Башня"), ("Your creatures, the next class and the candle.", "Существа, ближайшая пара и свеча.")),
+            ("ik-academy.png", "ik-academy.ru.png", ("The academy", "Академия"), ("The week's timetable and attendance.", "Неделя по расписанию и посещаемость.")),
+            ("ik-pets.png", "ik-pets.ru.png", ("Creatures", "Существа"), ("Who lives in the tower and who is still to find.", "Кто уже живёт в башне и кого ещё найти.")),
+            ("ik-stats.png", "ik-stats.ru.png", ("The chronicle", "Летопись"), ("Hours, the calendar and the star of schools.", "Часы, календарь и звезда школ.")),
+            ("ik-grimoire.png", "ik-grimoire.ru.png", ("The grimoire", "Гримуар"), ("What you learned, by subject.", "То, что вы запомнили, по предметам.")),
+            ("ik-candle.png", "ik-candle.ru.png", ("The candle", "Свеча"), ("Pick a subject and how long it burns.", "Выберите предмет и сколько будет гореть свеча.")),
+        ],
+        "extra": None,
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0 · first release", "v1.0.0 · первая версия")),
+            (("File", "Файл"), ("Inkling.apk", "Inkling.apk")),
+            (("Requires", "Нужно"), ("Android 9 (API 28) or newer.", "Android 9 (API 28) или новее.")),
+            (("Permissions", "Разрешения"), ("Internet only for the weather in the window; notifications for the candle and reminders. The phone's own camera opens only when you photograph the board. No account, no ads, no analytics.", "Интернет – только для погоды за окном, уведомления – для свечи и напоминаний. Камера телефона открывается, только когда вы фотографируете доску. Без аккаунта, рекламы и аналитики.")),
+            (("License", "Лицензия"), ("MIT · fonts Lora, Nunito, Inter (OFL) · weather by Open-Meteo and MET Norway", "MIT · шрифты Lora, Nunito, Inter (OFL) · погода от Open-Meteo и MET Norway")),
+        ],
+        "steps": [
+            ("Download the APK on the phone.", "Скачайте APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Откройте файл и разрешите установку из этого источника, когда Android спросит."),
+            ("Say where you study and add your subjects.", "Укажите, где учитесь, и добавьте свои предметы."),
+        ],
+        "note": ("Everything stays on the phone. Only the town's coordinates go out, for the weather in the window.",
+                 "Всё хранится только в телефоне. В интернет уходят лишь координаты города, чтобы показать погоду за окном."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. Kotlin, Jetpack Compose, Room, DataStore, WorkManager.",
+                      "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Kotlin, Jetpack Compose, Room, DataStore, WorkManager."),
+        "build": "git clone https://github.com/bigdevwhale/inkling.git\ncd inkling\n./gradlew assembleDebug\n./gradlew assembleDebug -Pdemo              <c># app.inkling.demo: four months of a student's life</c>",
+        "faq": [
+            (("Does it work at school?", "Подойдёт для школы?"),
+             ("Yes. In school mode there are lessons, homework, tomorrow's satchel, terms and state exams. In university mode there are classes, labs, coursework, the session and a record book.",
+              "Да. В школьном режиме – уроки, домашка, портфель на завтра, четверти, ОГЭ и ЕГЭ. В вузовском – пары, лабы, курсовые, сессия и зачётка.")),
+            (("Are there flashcards?", "Здесь есть карточки для запоминания?"),
+             ("No, Stele and Scriptor are for that. Here there is the grimoire: short notes on what you understood, and a sphinx that asks about them now and then.",
+              "Нет, для этого есть Stele и Scriptor. Здесь гримуар: короткие записи о том, что вы поняли, и сфинкс, который время от времени о них спрашивает.")),
+            (("It's the first version – what if something breaks?", "Это первая версия. А если что-то сломается?"),
+             ("Then please tell us: Settings → StillCraft has buttons to report a bug or suggest an idea through the StillCraft bot.",
+              "Тогда напишите нам: в настройках, в разделе StillCraft, есть кнопки «Сообщить об ошибке» и «Предложить идею» – они ведут в бота StillCraft.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -9711,12 +9798,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "campfire": "cf", "theusual": "tu", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp", "hushwood": "hw", "longwave": "lw", "sill": "sl", "fridge": "fr", "lipovka": "lp", "heartwood": "hd", "cellar": "cr", "stringer": "sr", "carriage": "ct", "errand": "er", "tsukumo": "tk", "windup": "wu", "archipelago": "ar", "shapito": "sh", "biohacker": "bh", "lodger": "ld", "honours": "hn", "counterweight": "cw", "underbed": "ub", "rootlings": "rl", "unwritten": "uw", "silverlining": "kd", "dyer": "dy", "insidejob": "ij", "mimic": "mm", "aloft": "al", "farwalker": "kv", "undermat": "um", "nooklings": "nk", "softlanding": "sf", "curator": "cu", "matryoshka": "mt", "gossamer": "gs", "greenstreet": "gt", "reelkin": "rk", "charms": "ch", "ranger": "rg", "apothecary": "ac", "fieldscan": "fs", "postround": "po", "opposite": "op", "yourmove": "ym", "rustle": "rs", "cabinet": "cb", "hob": "hb", "threshold": "ps", "songling": "sg", "keyling": "kl", "kitchenwitch": "kw", "pumpling": "pu", "puffling": "pf", "pennyling": "pn", "overwinter": "ow", "capsule": "cp", "papertrail": "vy", "pilgrim": "pg", "horae": "hr", "lot": "lt"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "campfire": "cf", "theusual": "tu", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp", "hushwood": "hw", "longwave": "lw", "sill": "sl", "fridge": "fr", "lipovka": "lp", "heartwood": "hd", "cellar": "cr", "stringer": "sr", "carriage": "ct", "errand": "er", "tsukumo": "tk", "windup": "wu", "archipelago": "ar", "shapito": "sh", "biohacker": "bh", "lodger": "ld", "honours": "hn", "counterweight": "cw", "underbed": "ub", "rootlings": "rl", "unwritten": "uw", "silverlining": "kd", "dyer": "dy", "insidejob": "ij", "mimic": "mm", "aloft": "al", "farwalker": "kv", "undermat": "um", "nooklings": "nk", "softlanding": "sf", "curator": "cu", "matryoshka": "mt", "gossamer": "gs", "greenstreet": "gt", "reelkin": "rk", "charms": "ch", "ranger": "rg", "apothecary": "ac", "fieldscan": "fs", "postround": "po", "opposite": "op", "yourmove": "ym", "rustle": "rs", "cabinet": "cb", "hob": "hb", "threshold": "ps", "songling": "sg", "keyling": "kl", "kitchenwitch": "kw", "pumpling": "pu", "puffling": "pf", "pennyling": "pn", "inkling": "ik", "overwinter": "ow", "capsule": "cp", "papertrail": "vy", "pilgrim": "pg", "horae": "hr", "lot": "lt"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "campfire": ("cf-branch.png", "cf-branch.ru.png"), "theusual": ("tu-board.png", "tu-board.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png"), "hushwood": ("hw-lake.png", "hw-lake.ru.png"), "longwave": ("lw-radio.png", "lw-radio.ru.png"), "sill": ("sl-sill.png", "sl-sill.ru.png"), "fridge": ("fr-door.png", "fr-door.ru.png"), "lipovka": ("lp-post.png", "lp-post.ru.png"), "heartwood": ("hd-tree.png", "hd-tree.ru.png"), "cellar": ("cr-cellar.png", "cr-cellar.ru.png"), "stringer": ("sr-issue.png", "sr-issue.ru.png"), "carriage": ("ct-desk.png", "ct-desk.ru.png"), "errand": ("er-office.png", "er-office.ru.png"), "tsukumo": ("tk-house.png", "tk-house.ru.png"), "windup": ("wu-shelf.png", "wu-shelf.ru.png"), "archipelago": ("ar-chart.png", "ar-chart.ru.png"), "shapito": ("sh-ring.png", "sh-ring.ru.png"), "biohacker": ("bh-blueprint.png", "bh-blueprint.ru.png"), "lodger": ("ld-room.png", "ld-room.ru.png"), "honours": ("hn-wall.png", "hn-wall.ru.png"), "counterweight": ("cw-weighing.png", "cw-weighing.ru.png"), "underbed": ("ub-bed.png", "ub-bed.ru.png"), "rootlings": ("rl-sill.png", "rl-sill.ru.png"), "unwritten": ("uw-shop.png", "uw-shop.ru.png"), "silverlining": ("kd-table.png", "kd-table.ru.png"), "dyer": ("dy-square.png", "dy-square.ru.png"), "insidejob": ("ij-plan.png", "ij-plan.ru.png"), "mimic": ("mm-room.png", "mm-room.ru.png"), "aloft": ("al-isle.png", "al-isle.ru.png"), "farwalker": ("kv-atlas.png", "kv-atlas.ru.png"), "undermat": ("um-flat.png", "um-flat.ru.png"), "nooklings": ("nk-room.png", "nk-room.ru.png"), "softlanding": ("sf-flight.png", "sf-flight.ru.png"), "curator": ("cu-card.png", "cu-card.ru.png"), "matryoshka": ("mt-opened.png", "mt-opened.ru.png"), "gossamer": ("gs-web.png", "gs-web.ru.png"), "greenstreet": ("gt-street.png", "gt-street.ru.png"), "reelkin": ("rk-booth.png", "rk-booth.ru.png"), "charms": ("ch-charm.png", "ch-charm.ru.png"), "ranger": ("rg-outpost.png", "rg-outpost.ru.png"), "apothecary": ("ac-shop.png", "ac-shop.ru.png"), "fieldscan": ("fs-scan.png", "fs-scan.ru.png"), "postround": ("po-map.png", "po-map.ru.png"), "opposite": ("op-house.png", "op-house.ru.png"), "yourmove": ("ym-desk.png", "ym-desk.ru.png"), "rustle": ("rs-home.png", "rs-home.ru.png"), "cabinet": ("cb-museum.png", "cb-museum.ru.png"), "hob": ("hb-home.png", "hb-home.ru.png"), "threshold": ("ps-home.png", "ps-home.ru.png"), "songling": ("sg-den.png", "sg-den.ru.png"), "keyling": ("kl-desk.png", "kl-desk.ru.png"), "kitchenwitch": ("kw-kitchen.png", "kw-kitchen.ru.png"), "pumpling": ("pu-gym.png", "pu-gym.ru.png"), "puffling": ("pf-home.png", "pf-home.ru.png"), "pennyling": ("pn-home.png", "pn-home.ru.png"), "overwinter": ("ow-station.png", "ow-station.ru.png"), "capsule": ("cp-machine.png", "cp-machine.ru.png"), "papertrail": ("vy-office.png", "vy-office.ru.png"), "pilgrim": ("pg-page.png", "pg-page.ru.png"), "horae": ("hr-page.png", "hr-page.ru.png"), "lot": ("lt-draw.png", "lt-draw.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "campfire": ("cf-branch.png", "cf-branch.ru.png"), "theusual": ("tu-board.png", "tu-board.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png"), "hushwood": ("hw-lake.png", "hw-lake.ru.png"), "longwave": ("lw-radio.png", "lw-radio.ru.png"), "sill": ("sl-sill.png", "sl-sill.ru.png"), "fridge": ("fr-door.png", "fr-door.ru.png"), "lipovka": ("lp-post.png", "lp-post.ru.png"), "heartwood": ("hd-tree.png", "hd-tree.ru.png"), "cellar": ("cr-cellar.png", "cr-cellar.ru.png"), "stringer": ("sr-issue.png", "sr-issue.ru.png"), "carriage": ("ct-desk.png", "ct-desk.ru.png"), "errand": ("er-office.png", "er-office.ru.png"), "tsukumo": ("tk-house.png", "tk-house.ru.png"), "windup": ("wu-shelf.png", "wu-shelf.ru.png"), "archipelago": ("ar-chart.png", "ar-chart.ru.png"), "shapito": ("sh-ring.png", "sh-ring.ru.png"), "biohacker": ("bh-blueprint.png", "bh-blueprint.ru.png"), "lodger": ("ld-room.png", "ld-room.ru.png"), "honours": ("hn-wall.png", "hn-wall.ru.png"), "counterweight": ("cw-weighing.png", "cw-weighing.ru.png"), "underbed": ("ub-bed.png", "ub-bed.ru.png"), "rootlings": ("rl-sill.png", "rl-sill.ru.png"), "unwritten": ("uw-shop.png", "uw-shop.ru.png"), "silverlining": ("kd-table.png", "kd-table.ru.png"), "dyer": ("dy-square.png", "dy-square.ru.png"), "insidejob": ("ij-plan.png", "ij-plan.ru.png"), "mimic": ("mm-room.png", "mm-room.ru.png"), "aloft": ("al-isle.png", "al-isle.ru.png"), "farwalker": ("kv-atlas.png", "kv-atlas.ru.png"), "undermat": ("um-flat.png", "um-flat.ru.png"), "nooklings": ("nk-room.png", "nk-room.ru.png"), "softlanding": ("sf-flight.png", "sf-flight.ru.png"), "curator": ("cu-card.png", "cu-card.ru.png"), "matryoshka": ("mt-opened.png", "mt-opened.ru.png"), "gossamer": ("gs-web.png", "gs-web.ru.png"), "greenstreet": ("gt-street.png", "gt-street.ru.png"), "reelkin": ("rk-booth.png", "rk-booth.ru.png"), "charms": ("ch-charm.png", "ch-charm.ru.png"), "ranger": ("rg-outpost.png", "rg-outpost.ru.png"), "apothecary": ("ac-shop.png", "ac-shop.ru.png"), "fieldscan": ("fs-scan.png", "fs-scan.ru.png"), "postround": ("po-map.png", "po-map.ru.png"), "opposite": ("op-house.png", "op-house.ru.png"), "yourmove": ("ym-desk.png", "ym-desk.ru.png"), "rustle": ("rs-home.png", "rs-home.ru.png"), "cabinet": ("cb-museum.png", "cb-museum.ru.png"), "hob": ("hb-home.png", "hb-home.ru.png"), "threshold": ("ps-home.png", "ps-home.ru.png"), "songling": ("sg-den.png", "sg-den.ru.png"), "keyling": ("kl-desk.png", "kl-desk.ru.png"), "kitchenwitch": ("kw-kitchen.png", "kw-kitchen.ru.png"), "pumpling": ("pu-gym.png", "pu-gym.ru.png"), "puffling": ("pf-home.png", "pf-home.ru.png"), "pennyling": ("pn-home.png", "pn-home.ru.png"), "inkling": ("ik-home.png", "ik-home.ru.png"), "overwinter": ("ow-station.png", "ow-station.ru.png"), "capsule": ("cp-machine.png", "cp-machine.ru.png"), "papertrail": ("vy-office.png", "vy-office.ru.png"), "pilgrim": ("pg-page.png", "pg-page.ru.png"), "horae": ("hr-page.png", "hr-page.ru.png"), "lot": ("lt-draw.png", "lt-draw.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
