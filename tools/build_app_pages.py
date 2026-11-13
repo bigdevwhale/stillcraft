@@ -9781,7 +9781,7 @@ APPS = [
         "visual": "sx-station.png", "visual_ru": "sx-station.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/specimen",
         "download": "https://github.com/bigdevwhale/specimen/releases/latest/download/Specimen.apk",
-        "version": "v1.1.0",
+        "version": "v1.1.1",
         "tagline": ("A diary of your pet, who came from another planet.",
                     "Дневник питомца, который прилетел с другой планеты."),
         "badge": ("Pets", "Питомцы"),
@@ -9831,7 +9831,7 @@ APPS = [
         ],
         "extra": None,
         "facts": [
-            (("Version", "Версия"), ("v1.1.0 · a second phone and pet portraits", "v1.1.0 · второй телефон и аватарки питомцев")),
+            (("Version", "Версия"), ("v1.1.1 · a second phone and pet portraits", "v1.1.1 · второй телефон и аватарки питомцев")),
             (("File", "Файл"), ("Specimen.apk", "Specimen.apk")),
             (("Requires", "Нужно"), ("Android 9 (API 28) or newer.", "Android 9 (API 28) или новее.")),
             (("Permissions", "Разрешения"), ("The local network – only to reach your second phone on the home Wi-Fi; the camera – only to scan its QR; notifications for reminders. Pet photos come from the phone's own camera app. No account, no ads, no analytics.", "Локальная сеть – только для связи со вторым телефоном в домашней Wi-Fi, камера – только чтобы отсканировать его QR, уведомления – для напоминаний. Фото питомца снимает камера самого телефона. Без аккаунта, рекламы и аналитики.")),
