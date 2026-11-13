@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --sx-bg: #151A21; --sx-deep: #0E1116; --sx-ink: #ECE6D6; --sx-muted: #9AA0AA; --sx-acc: #C9A86A; --sx-line: #262D37;
   --ik-bg: #1B1636; --ik-deep: #0E0B22; --ik-ink: #F1EAF9; --ik-muted: #B9AED3; --ik-acc: #F0C060; --ik-line: #2E2752;
   --pn-bg: #2A1D12; --pn-deep: #160F09; --pn-ink: #F6EEDF; --pn-muted: #C9B59C; --pn-acc: #E3A04A; --pn-line: #3E2C1C;
   --pf-bg: #13222E; --pf-deep: #0A131B; --pf-ink: #EEF4F7; --pf-muted: #A9BCC7; --pf-acc: #6EB8D6; --pf-line: #24394A;
@@ -1714,3 +1715,15 @@ pre.code .c { opacity: 0.55; }
 .cv-ik img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
 .app--inkling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ik-line); }
 .g-inkling { --shot-bg: #15122A; --shot-ratio: 540 / 1170; }
+
+.app--specimen { --fl: var(--sx-line); --fm: var(--sx-muted); background: radial-gradient(46% 34% at 80% 12%, rgb(201 168 106 / 0.14) 0%, transparent 70%), linear-gradient(180deg, var(--sx-bg) 0%, var(--sx-deep) 100%); color: var(--sx-ink); }
+.app--specimen .app-tag { color: var(--sx-acc); }
+.app--specimen .app-lede em, .app--specimen h1 em { font-style: italic; color: var(--sx-acc); }
+.app--specimen .btn-primary { background: var(--sx-acc); color: #12161C; }
+.app--specimen .btn-ghost { color: var(--sx-acc); border-color: var(--sx-acc); }
+.app--specimen .app-desc, .app--specimen .feats span, .app--specimen small { color: var(--sx-muted); }
+.pill.sx { --dot: #C9A86A; }
+.cv-sx { background: radial-gradient(55% 40% at 60% 30%, rgb(201 168 106 / 0.18) 0%, transparent 70%), linear-gradient(180deg, #1A1F27, #0E1116); }
+.cv-sx img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.35); }
+.app--specimen .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--sx-line); }
+.g-specimen { --shot-bg: #12161C; --shot-ratio: 540 / 1171; }

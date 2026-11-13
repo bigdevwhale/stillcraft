@@ -9769,6 +9769,93 @@ APPS = [
               "Тогда напишите нам: в настройках, в разделе StillCraft, есть кнопки «Сообщить об ошибке» и «Предложить идею» – они ведут в бота StillCraft.")),
         ],
     },
+    {
+        "slug": "specimen",
+        "name": "Specimen",
+        "panel": "app--specimen",
+        "gallery": "g-specimen",
+        "icon": "specimen-logo.png",
+        "visual": "sx-station.png", "visual_ru": "sx-station.ru.png", "visual_wide": False,
+        "repo": "https://github.com/bigdevwhale/specimen",
+        "download": "https://github.com/bigdevwhale/specimen/releases/latest/download/Specimen.apk",
+        "version": "v1.0.0",
+        "tagline": ("A diary of your pet, who came from another planet.",
+                    "Дневник питомца, который прилетел с другой планеты."),
+        "badge": ("Pets", "Питомцы"),
+        "status": ("ok", "New", "Новинка"),
+        "file_badge": ("APK ready", "APK готов"),
+        "plat_badge": "Android 9.0+",
+        "title": ("Watch your pet <em>like a real scientist.</em>",
+                  "Наблюдайте за питомцем, <em>как настоящий учёный.</em>"),
+        "desc": ("For anyone with a cat, a dog, a parrot or another pet. Imagine it came from another planet and you were asked to observe it. Write down its mood, appetite and weight, take photos and try new foods. The app tells you when it's time to see a vet, and every Sunday it puts together a report with your photos and conclusions.",
+                 "Для всех, у кого есть кошка, собака, попугай или другой питомец. Представьте, что он прилетел с другой планеты, а вам поручили за ним наблюдать. Записывайте настроение, аппетит и вес, фотографируйте его и пробуйте новые корма. Приложение подскажет, когда пора к ветеринару, а каждое воскресенье соберёт отчёт с вашими снимками и выводами."),
+        "cta": ("Download APK", "Скачать APK"),
+        "plat": ("Android 9.0+ · Free · English &amp; Русский",
+                 "Android 9.0+ · Бесплатно · English и Русский"),
+        "features": [
+            (("135 breeds", "135 пород"),
+             ("Cats, dogs, parrots, rabbits and rodents, ferrets and reptiles. For each breed the app knows the temperament, the usual weight and what it tends to fall ill with.",
+              "Кошки, собаки, попугаи, кролики и грызуны, хорьки и рептилии. Для каждой породы приложение знает характер, нормальный вес и болезни, к которым она склонна.")),
+            (("One tap", "В одно касание"),
+             ("Mood, appetite, weight, symptoms. If a cat hasn't eaten for two days or can't pee, the app says plainly: see a vet today.",
+              "Настроение, аппетит, вес, симптомы. Если кошка второй день не ест или не может сходить в туалет, приложение прямо скажет: к врачу сегодня.")),
+            (("Care", "Уход"),
+             ("Vaccines, flea and worm treatments, claws and litter, in a list made for the breed, with a reminder when something is due.",
+              "Прививки, обработки от блох и глистов, когти и лоток – список под породу и напоминание, когда подходит срок.")),
+            (("Experiments", "Эксперименты"),
+             ("A new food, a medicine or a move: write what you expect, then how it went. That's how the diet takes shape – what your pet loves and what it won't touch.",
+              "Новый корм, лекарство или переезд: запишите, чего ожидаете, а потом – как прошло. Так складывается рацион: что питомцу нравится, а к чему он не притронется.")),
+            (("The ethics committee", "Этический комитет"),
+             ("It turns down the cucumber prank, punishment and hunger, and anything poisonous for your species: chocolate, grapes, lilies, human painkillers.",
+              "Он не пропустит розыгрыш с огурцом, наказания и голод, а ещё всё, что ядовито для вашего вида: шоколад, виноград, лилии, человеческие обезболивающие.")),
+            (("The behaviour atlas", "Атлас поведения"),
+             ("200 poses and habits: belly up, the loaf, the slow blink. Tag one on a photo and it opens in the atlas, with what it really means.",
+              "200 поз и привычек: живот вверх, буханка, медленное моргание. Отметьте позу на фото – она откроется в атласе вместе с объяснением, что она значит.")),
+            (("The Sunday report", "Отчёт по воскресеньям"),
+             ("A typed sheet with your photos and captions, the character profile and weight. Share it as a picture.",
+              "Машинописный лист с вашими снимками и подписями, профилем характера и весом. Им можно поделиться картинкой.")),
+            (("For the vet", "Для ветеринара"),
+             ("A PDF with weight, vaccines, medicines and how your pet reacted to them, and two months of symptoms.",
+              "PDF с весом, прививками, лекарствами и реакцией на них, а ещё симптомами за два месяца.")),
+        ],
+        "shots": [
+            ("sx-station.png", "sx-station.ru.png", ("The station", "Станция"), ("Your pet, four buttons and what to do today.", "Питомец, четыре кнопки и дела на сегодня.")),
+            ("sx-dossier.png", "sx-dossier.ru.png", ("The file", "Досье"), ("Character compared with the breed, and its weak spots.", "Характер в сравнении с породой и слабые места.")),
+            ("sx-reports.png", "sx-reports.ru.png", ("Reports", "Отчёты"), ("Every week gets its own cover.", "У каждой недели своя обложка.")),
+            ("sx-atlas.png", "sx-atlas.ru.png", ("The atlas", "Атлас"), ("Poses opened by your own photos.", "Позы, открытые вашими снимками.")),
+            ("sx-report.png", "sx-report.ru.png", ("A report", "Отчёт"), ("Photos, captions and conclusions.", "Снимки, подписи и выводы.")),
+            ("sx-lesson.png", "sx-lesson.ru.png", ("A lesson", "Урок"), ("How to read a tail, and a task to try at home.", "Как читать хвост, и задание, которое можно попробовать дома.")),
+        ],
+        "extra": None,
+        "facts": [
+            (("Version", "Версия"), ("v1.0.0 · first release", "v1.0.0 · первая версия")),
+            (("File", "Файл"), ("Specimen.apk", "Specimen.apk")),
+            (("Requires", "Нужно"), ("Android 9 (API 28) or newer.", "Android 9 (API 28) или новее.")),
+            (("Permissions", "Разрешения"), ("No internet at all; notifications for reminders. The phone's own camera opens only when you photograph your pet. No account, no ads, no analytics.", "Интернет не нужен, уведомления – для напоминаний. Камера телефона открывается, только когда вы фотографируете питомца. Без аккаунта, рекламы и аналитики.")),
+            (("License", "Лицензия"), ("MIT · fonts Lora, Rubik, IBM Plex Mono (OFL)", "MIT · шрифты Lora, Rubik, IBM Plex Mono (OFL)")),
+        ],
+        "steps": [
+            ("Download the APK on the phone.", "Скачайте APK на телефон."),
+            ("Open it and allow installs from this source when Android asks.", "Откройте файл и разрешите установку из этого источника, когда Android спросит."),
+            ("Register your pet: its kind, breed and name.", "Зарегистрируйте питомца: вид, породу и кличку."),
+        ],
+        "note": ("Everything stays on the phone: the app has no internet access at all.",
+                 "Всё хранится только в телефоне: у приложения вообще нет доступа в интернет."),
+        "build_req": ("JDK 17+ (Android Studio's bundled JBR works) and the Android SDK. Kotlin, Jetpack Compose, Room, DataStore.",
+                      "JDK 17+ (подойдёт JBR из Android Studio) и Android SDK. Kotlin, Jetpack Compose, Room, DataStore."),
+        "build": "git clone https://github.com/bigdevwhale/specimen.git\ncd specimen\n./gradlew assembleDebug\n./gradlew assembleDebug -Pdemo              <c># app.specimen.demo: a British cat and a corgi, five weeks in</c>",
+        "faq": [
+            (("Is it a vet app?", "Это ветеринарное приложение?"),
+             ("No, it's a diary. It notices worrying signs and tells you when to see a vet, but it doesn't diagnose or treat.",
+              "Нет, это дневник. Он замечает тревожные признаки и подсказывает, когда стоит показаться врачу, но диагнозов не ставит и не лечит.")),
+            (("I have a rabbit, a ferret or a gecko. Will it work?", "У меня кролик, хорёк или геккон. Подойдёт?"),
+             ("Yes. Besides cats and dogs there are parrots, rabbits and other rodents, ferrets and reptiles, each with their own breeds, care and behaviour atlas.",
+              "Да. Кроме кошек и собак есть попугаи, кролики и другие грызуны, хорьки и рептилии – у каждого свои породы, уход и атлас поведения.")),
+            (("It's the first version – what if something breaks?", "Это первая версия. А если что-то сломается?"),
+             ("Then please tell us: Settings → StillCraft has buttons to report a bug or suggest an idea through the StillCraft bot.",
+              "Тогда напишите нам: в настройках, в разделе StillCraft, есть кнопки «Сообщить об ошибке» и «Предложить идею» – они ведут в бота StillCraft.")),
+        ],
+    },
 ]
 
 COMMON = {
@@ -9818,12 +9905,12 @@ class Page:
 
 def card(app, p):
     status_cls, s_en, s_ru = app["status"]
-    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "campfire": "cf", "theusual": "tu", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp", "hushwood": "hw", "longwave": "lw", "sill": "sl", "fridge": "fr", "lipovka": "lp", "heartwood": "hd", "cellar": "cr", "stringer": "sr", "carriage": "ct", "errand": "er", "tsukumo": "tk", "windup": "wu", "archipelago": "ar", "shapito": "sh", "biohacker": "bh", "lodger": "ld", "honours": "hn", "counterweight": "cw", "underbed": "ub", "rootlings": "rl", "unwritten": "uw", "silverlining": "kd", "dyer": "dy", "insidejob": "ij", "mimic": "mm", "aloft": "al", "farwalker": "kv", "undermat": "um", "nooklings": "nk", "softlanding": "sf", "curator": "cu", "matryoshka": "mt", "gossamer": "gs", "greenstreet": "gt", "reelkin": "rk", "charms": "ch", "ranger": "rg", "apothecary": "ac", "fieldscan": "fs", "postround": "po", "opposite": "op", "yourmove": "ym", "rustle": "rs", "cabinet": "cb", "hob": "hb", "threshold": "ps", "songling": "sg", "keyling": "kl", "kitchenwitch": "kw", "pumpling": "pu", "puffling": "pf", "pennyling": "pn", "inkling": "ik", "overwinter": "ow", "capsule": "cp", "papertrail": "vy", "pilgrim": "pg", "horae": "hr", "lot": "lt"}[app["slug"]]
+    vis_cls = "cv-" + {"anyway": "aw", "swisszen": "sz", "focusshield": "fs", "ties": "ti", "unhook": "un", "dayquest": "dq", "serene": "se", "ember": "em", "fogwalk": "fw", "dearme": "dm", "glow": "gl", "waypoint": "wp", "obol": "ob", "prism": "pr", "temper": "tp", "hearthspell": "hs", "familiar": "fa", "hoard": "ho", "silverbox": "sb", "notch": "nt", "calavera": "ca", "vigil": "vi", "scriptor": "sc", "marbles": "ma", "stele": "st", "podium": "pd", "keeper": "kp", "lantern": "ln", "campfire": "cf", "theusual": "tu", "nighttrain": "tr", "tessera": "ts", "kite": "kt", "sidea": "sa", "rewind": "rw", "party": "pt", "spintop": "sp", "hushwood": "hw", "longwave": "lw", "sill": "sl", "fridge": "fr", "lipovka": "lp", "heartwood": "hd", "cellar": "cr", "stringer": "sr", "carriage": "ct", "errand": "er", "tsukumo": "tk", "windup": "wu", "archipelago": "ar", "shapito": "sh", "biohacker": "bh", "lodger": "ld", "honours": "hn", "counterweight": "cw", "underbed": "ub", "rootlings": "rl", "unwritten": "uw", "silverlining": "kd", "dyer": "dy", "insidejob": "ij", "mimic": "mm", "aloft": "al", "farwalker": "kv", "undermat": "um", "nooklings": "nk", "softlanding": "sf", "curator": "cu", "matryoshka": "mt", "gossamer": "gs", "greenstreet": "gt", "reelkin": "rk", "charms": "ch", "ranger": "rg", "apothecary": "ac", "fieldscan": "fs", "postround": "po", "opposite": "op", "yourmove": "ym", "rustle": "rs", "cabinet": "cb", "hob": "hb", "threshold": "ps", "songling": "sg", "keyling": "kl", "kitchenwitch": "kw", "pumpling": "pu", "puffling": "pf", "pennyling": "pn", "inkling": "ik", "specimen": "sx", "overwinter": "ow", "capsule": "cp", "papertrail": "vy", "pilgrim": "pg", "horae": "hr", "lot": "lt"}[app["slug"]]
     shot = {"anyway": ("en-now.png", "ru-now.png"), "swisszen": ("sz-home.png", "sz-home.ru.png"), "focusshield": ("fs-break.gif", None),
             "ties": ("ti-home.png", "ti-home.ru.png"), "unhook": ("un-home.png", "un-home.ru.png"), "dayquest": ("dq-tasks.png", "dq-tasks.ru.png"),
             "serene": ("se-today.png", "se-today.ru.png"), "ember": ("em-fast.png", "em-fast.ru.png"),
             "fogwalk": ("fw-map.png", "fw-map.ru.png"), "dearme": ("dm-letters.png", "dm-letters.ru.png"),
-            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "campfire": ("cf-branch.png", "cf-branch.ru.png"), "theusual": ("tu-board.png", "tu-board.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png"), "hushwood": ("hw-lake.png", "hw-lake.ru.png"), "longwave": ("lw-radio.png", "lw-radio.ru.png"), "sill": ("sl-sill.png", "sl-sill.ru.png"), "fridge": ("fr-door.png", "fr-door.ru.png"), "lipovka": ("lp-post.png", "lp-post.ru.png"), "heartwood": ("hd-tree.png", "hd-tree.ru.png"), "cellar": ("cr-cellar.png", "cr-cellar.ru.png"), "stringer": ("sr-issue.png", "sr-issue.ru.png"), "carriage": ("ct-desk.png", "ct-desk.ru.png"), "errand": ("er-office.png", "er-office.ru.png"), "tsukumo": ("tk-house.png", "tk-house.ru.png"), "windup": ("wu-shelf.png", "wu-shelf.ru.png"), "archipelago": ("ar-chart.png", "ar-chart.ru.png"), "shapito": ("sh-ring.png", "sh-ring.ru.png"), "biohacker": ("bh-blueprint.png", "bh-blueprint.ru.png"), "lodger": ("ld-room.png", "ld-room.ru.png"), "honours": ("hn-wall.png", "hn-wall.ru.png"), "counterweight": ("cw-weighing.png", "cw-weighing.ru.png"), "underbed": ("ub-bed.png", "ub-bed.ru.png"), "rootlings": ("rl-sill.png", "rl-sill.ru.png"), "unwritten": ("uw-shop.png", "uw-shop.ru.png"), "silverlining": ("kd-table.png", "kd-table.ru.png"), "dyer": ("dy-square.png", "dy-square.ru.png"), "insidejob": ("ij-plan.png", "ij-plan.ru.png"), "mimic": ("mm-room.png", "mm-room.ru.png"), "aloft": ("al-isle.png", "al-isle.ru.png"), "farwalker": ("kv-atlas.png", "kv-atlas.ru.png"), "undermat": ("um-flat.png", "um-flat.ru.png"), "nooklings": ("nk-room.png", "nk-room.ru.png"), "softlanding": ("sf-flight.png", "sf-flight.ru.png"), "curator": ("cu-card.png", "cu-card.ru.png"), "matryoshka": ("mt-opened.png", "mt-opened.ru.png"), "gossamer": ("gs-web.png", "gs-web.ru.png"), "greenstreet": ("gt-street.png", "gt-street.ru.png"), "reelkin": ("rk-booth.png", "rk-booth.ru.png"), "charms": ("ch-charm.png", "ch-charm.ru.png"), "ranger": ("rg-outpost.png", "rg-outpost.ru.png"), "apothecary": ("ac-shop.png", "ac-shop.ru.png"), "fieldscan": ("fs-scan.png", "fs-scan.ru.png"), "postround": ("po-map.png", "po-map.ru.png"), "opposite": ("op-house.png", "op-house.ru.png"), "yourmove": ("ym-desk.png", "ym-desk.ru.png"), "rustle": ("rs-home.png", "rs-home.ru.png"), "cabinet": ("cb-museum.png", "cb-museum.ru.png"), "hob": ("hb-home.png", "hb-home.ru.png"), "threshold": ("ps-home.png", "ps-home.ru.png"), "songling": ("sg-den.png", "sg-den.ru.png"), "keyling": ("kl-desk.png", "kl-desk.ru.png"), "kitchenwitch": ("kw-kitchen.png", "kw-kitchen.ru.png"), "pumpling": ("pu-gym.png", "pu-gym.ru.png"), "puffling": ("pf-home.png", "pf-home.ru.png"), "pennyling": ("pn-home.png", "pn-home.ru.png"), "inkling": ("ik-home.png", "ik-home.ru.png"), "overwinter": ("ow-station.png", "ow-station.ru.png"), "capsule": ("cp-machine.png", "cp-machine.ru.png"), "papertrail": ("vy-office.png", "vy-office.ru.png"), "pilgrim": ("pg-page.png", "pg-page.ru.png"), "horae": ("hr-page.png", "hr-page.ru.png"), "lot": ("lt-draw.png", "lt-draw.ru.png")}[app["slug"]]
+            "glow": ("gl-praise.png", "gl-praise.ru.png"), "waypoint": ("wp-mandala.png", "wp-mandala.ru.png"), "obol": ("ob-gate.png", "ob-gate.ru.png"), "prism": ("pr-home.png", "pr-home.ru.png"), "temper": ("tp-out.png", "tp-out.ru.png"), "hearthspell": ("hs-tower.png", "hs-tower.ru.png"), "familiar": ("fa-den.png", "fa-den.ru.png"), "hoard": ("ho-cave.png", "ho-cave.ru.png"), "silverbox": ("sb-camera.png", "sb-camera.ru.png"), "notch": ("nt-frame.png", "nt-frame.ru.png"), "calavera": ("ca-casa.png", "ca-casa.ru.png"), "vigil": ("vi-vows.png", "vi-vows.ru.png"), "scriptor": ("sc-desk.png", "sc-desk.ru.png"), "marbles": ("ma-jar.png", "ma-jar.ru.png"), "stele": ("st-vessel.png", "st-vessel.ru.png"), "podium": ("pd-stadium.png", "pd-stadium.ru.png"), "keeper": ("kp-bay.png", "kp-bay.ru.png"), "lantern": ("ln-glass.png", "ln-glass.ru.png"), "campfire": ("cf-branch.png", "cf-branch.ru.png"), "theusual": ("tu-board.png", "tu-board.ru.png"), "nighttrain": ("tr-question.png", "tr-question.ru.png"), "tessera": ("ts-panel.png", "ts-panel.ru.png"), "kite": ("kt-reel.png", "kt-reel.ru.png"), "sidea": ("sa-room.png", "sa-room.ru.png"), "rewind": ("rw-store.png", "rw-store.ru.png"), "party": ("pt-tavern.png", "pt-tavern.ru.png"), "spintop": ("sp-home.png", "sp-home.ru.png"), "hushwood": ("hw-lake.png", "hw-lake.ru.png"), "longwave": ("lw-radio.png", "lw-radio.ru.png"), "sill": ("sl-sill.png", "sl-sill.ru.png"), "fridge": ("fr-door.png", "fr-door.ru.png"), "lipovka": ("lp-post.png", "lp-post.ru.png"), "heartwood": ("hd-tree.png", "hd-tree.ru.png"), "cellar": ("cr-cellar.png", "cr-cellar.ru.png"), "stringer": ("sr-issue.png", "sr-issue.ru.png"), "carriage": ("ct-desk.png", "ct-desk.ru.png"), "errand": ("er-office.png", "er-office.ru.png"), "tsukumo": ("tk-house.png", "tk-house.ru.png"), "windup": ("wu-shelf.png", "wu-shelf.ru.png"), "archipelago": ("ar-chart.png", "ar-chart.ru.png"), "shapito": ("sh-ring.png", "sh-ring.ru.png"), "biohacker": ("bh-blueprint.png", "bh-blueprint.ru.png"), "lodger": ("ld-room.png", "ld-room.ru.png"), "honours": ("hn-wall.png", "hn-wall.ru.png"), "counterweight": ("cw-weighing.png", "cw-weighing.ru.png"), "underbed": ("ub-bed.png", "ub-bed.ru.png"), "rootlings": ("rl-sill.png", "rl-sill.ru.png"), "unwritten": ("uw-shop.png", "uw-shop.ru.png"), "silverlining": ("kd-table.png", "kd-table.ru.png"), "dyer": ("dy-square.png", "dy-square.ru.png"), "insidejob": ("ij-plan.png", "ij-plan.ru.png"), "mimic": ("mm-room.png", "mm-room.ru.png"), "aloft": ("al-isle.png", "al-isle.ru.png"), "farwalker": ("kv-atlas.png", "kv-atlas.ru.png"), "undermat": ("um-flat.png", "um-flat.ru.png"), "nooklings": ("nk-room.png", "nk-room.ru.png"), "softlanding": ("sf-flight.png", "sf-flight.ru.png"), "curator": ("cu-card.png", "cu-card.ru.png"), "matryoshka": ("mt-opened.png", "mt-opened.ru.png"), "gossamer": ("gs-web.png", "gs-web.ru.png"), "greenstreet": ("gt-street.png", "gt-street.ru.png"), "reelkin": ("rk-booth.png", "rk-booth.ru.png"), "charms": ("ch-charm.png", "ch-charm.ru.png"), "ranger": ("rg-outpost.png", "rg-outpost.ru.png"), "apothecary": ("ac-shop.png", "ac-shop.ru.png"), "fieldscan": ("fs-scan.png", "fs-scan.ru.png"), "postround": ("po-map.png", "po-map.ru.png"), "opposite": ("op-house.png", "op-house.ru.png"), "yourmove": ("ym-desk.png", "ym-desk.ru.png"), "rustle": ("rs-home.png", "rs-home.ru.png"), "cabinet": ("cb-museum.png", "cb-museum.ru.png"), "hob": ("hb-home.png", "hb-home.ru.png"), "threshold": ("ps-home.png", "ps-home.ru.png"), "songling": ("sg-den.png", "sg-den.ru.png"), "keyling": ("kl-desk.png", "kl-desk.ru.png"), "kitchenwitch": ("kw-kitchen.png", "kw-kitchen.ru.png"), "pumpling": ("pu-gym.png", "pu-gym.ru.png"), "puffling": ("pf-home.png", "pf-home.ru.png"), "pennyling": ("pn-home.png", "pn-home.ru.png"), "inkling": ("ik-home.png", "ik-home.ru.png"), "specimen": ("sx-station.png", "sx-station.ru.png"), "overwinter": ("ow-station.png", "ow-station.ru.png"), "capsule": ("cp-machine.png", "cp-machine.ru.png"), "papertrail": ("vy-office.png", "vy-office.ru.png"), "pilgrim": ("pg-page.png", "pg-page.ru.png"), "horae": ("hr-page.png", "hr-page.ru.png"), "lot": ("lt-draw.png", "lt-draw.ru.png")}[app["slug"]]
     ru_attr = ' data-src-ru="%s%s"' % (A, shot[1]) if shot[1] else ""
     return """        <a class="card" href="../{slug}/">
           <div class="card-visual {vis}">
