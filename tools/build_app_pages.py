@@ -4769,7 +4769,7 @@ APPS = [
         "visual": "wu-shelf.png", "visual_ru": "wu-shelf.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/windup",
         "download": "https://github.com/bigdevwhale/windup/releases/latest/download/Windup.apk",
-        "version": "v1.1.0",
+        "version": "v1.1.1",
         "tagline": ("A little movement all day long instead of an hour twice a week. Nine painted tin toys on a shelf, each a family of movements; a minute or three of squats, balance or breathing winds one up for two hours and puts a pin in the day's music-box drum.",
                     "Понемногу, но весь день — вместо часа дважды в неделю. Девять нарисованных жестяных игрушек на полке, у каждой своя семья движений: пара минут приседаний, баланса или дыхания заводит игрушку на два часа и вбивает штифт в барабан шкатулки."),
         "badge": ("Exercise snacks as wind-up toys · Updated", "Разминки как заводные игрушки · Обновление"),
@@ -4843,7 +4843,7 @@ APPS = [
             ],
         },
         "facts": [
-            (("Version", "Версия"), ("v1.1.0", "v1.1.0")),
+            (("Version", "Версия"), ("v1.1.1", "v1.1.1")),
             (("File", "Файл"), ("Windup.apk", "Windup.apk")),
             (("Requires", "Нужно"), ("Android 9.0 (API 28) or newer. No Google services needed.", "Android 9.0 (API 28) или новее. Сервисы Google не нужны.")),
             (("Permissions", "Разрешения"), ("Notifications only, for the one gentle reminder. No internet, no account, no ads, no analytics.",
