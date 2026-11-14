@@ -8461,6 +8461,7 @@ APPS = [
         "visual": "sg-den.png", "visual_ru": "sg-den.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/songling",
         "download": "https://github.com/bigdevwhale/songling/releases/latest/download/Songling.apk",
+        "play": "https://play.google.com/store/apps/details?id=app.songling",
         "version": "v1.7.1",
         "tagline": ("A pet that listens to music with you, from any player, and grows with every minute.",
                     "Питомец, который слушает с вами музыку из любого плеера и растёт от каждой минуты."),
