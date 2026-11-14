@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --ql-bg: #2A1712; --ql-deep: #170C09; --ql-ink: #F5EBDD; --ql-muted: #C7B3A0; --ql-acc: #F0A860; --ql-line: #44291F;
   --sx-bg: #151A21; --sx-deep: #0E1116; --sx-ink: #ECE6D6; --sx-muted: #9AA0AA; --sx-acc: #C9A86A; --sx-line: #262D37;
   --ik-bg: #1B1636; --ik-deep: #0E0B22; --ik-ink: #F1EAF9; --ik-muted: #B9AED3; --ik-acc: #F0C060; --ik-line: #2E2752;
   --pn-bg: #2A1D12; --pn-deep: #160F09; --pn-ink: #F6EEDF; --pn-muted: #C9B59C; --pn-acc: #E3A04A; --pn-line: #3E2C1C;
@@ -1727,3 +1728,15 @@ pre.code .c { opacity: 0.55; }
 .cv-sx img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.35); }
 .app--specimen .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--sx-line); }
 .g-specimen { --shot-bg: #12161C; --shot-ratio: 540 / 1171; }
+
+.app--questling { --fl: var(--ql-line); --fm: var(--ql-muted); background: radial-gradient(50% 36% at 80% 14%, rgb(240 128 64 / 0.20) 0%, transparent 70%), radial-gradient(40% 30% at 16% 90%, rgb(181 64 47 / 0.22) 0%, transparent 70%), linear-gradient(180deg, var(--ql-bg) 0%, var(--ql-deep) 100%); color: var(--ql-ink); }
+.app--questling .app-tag { color: var(--ql-acc); }
+.app--questling .app-lede em, .app--questling h1 em { font-style: italic; color: var(--ql-acc); }
+.app--questling .btn-primary { background: var(--ql-acc); color: #24120C; }
+.app--questling .btn-ghost { color: var(--ql-acc); border-color: var(--ql-acc); }
+.app--questling .app-desc, .app--questling .feats span, .app--questling small { color: var(--ql-muted); }
+.pill.ql { --dot: #B5402F; }
+.cv-ql { background: radial-gradient(55% 40% at 60% 30%, rgb(181 64 47 / 0.26) 0%, transparent 70%), linear-gradient(180deg, #F4EBDD, #E3D0B0); }
+.cv-ql img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.25); }
+.app--questling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ql-line); }
+.g-questling { --shot-bg: #1A1412; --shot-ratio: 540 / 1200; }
