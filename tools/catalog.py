@@ -155,6 +155,8 @@ PLAIN = {
                 "Расписание, задания и экзамены в академии магии, где вместе с вами растут 24 существа."),
     "specimen": ("A pet diary: mood, weight, food and vaccines, with a report of your photos every Sunday.",
                  "Дневник питомца: настроение, вес, корма и прививки, а по воскресеньям – отчёт с вашими снимками."),
+    "wildling": ("Bad habits are wild beasts, good ones shy creatures. Don't feed the first, lure the second, and wait out cravings by the window with the beast.",
+                 "Вредные привычки – дикие звери, полезные – пугливые зверьки. Первых не кормите, вторых приманивайте, а тягу пережидайте у окна вместе со зверем."),
     "lingvale": ("A pixel village for the pets of all our apps: build their houses, gather fireflies, a stamp album and the days.",
                   "Пиксельная деревня для питомцев из всех наших приложений: стройте им дома, собирайте светлячков и марки."),
     "questling": ("A diary of the video and board games you play: sessions, the score with friends, 36 creatures and nearly 300 trophies.",
@@ -222,7 +224,7 @@ CATS = [
      ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin", "songling", "rustle", "pennyling", "questling", "lingvale"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
-     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite", "threshold", "pumpling"]),
+     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite", "threshold", "pumpling", "wildling"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
      ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat", "yourmove", "keyling", "kitchenwitch", "inkling"]),
@@ -236,10 +238,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 99 free apps", "Stillcraft · 99 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 100 free apps", "Stillcraft · 100 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 98 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 98 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 99 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 99 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -250,7 +252,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("99 apps, <em>grouped by what they help with.</em>", "99 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("100 apps, <em>grouped by what they help with.</em>", "100 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -312,6 +314,7 @@ WORDS = {
     "pennyling": "pennyling money tracker budget budgeting personal finance expense tracker spending tracker expenses daily budget allowance payday salary pay period bills rent subscriptions subscription tracker savings goals saving jar debt debts snowball avalanche emergency fund net worth cash card accounts bank notifications statistics forecast calendar cost in hours inflation wishlist impulse buying virtual pet pets hamster squirrel tamagotchi gamification pixel art деньги учёт денег учет расходов бюджет личные финансы трекер расходов траты расходы доходы паёк на день зарплата аванс счета коммуналка аренда подписки сбережения копилка цели накопления долги кредит кредитка снежный ком лавина подушка безопасности капитал наличные карта уведомления банка статистика прогноз календарь инфляция список желаний импульсивные покупки питомец питомцы хомяк белка тамагочи геймификация пиксель",
     "inkling": "inkling study tracker study planner student school university college homework timetable schedule class schedule lessons lectures labs coursework thesis exams exam prep tickets state exam grades marks gpa record book pomodoro focus timer candle spaced repetition recall feynman technique questions magic academy wizard school creatures pets virtual pet pixel art gamification учёба учеба учебный трекер школа университет вуз колледж студент школьник домашка домашнее задание расписание пары уроки лекции лабы курсовая диплом экзамены сессия билеты огэ егэ оценки зачётка зачетка помодоро таймер свеча интервальные повторения фейнман академия магии волшебные существа питомцы пиксель геймификация",
     "specimen": "specimen contact pet diary pet tracker pet care pet health cat dog parrot rabbit hamster guinea pig ferret gecko reptile breed vet vaccines fleas deworming litter weight appetite mood symptoms food diet behaviour atlas weekly report xenology alien observation journal контакт питомец дневник питомца кошка кот собака попугай кролик хомяк морская свинка хорёк хорек геккон рептилия порода ветеринар прививки блохи глисты лоток вес аппетит настроение симптомы корм рацион поведение атлас отчёт отчет ксенолог пришелец наблюдения",
+    "wildling": "wildling wildlings habit tracker quit smoking stop drinking sobriety sugar quit scrolling bad habits good habits habit pets virtual pet creatures wild beasts tame lure craving urge surfing relapse streak clean days money saved time saved journal mood diary weather hard days map milestones triggers what helps pixel art lodge garden gamification привычки трекер привычек бросить курить не пить трезвость сладкое лента вредные привычки полезные привычки питомцы звери приручить приманить тяга срыв серия чистые дни сэкономленные деньги дневник настроение погода на душе трудные дни карта вехи триггеры что помогает пиксель сторожка сад геймификация",
     "lingvale": "lingvale village pixel village pets virtual pet hub all apps puffling pumpling pennyling reelkin inkling questling songling keyling familiar build houses fireflies shop decorations weekly tasks quests stamp album bestiary gazette quilt days timeline gamification cozy деревня пиксельная деревня питомцы все приложения стройка дома светлячки лавка задания альбом марок бестиарий газета одеяло дни лента геймификация уютная",
     "questling": "questling game diary game tracker gaming journal play log playtime tracker hours played video games board games card games tabletop rpg dnd campaign backlog collection sessions session timer score sheet dice roller first player turn timer screenshots album friends wins losses achievements trophies season pass quests pets creatures virtual pet pixel art tavern gamification дневник игр трекер игр игровой журнал видеоигры настолки настольные игры карточные игры ролёвки нри днд сессии таймер часы в играх счёт очки протокол кубики первый игрок таймер хода скриншоты альбом друзья победы поражения достижения трофеи ачивки сезон задания питомцы пиксель трактир геймификация",
     "papertrail": "paper trail budget budgeting money finance personal finance expense expenses expense tracker spending spend tracker money tracker envelope budget daily budget allowance payday salary bills rent subscriptions subscription tracker cancel subscriptions savings goals save money impulse buys bank notifications cash detective noir mystery case cases clue clues suspect suspects mugshot police verdict gamification бюджет деньги финансы личные финансы расходы трата траты учёт расходов трекер расходов конверты дневной бюджет аванс зарплата счета аренда подписки отменить подписки накопления цели копить импульсивные покупки уведомления банка наличные детектив нуар сыщик дело дела улика улики подозреваемый подозреваемые вердикт висяк",

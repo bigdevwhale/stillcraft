@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --wl-bg: #2A3324; --wl-deep: #161C12; --wl-ink: #F3ECD9; --wl-muted: #C8C3AA; --wl-acc: #FFC46B; --wl-line: #4A5A3C;
   --lv-bg: #2E4A2C; --lv-deep: #1A2C19; --lv-ink: #F4F1E6; --lv-muted: #C9D3BC; --lv-acc: #FFD87A; --lv-line: #46623F;
   --ql-bg: #2A1712; --ql-deep: #170C09; --ql-ink: #F5EBDD; --ql-muted: #C7B3A0; --ql-acc: #F0A860; --ql-line: #44291F;
   --sx-bg: #151A21; --sx-deep: #0E1116; --sx-ink: #ECE6D6; --sx-muted: #9AA0AA; --sx-acc: #C9A86A; --sx-line: #262D37;
@@ -1753,3 +1754,15 @@ pre.code .c { opacity: 0.55; }
 .cv-lv img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.22); }
 .app--lingvale .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--lv-line); }
 .g-lingvale { --shot-bg: #F4ECD8; --shot-ratio: 540 / 1170; }
+
+.app--wildling { --fl: var(--wl-line); --fm: var(--wl-muted); background: radial-gradient(50% 36% at 80% 14%, rgb(255 196 107 / 0.18) 0%, transparent 70%), radial-gradient(40% 30% at 16% 90%, rgb(140 122 158 / 0.24) 0%, transparent 70%), linear-gradient(180deg, var(--wl-bg) 0%, var(--wl-deep) 100%); color: var(--wl-ink); }
+.app--wildling .app-tag { color: var(--wl-acc); }
+.app--wildling .app-lede em, .app--wildling h1 em { font-style: italic; color: var(--wl-acc); }
+.app--wildling .btn-primary { background: var(--wl-acc); color: #2A1E0C; }
+.app--wildling .btn-ghost { color: var(--wl-acc); border-color: var(--wl-acc); }
+.app--wildling .app-desc, .app--wildling .feats span, .app--wildling small { color: var(--wl-muted); }
+.pill.wl { --dot: #4F7A45; }
+.cv-wl { background: radial-gradient(55% 40% at 60% 30%, rgb(140 122 158 / 0.26) 0%, transparent 70%), linear-gradient(180deg, #EFE8D4, #D9DDBF); }
+.cv-wl img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.22); }
+.app--wildling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--wl-line); }
+.g-wildling { --shot-bg: #EDE5CF; --shot-ratio: 540 / 1170; }
