@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --rm-bg: #3A4A3A; --rm-deep: #1E281F; --rm-ink: #F6EEDC; --rm-muted: #C9CDB8; --rm-acc: #F2B45A; --rm-line: #5A6A54;
   --wl-bg: #2A3324; --wl-deep: #161C12; --wl-ink: #F3ECD9; --wl-muted: #C8C3AA; --wl-acc: #FFC46B; --wl-line: #4A5A3C;
   --lv-bg: #2E4A2C; --lv-deep: #1A2C19; --lv-ink: #F4F1E6; --lv-muted: #C9D3BC; --lv-acc: #FFD87A; --lv-line: #46623F;
   --ql-bg: #2A1712; --ql-deep: #170C09; --ql-ink: #F5EBDD; --ql-muted: #C7B3A0; --ql-acc: #F0A860; --ql-line: #44291F;
@@ -1766,3 +1767,15 @@ pre.code .c { opacity: 0.55; }
 .cv-wl img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.22); }
 .app--wildling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--wl-line); }
 .g-wildling { --shot-bg: #EDE5CF; --shot-ratio: 540 / 1170; }
+
+.app--roamling { --fl: var(--rm-line); --fm: var(--rm-muted); background: radial-gradient(50% 36% at 78% 12%, rgb(242 180 90 / 0.22) 0%, transparent 70%), radial-gradient(44% 32% at 14% 88%, rgb(200 210 214 / 0.20) 0%, transparent 70%), linear-gradient(180deg, var(--rm-bg) 0%, var(--rm-deep) 100%); color: var(--rm-ink); }
+.app--roamling .app-tag { color: var(--rm-acc); }
+.app--roamling .app-lede em, .app--roamling h1 em { font-style: italic; color: var(--rm-acc); }
+.app--roamling .btn-primary { background: var(--rm-acc); color: #2A1E0C; }
+.app--roamling .btn-ghost { color: var(--rm-acc); border-color: var(--rm-acc); }
+.app--roamling .app-desc, .app--roamling .feats span, .app--roamling small { color: var(--rm-muted); }
+.pill.rm { --dot: #5E9A4A; }
+.cv-rm { background: radial-gradient(55% 40% at 60% 30%, rgb(242 180 90 / 0.22) 0%, transparent 70%), linear-gradient(180deg, #EAF0EC, #D6DEC6); }
+.cv-rm img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.22); }
+.app--roamling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--rm-line); }
+.g-roamling { --shot-bg: #EDE5CF; --shot-ratio: 540 / 1170; }
