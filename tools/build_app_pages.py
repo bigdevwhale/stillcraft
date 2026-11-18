@@ -10130,7 +10130,7 @@ APPS = [
         "visual": "rm-home.png", "visual_ru": "rm-home.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/roamling",
         "download": "https://github.com/bigdevwhale/roamling/releases/latest/download/Roamling.apk",
-        "version": "v1.0.0",
+        "version": "v1.0.1",
         "tagline": ("Walk your town, lift the fog and raise little companions.",
                     "Гуляйте по городу, рассеивайте туман и растите маленьких попутчиков."),
         "badge": ("Walks", "Прогулки"),
@@ -10169,6 +10169,9 @@ APPS = [
             (("Steps only on walks", "Шаги только на прогулках"),
              ("From the phone's sensor, and if you like from your watch through Health Connect. Nobody dies or gets ill: a missed day is just a rest in the den.",
               "С датчика телефона, а если хотите – ещё и с часов через Health Connect. Никто не умирает и не болеет: пропущенный день – просто отдых в логове.")),
+            (("Postcards and moving", "Открытки и переезд"),
+             ("Share your road so far, a companion in its world, a walk with its route, the bestiary or the weather stamps as a postcard. All the progress saves to one file and loads on a new phone.",
+              "Итоги пути, попутчик в своём мире, прогулка с маршрутом, бестиарий или марки погоды – открыткой, чтобы поделиться. Весь прогресс сохраняется в один файл и загружается на новом телефоне.")),
         ],
         "shots": [
             ("rm-home.png", "rm-home.ru.png", ("The rest stop", "Привал"), ("The backpack's three on the bench, today's wish and the chapter.", "Трое из рюкзака на лавочке, желание дня и текущая глава.")),
