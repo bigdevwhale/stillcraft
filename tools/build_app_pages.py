@@ -10220,7 +10220,7 @@ APPS = [
         "visual": "cg-home.png", "visual_ru": "cg-home.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/caregotchi",
         "download": "https://github.com/bigdevwhale/caregotchi/releases/latest/download/Caregotchi.apk",
-        "version": "v1.1.0",
+        "version": "v1.2.0",
         "tagline": ("A tamagotchi fed by looking after yourself.",
                     "Тамагочи, которого кормит ваша забота о себе."),
         "badge": ("Self-care", "Забота о себе"),
@@ -10270,7 +10270,7 @@ APPS = [
         ],
         "extra": None,
         "facts": [
-            (("Version", "Версия"), ("v1.1.0 · blood pressure, a sleep button on the widget", "v1.1.0 · давление, кнопка сна на виджете")),
+            (("Version", "Версия"), ("v1.2.0 · caffeine, blood pressure", "v1.2.0 · кофеин, давление")),
             (("File", "Файл"), ("Caregotchi.apk", "Caregotchi.apk")),
             (("Requires", "Нужно"), ("Android 9 (API 28) or newer.", "Android 9 (API 28) или новее.")),
             (("Permissions", "Разрешения"), ("Notifications (the pet's reminders), exact alarms (medicine on the minute), internet (only the weather and air pressure). No account, no ads, no analytics.", "Уведомления (напоминания питомца), точные будильники (лекарства минута в минуту), интернет (только погода и давление). Без аккаунта, рекламы и аналитики.")),
