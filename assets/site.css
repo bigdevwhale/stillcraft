@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --cg-bg: #4A3424; --cg-deep: #24170F; --cg-ink: #F8EEDC; --cg-muted: #D8C6AC; --cg-acc: #F2B45A; --cg-line: #6A4E36;
   --rm-bg: #3A4A3A; --rm-deep: #1E281F; --rm-ink: #F6EEDC; --rm-muted: #C9CDB8; --rm-acc: #F2B45A; --rm-line: #5A6A54;
   --wl-bg: #2A3324; --wl-deep: #161C12; --wl-ink: #F3ECD9; --wl-muted: #C8C3AA; --wl-acc: #FFC46B; --wl-line: #4A5A3C;
   --lv-bg: #2E4A2C; --lv-deep: #1A2C19; --lv-ink: #F4F1E6; --lv-muted: #C9D3BC; --lv-acc: #FFD87A; --lv-line: #46623F;
@@ -1779,3 +1780,15 @@ pre.code .c { opacity: 0.55; }
 .cv-rm img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.22); }
 .app--roamling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--rm-line); }
 .g-roamling { --shot-bg: #EDE5CF; --shot-ratio: 540 / 1170; }
+
+.app--caregotchi { --fl: var(--cg-line); --fm: var(--cg-muted); background: radial-gradient(50% 36% at 80% 14%, rgb(242 180 90 / 0.24) 0%, transparent 70%), radial-gradient(44% 32% at 12% 86%, rgb(201 139 134 / 0.20) 0%, transparent 70%), linear-gradient(180deg, var(--cg-bg) 0%, var(--cg-deep) 100%); color: var(--cg-ink); }
+.app--caregotchi .app-tag { color: var(--cg-acc); }
+.app--caregotchi .app-lede em, .app--caregotchi h1 em { font-style: italic; color: var(--cg-acc); }
+.app--caregotchi .btn-primary { background: var(--cg-acc); color: #2A1E0C; }
+.app--caregotchi .btn-ghost { color: var(--cg-acc); border-color: var(--cg-acc); }
+.app--caregotchi .app-desc, .app--caregotchi .feats span, .app--caregotchi small { color: var(--cg-muted); }
+.pill.cg { --dot: #D9A441; }
+.cv-cg { background: radial-gradient(55% 40% at 60% 30%, rgb(242 180 90 / 0.24) 0%, transparent 70%), linear-gradient(180deg, #F6ECDA, #E8D2A8); }
+.cv-cg img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.22); }
+.app--caregotchi .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--cg-line); }
+.g-caregotchi { --shot-bg: #F3EAD9; --shot-ratio: 540 / 1169; }
