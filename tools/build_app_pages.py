@@ -10313,7 +10313,7 @@ APPS = [
         "visual": "kn-home.png", "visual_ru": "kn-home.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/knackling",
         "download": "https://github.com/bigdevwhale/knackling/releases/latest/download/Knackling.apk",
-        "version": "v1.0.0",
+        "version": "v1.0.1",
         "tagline": ("Apprentices for your hobbies.",
                     "Подмастерья для твоих хобби."),
         "badge": ("Hobbies", "Хобби"),
@@ -10363,7 +10363,7 @@ APPS = [
         ],
         "extra": None,
         "facts": [
-            (("Version", "Версия"), ("v1.0.0 · first release", "v1.0.0 · первая версия")),
+            (("Version", "Версия"), ("v1.0.1 · first release with a fix", "v1.0.1 · первая версия с исправлением")),
             (("File", "Файл"), ("Knackling.apk", "Knackling.apk")),
             (("Requires", "Нужно"), ("Android 9 (API 28) or newer.", "Android 9 (API 28) или новее.")),
             (("Permissions", "Разрешения"), ("Notifications (the running session's clock and a gentle nudge). No internet, no account, no ads, no analytics.", "Уведомления (часы идущего занятия и мягкое напоминание). Без интернета, аккаунта, рекламы и аналитики.")),
