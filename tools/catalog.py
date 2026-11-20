@@ -151,6 +151,8 @@ PLAIN = {
                 "Маленький подарок каждый день от себя прошлого: заправь автомат с капсулами мелочами, опытом и записками, забудь — и крути ручку раз в день."),
     "pennyling": ("A money tracker where the month to payday is a winter: a daily ration, goals in jars, subscriptions, debts and 24 pets.",
                   "Учёт денег, где месяц до зарплаты – это зима: паёк на день, цели в банках, подписки, долги и 24 питомца."),
+    "patience": ("Six classic solitaire games with watercolour decks and an owl who teaches you to play them.",
+                  "Шесть классических пасьянсов с акварельными колодами и совой, которая учит в них играть."),
     "knackling": ("A hobby tracker where each of 40 hobbies has its own pet apprentice that grows from an egg to a legend over ten thousand hours of practice.",
                   "Трекер хобби: у каждого из 40 увлечений свой подмастерье, который растёт из яйца до легенды за десять тысяч часов практики."),
     "inkling": ("Your timetable, tasks and exams in an academy of magic, where 24 creatures grow as you study.",
@@ -224,7 +226,7 @@ PLAIN = {
 CATS = [
     ("calm", ("Calm and worry", "Спокойствие и тревога"),
      ("Breathing, meditation, and a way through thoughts that won't let go.", "Дыхание, медитации и способ справиться с мыслями, которые не отпускают."),
-     ["swisszen", "serene", "counterweight", "keeper", "kite", "spintop", "hushwood", "heartwood", "pilgrim", "horae", "longwave", "puffling"]),
+     ["swisszen", "serene", "counterweight", "keeper", "kite", "spintop", "hushwood", "heartwood", "pilgrim", "horae", "longwave", "puffling", "patience"]),
     ("focus", ("Focus and the phone", "Фокус и телефон"),
      ("Fewer feeds, fewer distractions, fewer impulse buys, and help giving something up.", "Меньше лент, отвлечений и импульсивных покупок и помощь, чтобы от чего-то отказаться."),
      ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin", "songling", "rustle", "pennyling", "questling", "lingvale"]),
@@ -244,10 +246,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 103 free apps", "Stillcraft · 103 бесплатных приложения"),
+    "c.hero.eyebrow": ("Stillcraft · 104 free apps", "Stillcraft · 104 бесплатных приложения"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 102 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 102 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 103 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 103 приложения для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -258,7 +260,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("103 apps, <em>grouped by what they help with.</em>", "103 приложения, <em>по задачам.</em>"),
+    "c.ap.title": ("104 apps, <em>grouped by what they help with.</em>", "104 приложения, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -318,6 +320,7 @@ WORDS = {
     "archipelago": "archipelago islands island bridges bridge sea chart map friends friendship make friends new people meet people meeting strangers social anxiety shy introvert courage small talk conversation invite invitation loneliness lonely community club hobby group keep in touch follow up second time reminder hall 50 hours 200 hours close friend acquaintance lighthouse party gathering introduce mutual friends years anniversary journal мостки архипелаг острова мосты карта друзья дружба знакомства новые люди познакомиться незнакомцы стеснительность интроверт смелость разговор пригласить одиночество клуб общение второй раз поддерживать связь маяк вечеринка годовщина журнал",
     "shapito": "shapito big top circus comfort zone step out courage brave fear fears anxiety social anxiety shy shyness exposure exposure therapy challenge challenges daily challenge dare self improvement growth confidence public speaking phone calls saying no boundaries conflict asking for help vulnerability feelings unknown change decisions new places alone mistakes perfectionism imperfection beginner sharing work praise money charging being seen body image sport discomfort drum roll applause lion tamer ringmaster clown juggler magician strongman tightrope trapeze pixel art game шапито цирк зона комфорта выйти из зоны комфорта смелость страх страхи тревога социальная тревожность стеснительность застенчивость экспозиция вызов челлендж саморазвитие рост уверенность публичные выступления звонки сказать нет границы конфликты просить помощи уязвимость чувства неизвестность перемены решения новые места одному ошибки перфекционизм новичок показать творчество похвала деньги быть замеченным тело спорт дискомфорт барабанная дробь аплодисменты укротитель конферансье клоун жонглёр фокусник силач канатоходец гимнаст пиксель игра",
     "pennyling": "pennyling money tracker budget budgeting personal finance expense tracker spending tracker expenses daily budget allowance payday salary pay period bills rent subscriptions subscription tracker savings goals saving jar debt debts snowball avalanche emergency fund net worth cash card accounts bank notifications statistics forecast calendar cost in hours inflation wishlist impulse buying virtual pet pets hamster squirrel tamagotchi gamification pixel art деньги учёт денег учет расходов бюджет личные финансы трекер расходов траты расходы доходы паёк на день зарплата аванс счета коммуналка аренда подписки сбережения копилка цели накопления долги кредит кредитка снежный ком лавина подушка безопасности капитал наличные карта уведомления банка статистика прогноз календарь инфляция список желаний импульсивные покупки питомец питомцы хомяк белка тамагочи геймификация пиксель",
+    "patience": "patience пасьянс solitaire солитер card game карточная игра карты cards klondike косынка spider паук freecell свободная ячейка pyramid пирамида tripeaks три пика golf гольф calm спокойствие relax отдых evening вечер watercolour акварель owl сова tutorial обучение hints подсказки offline no ads без рекламы",
     "knackling": "knackling подмастерья hobby хобби hobbies увлечения hobby tracker трекер хобби practice практика 10000 hours 10000 часов embroidery вышивка knitting вязание crochet крючок sewing шитьё guitar гитара piano фортепиано singing пение drawing рисование watercolour акварель painting живопись photography фотография pottery гончарство woodwork reading чтение writing languages языки chess шахматы puzzles пазлы gardening сад огород fishing рыбалка dance танцы yoga йога cycling велосипед cooking кулинария baking выпечка coding программирование astronomy астрономия crafts рукоделие handmade virtual pet питомец pixel пиксель gamification геймификация projects проекты postcards открытки",
     "inkling": "inkling study tracker study planner student school university college homework timetable schedule class schedule lessons lectures labs coursework thesis exams exam prep tickets state exam grades marks gpa record book pomodoro focus timer candle spaced repetition recall feynman technique questions magic academy wizard school creatures pets virtual pet pixel art gamification учёба учеба учебный трекер школа университет вуз колледж студент школьник домашка домашнее задание расписание пары уроки лекции лабы курсовая диплом экзамены сессия билеты огэ егэ оценки зачётка зачетка помодоро таймер свеча интервальные повторения фейнман академия магии волшебные существа питомцы пиксель геймификация",
     "specimen": "specimen contact pet diary pet tracker pet care pet health cat dog parrot rabbit hamster guinea pig ferret gecko reptile breed vet vaccines fleas deworming litter weight appetite mood symptoms food diet behaviour atlas weekly report xenology alien observation journal контакт питомец дневник питомца кошка кот собака попугай кролик хомяк морская свинка хорёк хорек геккон рептилия порода ветеринар прививки блохи глисты лоток вес аппетит настроение симптомы корм рацион поведение атлас отчёт отчет ксенолог пришелец наблюдения",
