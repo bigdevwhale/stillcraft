@@ -81,7 +81,6 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
-  --pa-bg: #2F4A50; --pa-deep: #18272B; --pa-ink: #F6EFE1; --pa-muted: #C9D6D2; --pa-acc: #E7B46A; --pa-line: #4A6A70;
   --kn-bg: #5A2E26; --kn-deep: #2A1512; --kn-ink: #FBF1E2; --kn-muted: #E2C9B0; --kn-acc: #F2B54C; --kn-line: #7A4A3A;
   --cg-bg: #4A3424; --cg-deep: #24170F; --cg-ink: #F8EEDC; --cg-muted: #D8C6AC; --cg-acc: #F2B45A; --cg-line: #6A4E36;
   --rm-bg: #3A4A3A; --rm-deep: #1E281F; --rm-ink: #F6EEDC; --rm-muted: #C9CDB8; --rm-acc: #F2B45A; --rm-line: #5A6A54;
@@ -1807,14 +1806,3 @@ pre.code .c { opacity: 0.55; }
 .app--knackling .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--kn-line); }
 .g-knackling { --shot-bg: #F1E7D3; --shot-ratio: 540 / 1200; }
 
-.app--patience { --fl: var(--pa-line); --fm: var(--pa-muted); background: radial-gradient(50% 36% at 80% 14%, rgb(231 180 106 / 0.22) 0%, transparent 70%), radial-gradient(44% 32% at 12% 86%, rgb(181 82 59 / 0.18) 0%, transparent 70%), linear-gradient(180deg, var(--pa-bg) 0%, var(--pa-deep) 100%); color: var(--pa-ink); }
-.app--patience .app-tag { color: var(--pa-acc); }
-.app--patience .app-lede em, .app--patience h1 em { font-style: italic; color: var(--pa-acc); }
-.app--patience .btn-primary { background: var(--pa-acc); color: #2A1A08; }
-.app--patience .btn-ghost { color: var(--pa-acc); border-color: var(--pa-acc); }
-.app--patience .app-desc, .app--patience .feats span, .app--patience small { color: var(--pa-muted); }
-.pill.pa { --dot: #B5523B; }
-.cv-pa { background: radial-gradient(55% 40% at 60% 30%, rgb(231 180 106 / 0.24) 0%, transparent 70%), linear-gradient(180deg, #F4ECDD, #E3D2B4); }
-.cv-pa img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.22); }
-.app--patience .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--pa-line); }
-.g-patience { --shot-bg: #F1E7D3; --shot-ratio: 960 / 443; }
