@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --ly-bg: #2A1F33; --ly-deep: #150F1C; --ly-ink: #F5E9D8; --ly-muted: #CDBBCB; --ly-acc: #F2C16B; --ly-line: #4A3757;
   --cn-bg: #2B3566; --cn-deep: #141A33; --cn-ink: #F6EAD2; --cn-muted: #CFC3AA; --cn-acc: #E3AD48; --cn-line: #3E4A80;
   --kn-bg: #5A2E26; --kn-deep: #2A1512; --kn-ink: #FBF1E2; --kn-muted: #E2C9B0; --kn-acc: #F2B54C; --kn-line: #7A4A3A;
   --cg-bg: #4A3424; --cg-deep: #24170F; --cg-ink: #F8EEDC; --cg-muted: #D8C6AC; --cg-acc: #F2B45A; --cg-line: #6A4E36;
@@ -1819,3 +1820,15 @@ pre.code .c { opacity: 0.55; }
 .cv-cn img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.22); }
 .app--caravan .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--cn-line); }
 .g-caravan { --shot-bg: #F3E6CC; --shot-ratio: 540 / 1200; }
+
+.app--leyline { --fl: var(--ly-line); --fm: var(--ly-muted); background: radial-gradient(50% 36% at 80% 14%, rgb(242 193 107 / 0.20) 0%, transparent 70%), radial-gradient(44% 32% at 12% 86%, rgb(95 217 203 / 0.16) 0%, transparent 70%), linear-gradient(180deg, var(--ly-bg) 0%, var(--ly-deep) 100%); color: var(--ly-ink); }
+.app--leyline .app-tag { color: var(--ly-acc); }
+.app--leyline .app-lede em, .app--leyline h1 em { font-style: italic; color: var(--ly-acc); }
+.app--leyline .btn-primary { background: linear-gradient(90deg, #F2C16B, #E7A0AE); color: #2A1420; }
+.app--leyline .btn-ghost { color: var(--ly-acc); border-color: var(--ly-acc); }
+.app--leyline .app-desc, .app--leyline .feats span, .app--leyline small { color: var(--ly-muted); }
+.pill.ly { --dot: #5FD9CB; }
+.cv-ly { background: radial-gradient(55% 40% at 60% 30%, rgb(242 193 107 / 0.30) 0%, transparent 70%), linear-gradient(180deg, #3A2A45, #1B1324); }
+.cv-ly img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.35); }
+.app--leyline .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ly-line); }
+.g-leyline { --shot-bg: #1B1324; --shot-ratio: 540 / 1170; }
