@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --ey-bg: #1A2138; --ey-deep: #0B0F1C; --ey-ink: #EDE4D3; --ey-muted: #B9C0D4; --ey-acc: #EDB86C; --ey-line: #39415C;
   --ly-bg: #2A1F33; --ly-deep: #150F1C; --ly-ink: #F5E9D8; --ly-muted: #CDBBCB; --ly-acc: #F2C16B; --ly-line: #4A3757;
   --cn-bg: #2B3566; --cn-deep: #141A33; --cn-ink: #F6EAD2; --cn-muted: #CFC3AA; --cn-acc: #E3AD48; --cn-line: #3E4A80;
   --kn-bg: #5A2E26; --kn-deep: #2A1512; --kn-ink: #FBF1E2; --kn-muted: #E2C9B0; --kn-acc: #F2B54C; --kn-line: #7A4A3A;
@@ -1832,3 +1833,15 @@ pre.code .c { opacity: 0.55; }
 .cv-ly img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.35); }
 .app--leyline .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ly-line); }
 .g-leyline { --shot-bg: #1B1324; --shot-ratio: 540 / 1170; }
+
+.app--secondsight { --fl: var(--ey-line); --fm: var(--ey-muted); background: radial-gradient(50% 36% at 78% 14%, rgb(237 184 108 / 0.18) 0%, transparent 70%), radial-gradient(46% 34% at 14% 84%, rgb(185 198 230 / 0.16) 0%, transparent 70%), linear-gradient(180deg, var(--ey-bg) 0%, var(--ey-deep) 100%); color: var(--ey-ink); }
+.app--secondsight .app-tag { color: var(--ey-acc); }
+.app--secondsight .app-lede em, .app--secondsight h1 em { font-style: italic; color: var(--ey-acc); }
+.app--secondsight .btn-primary { background: linear-gradient(90deg, #EDB86C, #D9DEEA); color: #141A2C; }
+.app--secondsight .btn-ghost { color: var(--ey-acc); border-color: var(--ey-acc); }
+.app--secondsight .app-desc, .app--secondsight .feats span, .app--secondsight small { color: var(--ey-muted); }
+.pill.ey { --dot: #B9C6E6; }
+.cv-ey { background: radial-gradient(55% 40% at 60% 30%, rgb(237 184 108 / 0.26) 0%, transparent 70%), linear-gradient(180deg, #232B47, #0E1220); }
+.cv-ey img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.35); }
+.app--secondsight .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ey-line); }
+.g-secondsight { --shot-bg: #0E1220; --shot-ratio: 540 / 1199; }
