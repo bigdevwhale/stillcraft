@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --dk-bg: #F5EEE1; --dk-deep: #E6D9BF; --dk-ink: #2E2721; --dk-muted: #7D7163; --dk-acc: #2D4363; --dk-line: #DCD2C0;
   --dv-bg: #EFE3C6; --dv-deep: #DCCBA4; --dv-ink: #2C2722; --dv-muted: #6B5A48; --dv-acc: #A8432F; --dv-line: #BFAE8C;
   --ey-bg: #1A2138; --ey-deep: #0B0F1C; --ey-ink: #EDE4D3; --ey-muted: #B9C0D4; --ey-acc: #EDB86C; --ey-line: #39415C;
   --ly-bg: #2A1F33; --ly-deep: #150F1C; --ly-ink: #F5E9D8; --ly-muted: #CDBBCB; --ly-acc: #F2C16B; --ly-line: #4A3757;
@@ -1858,3 +1859,15 @@ pre.code .c { opacity: 0.55; }
 .cv-dv img { box-shadow: 0 18px 44px rgb(44 39 34 / 0.35); }
 .app--delve .ap-visual img { box-shadow: 0 24px 60px rgb(44 39 34 / 0.4); border: 1px solid var(--dv-line); }
 .g-delve { --shot-bg: #E3D3AE; --shot-ratio: 540 / 1170; }
+
+.app--deskling { --fl: var(--dk-line); --fm: var(--dk-muted); background: radial-gradient(48% 34% at 82% 12%, rgb(181 65 58 / 0.14) 0%, transparent 70%), linear-gradient(180deg, var(--dk-bg) 0%, var(--dk-deep) 100%); color: var(--dk-ink); }
+.app--deskling .app-tag { color: var(--dk-acc); }
+.app--deskling .app-lede em, .app--deskling h1 em { font-style: italic; color: #B5413A; }
+.app--deskling .btn-primary { background: #2D4363; color: #FBF6EA; }
+.app--deskling .btn-ghost { color: var(--dk-ink); border-color: var(--dk-ink); }
+.app--deskling .app-desc, .app--deskling .feats span, .app--deskling small { color: var(--dk-muted); }
+.pill.dk { --dot: #2D4363; }
+.cv-dk { background: radial-gradient(55% 40% at 60% 30%, rgb(181 65 58 / 0.16) 0%, transparent 70%), linear-gradient(180deg, #F5EEE1, #DCCDB0); }
+.cv-dk img { box-shadow: 0 18px 44px rgb(46 39 33 / 0.3); }
+.app--deskling .ap-visual img { box-shadow: 0 24px 60px rgb(46 39 33 / 0.35); border: 1px solid var(--dk-line); }
+.g-deskling { --shot-bg: #E9DEC8; --shot-ratio: 540 / 1200; }
