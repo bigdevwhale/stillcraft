@@ -81,6 +81,7 @@
   --ps-bg: #0A0912; --ps-deep: #06050B; --ps-card: #13111F; --ps-ink: #ECE6F5; --ps-muted: #9A93AD; --ps-gold: #E8C27A; --ps-violet: #8A6CFF; --ps-line: #25213A;
   --sg-bg: #F3EADB; --sg-deep: #E9DDC8; --sg-card: #FFF8EE; --sg-ink: #3B2A22; --sg-muted: #7E6A59; --sg-terra: #C8553D; --sg-line: #E2D4BF;
   --kl-bg: #EEF0F6; --kl-deep: #DCE1EE; --kl-card: #FFFFFF; --kl-ink: #1E2238; --kl-muted: #5F6680; --kl-acc: #3557C9; --kl-line: #CDD4E6;
+  --dv-bg: #EFE3C6; --dv-deep: #DCCBA4; --dv-ink: #2C2722; --dv-muted: #6B5A48; --dv-acc: #A8432F; --dv-line: #BFAE8C;
   --ey-bg: #1A2138; --ey-deep: #0B0F1C; --ey-ink: #EDE4D3; --ey-muted: #B9C0D4; --ey-acc: #EDB86C; --ey-line: #39415C;
   --ly-bg: #2A1F33; --ly-deep: #150F1C; --ly-ink: #F5E9D8; --ly-muted: #CDBBCB; --ly-acc: #F2C16B; --ly-line: #4A3757;
   --cn-bg: #2B3566; --cn-deep: #141A33; --cn-ink: #F6EAD2; --cn-muted: #CFC3AA; --cn-acc: #E3AD48; --cn-line: #3E4A80;
@@ -1845,3 +1846,15 @@ pre.code .c { opacity: 0.55; }
 .cv-ey img { box-shadow: 0 18px 44px rgb(0 0 0 / 0.35); }
 .app--secondsight .ap-visual img { box-shadow: 0 24px 60px rgb(0 0 0 / 0.5); border: 1px solid var(--ey-line); }
 .g-secondsight { --shot-bg: #0E1220; --shot-ratio: 540 / 1199; }
+
+.app--delve { --fl: var(--dv-line); --fm: var(--dv-muted); background: radial-gradient(50% 36% at 80% 14%, rgb(242 165 58 / 0.22) 0%, transparent 70%), repeating-linear-gradient(0deg, rgb(61 110 158 / 0.07) 0 1px, transparent 1px 24px), repeating-linear-gradient(90deg, rgb(61 110 158 / 0.07) 0 1px, transparent 1px 24px), linear-gradient(180deg, var(--dv-bg) 0%, var(--dv-deep) 100%); color: var(--dv-ink); }
+.app--delve .app-tag { color: var(--dv-acc); }
+.app--delve .app-lede em, .app--delve h1 em { font-style: italic; color: var(--dv-acc); }
+.app--delve .btn-primary { background: #A8432F; color: #FBF6EA; }
+.app--delve .btn-ghost { color: var(--dv-ink); border-color: var(--dv-ink); }
+.app--delve .app-desc, .app--delve .feats span, .app--delve small { color: var(--dv-muted); }
+.pill.dv { --dot: #A8432F; }
+.cv-dv { background: radial-gradient(55% 40% at 60% 30%, rgb(242 165 58 / 0.3) 0%, transparent 70%), linear-gradient(180deg, #EFE3C6, #D5C196); }
+.cv-dv img { box-shadow: 0 18px 44px rgb(44 39 34 / 0.35); }
+.app--delve .ap-visual img { box-shadow: 0 24px 60px rgb(44 39 34 / 0.4); border: 1px solid var(--dv-line); }
+.g-delve { --shot-bg: #E3D3AE; --shot-ratio: 540 / 1170; }

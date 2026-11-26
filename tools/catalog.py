@@ -151,6 +151,8 @@ PLAIN = {
                 "Маленький подарок каждый день от себя прошлого: заправь автомат с капсулами мелочами, опытом и записками, забудь — и крути ручку раз в день."),
     "pennyling": ("A money tracker where the month to payday is a winter: a daily ration, goals in jars, subscriptions, debts and 24 pets.",
                   "Учёт денег, где месяц до зарплаты – это зима: паёк на день, цели в банках, подписки, долги и 24 питомца."),
+    "delve": ("A walking game: under your district lies a dungeon that follows your streets. The torch is your walk, crossings are halls, and creatures can be walked off.",
+                "Игра для прогулок: под районом лежит подземелье, которое повторяет твои улицы. Факел – это время прогулки, перекрёстки – залы, а от чудовищ можно уйти пешком."),
     "secondsight": ("Reminds you to rest your eyes from the screen: look far away, blink, sit with your eyes closed. For the breaks, the seer's orb shows you illustrated tales.",
                 "Напоминает давать глазам отдых от экрана: посмотреть вдаль, поморгать, посидеть с закрытыми глазами. За перерывы шар провидицы показывает сказки в картинках."),
     "leyline": ("A potion game for city rides: the road gathers ingredients – mist from the river, copper from the market, moonlight at night – and at home you find recipes by experiment.",
@@ -236,7 +238,7 @@ CATS = [
      ["focusshield", "obol", "unhook", "vigil", "cellar", "papertrail", "sidea", "rewind", "mimic", "reelkin", "songling", "rustle", "pennyling", "questling", "lingvale"]),
     ("habits", ("Habits, goals and the body", "Привычки, цели и тело"),
      ("Routines, chores, goals, fasting, cold water and walks, in a way you'll keep up.", "Привычки, дела, цели, голодание, закаливание и прогулки — так, чтобы не бросить."),
-     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite", "threshold", "pumpling", "wildling", "roamling", "caregotchi", "caravan", "leyline", "secondsight"]),
+     ["dayquest", "waypoint", "podium", "hearthspell", "ember", "temper", "fogwalk", "lipovka", "stringer", "errand", "windup", "biohacker", "rootlings", "dyer", "aloft", "farwalker", "greenstreet", "softlanding", "curator", "overwinter", "ranger", "apothecary", "fieldscan", "postround", "opposite", "threshold", "pumpling", "wildling", "roamling", "caregotchi", "caravan", "leyline", "secondsight", "delve"]),
     ("learn", ("Learning and reading", "Учёба и чтение"),
      ("Remember what you learn, read more, and keep trying new things.", "Запоминать выученное, читать больше и пробовать новое."),
      ["scriptor", "stele", "familiar", "sill", "tsukumo", "undermat", "yourmove", "keyling", "kitchenwitch", "inkling", "knackling"]),
@@ -250,10 +252,10 @@ CATS = [
 
 TEXT = {
     # Home hero.
-    "c.hero.eyebrow": ("Stillcraft · 106 free apps", "Stillcraft · 106 бесплатных приложений"),
+    "c.hero.eyebrow": ("Stillcraft · 107 free apps", "Stillcraft · 107 бесплатных приложений"),
     "c.hero.title": ("Small apps for <em>everyday life</em>.", "Маленькие приложения <em>для обычной жизни</em>."),
-    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 105 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
-                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 105 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
+    "c.hero.lede": ("Calm down, focus, keep a habit, learn, spend more time with the people you love. 106 apps for Android and one for Windows: free, open source, no ads and no accounts, in English and Russian.",
+                    "Успокоиться, сосредоточиться, не бросить привычку, учиться, больше времени проводить с близкими. 106 приложений для Android и одно для Windows: бесплатно, с открытым кодом, без рекламы и аккаунтов, на русском и английском."),
     "c.hero.cta": ("Find an app", "Найти приложение"),
     "c.hero.all": ("All apps with screenshots", "Все приложения со скриншотами"),
     # Home catalogue.
@@ -264,7 +266,7 @@ TEXT = {
     "c.moreMoments": ("More moments", "Ещё ситуации"),
     # Apps page.
     "c.ap.eyebrow": ("All Stillcraft apps", "Все приложения Stillcraft"),
-    "c.ap.title": ("106 apps, <em>grouped by what they help with.</em>", "106 приложений, <em>по задачам.</em>"),
+    "c.ap.title": ("107 apps, <em>grouped by what they help with.</em>", "107 приложений, <em>по задачам.</em>"),
     "c.ap.lede": ("Pick a group or search. Every app is free, works without an account and keeps your data on the device.",
                   "Выберите группу или найдите поиском. Все приложения бесплатные, работают без аккаунта и хранят данные на устройстве."),
     "c.all": ("All", "Все"),
@@ -324,6 +326,7 @@ WORDS = {
     "archipelago": "archipelago islands island bridges bridge sea chart map friends friendship make friends new people meet people meeting strangers social anxiety shy introvert courage small talk conversation invite invitation loneliness lonely community club hobby group keep in touch follow up second time reminder hall 50 hours 200 hours close friend acquaintance lighthouse party gathering introduce mutual friends years anniversary journal мостки архипелаг острова мосты карта друзья дружба знакомства новые люди познакомиться незнакомцы стеснительность интроверт смелость разговор пригласить одиночество клуб общение второй раз поддерживать связь маяк вечеринка годовщина журнал",
     "shapito": "shapito big top circus comfort zone step out courage brave fear fears anxiety social anxiety shy shyness exposure exposure therapy challenge challenges daily challenge dare self improvement growth confidence public speaking phone calls saying no boundaries conflict asking for help vulnerability feelings unknown change decisions new places alone mistakes perfectionism imperfection beginner sharing work praise money charging being seen body image sport discomfort drum roll applause lion tamer ringmaster clown juggler magician strongman tightrope trapeze pixel art game шапито цирк зона комфорта выйти из зоны комфорта смелость страх страхи тревога социальная тревожность стеснительность застенчивость экспозиция вызов челлендж саморазвитие рост уверенность публичные выступления звонки сказать нет границы конфликты просить помощи уязвимость чувства неизвестность перемены решения новые места одному ошибки перфекционизм новичок показать творчество похвала деньги быть замеченным тело спорт дискомфорт барабанная дробь аплодисменты укротитель конферансье клоун жонглёр фокусник силач канатоходец гимнаст пиксель игра",
     "pennyling": "pennyling money tracker budget budgeting personal finance expense tracker spending tracker expenses daily budget allowance payday salary pay period bills rent subscriptions subscription tracker savings goals saving jar debt debts snowball avalanche emergency fund net worth cash card accounts bank notifications statistics forecast calendar cost in hours inflation wishlist impulse buying virtual pet pets hamster squirrel tamagotchi gamification pixel art деньги учёт денег учет расходов бюджет личные финансы трекер расходов траты расходы доходы паёк на день зарплата аванс счета коммуналка аренда подписки сбережения копилка цели накопления долги кредит кредитка снежный ком лавина подушка безопасности капитал наличные карта уведомления банка статистика прогноз календарь инфляция список желаний импульсивные покупки питомец питомцы хомяк белка тамагочи геймификация пиксель",
+    "delve": "delve подземелье dungeon данжен walking game игра на прогулке gps рогалик roguelike rpg рпг walk прогулка steps шаги map карта openstreetmap osm torch факел monsters чудовища bestiary бестиарий loot добыча adventure приключения city город streets улицы exploration исследование pixel fantasy фэнтези",
     "secondsight": "second sight второе зрение eyes глаза eye care забота о глазах eye exercises упражнения для глаз gymnastics гимнастика для глаз 20-20-20 break reminder напоминание перерыв screen time время у экрана eye strain усталость глаз dry eyes сухость глаз blinking моргание palming пальминг look far взгляд вдаль daylight дневной свет seer провидица crystal ball хрустальный шар tales сказки orb шар widget виджет gamification геймификация",
     "leyline": "leyline тропы силы ley lines жилы силы potions зелья cauldron котёл alchemy алхимия ingredients ингредиенты recipes рецепты city rides поездки по городу commute дорога на работу car машина driving за рулём bus автобус tram трамвай metro метро bike велосипед gps location-based beasts звери dragon дракон spirits духи quarters кварталы openstreetmap magic магия fantasy фэнтези wizard tower башня gamification геймификация",
     "caravan": "caravan караван trading game торговая игра merchant купец trade торговля city rides поездки по городу commute дорога на работу car машина driving за рулём bus автобус tram трамвай metro метро underground passenger пассажир gps location-based quarters кварталы districts районы openstreetmap bazaar базар market рынок goods товары merchants купцы trading house торговый дом curios диковины fantasy фэнтези persian miniature восточная миниатюра gamification геймификация",
