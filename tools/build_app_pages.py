@@ -10666,7 +10666,7 @@ APPS = [
         "visual": "dv-map.png", "visual_ru": "dv-map.ru.png", "visual_wide": False,
         "repo": "https://github.com/bigdevwhale/delve",
         "download": "https://github.com/bigdevwhale/delve/releases/latest/download/Delve.apk",
-        "version": "v1.0.0",
+        "version": "v1.1.0",
         "tagline": ("A walking game: a dungeon under your own streets.",
                     "Игра для прогулок: подземелье под твоими улицами."),
         "badge": ("Walking game", "Игра на прогулке"),
@@ -10716,7 +10716,7 @@ APPS = [
         ],
         "extra": None,
         "facts": [
-            (("Version", "Версия"), ("v1.0.0 · first release", "v1.0.0 · первая версия")),
+            (("Version", "Версия"), ("v1.1.0 · creatures adapt, elites, «Gloom» levels", "v1.1.0 · адаптация существ, элиты, «Мрак»")),
             (("File", "Файл"), ("Delve.apk", "Delve.apk")),
             (("Requires", "Нужно"), ("Android 9 (API 28) or newer, GPS.", "Android 9 (API 28) или новее, GPS.")),
             (("Permissions", "Разрешения"), ("Location (the dungeon follows your streets) and a walk service with a quiet notification. The street map comes from OpenStreetMap; your position stays on the phone. No ads, no account, no analytics.",
