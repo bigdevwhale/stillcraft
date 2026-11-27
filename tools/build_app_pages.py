@@ -11255,7 +11255,7 @@ TEMPLATE = """<!doctype html>
 """
 
 def stamp_assets():
-    """Append ?v=<content hash> to site.css and site.js in every page so browsers drop stale copies."""
+    """Append ?v=<content hash> to site.css, site.js and every image in every page so browsers drop stale copies."""
     versions = {}
     for name in ("site.css", "site.js"):
         with open(os.path.join(ROOT, "assets", name), "rb") as f:
@@ -11266,9 +11266,24 @@ def stamp_assets():
             s = f.read()
         for name, v in versions.items():
             s = re.sub(r'(assets/%s)(\?v=[0-9a-f]+)?"' % re.escape(name), r'\g<1>?v=%s"' % v, s)
+        # images too: a replaced screenshot gets a new URL, so nobody sees a cached old one
+        s = re.sub(r'(assets/([\w.\-]+\.(?:png|jpe?g|webp|gif|svg)))(\?v=[0-9a-f]+)?"', _stamp_image, s)
         with open(page, "w", encoding="utf-8", newline="\n") as f:
             f.write(s)
-    print("stamped", len(pages), "pages", versions)
+    print("stamped", len(pages), "pages", versions, "and", sum(1 for v in _image_versions.values() if v), "images")
+
+
+_image_versions = {}
+
+
+def _stamp_image(m):
+    """assets/<name>"  ->  assets/<name>?v=<content hash>" (left alone if the file isn't there)."""
+    name = m.group(2)
+    if name not in _image_versions:
+        path = os.path.join(ROOT, "assets", name)
+        _image_versions[name] = hashlib.sha1(open(path, "rb").read()).hexdigest()[:8] if os.path.isfile(path) else None
+    v = _image_versions[name]
+    return '%s?v=%s"' % (m.group(1), v) if v else m.group(0)
 
 
 if __name__ == "__main__":
